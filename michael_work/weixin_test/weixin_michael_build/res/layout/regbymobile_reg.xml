@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView style="@style/MMScroll">
+        <LinearLayout android:paddingTop="10.0dip" style="@style/MMBody">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="0.0dip" android:paddingTop="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="5.0dip" style="@style/MMBody">
+                <TextView android:textSize="15.0dip" android:textColor="#ff686868" android:gravity="center" android:paddingBottom="10.0dip" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/regbymobile_reg_tip" android:singleLine="false" />
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="45.0dip">
+                    <LinearLayout android:gravity="center_vertical" android:id="@id/country_code_ll" android:background="@drawable/btn_style_two" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/country_name" android:background="@drawable/mm_trans" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:text="@string/country_normal_name" style="@style/MMLineEditText" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <View android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                        <ImageView android:layout_gravity="right|center" android:background="@drawable/login_guid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View style="@style/MMLabelSplit" />
+                <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <EditText android:textSize="20.0dip" android:gravity="center" android:id="@id/country_code" android:background="@drawable/mm_edit_normal" android:layout_width="70.0dip" android:layout_height="45.0dip" android:text="@string/country_normal_code" android:inputType="phone" style="@style/MMLineEditText" />
+                    <com.tencent.mm.ui.base.MMClearEditText android:textSize="15.0dip" android:gravity="left|center" android:layout_gravity="center" android:id="@id/regbymobilereg_mobile_et" android:background="@drawable/mm_edit_normal" android:layout_height="45.0dip" android:layout_marginLeft="5.0dip" android:hint="@string/regbymoile_reg_addr_hint" android:inputType="phone" android:imeOptions="actionNext" style="@style/MMLineEditText">
+                        <requestFocus />
+                    </com.tencent.mm.ui.base.MMClearEditText>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="left" android:orientation="horizontal" style="@style/MMLine">
+                <CheckBox android:textSize="13.0dip" android:textColor="@color/black" android:id="@id/agree_cb" android:paddingLeft="25.0dip" android:checked="true" android:text="@string/license_agree" style="@style/RegUICheckBox" />
+                <Button android:textSize="13.0dip" android:id="@id/agree_btn" android:paddingLeft="4.0dip" android:paddingRight="0.0dip" android:paddingBottom="5.0dip" android:text="@string/license_detail" style="@style/RegUIHyperText" />
+            </LinearLayout>
+            <RelativeLayout android:orientation="horizontal" style="@style/MMBlock">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+                    <Button android:layout_gravity="bottom|left|center" android:id="@id/login_tip" android:paddingLeft="0.0dip" style="@style/RegUIHyperText" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

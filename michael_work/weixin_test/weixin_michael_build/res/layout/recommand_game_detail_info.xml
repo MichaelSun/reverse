@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.game.ui.GameScrollView android:orientation="vertical" android:background="#ffebebeb" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:background="#fff9f9f9" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/game_detail_info_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip">
+            <RelativeLayout android:layout_gravity="center" android:id="@id/game_title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/game_icon" android:layout_width="45.0dip" android:layout_height="45.0dip" android:layout_marginTop="2.0dip" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+                <Button android:textSize="14.0dip" android:textColor="#ffffffff" android:id="@id/game_opt" android:background="@drawable/game_opt_h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="60.0dip" android:minHeight="30.0dip" android:text="@string/game_list_download_app" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_toLeftOf="@id/game_opt" android:layout_toRightOf="@id/game_icon" android:layout_alignTop="@id/game_icon" android:layout_alignBottom="@id/game_icon">
+                    <TextView android:textSize="16.0dip" android:ellipsize="end" android:id="@id/game_name" android:text="{nick_name}" android:singleLine="true" style="@style/MMFontPreferenceProfile" />
+                    <TextView android:textSize="14.0dip" android:textColor="#ff737373" android:ellipsize="end" android:id="@id/game_my_rank" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:singleLine="true" android:layout_below="@id/game_name" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="200.0dip" android:layout_height="35.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/game_title" android:layout_centerInParent="true">
+                <Button android:textSize="14.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/game_detail" android:background="@drawable/game_detail_pressed" android:layout_width="100.0dip" android:layout_height="fill_parent" android:text="@string/game_detail_info" />
+                <Button android:textSize="14.0dip" android:textColor="#ff737373" android:gravity="center" android:id="@id/game_friend_rank" android:background="@drawable/game_friend_rank_normal" android:layout_width="100.0dip" android:layout_height="fill_parent" android:text="@string/game_friend_rank" android:layout_toRightOf="@id/game_detail" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <View android:id="@id/split" android:background="@drawable/game_rank_title_bkg" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_below="@id/game_detail_info_header" />
+        <FrameLayout android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/split">
+            <ProgressBar android:layout_gravity="center" android:id="@id/game_detail_load_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmallInverse" />
+            <RelativeLayout android:orientation="vertical" android:id="@id/game_intro_ll" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.tencent.mm.ui.base.MMSmoothHorizontalScrollView android:id="@id/game_img_scroll_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="267.0dip" android:layout_marginTop="5.0dip" android:overScrollMode="never">
+                    <com.tencent.mm.plugin.game.ui.GameIntroImageList android:orientation="horizontal" android:id="@id/game_img_intro_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </com.tencent.mm.ui.base.MMSmoothHorizontalScrollView>
+                <View android:id="@id/spilter" android:background="@drawable/game_intro_spilter" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="7.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="7.0dip" android:layout_below="@id/game_img_scroll_view" />
+                <com.tencent.mm.plugin.game.ui.GameIntroDescLayout android:id="@id/game_intro_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/spilter" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="vertical" android:id="@id/game_rank_ll" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="15.0dip" android:layout_marginBottom="10.0dip">
+                <TextView android:textColor="#ff454545" android:id="@id/game_rank_empty" android:visibility="gone" android:text="@string/game_rank_empty" android:singleLine="true" android:layout_centerInParent="true" style="@style/MMFontPreferenceLarge" />
+                <ListView android:id="@id/game_detail_rank_lv" android:background="#00000000" android:focusable="false" android:scrollbars="none" android:fadingEdge="none" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:listSelector="#00000000" android:scrollingCache="false" android:transcriptMode="disabled" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0.0dip" android:overScrollMode="never" />
+            </RelativeLayout>
+        </FrameLayout>
+    </RelativeLayout>
+</com.tencent.mm.plugin.game.ui.GameScrollView>

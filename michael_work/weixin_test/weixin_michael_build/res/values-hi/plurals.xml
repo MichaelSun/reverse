@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_fmt_multi_msg_and_talker">
+        <item quantity="other">%1$d मित्रों ने आपको %2$d संदेश भेजे</item>
+        <item quantity="one">%1$d मित्र ने आपको %2$d संदेश भेजा</item>
+    </plurals>
+    <plurals name="notification_fmt_multi_msg_and_one_talker">
+        <item quantity="other">आपको %d संदेश भेजे</item>
+        <item quantity="one">आपको %d संदेश भेजा</item>
+    </plurals>
+    <plurals name="notification_fmt_multi_bottle">
+        <item quantity="other">%d बॉटल को जवाब मिले</item>
+        <item quantity="one">%d बॉटल को जवाब मिला</item>
+    </plurals>
+    <plurals name="mobileverify_send_code_tip">
+        <item quantity="other">आपका SMS %d सेकंड में पहुंच जाएगा.</item>
+        <item quantity="one">आपका SMS %d सेकंड में पहुंच जाएगा.</item>
+    </plurals>
+    <plurals name="chatting_rcd_time_limit">
+        <item quantity="other">%d सेकंड शेष</item>
+        <item quantity="one">%d सेकंड शेष</item>
+    </plurals>
+    <plurals name="settings_room_right_left_size">
+        <item quantity="other">%u आमंत्रण</item>
+        <item quantity="one">%u आमंत्रण</item>
+    </plurals>
+    <plurals name="address_contact_count">
+        <item quantity="other">%d संपर्क</item>
+        <item quantity="one">%d संपर्क</item>
+    </plurals>
+    <plurals name="find_mcontact_wechat_friend">
+        <item quantity="other">%d संपर्क मिला (मिले)</item>
+        <item quantity="one">%d संपर्क मिला (मिले)</item>
+    </plurals>
+    <plurals name="find_mcontact_invite_friend_cnt">
+        <item quantity="other">%d संपर्क मिला (मिले)</item>
+        <item quantity="one">%d संपर्क मिला (मिले)</item>
+    </plurals>
+    <plurals name="find_mcontact_already_add_count">
+        <item quantity="other">%d मित्र जोड़ा गया (जोड़े गए)</item>
+        <item quantity="one">%d मित्र जोड़ा गया (जोड़े गए)</item>
+    </plurals>
+    <plurals name="find_mcontact_already_invite_count">
+        <item quantity="other">%d आमंत्रण भेजा गया (भेजे गए)</item>
+        <item quantity="one">%d आमंत्रण भेजा गया (भेजे गए)</item>
+    </plurals>
+    <plurals name="inviteqqfriends_invite_tips">
+        <item quantity="other">आप %d मित्रों को WeChat पर आमंत्रित कर रहे हैं</item>
+        <item quantity="one">आप %d मित्र को WeChat पर आमंत्रित कर रहे हैं</item>
+    </plurals>
+    <plurals name="room_size_count">
+        <item quantity="other">%d लोग</item>
+        <item quantity="one">%d व्यक्ति</item>
+    </plurals>
+    <plurals name="room_lbsroom_member_title">
+        <item quantity="other">%s लोग</item>
+        <item quantity="one">%s व्यक्ति</item>
+    </plurals>
+    <plurals name="mass_send_contact_count">
+        <item quantity="other">%s प्राप्तकर्ता:</item>
+        <item quantity="one">%s प्राप्तकर्ता:</item>
+    </plurals>
+    <plurals name="mass_send_count">
+        <item quantity="other">आप %s मित्रों को संदेश भेज रहे हैं:</item>
+        <item quantity="one">आप %s मित्र को संदेश भेज रहे हैं:</item>
+    </plurals>
+    <plurals name="plugin_qqmail_composeui_attach_summary">
+        <item quantity="other">%1$d अनुलग्नक (%2$s)</item>
+        <item quantity="one">%1$d अनुलग्नक (%2$s)</item>
+    </plurals>
+    <plurals name="game_message_tips">
+        <item quantity="other">%s नए संदेश</item>
+        <item quantity="one">%s नया संदेश</item>
+    </plurals>
+    <plurals name="say_hi_count_text">
+        <item quantity="other">%d नई शुभकामनाएं</item>
+        <item quantity="one">%d नई शुभकामना</item>
+    </plurals>
+    <plurals name="gallery_pic_limit">
+        <item quantity="other">अधिकतम %s फ़ोटो चुनी जा सकती है (हैं)</item>
+        <item quantity="one">अधिकतम %s फ़ोटो चुनी जा सकती है (हैं)</item>
+    </plurals>
+    <plurals name="gallery_video_limit">
+        <item quantity="other">अधिकतम %s वीडियो चुना (चुने) जा सकता है (सकते हैं)</item>
+        <item quantity="one">अधिकतम %s वीडियो चुना (चुने) जा सकता है (सकते हैं)</item>
+    </plurals>
+    <plurals name="nearby_lbsroom_member_count">
+        <item quantity="other">%s लोग</item>
+        <item quantity="one">%s व्यक्ति</item>
+    </plurals>
+    <plurals name="fmt_in60min">
+        <item quantity="other">%d मिनट पहले</item>
+        <item quantity="one">%d मिनट पहले</item>
+    </plurals>
+    <plurals name="fmt_in24h">
+        <item quantity="other">%d घंटे पहले</item>
+        <item quantity="one">%d घंटा पहले</item>
+    </plurals>
+    <plurals name="fmt_indayh">
+        <item quantity="other">%d दिन पहले</item>
+        <item quantity="one">%d दिन पहले</item>
+    </plurals>
+    <plurals name="qq_sync_result_add">
+        <item quantity="other">%d संपर्क जोड़े गए</item>
+        <item quantity="one">%d संपर्क जोड़ा गया</item>
+    </plurals>
+    <plurals name="qq_sync_result_mod">
+        <item quantity="other">%s संपर्क संपादित किए गए</item>
+        <item quantity="one">%s संपर्क संपादित किया गया</item>
+    </plurals>
+    <plurals name="qq_sync_result_del">
+        <item quantity="other">%d संपर्क जोड़े गए</item>
+        <item quantity="one">%d संपर्क जोड़ा गया</item>
+    </plurals>
+    <plurals name="shake_tran_img_share_tips">
+        <item quantity="other">%d आइटम साझा किया गया (किए गए). देखने के लिए शेक करें</item>
+        <item quantity="one">%d आइटम साझा किया गया (किए गए). देखने के लिए शेक करें</item>
+    </plurals>
+    <plurals name="sns_total_count">
+        <item quantity="other">%d पोस्ट</item>
+        <item quantity="one">%d पोस्ट</item>
+    </plurals>
+    <plurals name="sns_some_new_msg">
+        <item quantity="other">%d नए संदेश</item>
+        <item quantity="one">%d नया संदेश</item>
+    </plurals>
+    <plurals name="sns_some_comment">
+        <item quantity="other">%d नई टिप्पणियां</item>
+        <item quantity="one">%d नई टिप्पणी</item>
+    </plurals>
+    <plurals name="sns_some_praise">
+        <item quantity="other">%d पसंद करते हैं</item>
+        <item quantity="one">%d पसंद</item>
+    </plurals>
+    <plurals name="sns_comment_detial_ui_photo_count">
+        <item quantity="other">%d छवियां</item>
+        <item quantity="one">%d छवि</item>
+    </plurals>
+    <plurals name="sns_media_count">
+        <item quantity="other">%d पोस्ट</item>
+        <item quantity="one">%d पोस्ट</item>
+    </plurals>
+    <plurals name="video_recorder_time_limit">
+        <item quantity="other">%s सेकंड शेष</item>
+        <item quantity="one">%s सेकंड शेष</item>
+    </plurals>
+    <plurals name="wallet_notify_msg">
+        <item quantity="other">आपके पास %d नया (नए) लेन-देन रिकॉर्ड है (हैं).</item>
+        <item quantity="one">आपके पास %d नया (नए) लेन-देन रिकॉर्ड है (हैं).</item>
+    </plurals>
+</resources>

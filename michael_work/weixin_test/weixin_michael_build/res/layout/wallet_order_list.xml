@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.wallet.ui.MMListView android:id="@id/wallet_order_list_lv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@null" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0.0px" />
+    <TextView android:textColor="@color/black" android:layout_gravity="center" android:id="@id/empty_tip_tv" android:background="#ffced2d7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wallet_order_list_ui_empty" />
+</FrameLayout>

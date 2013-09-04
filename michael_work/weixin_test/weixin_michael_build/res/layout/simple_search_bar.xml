@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/search_bar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/search_ll" android:background="@drawable/search_bar_edit_bg" android:paddingLeft="10.0dip" android:paddingRight="4.0dip" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_weight="1.0">
+        <EditText android:textSize="@dimen/BasicTextSize" android:layout_gravity="center_vertical" android:id="@id/search_bar_et" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/app_search" android:singleLine="true" android:drawableLeft="@drawable/search_bar_icon_normal" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/search_clear_bt" android:background="@null" android:padding="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/search_clear" />
+    </LinearLayout>
+    <ImageButton android:id="@id/search_more_btn" android:background="@drawable/search_bar_btn_click" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/mm_title_btn_menu" />
+</LinearLayout>

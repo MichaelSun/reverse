@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@drawable/as_frame_button_normal" />
+            <item android:drawable="@drawable/as_frame_button_pressed" />
+        </layer-list>
+    </item>
+    <item android:state_selected="true">
+        <layer-list>
+            <item android:drawable="@drawable/as_frame_button_normal" />
+            <item android:drawable="@drawable/as_frame_button_pressed" />
+        </layer-list>
+    </item>
+    <item android:drawable="@drawable/as_frame_button_normal" />
+</selector>

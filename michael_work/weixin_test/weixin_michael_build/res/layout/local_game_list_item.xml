@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/mm_listitem" android:layout_height="75.0dip" style="@style/MMListItem">
+        <com.tencent.mm.ui.base.MaskLayout android:id="@id/game_item_icon_layout" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_centerVertical="true">
+            <ImageView android:id="@id/game_item_icon" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_centerInParent="true" />
+        </com.tencent.mm.ui.base.MaskLayout>
+        <RelativeLayout android:id="@id/game_list_opt_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <Button android:textSize="@dimen/SmallestTextSize" android:textColor="@color/lightgrey" android:id="@id/game_opt_btn" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/game_list_download_app" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toLeftOf="@id/game_list_opt_layout" android:layout_toRightOf="@id/game_item_icon_layout" android:layout_centerHorizontal="true">
+            <TextView android:id="@id/game_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{Game Name}" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerHorizontal="true" style="@style/MMFontTitleInList" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

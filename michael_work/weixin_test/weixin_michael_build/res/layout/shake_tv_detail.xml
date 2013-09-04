@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_horizontal" android:background="@drawable/shake_tv_result_shadow" android:layout_width="240.0dip" android:layout_height="180.0dip" android:layout_marginTop="85.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/shake_tv_detail_thumbnail_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageButton android:layout_gravity="center" android:id="@id/shake_tv_detail_play_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/shake_tv_result_play_btn" />
+    </FrameLayout>
+    <TextView android:textSize="20.0dip" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/shake_tv_detail_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="270.0dip" android:singleLine="true" />
+    <TextView android:textSize="20.0dip" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/shake_tv_detail_source_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="300.0dip" android:singleLine="true" />
+    <TextView android:gravity="center_vertical" android:layout_gravity="bottom" android:id="@id/shake_tv_detail_action_tv" android:background="@drawable/shake_tv_interactive_barbg" android:paddingLeft="15.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="hello world" android:singleLine="true" android:drawableRight="@drawable/mm_submenu_normal" style="@style/MMBriefText" />
+</FrameLayout>

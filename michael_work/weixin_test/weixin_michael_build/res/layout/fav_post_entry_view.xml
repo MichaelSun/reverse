@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/fav_post_text_btn" android:background="@null" android:layout_width="54.0dip" android:layout_height="48.0dip" android:src="@drawable/fav_text_selector" android:scaleType="center" android:layout_weight="1.0" />
+    <ImageButton android:id="@id/fav_post_voice_btn" android:background="@null" android:layout_width="54.0dip" android:layout_height="48.0dip" android:src="@drawable/fav_voice_selector" android:scaleType="center" android:layout_weight="1.0" />
+    <ImageButton android:id="@id/fav_post_pic_btn" android:background="@null" android:layout_width="54.0dip" android:layout_height="48.0dip" android:src="@drawable/favorites_picture_icon_1" android:scaleType="center" />
+</LinearLayout>

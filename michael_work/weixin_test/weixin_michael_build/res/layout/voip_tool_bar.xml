@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/voip_outcall_bar" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:gravity="center" android:id="@id/voip_hangup_btn" android:background="@drawable/voip_cancel_btn" android:clickable="true" android:layout_width="90.0dip" android:layout_height="50.0dip" android:src="@drawable/voip_hangup_gray" />
+    <com.tencent.mm.plugin.voip.ui.MMCheckBox android:gravity="center" android:id="@id/switch_button" android:background="@drawable/voip_switch_btn_bg" android:layout_width="90.0dip" android:layout_height="50.0dip" android:layout_marginLeft="8.0dip" android:button="@drawable/voip_switch_video_voice_btn" />
+    <com.tencent.mm.plugin.voip.ui.MMCheckBox android:gravity="center" android:id="@id/audio_switch_button" android:background="@drawable/voip_switch_btn_bg" android:layout_width="52.0dip" android:layout_height="52.0dip" android:layout_marginLeft="8.0dip" android:button="@drawable/voip_switch_speaker_btn" />
+</LinearLayout>

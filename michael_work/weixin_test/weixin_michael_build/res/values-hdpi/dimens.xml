@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ConversationItemHeight">59.0dip</dimen>
+    <dimen name="LargeAvatarSize">52.0dip</dimen>
+    <dimen name="arrow_marginTop">220.0dip</dimen>
+    <dimen name="wording_somenew_marginTop">80.0dip</dimen>
+    <dimen name="wording_stickershop_marginTop">80.0dip</dimen>
+</resources>

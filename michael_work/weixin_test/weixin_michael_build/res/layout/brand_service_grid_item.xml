@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.ui.base.MMFrameLayout android:layout_width="100.0dip" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.base.MMFrameLayout android:layout_gravity="center_horizontal" android:layout_width="75.0dip" android:layout_height="75.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/app_avatar_iv" android:layout_width="59.0dip" android:layout_height="59.0dip" android:src="@drawable/brand_default_head" android:scaleType="centerInside" />
+        <ImageView android:layout_gravity="center" android:id="@id/app_avatar_mask_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/app_avatar_shadow_selector" />
+        <ImageView android:layout_gravity="bottom|right|center" android:id="@id/new_iv" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:src="@drawable/app_new" />
+    </com.tencent.mm.ui.base.MMFrameLayout>
+    <ImageView android:id="@id/del_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/appitem_del_btn" android:contentDescription="@string/app_name" />
+    <TextView android:textSize="@dimen/SmallestTextSize" android:textColor="@color/white" android:ellipsize="middle" android:gravity="center" android:id="@id/brand_service_nickname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="70.0dip" android:text="@string/app_name" android:maxLines="2" android:shadowColor="#ff141616" android:shadowDx="1.2" android:shadowDy="1.2" android:shadowRadius="1.0" />
+</com.tencent.mm.ui.base.MMFrameLayout>

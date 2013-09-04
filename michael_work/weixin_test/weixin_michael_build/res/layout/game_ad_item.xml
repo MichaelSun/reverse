@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.game.ui.GameAdView android:id="@id/game_ad_view" android:layout_width="fill_parent" android:layout_height="187.0dip">
+        <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="187.0dip">
+            <com.tencent.mm.ui.base.MMFlipper android:gravity="center" android:id="@id/game_ad_flipper" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.tencent.mm.ui.base.MMDotView android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/game_ad_dot" android:paddingBottom="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <View android:background="@drawable/game_pic_shadow" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    </com.tencent.mm.plugin.game.ui.GameAdView>
+</LinearLayout>

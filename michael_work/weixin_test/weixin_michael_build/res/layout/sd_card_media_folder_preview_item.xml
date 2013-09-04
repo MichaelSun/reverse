@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="#ffcecece" android:padding="1.0dip" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_centerInParent="true">
+        <ImageView android:id="@id/media_thumb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/video_mask" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/video_mask" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+        <CheckBox android:id="@id/media_cbx" android:background="@null" android:paddingLeft="10.0dip" android:paddingBottom="10.0dip" android:focusable="false" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="2.0dip" android:button="@null" android:drawableBottom="@drawable/sd_checkbox" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

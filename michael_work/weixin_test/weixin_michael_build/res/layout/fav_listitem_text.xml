@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/FavListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/fav_avatar" style="@style/FavListItemAvatar" />
+    <TextView android:id="@id/fav_name" android:layout_marginLeft="7.0dip" android:text="{name}" android:layout_toLeftOf="@id/fav_time" android:layout_toRightOf="@id/fav_avatar" style="@style/FavListItemName" />
+    <TextView android:id="@id/fav_time" android:text="{time}" android:layout_alignParentRight="true" style="@style/FavListItemTime" />
+    <TextView android:id="@id/fav_text" android:text="{text}" android:layout_toLeftOf="@id/status_imageview" style="@style/FavListItemText" />
+    <ImageView android:id="@id/status_imageview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/favorites_warnings_icon_list" android:layout_alignBottom="@id/fav_text" android:layout_alignParentRight="true" />
+</RelativeLayout>

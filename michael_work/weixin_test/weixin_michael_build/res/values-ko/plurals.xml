@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_fmt_multi_msg_and_talker">
+        <item quantity="other">%1$d 명의 친구가 %2$d 개의 메시지를 보냈습니다.</item>
+        <item quantity="one">%1$d 명의 친구가 %2$d 개의 메시지를 보냈습니다.</item>
+    </plurals>
+    <plurals name="notification_fmt_multi_msg_and_one_talker">
+        <item quantity="other">님이 %d개의 메시지를 보냈습니다.</item>
+        <item quantity="one">님이 %d개의 메시지를 보냈습니다.</item>
+    </plurals>
+    <plurals name="notification_fmt_multi_bottle">
+        <item quantity="other">%d개의 병편지에 대한 답장을 받았습니다.</item>
+        <item quantity="one">%d개의 병편지에 대한 답장을 받았습니다.</item>
+    </plurals>
+    <plurals name="mobileverify_send_code_tip">
+        <item quantity="other">SMS는 %d초 내에 도착해야 합니다.</item>
+        <item quantity="one">SMS는 %d초 내에 도착해야 합니다.</item>
+    </plurals>
+    <plurals name="chatting_rcd_time_limit">
+        <item quantity="other">%d초 남았습니다.</item>
+        <item quantity="one">%d초 남음</item>
+    </plurals>
+    <plurals name="settings_room_right_left_size">
+        <item quantity="other">%u명 초대</item>
+        <item quantity="one">%u명 초대</item>
+    </plurals>
+    <plurals name="address_contact_count">
+        <item quantity="other">%d명의 대화 상대</item>
+        <item quantity="one">%d명의 대화 상대</item>
+    </plurals>
+    <plurals name="find_mcontact_wechat_friend">
+        <item quantity="other">대화 상대를 %d명 찾았습니다.</item>
+        <item quantity="one">대화 상대를 %d명 찾았습니다.</item>
+    </plurals>
+    <plurals name="find_mcontact_invite_friend_cnt">
+        <item quantity="other">대화 상대를 %d명 찾았습니다.</item>
+        <item quantity="one">대화 상대를 %d명 찾았습니다.</item>
+    </plurals>
+    <plurals name="find_mcontact_already_add_count">
+        <item quantity="other">%d명의 친구가 추가되었습니다.</item>
+        <item quantity="one">%d명의 친구가 추가되었습니다.</item>
+    </plurals>
+    <plurals name="find_mcontact_already_invite_count">
+        <item quantity="other">%d개의 초대가 전송됨</item>
+        <item quantity="one">%d개의 초대가 전송됨</item>
+    </plurals>
+    <plurals name="inviteqqfriends_invite_tips">
+        <item quantity="other">%d명의 친구를 WeChat에 초대 중입니다.</item>
+        <item quantity="one">%d명의 친구를 WeChat에 초대 중입니다.</item>
+    </plurals>
+    <plurals name="room_size_count">
+        <item quantity="other">%d명</item>
+        <item quantity="one">%d명</item>
+    </plurals>
+    <plurals name="room_lbsroom_member_title">
+        <item quantity="other">%s명</item>
+        <item quantity="one">%s명</item>
+    </plurals>
+    <plurals name="mass_send_contact_count">
+        <item quantity="other">수신인 %s명:</item>
+        <item quantity="one">수신인 %s명:</item>
+    </plurals>
+    <plurals name="mass_send_count">
+        <item quantity="other">이 메시지를 %s명의 친구에게 보내고 있습니다.</item>
+        <item quantity="one">이 메시지를 %s명의 친구에게 보내고 있습니다.</item>
+    </plurals>
+    <plurals name="plugin_qqmail_composeui_attach_summary">
+        <item quantity="other">첨부 파일 %1$d 개(%2$s)</item>
+        <item quantity="one">첨부 파일 %1$d 개(%2$s)</item>
+    </plurals>
+    <plurals name="game_message_tips">
+        <item quantity="other">새 메시지 %s개</item>
+        <item quantity="one">새 메시지 %s개</item>
+    </plurals>
+    <plurals name="say_hi_count_text">
+        <item quantity="other">새로운 인사 %d개</item>
+        <item quantity="one">새로운 인사 %d개</item>
+    </plurals>
+    <plurals name="gallery_pic_limit">
+        <item quantity="other">최대 %s개의 사진을 선택할 수 있습니다.</item>
+        <item quantity="one">최대 %s개의 사진을 선택할 수 있습니다.</item>
+    </plurals>
+    <plurals name="gallery_video_limit">
+        <item quantity="other">최대 %s개의 영상을 선택할 수 있습니다.</item>
+        <item quantity="one">최대 %s개의 영상을 선택할 수 있습니다.</item>
+    </plurals>
+    <plurals name="nearby_lbsroom_member_count">
+        <item quantity="other">%s명</item>
+        <item quantity="one">%s명</item>
+    </plurals>
+    <plurals name="fmt_in60min">
+        <item quantity="other">%d분 전</item>
+        <item quantity="one">%d분 전</item>
+    </plurals>
+    <plurals name="fmt_in24h">
+        <item quantity="other">%d시간 전</item>
+        <item quantity="one">%d시간 전</item>
+    </plurals>
+    <plurals name="fmt_indayh">
+        <item quantity="other">%d일 전</item>
+        <item quantity="one">%d일 전</item>
+    </plurals>
+    <plurals name="qq_sync_result_add">
+        <item quantity="other">%d명의 대화 상대 추가</item>
+        <item quantity="one">%d명의 대화 상대 추가</item>
+    </plurals>
+    <plurals name="qq_sync_result_mod">
+        <item quantity="other">%s명의 대화 상대 편집</item>
+        <item quantity="one">%s명의 대화 상대 편집</item>
+    </plurals>
+    <plurals name="qq_sync_result_del">
+        <item quantity="other">%d명의 대화 상대 추가</item>
+        <item quantity="one">%d명의 대화 상대 추가</item>
+    </plurals>
+    <plurals name="shake_tran_img_share_tips">
+        <item quantity="other">%d개의 항목을 공유했습니다. 흔들어서 보기</item>
+        <item quantity="one">%d개의 항목을 공유했습니다. 흔들어서 보기</item>
+    </plurals>
+    <plurals name="sns_total_count">
+        <item quantity="other">게시물 %d개</item>
+        <item quantity="one">게시물 %d개</item>
+    </plurals>
+    <plurals name="sns_some_new_msg">
+        <item quantity="other">새 메시지 %d개</item>
+        <item quantity="one">새 메시지 %d개</item>
+    </plurals>
+    <plurals name="sns_some_comment">
+        <item quantity="other">새 댓글 %d개</item>
+        <item quantity="one">새 댓글 %d개</item>
+    </plurals>
+    <plurals name="sns_some_praise">
+        <item quantity="other">좋아요 %d개</item>
+        <item quantity="one">좋아요 %d개</item>
+    </plurals>
+    <plurals name="sns_comment_detial_ui_photo_count">
+        <item quantity="other">이미지 %d개</item>
+        <item quantity="one">이미지 %d개</item>
+    </plurals>
+    <plurals name="sns_media_count">
+        <item quantity="other">게시물 %d개</item>
+        <item quantity="one">게시물 %d개</item>
+    </plurals>
+    <plurals name="video_recorder_time_limit">
+        <item quantity="other">%s초 남음</item>
+        <item quantity="one">%s초 남음</item>
+    </plurals>
+    <plurals name="wallet_notify_msg">
+        <item quantity="other">%d개의 새로운 거래 기록이 있습니다.</item>
+        <item quantity="one">%d개의 새로운 거래 기록이 있습니다.</item>
+    </plurals>
+</resources>

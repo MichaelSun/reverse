@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@null" android:paddingBottom="100.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="@color/btn_text" android:id="@id/shoot_resume" android:background="@drawable/game_burst_aircraft_button_bule_small" android:layout_width="@dimen/btn_width" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:text="@string/shoot_play_resume" style="@style/GameButtonText" />
+    <Button android:textColor="@color/btn_text" android:id="@id/shoot_restart" android:background="@drawable/game_burst_aircraft_button_bule_small" android:layout_width="@dimen/btn_width" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/shoot_play_restart" style="@style/GameButtonText" />
+    <Button android:textColor="@color/btn_text" android:id="@id/shoot_back_wechat" android:background="@drawable/game_burst_aircraft_button_bule_small" android:layout_width="@dimen/btn_width" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/shoot_back_to_wechat" style="@style/GameButtonText" />
+</LinearLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_fmt_multi_msg_and_talker">
+        <item quantity="other">%1$d個聯絡人發來%2$d條訊息</item>
+        <item quantity="one">%1$d個聯絡人發來%2$d條訊息</item>
+    </plurals>
+    <plurals name="notification_fmt_multi_msg_and_one_talker">
+        <item quantity="other">發來%d條訊息</item>
+        <item quantity="one">發來%d條訊息</item>
+    </plurals>
+    <plurals name="notification_fmt_multi_bottle">
+        <item quantity="other">有%d個瓶子收到新回應</item>
+        <item quantity="one">有%d個瓶子收到新回應</item>
+    </plurals>
+    <plurals name="mobileverify_send_code_tip">
+        <item quantity="other">接收短訊大約需要%d秒</item>
+        <item quantity="one">接收短訊大約需要%d秒</item>
+    </plurals>
+    <plurals name="chatting_rcd_time_limit">
+        <item quantity="other">錄音時間還剩%d秒</item>
+        <item quantity="one">錄音時間還剩%d秒</item>
+    </plurals>
+    <plurals name="settings_room_right_left_size">
+        <item quantity="other">%d個贈送名額</item>
+        <item quantity="one">%d個贈送名額</item>
+    </plurals>
+    <plurals name="address_contact_count">
+        <item quantity="other">%d位聯絡人</item>
+        <item quantity="one">%d位聯絡人</item>
+    </plurals>
+    <plurals name="find_mcontact_wechat_friend">
+        <item quantity="other">找到%d個在WeChat的朋友</item>
+        <item quantity="one">找到%d個在WeChat的朋友</item>
+    </plurals>
+    <plurals name="find_mcontact_invite_friend_cnt">
+        <item quantity="other">找到%d個聯絡人</item>
+        <item quantity="one">找到%d個聯絡人</item>
+    </plurals>
+    <plurals name="find_mcontact_already_add_count">
+        <item quantity="other">已新增%d個朋友</item>
+        <item quantity="one">已新增%d個朋友</item>
+    </plurals>
+    <plurals name="find_mcontact_already_invite_count">
+        <item quantity="other">已傳送%d個邀請</item>
+        <item quantity="one">已傳送%d個邀請</item>
+    </plurals>
+    <plurals name="inviteqqfriends_invite_tips">
+        <item quantity="other">邀請你%d個朋友加入WeChat</item>
+        <item quantity="one">邀請你%d個朋友加入WeChat</item>
+    </plurals>
+    <plurals name="room_size_count">
+        <item quantity="other">%d人</item>
+        <item quantity="one">%d人</item>
+    </plurals>
+    <plurals name="room_lbsroom_member_title">
+        <item quantity="other">%s人</item>
+        <item quantity="one">%s人</item>
+    </plurals>
+    <plurals name="mass_send_contact_count">
+        <item quantity="other">%s位收件人：</item>
+        <item quantity="one">%s位收件人：</item>
+    </plurals>
+    <plurals name="mass_send_count">
+        <item quantity="other">你將發訊息給 %s 位朋友：</item>
+        <item quantity="one">你將發訊息給 %s 位朋友：</item>
+    </plurals>
+    <plurals name="plugin_qqmail_composeui_attach_summary">
+        <item quantity="other">共%1$d個附件(%2$s)</item>
+        <item quantity="one">共%1$d個附件(%2$s)</item>
+    </plurals>
+    <plurals name="game_message_tips">
+        <item quantity="other">%s條新訊息</item>
+        <item quantity="one">%s條新訊息</item>
+    </plurals>
+    <plurals name="say_hi_count_text">
+        <item quantity="other">你收到%d個打招呼訊息</item>
+        <item quantity="one">你收到%d個打招呼訊息</item>
+    </plurals>
+    <plurals name="gallery_pic_limit">
+        <item quantity="other">你最多只能選擇%s張相片</item>
+        <item quantity="one">你最多只能選擇%s張相片</item>
+    </plurals>
+    <plurals name="gallery_video_limit">
+        <item quantity="other">你最多只能選擇%s個影片</item>
+        <item quantity="one">你最多只能選擇%s個影片</item>
+    </plurals>
+    <plurals name="nearby_lbsroom_member_count">
+        <item quantity="other">%s人</item>
+        <item quantity="one">%s人</item>
+    </plurals>
+    <plurals name="fmt_in60min">
+        <item quantity="other">%d分鐘前</item>
+        <item quantity="one">%d分鐘前</item>
+    </plurals>
+    <plurals name="fmt_in24h">
+        <item quantity="other">%d小時前</item>
+        <item quantity="one">%d小時前</item>
+    </plurals>
+    <plurals name="fmt_indayh">
+        <item quantity="other">%d天前</item>
+        <item quantity="one">%d天前</item>
+    </plurals>
+    <plurals name="qq_sync_result_add">
+        <item quantity="other">新增%d人</item>
+        <item quantity="one">新增%d人</item>
+    </plurals>
+    <plurals name="qq_sync_result_mod">
+        <item quantity="other">修改%s人</item>
+        <item quantity="one">修改%s人</item>
+    </plurals>
+    <plurals name="qq_sync_result_del">
+        <item quantity="other">新增%d人</item>
+        <item quantity="one">新增%d人</item>
+    </plurals>
+    <plurals name="shake_tran_img_share_tips">
+        <item quantity="other">有%d個分享，請搖一搖</item>
+        <item quantity="one">有%d個分享，請搖一搖</item>
+    </plurals>
+    <plurals name="sns_total_count">
+        <item quantity="other">共%d張</item>
+        <item quantity="one">共%d張</item>
+    </plurals>
+    <plurals name="sns_some_new_msg">
+        <item quantity="other">%d條新訊息</item>
+        <item quantity="one">%d條新訊息</item>
+    </plurals>
+    <plurals name="sns_some_comment">
+        <item quantity="other">%d條新評論</item>
+        <item quantity="one">%d條新評論</item>
+    </plurals>
+    <plurals name="sns_some_praise">
+        <item quantity="other">%d個讚</item>
+        <item quantity="one">%d個讚</item>
+    </plurals>
+    <plurals name="sns_comment_detial_ui_photo_count">
+        <item quantity="other">共%d張相片</item>
+        <item quantity="one">共%d張相片</item>
+    </plurals>
+    <plurals name="sns_media_count">
+        <item quantity="other">共%d張</item>
+        <item quantity="one">共%d張</item>
+    </plurals>
+    <plurals name="video_recorder_time_limit">
+        <item quantity="other">還可以拍攝%s秒</item>
+        <item quantity="one">還可以拍攝%s秒</item>
+    </plurals>
+    <plurals name="wallet_notify_msg">
+        <item quantity="other">你有%d筆新的交易記錄</item>
+        <item quantity="one">你有%d筆新的交易記錄</item>
+    </plurals>
+</resources>

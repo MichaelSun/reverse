@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="top|center" android:orientation="vertical" android:background="@color/navpage" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/wallet_bankcard_detail_ll" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="18.0dip" android:textColor="@color/black" android:gravity="center" android:id="@id/wallet_bankcard_detail_default" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/wallet_bankcard_detail_default" android:shadowColor="#ffededed" android:shadowDx="1.2" android:shadowDy="1.2" android:shadowRadius="1.0" />
+        <TextView android:textSize="15.0dip" android:textColor="#ff888888" android:gravity="bottom|left|center" android:paddingLeft="20.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wallet_bankcard_detail_limit_per_order" android:shadowColor="@*android:color/white" android:shadowDx="1.2" android:shadowDy="1.2" android:shadowRadius="1.0" />
+        <LinearLayout android:background="@drawable/preference_first_item" android:layout_width="fill_parent" android:layout_height="45.0dip">
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/wallet_bankcard_detail_limit_kind" android:drawableLeft="@drawable/wallet_bankcard_detail_practical" android:drawablePadding="8.0dip" style="@style/MMWalletLimitTitle" />
+            <TextView android:id="@id/wallet_bankcard_detail_per_order_kind" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="5000" style="@style/MMWalletLimitInfo" />
+        </LinearLayout>
+        <LinearLayout android:background="@drawable/preference_last_item" android:layout_width="fill_parent" android:layout_height="45.0dip">
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/wallet_bankcard_detail_limit_virtual" android:drawableLeft="@drawable/wallet_bankcard_detail_virtual" android:drawablePadding="8.0dip" style="@style/MMWalletLimitTitle" />
+            <TextView android:id="@id/wallet_bankcard_detail_per_order_virtual" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/MMWalletLimitInfo" />
+        </LinearLayout>
+        <TextView android:textSize="15.0dip" android:textColor="#ff888888" android:gravity="bottom|left|center" android:paddingLeft="20.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="@string/wallet_bankcard_detail_limit_per_day" android:shadowColor="@*android:color/white" android:shadowDx="1.2" android:shadowDy="1.2" android:shadowRadius="1.0" />
+        <LinearLayout android:background="@drawable/preference_first_item" android:layout_width="fill_parent" android:layout_height="45.0dip">
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/wallet_bankcard_detail_limit_kind" android:drawableLeft="@drawable/wallet_bankcard_detail_practical" android:drawablePadding="8.0dip" style="@style/MMWalletLimitTitle" />
+            <TextView android:id="@id/wallet_bankcard_detail_per_day_kind" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/MMWalletLimitInfo" />
+        </LinearLayout>
+        <LinearLayout android:background="@drawable/preference_last_item" android:layout_width="fill_parent" android:layout_height="45.0dip">
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/wallet_bankcard_detail_limit_virtual" android:drawableLeft="@drawable/wallet_bankcard_detail_virtual" android:drawablePadding="8.0dip" style="@style/MMWalletLimitTitle" />
+            <TextView android:id="@id/wallet_bankcard_detail_per_day_virtual" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/MMWalletLimitInfo" />
+        </LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/wallet_bankcard_detail_bankphone_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wallet_bankcard_detail_bankphone" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/wallet_link_color" android:id="@id/wallet_bankcard_detail_bankphone" android:paddingLeft="3.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="95555" android:shadowColor="#fff0f0f0" android:shadowDx="1.2" android:shadowDy="1.2" android:shadowRadius="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="top|center" android:orientation="vertical" android:id="@id/wallet_bankcard_detail_expired" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="15.0dip" android:textColor="#ff868686" android:gravity="bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="52.0dip" android:layout_marginBottom="25.0dip" android:text="@string/wallet_bankcard_detail_expired" android:shadowColor="@color/white" android:shadowDx="1.2" android:shadowDy="1.2" android:shadowRadius="1.0" android:drawableTop="@drawable/wallet_bankcard_detail_expired" android:drawablePadding="12.0dip" />
+        <TextView android:gravity="center" android:id="@id/wallet_bankcard_detail_unbind" android:background="@drawable/btn_style_zero" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/wallet_index_ui_unbind_bankcard" style="@style/MMLineActionButton" />
+        <TextView android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/wallet_bankcard_detail_expired_bankphone_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wallet_bankcard_detail_expired_bankphone" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/wallet_link_color" android:id="@id/wallet_bankcard_detail_expired_bankphone" android:paddingLeft="3.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="95555" android:shadowColor="#fff0f0f0" android:shadowDx="1.2" android:shadowDy="1.2" android:shadowRadius="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="top|center" android:orientation="vertical" android:id="@id/wallet_bankcard_detail_international_ll" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/wallet_bankcard_detail_international_icon" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="45.0dip" android:layout_marginBottom="20.0dip" android:src="@drawable/wallet_bankcard_international_icon" android:scaleType="center" />
+        <TextView android:textSize="18.0dip" android:textColor="@color/black" android:id="@id/wallet_bankcard_detail_international_default" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/wallet_bankcard_detail_default" android:shadowColor="#ffededed" android:shadowDx="1.2" android:shadowDy="1.2" android:shadowRadius="1.0" />
+        <TextView android:textSize="15.0dip" android:textColor="#ff474747" android:id="@id/wallet_bankcard_international_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.5dip" android:layout_marginRight="30.0dip" android:text="@string/wallet_bankcard_detail_international_tips" android:shadowColor="#ffededed" android:shadowDx="1.2" android:shadowDy="1.2" android:shadowRadius="1.0" android:lineSpacingExtra="6.0dip" />
+    </LinearLayout>
+</LinearLayout>

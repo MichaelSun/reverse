@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/radar_search_outside_bg" android:background="@drawable/radar_search_btn_strech_background" android:layout_width="fill_parent" android:layout_height="135.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/radar_search_btn_center_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <ImageButton android:id="@id/radar_search_outside_btn" android:background="@null" android:focusable="false" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:src="@drawable/selector_radar_search_outside_btn" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff666666" android:gravity="center" android:id="@id/radar_search_outside_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginBottom="10.0dip" android:text="@string/radar_search_outside_tips" android:shadowColor="#8fffffff" android:shadowDx="0.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_fmt_multi_msg_and_talker">
+        <item quantity="other">%1$d người bạn đã gửi %2$d tin nhắn cho bạn</item>
+        <item quantity="one">%1$d người bạn đã gửi %2$d tin nhắn cho bạn</item>
+    </plurals>
+    <plurals name="notification_fmt_multi_msg_and_one_talker">
+        <item quantity="other">đã gửi %d tin nhắn cho bạn</item>
+        <item quantity="one">đã gửi %d tin nhắn cho bạn</item>
+    </plurals>
+    <plurals name="notification_fmt_multi_bottle">
+        <item quantity="other">%d chai nhận được trả lời</item>
+        <item quantity="one">%d chai nhận được trả lời</item>
+    </plurals>
+    <plurals name="mobileverify_send_code_tip">
+        <item quantity="other">SMS sẽ đến sau %d giây.</item>
+        <item quantity="one">Tin nhắn SMS sẽ đến sau %d giây.</item>
+    </plurals>
+    <plurals name="chatting_rcd_time_limit">
+        <item quantity="other">%d giây còn lại</item>
+        <item quantity="one">%d giây còn lại</item>
+    </plurals>
+    <plurals name="settings_room_right_left_size">
+        <item quantity="other">%d mời</item>
+        <item quantity="one">%d mời</item>
+    </plurals>
+    <plurals name="address_contact_count">
+        <item quantity="other">%d số liên lạc</item>
+        <item quantity="one">%d số liên lạc</item>
+    </plurals>
+    <plurals name="find_mcontact_wechat_friend">
+        <item quantity="other">%d số liên lạc được tìm thấy</item>
+        <item quantity="one">%d số liên lạc được tìm thấy</item>
+    </plurals>
+    <plurals name="find_mcontact_invite_friend_cnt">
+        <item quantity="other">%d số liên lạc được tìm thấy</item>
+        <item quantity="one">%d số liên lạc được tìm thấy</item>
+    </plurals>
+    <plurals name="find_mcontact_already_add_count">
+        <item quantity="other">%d người bạn được thêm</item>
+        <item quantity="one">%d người bạn được thêm</item>
+    </plurals>
+    <plurals name="find_mcontact_already_invite_count">
+        <item quantity="other">%d thư mời được gửi</item>
+        <item quantity="one">%d thư mời được gửi</item>
+    </plurals>
+    <plurals name="inviteqqfriends_invite_tips">
+        <item quantity="other">Bạn đang mời %d người bạn vào WeChat</item>
+        <item quantity="one">Bạn đang mời %d người bạn vào WeChat</item>
+    </plurals>
+    <plurals name="room_size_count">
+        <item quantity="other">%d người</item>
+        <item quantity="one">%d người</item>
+    </plurals>
+    <plurals name="room_lbsroom_member_title">
+        <item quantity="other">%s người</item>
+        <item quantity="one">%s người</item>
+    </plurals>
+    <plurals name="mass_send_contact_count">
+        <item quantity="other">%s người nhận:</item>
+        <item quantity="one">%s người nhận:</item>
+    </plurals>
+    <plurals name="mass_send_count">
+        <item quantity="other">Bạn đang gửi tin nhắn cho %s người bạn:</item>
+        <item quantity="one">Bạn đang gửi tin nhắn cho %s người bạn:</item>
+    </plurals>
+    <plurals name="plugin_qqmail_composeui_attach_summary">
+        <item quantity="other">%1$d phần đính kèm (%2$s)</item>
+        <item quantity="one">%1$d phần đính kèm (%2$s)</item>
+    </plurals>
+    <plurals name="game_message_tips">
+        <item quantity="other">%s tin nhắn mới</item>
+        <item quantity="one">%s tin nhắn mới</item>
+    </plurals>
+    <plurals name="say_hi_count_text">
+        <item quantity="other">%d lời chào mới</item>
+        <item quantity="one">%d lời chào mới</item>
+    </plurals>
+    <plurals name="gallery_pic_limit">
+        <item quantity="other">Có thể chọn tối đa %s ảnh</item>
+        <item quantity="one">Có thể chọn tối đa %s ảnh</item>
+    </plurals>
+    <plurals name="gallery_video_limit">
+        <item quantity="other">Có thể chọn tối đa %s video</item>
+        <item quantity="one">Có thể chọn tối đa %s video</item>
+    </plurals>
+    <plurals name="nearby_lbsroom_member_count">
+        <item quantity="other">%s người</item>
+        <item quantity="one">%s người</item>
+    </plurals>
+    <plurals name="fmt_in60min">
+        <item quantity="other">%d phút trước</item>
+        <item quantity="one">%d phút trước</item>
+    </plurals>
+    <plurals name="fmt_in24h">
+        <item quantity="other">%d tiếng trước</item>
+        <item quantity="one">%d tiếng trước</item>
+    </plurals>
+    <plurals name="fmt_indayh">
+        <item quantity="other">%d ngày trước</item>
+        <item quantity="one">%d ngày trước</item>
+    </plurals>
+    <plurals name="qq_sync_result_add">
+        <item quantity="other">%d số liên lạc đã được thêm</item>
+        <item quantity="one">%d số liên lạc đã được thêm</item>
+    </plurals>
+    <plurals name="qq_sync_result_mod">
+        <item quantity="other">%s số liên lạc đã được chỉnh sửa</item>
+        <item quantity="one">%s số liên lạc đã được chỉnh sửa</item>
+    </plurals>
+    <plurals name="qq_sync_result_del">
+        <item quantity="other">%d số liên lạc đã được thêm</item>
+        <item quantity="one">%d số liên lạc đã được thêm</item>
+    </plurals>
+    <plurals name="shake_tran_img_share_tips">
+        <item quantity="other">%d mục được chia sẻ. Lắc để xem</item>
+        <item quantity="one">%d mục được chia sẻ. Lắc để xem</item>
+    </plurals>
+    <plurals name="sns_total_count">
+        <item quantity="other">%d bài đăng</item>
+        <item quantity="one">%d bài đăng</item>
+    </plurals>
+    <plurals name="sns_some_new_msg">
+        <item quantity="other">%d tin nhắn mới</item>
+        <item quantity="one">%d tin nhắn mới</item>
+    </plurals>
+    <plurals name="sns_some_comment">
+        <item quantity="other">%d bình luận mới</item>
+        <item quantity="one">%d bình luận mới</item>
+    </plurals>
+    <plurals name="sns_some_praise">
+        <item quantity="other">%d Thích</item>
+        <item quantity="one">%d Thích</item>
+    </plurals>
+    <plurals name="sns_comment_detial_ui_photo_count">
+        <item quantity="other">%d hình ảnh</item>
+        <item quantity="one">%d hình ảnh</item>
+    </plurals>
+    <plurals name="sns_media_count">
+        <item quantity="other">%d bài đăng</item>
+        <item quantity="one">%d bài đăng</item>
+    </plurals>
+    <plurals name="video_recorder_time_limit">
+        <item quantity="other">%s giây còn lại</item>
+        <item quantity="one">%s giây còn lại</item>
+    </plurals>
+    <plurals name="wallet_notify_msg">
+        <item quantity="other">Bạn có %d bản ghi giao dịch mới.</item>
+        <item quantity="one">Bạn có %d bản ghi giao dịch mới.</item>
+    </plurals>
+</resources>

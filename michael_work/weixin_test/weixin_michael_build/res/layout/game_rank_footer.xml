@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.game.ui.GameRankFooter android:orientation="vertical" android:background="#ffebebeb" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/my_rank_item" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <View android:background="@null" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+        <RelativeLayout android:background="@drawable/my_game_cell_middle_two_gray" android:layout_width="fill_parent" android:layout_height="41.0dip">
+            <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="#ff909090" android:gravity="center" android:id="@id/rank_num" android:layout_width="30.0dip" android:layout_height="wrap_content" android:text="1" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/user_icon" android:layout_width="31.0dip" android:layout_height="31.0dip" android:layout_marginLeft="7.0dip" android:layout_toRightOf="@id/rank_num" android:layout_centerVertical="true" />
+            <TextView android:textSize="14.0dip" android:textColor="#ff454545" android:id="@id/user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:maxWidth="120.0dip" android:singleLine="true" android:shadowColor="@color/white" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_toRightOf="@id/user_icon" android:layout_centerVertical="true" />
+            <TextView android:textSize="14.0dip" android:textColor="#ff454545" android:gravity="right" android:id="@id/user_score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="#ff454545" android:gravity="center" android:layout_gravity="center" android:id="@id/load_more" android:background="@drawable/my_game_cell_lower" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/game_rank_load_more" />
+</com.tencent.mm.plugin.game.ui.GameRankFooter>

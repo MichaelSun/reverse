@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:layout_gravity="bottom" android:id="@id/wallet_power_by_tenpay" android:background="@color/navpage" android:paddingTop="5.0dip" android:paddingBottom="15.0dip" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:layout_alignParentBottom="true" style="@style/WalletPowerByTenpayTips"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+    <ImageView android:id="@id/avatar" android:layout_width="43.0dip" android:layout_height="43.0dip" />
+    <com.tencent.mm.ui.widget.QImageView android:id="@id/avatar2" android:layout_width="53.0dip" android:layout_height="53.0dip" />
+    <ViewStub android:id="@id/view_stub" android:layout="@layout/sns_timeline_imagesline" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

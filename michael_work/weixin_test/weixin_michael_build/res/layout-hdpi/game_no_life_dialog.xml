@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/game_burst_aircharft_bkg_big" android:layout_width="270.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/game_icon" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/game_burst_aircraft_aircraft_big" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/game_data_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+        <TextView android:id="@id/game_no_life_tips" android:layout_margin="7.0dip" android:text="@string/shoot_no_life_tips" style="@style/GameMessageText" />
+        <LinearLayout android:gravity="center" android:id="@id/game_life_check_ll" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/game_new_life" android:visibility="gone" android:layout_margin="7.0dip" android:text="@string/shoot_new_life_come" style="@style/GameMessageText" />
+            <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/game_timmer_bar" android:visibility="gone" android:layout_width="26.0dip" android:layout_height="26.0dip" style="?android:attr/progressBarStyle" />
+            <LinearLayout android:gravity="center" android:id="@id/game_timmer_ll" android:background="@drawable/game_burst_aircraft_bkg_small" android:paddingLeft="15.0dip" android:paddingTop="4.0dip" android:paddingRight="15.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@id/game_check_left_time" android:layout_marginRight="5.0dip" style="@style/GameNoLifeTimerText" />
+                <TextView android:id="@id/game_check_left_time_tips" android:text="@string/shoot_check_left_time" style="@style/GameNoLifeTimerText" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/game_bottom_rl" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/game_end" android:background="@drawable/game_burst_aircraft_button_bule_small" android:visibility="gone" android:layout_width="110.0dip" android:layout_height="wrap_content" android:text="@string/shoot_back_to_wechat" style="@style/GameButtonText" />
+        <Button android:id="@id/game_wish" android:background="@drawable/game_burst_aircraft_button_bule_small" android:visibility="gone" android:layout_width="110.0dip" android:layout_height="wrap_content" android:text="@string/shoot_wish_my_wish" style="@style/GameButtonText" />
+        <Button android:id="@id/game_start" android:background="@drawable/game_burst_aircraft_button_bule_small" android:visibility="gone" android:layout_width="110.0dip" android:layout_height="wrap_content" android:text="@string/shoot_play_game" style="@style/GameButtonText" />
+    </LinearLayout>
+</LinearLayout>

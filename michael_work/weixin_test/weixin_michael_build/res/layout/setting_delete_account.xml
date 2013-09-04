@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:padding="10.0dip" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:gravity="top" android:id="@id/content" android:background="@null" android:layout_width="fill_parent" android:layout_height="130.0dip" android:hint="@string/reason_for_delete_account" android:singleLine="false" style="@style/MMEditText" />
+    <TextView android:gravity="center" android:id="@id/delete_account_btn" android:background="@drawable/btn_style_zero" android:layout_marginTop="20.0dip" android:text="@string/setting_del_account_title" style="@style/MMLineActionButton" />
+</LinearLayout>

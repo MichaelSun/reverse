@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/wallet_order_info_septator" android:tileMode="repeat"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

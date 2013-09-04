@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.ui.base.MMSlideDelView android:id="@id/del_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/conv_slide_del_top_view" android:background="@drawable/mm_chat_listslide" android:layout_width="112.0dip" android:layout_height="fill_parent">
+            <ImageView android:id="@id/conv_slide_del_top_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/mm_chat_listslide_icon_remove" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/conv_slide_del_top_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/conv_slide_del_del_view" android:background="@drawable/mm_chat_listslide" android:layout_width="112.0dip" android:layout_height="fill_parent">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/mm_chat_listslide_icon_delete" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/slide_del_view_del_word" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/slide_del_view_del" />
+        </LinearLayout>
+    </LinearLayout>
+</com.tencent.mm.ui.base.MMSlideDelView>

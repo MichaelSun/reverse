@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="#ff121212" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/song_album" android:layout_width="180.0dip" android:layout_height="180.0dip" android:layout_marginTop="24.0dip" android:src="#ffeeeeee" android:contentDescription="@string/app_app" />
+    <TextView android:id="@id/song_time_tv" android:layout_width="180.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+    <TextView android:id="@id/song_name_tv" android:layout_width="180.0dip" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="{title}" />
+    <TextView android:id="@id/song_singer_tv" android:layout_width="180.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="{singer}" />
+    <TextView android:id="@id/song_album_tv" android:layout_width="180.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="{album}" />
+    <Button android:textColor="@color/white" android:id="@id/song_play_btn" android:background="@drawable/btn_style_one" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/music_player_play" />
+</LinearLayout>

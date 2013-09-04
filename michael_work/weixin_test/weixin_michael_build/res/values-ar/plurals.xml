@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_fmt_multi_msg_and_talker">
+        <item quantity="other">قام %1$d أصدقاء بإرسال %2$d رسائل إليك</item>
+        <item quantity="one">قام %1$d صديق بإرسال %2$d رسالة إليك</item>
+    </plurals>
+    <plurals name="notification_fmt_multi_msg_and_one_talker">
+        <item quantity="other">أرسل لك %d رسائل</item>
+        <item quantity="one">أرسل لك %d رسالة</item>
+    </plurals>
+    <plurals name="notification_fmt_multi_bottle">
+        <item quantity="other">%d زجاجات تلقت ردودًا</item>
+        <item quantity="one">%d زجاجة تلقت ردودًا</item>
+    </plurals>
+    <plurals name="mobileverify_send_code_tip">
+        <item quantity="other">من المفترض أن تصل رسالة SMS الخاصة بك خلال %d ثانية/ثوانٍ.</item>
+        <item quantity="one">من المفترض أن تصل رسالة SMS الخاصة بك خلال %d ثانية/ثوانٍ.</item>
+    </plurals>
+    <plurals name="chatting_rcd_time_limit">
+        <item quantity="other">باقي %d ثوانٍ</item>
+        <item quantity="one">باقي %d ثانية</item>
+    </plurals>
+    <plurals name="settings_room_right_left_size">
+        <item quantity="other">%d يُرسل دعوة</item>
+        <item quantity="one">%d يُرسل دعوة</item>
+    </plurals>
+    <plurals name="address_contact_count">
+        <item quantity="other">%d جهات اتصال</item>
+        <item quantity="one">%d جهات اتصال</item>
+    </plurals>
+    <plurals name="find_mcontact_wechat_friend">
+        <item quantity="other">عُثر على %d جهات اتصال.</item>
+        <item quantity="one">عُثر على %d جهة اتصال.</item>
+    </plurals>
+    <plurals name="find_mcontact_invite_friend_cnt">
+        <item quantity="other">عُثر على %d جهات اتصال.</item>
+        <item quantity="one">عُثر على %d جهة اتصال.</item>
+    </plurals>
+    <plurals name="find_mcontact_already_add_count">
+        <item quantity="other">تم إضافة %d أصدقاء</item>
+        <item quantity="one">تم إضافة %d صديق</item>
+    </plurals>
+    <plurals name="find_mcontact_already_invite_count">
+        <item quantity="other">%d دعوة أرسلت.</item>
+        <item quantity="one">%d دعوة أرسلت.</item>
+    </plurals>
+    <plurals name="inviteqqfriends_invite_tips">
+        <item quantity="other">أنت تقوم بدعوة %d أصدقاء إلى WeChat</item>
+        <item quantity="one">أنت تقوم بدعوة %d صديق إلى WeChat</item>
+    </plurals>
+    <plurals name="room_size_count">
+        <item quantity="other">%d أشخاص</item>
+        <item quantity="one">%d شخص</item>
+    </plurals>
+    <plurals name="room_lbsroom_member_title">
+        <item quantity="other">%s أشخاص</item>
+        <item quantity="one">%s شخص</item>
+    </plurals>
+    <plurals name="mass_send_contact_count">
+        <item quantity="other">%sمستلمين:</item>
+        <item quantity="one">%sمستلم:</item>
+    </plurals>
+    <plurals name="mass_send_count">
+        <item quantity="other">لقد قمت بإرسال هذه الرسالة إلى %s أصدقاء:</item>
+        <item quantity="one">أنت تقوم بإرسال هذه الرسالة إلى %s أصدقاء:</item>
+    </plurals>
+    <plurals name="plugin_qqmail_composeui_attach_summary">
+        <item quantity="other">%1$d مرفقات (%2$s)</item>
+        <item quantity="one">%1$d مرفق (%2$s)</item>
+    </plurals>
+    <plurals name="game_message_tips">
+        <item quantity="other">%s رسائل جديدة</item>
+        <item quantity="one">%s رسالة جديدة</item>
+    </plurals>
+    <plurals name="say_hi_count_text">
+        <item quantity="other">%d تحيات جديدة</item>
+        <item quantity="one">%d تحية جديدة</item>
+    </plurals>
+    <plurals name="gallery_pic_limit">
+        <item quantity="other">يمكن تحديد ما يصل إلى %s صورة/صور</item>
+        <item quantity="one">يمكن تحديد ما يصل إلى %s صورة/صور</item>
+    </plurals>
+    <plurals name="gallery_video_limit">
+        <item quantity="other">يمكن تحديد ما يصل إلى %s مقطع فيديو/مقاطع فيديو</item>
+        <item quantity="one">يمكن تحديد ما يصل إلى %s مقطع فيديو/مقاطع فيديو</item>
+    </plurals>
+    <plurals name="nearby_lbsroom_member_count">
+        <item quantity="other">%s أشخاص</item>
+        <item quantity="one">%s شخص</item>
+    </plurals>
+    <plurals name="fmt_in60min">
+        <item quantity="other">%d منذ دقائق</item>
+        <item quantity="one">%dمنذ دقيقة واحدة</item>
+    </plurals>
+    <plurals name="fmt_in24h">
+        <item quantity="other">%d منذ ساعات</item>
+        <item quantity="one">%dمنذ ساعة</item>
+    </plurals>
+    <plurals name="fmt_indayh">
+        <item quantity="other">%d منذ أيام</item>
+        <item quantity="one">منذ %d يومًا</item>
+    </plurals>
+    <plurals name="qq_sync_result_add">
+        <item quantity="other">تمت إضافة %d جهات اتصال</item>
+        <item quantity="one">تمت إضافة %d جهة اتصال</item>
+    </plurals>
+    <plurals name="qq_sync_result_mod">
+        <item quantity="other">تم تحرير %s جهات اتصال</item>
+        <item quantity="one">تمت تحرير %s جهة اتصال</item>
+    </plurals>
+    <plurals name="qq_sync_result_del">
+        <item quantity="other">تمت إضافة %d جهات اتصال</item>
+        <item quantity="one">تمت إضافة %d جهة اتصال</item>
+    </plurals>
+    <plurals name="shake_tran_img_share_tips">
+        <item quantity="other">تمت مشاركة %dعنصر/عناصر. قم بالرج لعرض</item>
+        <item quantity="one">تمت مشاركة %dعنصر/عناصر. قم بالرج لعرض</item>
+    </plurals>
+    <plurals name="sns_total_count">
+        <item quantity="other">%d منشورات</item>
+        <item quantity="one">%d منشور</item>
+    </plurals>
+    <plurals name="sns_some_new_msg">
+        <item quantity="other">%d رسائل جديدة</item>
+        <item quantity="one">%d رسالة جديدة</item>
+    </plurals>
+    <plurals name="sns_some_comment">
+        <item quantity="other">%d تعليقات جديدة</item>
+        <item quantity="one">%d تعليق جديد</item>
+    </plurals>
+    <plurals name="sns_some_praise">
+        <item quantity="other">%d إعجابات</item>
+        <item quantity="one">%d إعجاب</item>
+    </plurals>
+    <plurals name="sns_comment_detial_ui_photo_count">
+        <item quantity="other">%d صور</item>
+        <item quantity="one">%d صورة</item>
+    </plurals>
+    <plurals name="sns_media_count">
+        <item quantity="other">%d منشورات</item>
+        <item quantity="one">%d منشور</item>
+    </plurals>
+    <plurals name="video_recorder_time_limit">
+        <item quantity="other">باقي %s ثوانٍ</item>
+        <item quantity="one">باقي %s ثانية</item>
+    </plurals>
+    <plurals name="wallet_notify_msg">
+        <item quantity="other">لديك %d سجل/سجلات جديدة للمعاملات.</item>
+        <item quantity="one">لديك %d سجل/سجلات جديدة للمعاملات.</item>
+    </plurals>
+</resources>

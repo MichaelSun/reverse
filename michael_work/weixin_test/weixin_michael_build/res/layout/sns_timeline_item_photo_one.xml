@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/sns_listitem_normal" android:paddingLeft="14.0dip" android:paddingTop="13.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.tools.MaskImageButton android:id="@id/album_avatar_iv" android:padding="2.0dip" android:focusable="false" android:layout_marginTop="1.0dip" android:scaleType="centerCrop" style="@style/SnsAvatarFrom" />
+    <com.tencent.mm.plugin.sns.ui.AsyncTextView android:textSize="15.0sp" android:ellipsize="end" android:id="@id/nickname_tv" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginRight="1.0dip" android:text="foreverzeus" android:singleLine="true" android:layout_toRightOf="@id/album_avatar_iv" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/sns_word_color" android:id="@id/type_desc_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="24.0dip" android:singleLine="true" android:layout_toRightOf="@id/nickname_tv" />
+    <LinearLayout android:orientation="vertical" android:id="@id/timeline_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/album_avatar_iv" android:layout_below="@id/nickname_tv">
+        <com.tencent.mm.plugin.sns.ui.AsyncNormalTextView android:id="@id/desc_collapse_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/images_keeper_li" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/sns_word_color" android:id="@id/with_info_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+    </LinearLayout>
+    <ViewStub android:id="@id/album_comment_stub" android:layout="@layout/sns_timeline_comment" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_below="@id/timeline_content" android:layout_alignLeft="@id/timeline_content" />
+    <ViewStub android:id="@id/sns_post_error_stub" android:layout="@layout/sns_post_again_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignLeft="@id/timeline_content" android:layout_alignBottom="@id/timeline_content" />
+    <ImageButton android:layout_gravity="bottom" android:id="@id/album_show_comment_tv" android:background="@null" android:paddingLeft="1.0dip" android:paddingTop="20.0dip" android:paddingBottom="17.0dip" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:src="@drawable/friendactivity_comment_icon" android:layout_alignRight="@id/timeline_content" android:layout_alignBottom="@id/timeline_content" />
+</RelativeLayout>

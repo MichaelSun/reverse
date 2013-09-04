@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/progress_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/favorite_progress_bar_bg" android:scaleType="fitXY" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="200.0dip" android:src="@drawable/favorite_progress_bar" android:scaleType="fitXY" android:layout_centerVertical="true" />
+    <ImageButton android:id="@id/stop_btn" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/appitem_del_btn" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:id="@id/game_dialog_root" android:background="@*android:color/transparent" android:layout_width="280.0dip" android:layout_height="380.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/game_burst_aircharft_bkg_big" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/game_top_rl" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <TextView android:gravity="center_vertical" android:id="@id/game_wish_tips" android:text="@string/shoot_wish_request" android:layout_alignParentLeft="true" style="@style/GameTitleTextNormal" />
+            <TextView android:id="@id/game_life_num" android:layout_marginLeft="11.0dip" android:drawableLeft="@drawable/game_burst_aircraft_aircraft_small2" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/GameTitleText" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/game_bottom_rl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <Button android:id="@id/game_back_to_mm" android:background="@drawable/game_burst_aircraft_button_bule_small" android:layout_width="110.0dip" android:layout_height="wrap_content" android:text="@string/shoot_back_to_wechat" style="@style/GameButtonText" />
+            <Button android:id="@id/game_start" android:background="@drawable/game_burst_aircraft_button_bule_small" android:layout_width="110.0dip" android:layout_height="wrap_content" android:text="@string/shoot_play_game" style="@style/GameButtonText" />
+        </LinearLayout>
+        <ListView android:id="@id/game_lv" android:background="@drawable/game_burst_aircraft_list_bg" android:focusable="true" android:scrollbars="none" android:fadingEdge="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:listSelector="@null" android:transcriptMode="disabled" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0.0dip" android:layout_above="@id/game_bottom_rl" android:layout_below="@id/game_top_rl" />
+    </RelativeLayout>
+</LinearLayout>

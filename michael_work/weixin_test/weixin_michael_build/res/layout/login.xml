@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@drawable/preference_first_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="26.0dip">
+        <com.tencent.mm.ui.base.MMClearEditText android:id="@id/login_account_auto" android:background="@null" android:paddingLeft="85.0dip" android:hint="@string/login_account_hint" style="@style/MMLineEditText" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/black" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="@drawable/mm_trans" android:paddingLeft="10.0dip" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:text="@string/login_account" android:singleLine="false" style="@style/MMLineEditText" />
+    </FrameLayout>
+    <FrameLayout android:background="@drawable/preference_last_item" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.tencent.mm.ui.base.MMClearEditText android:id="@id/login_password_et" android:background="@null" android:paddingLeft="85.0dip" android:hint="@string/login_password_hint" style="@style/MMLineEditPass" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/black" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="@drawable/mm_trans" android:paddingLeft="10.0dip" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:text="@string/regbyqq_password" android:singleLine="false" android:imeOptions="actionDone" style="@style/MMLineEditText" />
+    </FrameLayout>
+    <View style="@style/MMLabelSplit" />
+    <RelativeLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" style="@style/MMBlock">
+        <LinearLayout android:layout_gravity="top|left|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="top|left|center" android:orientation="horizontal" android:id="@id/fblogin_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:background="#00ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:src="@drawable/share_to_facebook_icon" />
+                <TextView android:textSize="@dimen/BasicTextSize" android:textColor="@color/mm_hyper_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:text="@string/select_login_by_facebook" android:singleLine="true" />
+            </LinearLayout>
+            <Button android:layout_gravity="bottom|left|center" android:id="@id/login_foget_btn" android:text="@string/login_foget_password" style="@style/RegUIHyperText" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

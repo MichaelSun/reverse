@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/albums_bg" android:duplicateParentState="true" android:layout_width="120.0dip" android:layout_height="130.0dip">
+        <ImageView android:id="@id/folder_thumb" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginTop="15.0dip" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/video_mask" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginTop="38.0dip" android:src="@drawable/video_mask" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/mask_header_icon" android:background="@drawable/sd_card_folder_media_mask" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginTop="15.0dip" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/albums_icon_bg" android:layout_width="wrap_content" android:layout_height="28.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <TextView android:textSize="14.0sp" android:textColor="#ff4d596a" android:gravity="right|center" android:id="@id/media_files_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center" android:id="@id/folder_name" android:layout_width="fill_parent" android:layout_marginTop="1.0dip" style="@style/MMFontPreferenceLarge" />
+    </LinearLayout>
+</LinearLayout>

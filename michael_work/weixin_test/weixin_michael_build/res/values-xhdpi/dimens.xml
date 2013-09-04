@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="arrow_marginTop">190.0dip</dimen>
+    <dimen name="wording_somenew_marginBottom">180.0dip</dimen>
+    <dimen name="wording_stickershop_marginBottom">180.0dip</dimen>
+</resources>

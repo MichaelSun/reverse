@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.game.ui.GameAdvertisementLayout android:id="@id/game_ad_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="186.0dip" />
+    <com.tencent.mm.plugin.game.ui.GameMessageHeaderView android:id="@id/game_msg_panel" android:background="@color/navpage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

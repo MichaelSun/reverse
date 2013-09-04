@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/FavListItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/fav_avatar" android:contentDescription="@string/app_app" style="@style/FavListItemAvatar" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/FavListItemContainer">
+        <TextView android:id="@id/fav_name" android:text="{name}" style="@style/FavListItemName" />
+        <ImageView android:id="@id/fav_image" android:background="@drawable/favoritespic_bg" android:padding="2.5dip" android:layout_width="130.0dip" android:layout_height="60.0dip" android:scaleType="centerCrop" android:contentDescription="@string/app_app" />
+        <TextView android:id="@id/fav_ocr_tips" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/favorite_ocr_tips" />
+    </LinearLayout>
+    <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <TextView android:id="@id/fav_time" android:text="{time}" style="@style/FavListItemTime" />
+        <ImageView android:id="@id/status_imageview" android:padding="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/favorites_warnings_icon_list" android:scaleType="fitEnd" />
+    </LinearLayout>
+</LinearLayout>

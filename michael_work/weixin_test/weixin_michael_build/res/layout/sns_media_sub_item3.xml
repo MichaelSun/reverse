@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/media_content_rl" android:background="@drawable/sns_media_link_bg" android:padding="3.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.plugin.sns.ui.TagImageView android:id="@id/image_left" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_margin="3.0dip" android:scaleType="centerCrop" android:maxHeight="350.0dip" />
+    <ImageView android:id="@id/state" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_margin="3.0dip" android:scaleType="center" android:maxHeight="350.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/sns_link_color" android:id="@id/titletext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="abcde" android:singleLine="true" android:layout_toRightOf="@id/image_left" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/sns_word_color" android:id="@id/righttext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="hello" android:singleLine="true" android:layout_toRightOf="@id/image_left" android:layout_below="@id/titletext" />
+</RelativeLayout>

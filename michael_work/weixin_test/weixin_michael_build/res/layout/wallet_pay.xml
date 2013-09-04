@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.wallet.ui.MMScrollView android:id="@id/wallet_sv" android:background="@color/navpage" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:wallet="http://schemas.android.com/apk/res-auto/com.tencent.mm">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <TextView android:textSize="17.0dip" android:textColor="@*android:color/black" android:gravity="bottom|center" android:id="@id/wallet_order_info_total_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:singleLine="true" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+            <TextView android:textSize="50.0dip" android:textColor="@*android:color/black" android:id="@id/wallet_order_info_fee_type" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="50.0dip" android:textStyle="bold" android:textColor="@*android:color/black" android:id="@id/wallet_order_info_total_fee" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:background="#ffd2d2d2" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/wallet_order_info_lv" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/wallet_pay_item" />
+        </LinearLayout>
+        <ImageView android:id="@id/wallet_order_info_desc_more_btn" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" android:src="@drawable/pay_dital_bill_guid_down" android:scaleType="center" />
+        <TextView android:background="#ffd2d2d2" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="@dimen/BasicTextSize" android:gravity="left|center" android:id="@id/wallet_pay_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:text="@string/wallet_tips_input_password" android:lineSpacingExtra="6.0dip" />
+        <Button android:textSize="@dimen/BasicTextSize" android:id="@id/wallet_pay_pay" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="10.0dip" android:minHeight="45.0dip" android:text="@string/wallet_pay" style="@style/MMWalletBtn" />
+    </LinearLayout>
+</com.tencent.mm.plugin.wallet.ui.MMScrollView>

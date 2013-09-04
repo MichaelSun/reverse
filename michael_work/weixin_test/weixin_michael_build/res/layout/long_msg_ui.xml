@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/msg_long_ui" android:background="@drawable/longmsgtip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="18.0dip" android:textColor="@color/white" android:id="@id/know_btn" android:background="@drawable/btn_style_one" android:layout_width="120.0dip" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:text="@string/sns_welcome_i_know" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/msg_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:text="@string/sns_long_post_text_tip" android:layout_above="@id/know_btn" android:layout_centerHorizontal="true" />
+</RelativeLayout>

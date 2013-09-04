@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/cropimage_fl" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.tools.MMGestureGallery android:id="@id/gallery" android:focusable="false" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:spacing="0.0dip" android:unselectedAlpha="1.2" />
+    <LinearLayout android:orientation="vertical" android:id="@id/cropimage_operator_ll" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/photo_preview_title" android:background="#af000000" android:layout_width="fill_parent" android:layout_height="64.0dip">
+            <ImageButton android:id="@id/go_back_btn" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:src="@drawable/image_preview_back_btn" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:id="@id/photos_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <CheckBox android:id="@id/photos_select_checkbox" android:background="@drawable/sd_checkbox_big" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <RelativeLayout android:id="@id/cropimage_function_bar" android:background="@drawable/personactivity_bigphoto_button_bg" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <RelativeLayout android:id="@id/send_orignal_image_ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                <CheckBox android:id="@id/orignal_image" android:focusable="true" android:visibility="invisible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_alignParentLeft="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/LargeTextSize" android:textColor="#ffa2a2a2" android:id="@id/orignal_image_tip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/gallery_pic_orignal" android:layout_toRightOf="@id/orignal_image" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <Button android:textColor="@color/mm_title_btn_text" android:gravity="center" android:id="@id/send_btn" android:background="@drawable/mm_title_act_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:minWidth="90.0dip" android:text="@string/gallery_pic_chatting_send" android:layout_alignParentRight="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <include android:layout_alignParentRight="true" layout="@layout/media_selected_count" />
+        </RelativeLayout>
+    </LinearLayout>
+    <com.tencent.mm.ui.tools.FilterImageView android:id="@id/cropimage_filter_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

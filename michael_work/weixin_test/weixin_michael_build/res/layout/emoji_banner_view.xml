@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.emoji.EmojiBannerView android:orientation="horizontal" android:id="@id/emoji_banner" android:background="@drawable/net_tip_detail_btn" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/emoji_banner_note" android:layout_width="1.0dip" android:layout_height="wrap_content" android:text="@string/emoji_store_download_failed" android:singleLine="true" android:layout_weight="1.0" />
+        <ImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/emoji_banner_close" android:background="@drawable/search_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" />
+    </com.tencent.mm.ui.emoji.EmojiBannerView>
+</LinearLayout>

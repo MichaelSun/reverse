@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/game_burst_aircharft_bkg_big" android:layout_width="270.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0dip" android:id="@id/game_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="{title}" android:singleLine="true" style="@style/GameTitleText" />
+    <View android:id="@id/game_title_bottom_line" android:background="@drawable/game_burst_aircraft_bkg_big_line" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+    <TextView android:textSize="16.0dip" android:textColor="@*android:color/black" android:gravity="center" android:id="@id/game_message" android:paddingLeft="10.0dip" android:paddingTop="40.0dip" android:paddingRight="10.0dip" android:paddingBottom="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="{message}" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/game_bottom_rl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="7.0dip">
+        <Button android:id="@id/game_btn1" android:background="@drawable/game_burst_aircraft_button_bule_small" android:layout_width="110.0dip" android:layout_height="wrap_content" android:text="@string/shoot_confirm_ok" style="@style/GameButtonText" />
+        <Button android:id="@id/game_btn2" android:background="@drawable/game_burst_aircraft_button_bule_small" android:visibility="gone" android:layout_width="110.0dip" android:layout_height="wrap_content" android:text="{btn2}" style="@style/GameButtonText" />
+    </LinearLayout>
+</LinearLayout>

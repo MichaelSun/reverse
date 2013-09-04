@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/com.tencent.mm">
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_notification" android:key="settings_notification_preference" android:widgetLayout="@layout/mm_preference_screen" />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_about_privacy" android:key="settings_about_privacy" android:widgetLayout="@layout/mm_preference_screen" />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_about_system" android:key="settings_about_system" android:widgetLayout="@layout/mm_preference_screen" />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_push_software" android:key="settings_push_software" android:widgetLayout="@layout/mm_preference_screen" />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_traffic_statistic" android:key="settings_traffic_statistic" android:widgetLayout="@layout/mm_preference_screen" />
+    <PreferenceCategory />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_like_facebook" android:key="settings_like_facebook" android:widgetLayout="@layout/mm_preference_screen" />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/settings_follow_twitter" android:key="settings_follow_twitter" android:widgetLayout="@layout/mm_preference_screen" />
+    <IconPreference android:title="@string/settings_about_micromsg" android:key="settings_about_micromsg" />
+    <PreferenceCategory />
+    <Preference android:layout="@layout/logout_btn" android:title="@string/settings_logout" android:key="settings_logout" android:widgetLayout="@layout/mm_preference_screen" />
+    <PreferenceCategory />
+</PreferenceScreen>

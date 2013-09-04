@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:id="@id/game_dialog_root" android:background="@*android:color/transparent" android:layout_width="270.0dip" android:layout_height="360.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/game_burst_aircharft_bkg_big" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:gravity="center" android:id="@id/game_week_rank" android:layout_width="fill_parent" android:text="@string/shoot_week_rank" android:layout_centerHorizontal="true" style="@style/GameTitleText" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/game_bottom_rl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentBottom="true">
+            <Button android:id="@id/game_back_to_mm" android:background="@drawable/game_burst_aircraft_button_bule_small" android:layout_width="120.0dip" android:layout_height="wrap_content" android:text="@string/shoot_back_to_wechat" style="@style/GameButtonText" />
+            <Button android:id="@id/game_play_again" android:background="@drawable/game_burst_aircraft_button_bule_small" android:layout_width="120.0dip" android:layout_height="wrap_content" android:text="@string/shoot_play_again" style="@style/GameButtonText" />
+        </LinearLayout>
+        <ListView android:id="@id/game_rank_lv" android:background="@drawable/game_burst_aircraft_list_bg" android:focusable="true" android:scrollbars="none" android:fadingEdge="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:listSelector="@*android:color/transparent" android:transcriptMode="alwaysScroll" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0.0dip" android:layout_above="@id/game_bottom_rl" android:layout_below="@id/game_week_rank" />
+    </RelativeLayout>
+</LinearLayout>

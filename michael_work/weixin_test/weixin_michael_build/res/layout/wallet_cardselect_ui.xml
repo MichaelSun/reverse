@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/wallet_card_select_type_tips" style="@style/WalletInputTips" />
+            <CheckedTextView android:textAppearance="@style/MMPreferenceTextLarge" android:textColor="@*android:color/black" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/check_type_first_tv" android:background="@drawable/preference_first_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkMark="@drawable/sns_shoot_select" android:maxHeight="45.0dip" android:minHeight="42.0dip" android:text="@string/wallet_deposit_card" />
+            <CheckedTextView android:textAppearance="@style/MMPreferenceTextLarge" android:textColor="@*android:color/black" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/check_type_second_tv" android:background="@drawable/preference_last_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkMark="@drawable/sns_shoot_select" android:maxHeight="45.0dip" android:minHeight="42.0dip" android:text="@string/wallet_credit_card" />
+            <TextView android:text="@string/wallet_card_select_bank_tips" style="@style/WalletInputTips" />
+            <com.tencent.mm.plugin.wallet.ui.MaxListView android:id="@id/settings_lv_bank" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@*android:color/transparent" android:divider="#00000000" android:dividerHeight="0.0dip" android:choiceMode="singleChoice" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

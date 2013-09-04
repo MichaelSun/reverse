@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:wallet="http://schemas.android.com/apk/res-auto/com.tencent.mm">
+    <TextView android:id="@id/bind_wallet_verify_hint" android:text="@string/wallet_verify_code_hint" style="@style/WalletInputTips" />
+    <View style="@style/MMLabelSplit" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+        <com.tencent.mm.plugin.wallet.ui.EditHintView android:id="@id/bind_mcontact_verify_num" android:layout_width="0.0dip" android:layout_weight="1.0" android:inputType="phone" wallet:hint="@string/wallet_verify_input_hint" wallet:tipmsg="@string/wallet_card_identify_tip" wallet:editType="verifyCode" wallet:maxLength="6" style="@style/MMWalletEt" />
+        <Button android:textSize="16.0dip" android:id="@id/get_verify_btn" android:layout_width="130.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:text="@string/wallet_verify_get_more_one" style="@style/MMWalletBtn" />
+    </LinearLayout>
+    <Button android:id="@id/bind_mcontact_verify_btn" android:layout_marginTop="10.0dip" android:text="@string/app_nextstep" style="@style/MMWalletBtn" />
+    <TextView android:textColor="@color/wallet_link_color" android:gravity="center_vertical" android:layout_gravity="right" android:id="@id/bind_wallet_reset_mobile" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/wallet_verify_code_reset_mobile" />
+    <TextView android:layout_height="fill_parent" style="@style/WalletPowerByTenpayTips" />
+</LinearLayout>

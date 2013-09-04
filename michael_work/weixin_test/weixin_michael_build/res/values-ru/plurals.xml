@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_fmt_multi_msg_and_talker">
+        <item quantity="other">%1$d друзей отправили вам %2$d сообщ.</item>
+        <item quantity="one">%1$d друг отправил вам %2$d сообщ.</item>
+    </plurals>
+    <plurals name="notification_fmt_multi_msg_and_one_talker">
+        <item quantity="other">отправил(а) вам %d сообщ.</item>
+        <item quantity="one">отправил(а) вам %d сообщ.</item>
+    </plurals>
+    <plurals name="notification_fmt_multi_bottle">
+        <item quantity="other">В нек. бутылках (%d) новые ответы</item>
+        <item quantity="one">В %d бутылке новый ответ</item>
+    </plurals>
+    <plurals name="mobileverify_send_code_tip">
+        <item quantity="other">SMS придет через %d с.</item>
+        <item quantity="one">SMS придет через %d с.</item>
+    </plurals>
+    <plurals name="chatting_rcd_time_limit">
+        <item quantity="other">Осталось %d с.</item>
+        <item quantity="one">Осталась %d секунда</item>
+    </plurals>
+    <plurals name="settings_room_right_left_size">
+        <item quantity="other">%d приглашений</item>
+        <item quantity="one">%d invite</item>
+    </plurals>
+    <plurals name="address_contact_count">
+        <item quantity="other">контактов: %d</item>
+        <item quantity="one">контактов: %d</item>
+    </plurals>
+    <plurals name="find_mcontact_wechat_friend">
+        <item quantity="other">Найдено контактов: %d.</item>
+        <item quantity="one">Найден %d контакт.</item>
+    </plurals>
+    <plurals name="find_mcontact_invite_friend_cnt">
+        <item quantity="other">Найдено контактов: %d.</item>
+        <item quantity="one">Найден %d контакт.</item>
+    </plurals>
+    <plurals name="find_mcontact_already_add_count">
+        <item quantity="other">Добавлено друзей: %d</item>
+        <item quantity="one">Добавлено друзей: %d</item>
+    </plurals>
+    <plurals name="find_mcontact_already_invite_count">
+        <item quantity="other">Отправлено приглашений: %d</item>
+        <item quantity="one">Отправлено приглашений: %d</item>
+    </plurals>
+    <plurals name="inviteqqfriends_invite_tips">
+        <item quantity="other">Вы приглашаете в WeChat следующее количество друзей: %d</item>
+        <item quantity="one">Вы приглашаете в WeChat следующее количество друзей: %d</item>
+    </plurals>
+    <plurals name="room_size_count">
+        <item quantity="other">Пользователей: %d</item>
+        <item quantity="one">%d пользователь</item>
+    </plurals>
+    <plurals name="room_lbsroom_member_title">
+        <item quantity="other">Пользователей: %s</item>
+        <item quantity="one">%s пользователь</item>
+    </plurals>
+    <plurals name="mass_send_contact_count">
+        <item quantity="other">%s получателей:</item>
+        <item quantity="one">%s получатель:</item>
+    </plurals>
+    <plurals name="mass_send_count">
+        <item quantity="other">Вы отправляете сообщение следующему количеству друзей: %s</item>
+        <item quantity="one">Вы отправляете сообщение следующему количеству друзей: %s</item>
+    </plurals>
+    <plurals name="plugin_qqmail_composeui_attach_summary">
+        <item quantity="other">Вложений: %1$d (%2$s)</item>
+        <item quantity="one">%1$d вложение (%2$s)</item>
+    </plurals>
+    <plurals name="game_message_tips">
+        <item quantity="other">Новых сообщений: %s</item>
+        <item quantity="one">%s новое сообщение</item>
+    </plurals>
+    <plurals name="say_hi_count_text">
+        <item quantity="other">Новых приветствий: %d</item>
+        <item quantity="one">%d новое приветствие</item>
+    </plurals>
+    <plurals name="gallery_pic_limit">
+        <item quantity="other">Можно выбрать до %s фото</item>
+        <item quantity="one">Можно выбрать до %s фото</item>
+    </plurals>
+    <plurals name="gallery_video_limit">
+        <item quantity="other">Можно выбрать до %s видео</item>
+        <item quantity="one">Можно выбрать до %s видео</item>
+    </plurals>
+    <plurals name="nearby_lbsroom_member_count">
+        <item quantity="other">Пользователей: %s</item>
+        <item quantity="one">%s пользователь</item>
+    </plurals>
+    <plurals name="fmt_in60min">
+        <item quantity="other">%d мин назад</item>
+        <item quantity="one">%d мин назад</item>
+    </plurals>
+    <plurals name="fmt_in24h">
+        <item quantity="other">%d ч назад</item>
+        <item quantity="one">%d ч назад</item>
+    </plurals>
+    <plurals name="fmt_indayh">
+        <item quantity="other">%d дн. назад</item>
+        <item quantity="one">%d день назад</item>
+    </plurals>
+    <plurals name="qq_sync_result_add">
+        <item quantity="other">Добавлено контактов: %d</item>
+        <item quantity="one">Добавлен %d контакт</item>
+    </plurals>
+    <plurals name="qq_sync_result_mod">
+        <item quantity="other">Изменено контактов: %s</item>
+        <item quantity="one">Изменен %s контакт</item>
+    </plurals>
+    <plurals name="qq_sync_result_del">
+        <item quantity="other">Добавлено контактов: %d</item>
+        <item quantity="one">Добавлен %d контакт</item>
+    </plurals>
+    <plurals name="shake_tran_img_share_tips">
+        <item quantity="other">Отправлено элементов: %d Встряхните для просмотра</item>
+        <item quantity="one">Отправлено элементов: %d Встряхните для просмотра</item>
+    </plurals>
+    <plurals name="sns_total_count">
+        <item quantity="other">Записей: %d</item>
+        <item quantity="one">%d запись</item>
+    </plurals>
+    <plurals name="sns_some_new_msg">
+        <item quantity="other">Новых сообщений: %d</item>
+        <item quantity="one">%d новое сообщение</item>
+    </plurals>
+    <plurals name="sns_some_comment">
+        <item quantity="other">Новых комментариев: %d</item>
+        <item quantity="one">%d новый комментарий</item>
+    </plurals>
+    <plurals name="sns_some_praise">
+        <item quantity="other">Это нравится: %d</item>
+        <item quantity="one">Это нравится: %d</item>
+    </plurals>
+    <plurals name="sns_comment_detial_ui_photo_count">
+        <item quantity="other">Изображений: %d</item>
+        <item quantity="one">%d изображение</item>
+    </plurals>
+    <plurals name="sns_media_count">
+        <item quantity="other">Записей: %d</item>
+        <item quantity="one">%d запись</item>
+    </plurals>
+    <plurals name="video_recorder_time_limit">
+        <item quantity="other">Осталось %s с</item>
+        <item quantity="one">Осталась %s секунда</item>
+    </plurals>
+    <plurals name="wallet_notify_msg">
+        <item quantity="other">Новых записей о транзакциях: %d.</item>
+        <item quantity="one">Новых записей о транзакциях: %d.</item>
+    </plurals>
+</resources>

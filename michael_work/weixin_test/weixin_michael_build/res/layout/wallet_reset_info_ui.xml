@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.wallet.ui.MMScrollView android:id="@id/wallet_sv" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:wallet="http://schemas.android.com/apk/res-auto/com.tencent.mm" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/NavPage">
+        <TextView android:autoLink="phone" android:id="@id/wallet_reset_info_tips" android:text="@string/wallet_reset_mobile_tips" style="@style/WalletInputTips" />
+        <LinearLayout android:background="@drawable/preference_first_item" android:layout_width="fill_parent" android:layout_height="45.0dip">
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/wallet_reset_bankcard" android:drawablePadding="10.0dip" style="@style/MMWalletOrdersTitle" />
+            <TextView android:gravity="left|center" android:id="@id/wallet_reset_info_bankcard" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/MMWalletOrdersInfo" />
+        </LinearLayout>
+        <LinearLayout android:background="@drawable/preference_last_item" android:layout_width="fill_parent" android:layout_height="45.0dip">
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/wallet_reset_name" android:drawablePadding="10.0dip" style="@style/MMWalletOrdersTitle" />
+            <TextView android:gravity="left|center" android:id="@id/wallet_reset_info_name" android:paddingLeft="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/MMWalletOrdersInfo" />
+        </LinearLayout>
+        <com.tencent.mm.plugin.wallet.ui.EditHintView android:id="@id/date_et" android:background="@drawable/preference_single_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="10.0dip" wallet:hint="@string/wallet_card_date_hint" wallet:tipmsg="@string/wallet_card_date_tip" wallet:editType="date" />
+        <com.tencent.mm.plugin.wallet.ui.EditHintView android:id="@id/cvv_et" android:background="@drawable/preference_single_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="10.0dip" wallet:hint="@string/wallet_card_cvv_hint" wallet:tipmsg="@string/wallet_card_cvv_tip" wallet:editType="cvv" />
+        <com.tencent.mm.plugin.wallet.ui.EditHintView android:id="@id/mobile_et" android:background="@drawable/preference_single_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginTop="10.0dip" wallet:hint="@string/wallet_card_mobile_hint" wallet:tipmsg="@string/wallet_card_mobile_tip" wallet:editType="phone" />
+        <Button android:id="@id/next_btn" android:background="@drawable/btn_style_one" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="15.0dip" android:text="@string/app_nextstep" style="@style/MMWalletLayout" />
+    </LinearLayout>
+</com.tencent.mm.plugin.wallet.ui.MMScrollView>

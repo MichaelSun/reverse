@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="255.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:wallet="http://schemas.android.com/apk/res-auto/com.tencent.mm">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/wallet_pwd_title" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_alignParentLeft="true">
+        <ImageView android:id="@id/chatting_user_iv" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+        <TextView android:textSize="18.0dip" android:textColor="@color/black" android:gravity="center" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginLeft="5.0dip" android:text="@string/wallet_pwd_dialog_titile" android:layout_toRightOf="@id/chatting_user_iv" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center" android:id="@id/line" android:background="@drawable/newfeature_line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_below="@id/wallet_pwd_title" />
+    <TextView android:textSize="15.0dip" android:textColor="#ff272727" android:gravity="center" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_below="@id/line" />
+    <com.tencent.mm.plugin.wallet.ui.EditHintView android:id="@id/input_et" android:focusable="true" android:focusableInTouchMode="true" android:layout_marginLeft="0.0dip" android:layout_marginTop="9.0dip" android:layout_marginRight="0.0dip" android:layout_below="@id/content" wallet:editType="password" style="@style/MMWalletPwdEt" />
+</RelativeLayout>

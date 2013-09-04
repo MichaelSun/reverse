@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/game_burst_aircraft_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/game_rank_item_rl" android:background="@*android:color/transparent" android:layout_width="fill_parent" android:layout_height="62.0dip">
+        <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="#ff909090" android:gravity="center" android:id="@id/rank_num" android:layout_width="34.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="1" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/user_icon" android:layout_toRightOf="@id/rank_num" style="@style/GameDialogListItemIconIv" />
+        <TextView android:id="@id/user_score" android:text="{123456787910}" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/GameDialogListItemScoreTv" />
+        <TextView android:gravity="left" android:id="@id/user_name" android:text="{User name}" android:layout_toLeftOf="@id/user_score" android:layout_toRightOf="@id/user_icon" style="@style/GameDialogListItemUserTv" />
+    </RelativeLayout>
+</LinearLayout>

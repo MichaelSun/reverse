@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:id="@id/game_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="7.0dip">
+        <ImageView android:id="@id/game_icon" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="2.0dip" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+        <View android:layout_width="10.0dip" style="@style/MMSplit" />
+        <Button android:textSize="14.0dip" android:id="@id/game_opt" android:background="@drawable/game_opt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="7.0dip" android:minWidth="60.0dip" android:minHeight="30.0dip" android:text="@string/game_list_download_app" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_toLeftOf="@id/game_opt" android:layout_toRightOf="@id/game_icon" android:layout_alignTop="@id/game_icon" android:layout_alignBottom="@id/game_icon">
+            <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/game_name" android:singleLine="true" android:layout_weight="1.0" style="@style/MMFontPreferenceProfile" />
+            <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/game_developer" android:layout_marginBottom="10.0dip" android:singleLine="true" android:layout_weight="1.0" android:layout_below="@id/game_name" style="@style/MMFontPreferenceSmall" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

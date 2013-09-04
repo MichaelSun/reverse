@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="215.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.voicesearch.VoiceSearchLayout android:layout_gravity="center" android:id="@id/voice_search" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-10.0dip" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:weightSum="2.0">
+        <Button android:textColor="#ff888888" android:id="@id/clear_btn" android:background="@drawable/voicesearch_btnleft_selector" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/voice_search_clear_btn" android:layout_weight="1.0" />
+        <Button android:textColor="#ff888888" android:id="@id/send_btn" android:background="@drawable/voicesearch_btnright_selector" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/voice_search_send_btn" android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:wallet="http://schemas.android.com/apk/res-auto/com.tencent.mm">
+    <TextView android:id="@id/input_tip" android:text="@string/wallet_input_card_ui_tips" style="@style/WalletInputTips" />
+    <com.tencent.mm.plugin.wallet.ui.EditHintView android:id="@id/name_et" android:background="@drawable/preference_single_item" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="45.0dip" wallet:tipmsg="@string/wallet_input_card_name_tip" wallet:editType="text" />
+    <com.tencent.mm.plugin.wallet.ui.EditHintView android:id="@id/card_num_et" android:background="@drawable/preference_single_item" android:layout_width="fill_parent" android:layout_height="45.0dip" android:minHeight="45.0dip" wallet:hint="@string/wallet_input_card_num_hint" wallet:tipmsg="@string/wallet_input_card_num_tip" wallet:editType="bankcardId" wallet:maxLength="25" />
+    <TextView android:gravity="center" android:id="@id/wallet_input_card_pay_tips" android:visibility="gone" android:text="@string/wallet_input_card_ui_pay_tips" style="@style/WalletInputTips" />
+    <Button android:id="@id/next_btn" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="20.0dip" android:text="@string/app_nextstep" style="@style/MMWalletBtn" />
+    <TextView android:layout_gravity="bottom" android:layout_height="fill_parent" style="@style/WalletPowerByTenpayTips" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip">
+        <include layout="@layout/game_detail_info_header" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/ac_game_msg" android:background="@drawable/preference_single_item" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dip">
+            <LinearLayout android:gravity="left|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:minHeight="@dimen/PreferenceItemHeight" android:layout_weight="1.0">
+                <TextView android:id="@*android:id/summary" android:text="@string/game_accept_message" android:singleLine="true" style="@style/MMFontPreferenceLarge" />
+            </LinearLayout>
+            <LinearLayout android:gravity="right|center" android:orientation="vertical" android:id="@*android:id/widget_frame" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <CheckBox android:gravity="right|center" android:layout_gravity="center_vertical" android:id="@id/checkbox" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="16.0dip">
+            <TextView android:textColor="#ff454545" android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="10.0dip" android:text="@string/game_authorization_tile" style="@style/MMFontPreferenceLarge" />
+            <com.tencent.mm.plugin.game.ui.AuthorizationInfoLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="vertical" android:id="@id/game_auth_info" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingRight="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:gravity="center" android:id="@id/disarm_auth" android:background="@drawable/btn_style_zero" android:text="@string/game_disarm_authorization" style="@style/MMLineActionButton" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

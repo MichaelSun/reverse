@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="sticker_scale_time">400</integer>
+    <integer name="sticker_shake_time">300</integer>
+    <integer name="sticker1_toX">-200</integer>
+    <integer name="sticker1_toY">-240</integer>
+    <integer name="sticker2_toX">-93</integer>
+    <integer name="sticker2_toY">-307</integer>
+    <integer name="sticker3_toX">40</integer>
+    <integer name="sticker3_toY">-307</integer>
+    <integer name="sticker4_toX">173</integer>
+    <integer name="sticker4_toY">-293</integer>
+    <integer name="sticker5_toX">140</integer>
+    <integer name="sticker5_toY">-173</integer>
+    <integer name="sticker6_toX">-47</integer>
+    <integer name="sticker6_toY">-153</integer>
+    <integer name="logo1_toX">-67</integer>
+    <integer name="logo1_toY">-200</integer>
+    <integer name="logo2_toX">80</integer>
+    <integer name="logo2_toY">-160</integer>
+    <integer name="title_toX">0</integer>
+    <integer name="title_toY">-27</integer>
+    <integer name="go_toX">0</integer>
+    <integer name="go_toY">187</integer>
+</resources>

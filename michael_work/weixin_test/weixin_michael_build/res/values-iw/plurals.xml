@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_fmt_multi_msg_and_talker">
+        <item quantity="other">%1$d חברים שלחו לך %2$d הודעות</item>
+        <item quantity="one">%1$d חבר שלח לך %2$d הודעה</item>
+    </plurals>
+    <plurals name="notification_fmt_multi_msg_and_one_talker">
+        <item quantity="other">שלח/ה לך %d הודעות</item>
+        <item quantity="one">שלח/ה לך %d הודעה</item>
+    </plurals>
+    <plurals name="notification_fmt_multi_bottle">
+        <item quantity="other">%d בקבוקים נענו</item>
+        <item quantity="one">%d בקבוק נענה</item>
+    </plurals>
+    <plurals name="mobileverify_send_code_tip">
+        <item quantity="other">הודעת ה-SMS תגיע תוך %d שניות.</item>
+        <item quantity="one">הודעת ה-SMS ששלחת תגיע תוך %d שניות.</item>
+    </plurals>
+    <plurals name="chatting_rcd_time_limit">
+        <item quantity="other">נותרו %d שניות</item>
+        <item quantity="one">%d שניה נותרה</item>
+    </plurals>
+    <plurals name="settings_room_right_left_size">
+        <item quantity="other">%d הזמנות</item>
+        <item quantity="one">%d הזמנות</item>
+    </plurals>
+    <plurals name="address_contact_count">
+        <item quantity="other">%d אנשי קשר</item>
+        <item quantity="one">%d אנשי קשר</item>
+    </plurals>
+    <plurals name="find_mcontact_wechat_friend">
+        <item quantity="other">%d אנשי קשר נמצאו</item>
+        <item quantity="one">%d אנשי קשר נמצאו</item>
+    </plurals>
+    <plurals name="find_mcontact_invite_friend_cnt">
+        <item quantity="other">%d אנשי קשר נמצאו</item>
+        <item quantity="one">%d אנשי קשר נמצאו</item>
+    </plurals>
+    <plurals name="find_mcontact_already_add_count">
+        <item quantity="other">%d חברים נוספו</item>
+        <item quantity="one">%d חברים נוספו</item>
+    </plurals>
+    <plurals name="find_mcontact_already_invite_count">
+        <item quantity="other">%d הזמנות נשלחו</item>
+        <item quantity="one">%d הזמנות נשלחו</item>
+    </plurals>
+    <plurals name="inviteqqfriends_invite_tips">
+        <item quantity="other">אתה מזמין %d חברים ל-WeChat</item>
+        <item quantity="one">אתה מזמין %d חבר ל-WeChat</item>
+    </plurals>
+    <plurals name="room_size_count">
+        <item quantity="other">%d אנשים</item>
+        <item quantity="one">אדם %d</item>
+    </plurals>
+    <plurals name="room_lbsroom_member_title">
+        <item quantity="other">%s אנשים</item>
+        <item quantity="one">אדם %s</item>
+    </plurals>
+    <plurals name="mass_send_contact_count">
+        <item quantity="other">%s נמענים:</item>
+        <item quantity="one">%s נמען:</item>
+    </plurals>
+    <plurals name="mass_send_count">
+        <item quantity="other">אתה שולח את ההודעה ל-%s חברים:</item>
+        <item quantity="one">אתה שולח את ההודעה ל-%s חבר:</item>
+    </plurals>
+    <plurals name="plugin_qqmail_composeui_attach_summary">
+        <item quantity="other">%1$d קבצים מצורפים (%2$s)</item>
+        <item quantity="one">%1$d קובץ מצורף (%2$s)</item>
+    </plurals>
+    <plurals name="game_message_tips">
+        <item quantity="other">%s הודעות חדשות</item>
+        <item quantity="one">%s הודעה חדשה</item>
+    </plurals>
+    <plurals name="say_hi_count_text">
+        <item quantity="other">%d ברכות חדשות</item>
+        <item quantity="one">%d ברכה חדשה</item>
+    </plurals>
+    <plurals name="gallery_pic_limit">
+        <item quantity="other">ניתן לבחור %s תמונות לכל היותר</item>
+        <item quantity="one">ניתן לבחור %s תמונות לכל היותר</item>
+    </plurals>
+    <plurals name="gallery_video_limit">
+        <item quantity="other">ניתן לבחור %s סרטוני וידאו לכל היותר</item>
+        <item quantity="one">ניתן לבחור %s סרטוני וידאו לכל היותר</item>
+    </plurals>
+    <plurals name="nearby_lbsroom_member_count">
+        <item quantity="other">%s אנשים</item>
+        <item quantity="one">אדם %s</item>
+    </plurals>
+    <plurals name="fmt_in60min">
+        <item quantity="other">לפני %d דקות</item>
+        <item quantity="one">לפני %d דקה</item>
+    </plurals>
+    <plurals name="fmt_in24h">
+        <item quantity="other">לפני %d שעות</item>
+        <item quantity="one">לפני %d שעה</item>
+    </plurals>
+    <plurals name="fmt_indayh">
+        <item quantity="other">לפני %d ימים</item>
+        <item quantity="one">לפני %d יום</item>
+    </plurals>
+    <plurals name="qq_sync_result_add">
+        <item quantity="other">%d אנשי קשר נוספו</item>
+        <item quantity="one">%d איש קשר נוסף</item>
+    </plurals>
+    <plurals name="qq_sync_result_mod">
+        <item quantity="other">%s אנשי קשר נערכו</item>
+        <item quantity="one">%s איש קשר נערך</item>
+    </plurals>
+    <plurals name="qq_sync_result_del">
+        <item quantity="other">%d אנשי קשר נוספו</item>
+        <item quantity="one">%d איש קשר נוסף</item>
+    </plurals>
+    <plurals name="shake_tran_img_share_tips">
+        <item quantity="other">%d פריטים שותפו. נער כדי להציג</item>
+        <item quantity="one">%d פריטים שותפו. נער כדי להציג</item>
+    </plurals>
+    <plurals name="sns_total_count">
+        <item quantity="other">%d פרסומים</item>
+        <item quantity="one">%d פרסום</item>
+    </plurals>
+    <plurals name="sns_some_new_msg">
+        <item quantity="other">%d הודעות חדשות</item>
+        <item quantity="one">%d הודעה חדשה</item>
+    </plurals>
+    <plurals name="sns_some_comment">
+        <item quantity="other">%d הערות חדשות</item>
+        <item quantity="one">%d הערה חדשה</item>
+    </plurals>
+    <plurals name="sns_some_praise">
+        <item quantity="other">"%d הערות 'אהבתי'"</item>
+        <item quantity="one">"%d הערת 'אהבתי'"</item>
+    </plurals>
+    <plurals name="sns_comment_detial_ui_photo_count">
+        <item quantity="other">%d תמונות</item>
+        <item quantity="one">%d תמונה</item>
+    </plurals>
+    <plurals name="sns_media_count">
+        <item quantity="other">%d פרסומים</item>
+        <item quantity="one">%d פרסום</item>
+    </plurals>
+    <plurals name="video_recorder_time_limit">
+        <item quantity="other">%s שניות נותרו</item>
+        <item quantity="one">%s שניה נותרה</item>
+    </plurals>
+    <plurals name="wallet_notify_msg">
+        <item quantity="other">יש לך %d רשומות עסקה חדשות.</item>
+        <item quantity="one">יש לך %d רשומות עסקה חדשות.</item>
+    </plurals>
+</resources>

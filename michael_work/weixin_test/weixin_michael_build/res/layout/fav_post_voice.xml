@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/voice_rcd_hint_bg" android:background="#77000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:id="@id/voice_rcd_hint" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/voice_rcd_hint_rcding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/voice_rcd_hint_anim_area" android:background="@drawable/voice_rcd_hint_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="160.0dip">
+                    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/imageView1" android:layout_width="80.0dip" android:layout_height="120.0dip" android:src="@drawable/voice_rcd_hint" />
+                        <ImageView android:id="@id/voice_rcd_hint_anim" android:background="@drawable/amp1" android:layout_width="80.0dip" android:layout_height="120.0dip" />
+                    </LinearLayout>
+                    <TextView android:textSize="15.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/voice_rcd_hint_word" android:layout_width="160.0dip" android:layout_height="wrap_content" android:minHeight="40.0dip" android:text="@string/chatfooter_cancel_rcd" />
+                </LinearLayout>
+                <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/voice_rcd_hint_cancel_area" android:background="@drawable/voice_rcd_hint_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="160.0dip">
+                    <ImageView android:id="@id/voice_rcd_hint_cancel_icon" android:layout_width="160.0dip" android:layout_height="120.0dip" android:src="@drawable/rcd_cancel_icon" />
+                    <TextView android:textSize="15.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/voice_rcd_hint_cancel_text" android:background="@drawable/rcd_cancel_bg" android:layout_width="160.0dip" android:layout_height="wrap_content" android:minHeight="40.0dip" android:text="@string/favorite_release_cancel" android:layout_below="@id/voice_rcd_hint_cancel_icon" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+            </FrameLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/voice_rcd_hint_tooshort" android:background="@drawable/voice_rcd_hint_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_width="160.0dip" android:layout_height="120.0dip" android:src="@drawable/voice_to_short" />
+                <TextView android:textSize="15.0dip" android:textColor="@color/white" android:gravity="center" android:layout_width="160.0dip" android:layout_height="wrap_content" android:minHeight="40.0dip" android:text="@string/chatfooter_too_short" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/fav_post_voice_footer" android:background="@drawable/mmfooter_bg_white" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="54.0dip">
+            <Button android:textSize="@dimen/LargeTextSize" android:textColor="#ff3a3a3a" android:gravity="center" android:id="@id/fav_post_voice_btn" android:background="@drawable/voice_rcd_btn_nor" android:layout_width="fill_parent" android:layout_height="42.0dip" android:text="@string/chatfooter_presstorcd" android:shadowColor="#ffffffff" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="2.0" android:soundEffectsEnabled="true" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

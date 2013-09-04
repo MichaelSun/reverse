@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/emoji_noexsit_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/download_cancel_icon" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/close" android:layout_centerInParent="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/emoji_icon" android:background="@drawable/my_qrcard_photo" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/emoji_note" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/emoji_no_exist_note" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/div" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/MMDivider" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:textSize="16.0dip" android:textColor="@color/chatting_footer_menu_selector" android:id="@id/emoji_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/emoji_delete" />
+            <Button android:textSize="16.0dip" android:textColor="@color/chatting_footer_menu_selector" android:id="@id/emoji_download" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/emoji_store_download" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

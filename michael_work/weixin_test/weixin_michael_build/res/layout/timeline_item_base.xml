@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@drawable/sns_listitem_normal" android:paddingLeft="14.0dip" android:paddingTop="13.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.tencent.mm.ui.tools.MaskImageButton android:id="@id/album_avatar_iv" android:background="@drawable/friendactivity_personalportrait" android:padding="2.0dip" android:focusable="false" android:layout_marginTop="1.0dip" android:scaleType="centerCrop" style="@style/SnsAvatarFrom" />
+    <com.tencent.mm.ui.tools.MMTruncTextView android:textSize="15.0sp" android:ellipsize="end" android:id="@id/nickname_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" android:text="foreverzeus" android:singleLine="true" android:layout_toRightOf="@id/album_avatar_iv" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/sns_word_color" android:id="@id/type_desc_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/nickname_tv" />
+    <LinearLayout android:orientation="vertical" android:id="@id/timeline_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/album_avatar_iv" android:layout_below="@id/nickname_tv">
+        <TextView android:id="@id/desc_collapse_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/images_keeper_li" android:layout="@layout/sns_timeline_imagesline3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/sns_word_color" android:id="@id/with_info_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/base_info_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip">
+            <TextView android:textSize="12.0sp" android:textColor="@color/sns_word_color" android:id="@id/album_publish_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/sns_word_color" android:id="@id/album_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+            <ImageView android:layout_gravity="center" android:id="@id/album_groupid" android:background="@drawable/group_id_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/sns_link_color" android:id="@id/album_from" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/sns_link_color" android:gravity="center" android:id="@id/album_del" android:background="@drawable/sns_clickable_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/app_delete" />
+        </LinearLayout>
+    </LinearLayout>
+    <ViewStub android:id="@id/album_comment_stub" android:layout="@layout/sns_timeline_comment" android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_below="@id/timeline_content" android:layout_alignLeft="@id/timeline_content" />
+    <ViewStub android:id="@id/sns_post_error_stub" android:layout="@layout/sns_post_again_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignLeft="@id/timeline_content" android:layout_alignBottom="@id/timeline_content" />
+    <LinearLayout android:gravity="bottom|right|center" android:orientation="horizontal" android:id="@id/comment_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-17.0dip" android:layout_below="@id/timeline_content" android:layout_alignLeft="@id/timeline_content" android:layout_alignBottom="@id/timeline_content">
+        <ImageButton android:layout_gravity="bottom" android:id="@id/album_show_comment_tv" android:background="@null" android:paddingLeft="1.0dip" android:paddingTop="20.0dip" android:paddingBottom="17.0dip" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/friendactivity_comment_icon" />
+    </LinearLayout>
+</RelativeLayout>

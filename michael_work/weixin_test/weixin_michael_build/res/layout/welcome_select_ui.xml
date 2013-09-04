@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/welcome_ly" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/welcome_iv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/welcome_bg" android:scaleType="centerCrop" />
+    </FrameLayout>
+    <TextView android:textColor="#ffffffff" android:layout_gravity="right" android:id="@id/welcome_language_tv" android:paddingLeft="15.0dip" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginRight="13.0dip" />
+    <ImageView android:layout_gravity="center" android:id="@id/welcome_logo_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="110.0dip" android:src="@drawable/welcome_logo_ch" android:scaleType="centerCrop" />
+    <RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/welcome_earth_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-52.0dip" android:src="@drawable/welcome_earth" android:scaleType="fitXY" android:layout_above="@id/welcome_people_iv" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/welcome_people_iv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/welcome_people" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/select_lv" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_alignParentBottom="true">
+            <Button android:textSize="17.0dip" android:textColor="#ff4b4b4b" android:gravity="center" android:id="@id/select_login_btn" android:background="@drawable/login_welcome_reg_btn" android:paddingTop="0.0dip" android:paddingBottom="2.0dip" android:layout_width="123.0dip" android:layout_height="wrap_content" android:layout_marginLeft="21.0dip" android:text="@string/intro_existed_login" android:shadowColor="#ffb8b8b8" android:shadowDx="1.2" android:shadowDy="1.2" android:shadowRadius="1.0" android:layout_alignParentLeft="true" />
+            <Button android:textSize="17.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/select_register_btn" android:background="@drawable/login_welcome_login_btn" android:paddingTop="0.0dip" android:paddingBottom="2.0dip" android:layout_width="123.0dip" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="@string/intro_create_account_qq" android:shadowColor="#ff016c08" android:shadowDx="1.2" android:shadowDy="1.2" android:shadowRadius="1.0" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

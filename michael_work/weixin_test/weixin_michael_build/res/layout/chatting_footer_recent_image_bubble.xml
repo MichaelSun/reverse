@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="82.0dip" android:layout_height="120.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/recent_image_iv" android:layout_width="60.0dip" android:layout_height="59.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="48.0dip" android:src="@drawable/account_avatar_bg" android:scaleType="centerCrop" />
+    <TextView android:textSize="12.0sp" android:textColor="#ff858585" android:background="@drawable/chat_recent_image_bubble" android:layout_width="82.0dip" android:layout_height="120.0dip" android:text="@string/chatting_recent_image_bubble_tip" />
+</RelativeLayout>

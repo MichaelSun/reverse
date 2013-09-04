@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="icon" format="reference" />
+    <attr name="enabled" format="boolean" />
+    <attr name="fragment" format="string" />
+    <attr name="layout" format="reference" />
+    <attr name="persistent" format="boolean" />
+    <attr name="title" format="string" />
+    <attr name="summary" format="string" />
+    <attr name="foreground" format="reference" />
+    <attr name="content_margin" format="dimension" />
+    <attr name="content_marginLeft" format="dimension" />
+    <attr name="content_marginRight" format="dimension" />
+    <attr name="content_marginTop" format="dimension" />
+    <attr name="content_marginBottom" format="dimension" />
+    <attr name="img" format="reference" />
+    <attr name="key" format="string" />
+    <attr name="order" format="integer" />
+    <attr name="widgetLayout" format="reference" />
+    <attr name="selectable" format="boolean" />
+    <attr name="dependency" format="string" />
+    <attr name="defaultValue" format="reference|string|integer|boolean|float" />
+    <attr name="shouldDisableView" format="boolean" />
+    <attr name="entries" format="reference" />
+    <attr name="entryValues" format="reference" />
+    <attr name="plugin_icon" format="reference" />
+    <attr name="plugin_text" format="string" />
+    <attr name="plugin_text_color" format="color" />
+    <attr name="summaryOn" format="string" />
+    <attr name="summaryOff" format="string" />
+    <attr name="disableDependentsState" format="boolean" />
+    <attr name="dialogTitle" format="string" />
+    <attr name="dialogMessage" format="string" />
+    <attr name="dialogIcon" format="reference" />
+    <attr name="positiveButtonText" format="string" />
+    <attr name="negativeButtonText" format="string" />
+    <attr name="dialogLayout" format="reference" />
+    <attr name="label" format="string" />
+    <attr name="isClearable" format="boolean" />
+    <attr name="labelSize" format="dimension" />
+    <attr name="labelColor" format="color" />
+    <attr name="buttonBarStyle" format="reference" />
+    <attr name="buttonBarButtonStyle" format="reference" />
+    <attr name="hint" format="string" />
+    <attr name="tipmsg" format="string" />
+    <attr name="editType">
+        <enum name="text" value="0" />
+        <enum name="bankcardId" value="1" />
+        <enum name="phone" value="2" />
+        <enum name="date" value="3" />
+        <enum name="cvv" value="4" />
+        <enum name="identifyCard" value="5" />
+        <enum name="verifyCode" value="6" />
+        <enum name="password" value="7" />
+        <enum name="email" value="8" />
+        <enum name="mobile" value="9" />
+    </attr>
+    <attr name="editable" format="boolean" />
+    <attr name="maxLength" format="integer" />
+    <attr name="src">
+        <enum name="mobile" value="0" />
+        <enum name="total" value="1" />
+    </attr>
+    <attr name="btn_visibility">
+        <enum name="visible" value="0" />
+        <enum name="invisible" value="4" />
+        <enum name="gone" value="8" />
+    </attr>
+    <attr name="can_delete" format="boolean" />
+    <attr name="empty_wording" format="reference" />
+</resources>

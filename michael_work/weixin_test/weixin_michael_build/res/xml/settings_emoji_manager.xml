@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/com.tencent.mm"
+  xmlns:android1="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:key="settings_category">
+        <Preference android:layout="@layout/mm_preference_info" android:title="@string/settings_emoji_use_tip" android:key="settings_emoji_downloaded_tip" />
+    </PreferenceCategory>
+    <Preference android:layout="@layout/mm_preference_info" android:title="@string/settings_emoji_donot_tip" android:key="settings_emoji_donot_download_tip" />
+    <PreferenceCategory />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/emoji_custom" android:key="settings_emoji_custom" android:widgetLayout="@layout/mm_preference_screen" />
+    <Preference android:layout="@layout/mm_preference" android:title="@string/emoji_paid" android:key="settings_emoji_paid" android:widgetLayout="@layout/mm_preference_screen" />
+    <PreferenceCategory />
+</PreferenceScreen>

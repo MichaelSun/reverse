@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="@drawable/mm_listitem" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="60.0dip" android:minHeight="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/item_index" android:paddingLeft="@dimen/emoji_item_paddingleft" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/item_icon" android:paddingRight="@dimen/emoji_item_text_image_marge" android:layout_width="@dimen/emoji_item_image_size" android:layout_height="@dimen/emoji_item_image_size" android:layout_marginLeft="@dimen/emoji_item_paddingleft" android:layout_toRightOf="@id/item_index" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/item_tip" android:background="@drawable/emotionstore_newtips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/item_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/item_option" android:layout_toRightOf="@id/item_icon" android:layout_centerVertical="true">
+        <TextView android:id="@id/item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/item_state" android:layout_toRightOf="@id/item_icon" android:layout_centerVertical="true" style="@style/MMFontTitleInList" />
+        <TextView android:id="@id/item_date" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" style="@style/MMFontTipInList" />
+    </LinearLayout>
+    <FrameLayout android:gravity="center" android:id="@id/item_option" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/emoji_item_paddingright" android:minWidth="60.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <TextView android:textSize="14.0sp" android:textColor="@color/lightgrey" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/item_state" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="60.0dip" android:minHeight="30.0dip" android:shadowColor="#a0ffffff" android:shadowDx="1.2" android:shadowDy="1.2" android:shadowRadius="1.2" />
+        <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/item_state_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ProgressBar android:gravity="center" android:layout_gravity="center" android:id="@id/price_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@anim/loading" style="?android:attr/progressBarStyleSmall" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/item_progress_bar" android:background="@drawable/emotionstore_progressbg" android:layout_width="60.0dip" android:layout_height="wrap_content">
+            <TextView android:textSize="0.0dip" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/item_progress" android:background="@drawable/emotionstore_progresstips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="0" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/navpage" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:wallet="http://schemas.android.com/apk/res-auto/com.tencent.mm">
+    <LinearLayout style="@style/NavPage">
+        <TextView android:id="@id/wallet_card_forget_tipmsg" android:text="@string/wallet_password_forget_passwd_select_tip" style="@style/WalletInputTips" />
+        <com.tencent.mm.plugin.wallet.ui.MaxListView android:id="@id/settings_lv_bankcard" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@*android:color/transparent" android:divider="#00000000" android:dividerHeight="0.0dip" android:choiceMode="singleChoice" />
+        <LinearLayout android:orientation="vertical" android:id="@id/forget_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+            <com.tencent.mm.plugin.wallet.ui.EditHintView android:id="@id/name_et" android:background="@drawable/preference_first_item" android:clickable="false" android:layout_width="fill_parent" android:layout_height="45.0dip" wallet:hint="@string/wallet_card_username_hint" wallet:tipmsg="@string/wallet_card_username_tip" wallet:editable="false" />
+            <com.tencent.mm.plugin.wallet.ui.EditHintView android:id="@id/card_et" android:background="@drawable/preference_last_item" android:layout_width="fill_parent" android:layout_height="45.0dip" wallet:hint="@string/wallet_password_forget_input_card" wallet:tipmsg="@string/wallet_password_forget_input_card_tip_msg" wallet:editType="bankcardId" />
+        </LinearLayout>
+        <Button android:id="@id/next_btn" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="@string/app_nextstep" style="@style/MMWalletBtn" />
+    </LinearLayout>
+</ScrollView>

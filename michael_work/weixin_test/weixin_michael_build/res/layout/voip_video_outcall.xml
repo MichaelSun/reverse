@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/out_call" android:background="@drawable/voip_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/headerBarRoot" android:background="@drawable/voip_videoconnectbar" android:layout_width="fill_parent" android:layout_height="88.0dip" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/voipcall_avatar" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/voip_" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="9.0dip">
+                <TextView android:textSize="20.0sp" android:textColor="@color/white" android:id="@id/voipcall_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="12.0sp" android:textColor="#ff332f2a" android:gravity="center" android:id="@id/voip_time_tv_in_audio" android:background="@drawable/voip_timebg" android:paddingLeft="18.0dip" android:paddingRight="18.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18.0dip" android:text="00:00" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

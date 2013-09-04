@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_fmt_multi_msg_and_talker">
+        <item quantity="other">%1$d arkadaşınız size %2$d mesaj gönderdi</item>
+        <item quantity="one">%1$d arkadaşınız size %2$d mesaj gönderdi</item>
+    </plurals>
+    <plurals name="notification_fmt_multi_msg_and_one_talker">
+        <item quantity="other">size %d mesaj gönderdi</item>
+        <item quantity="one">size %d mesaj gönderdi</item>
+    </plurals>
+    <plurals name="notification_fmt_multi_bottle">
+        <item quantity="other">%d şişe yanıtlandı</item>
+        <item quantity="one">%d şişe yanıtlandı</item>
+    </plurals>
+    <plurals name="mobileverify_send_code_tip">
+        <item quantity="other">"SMS'iniz %d saniye içinde gelecek."</item>
+        <item quantity="one">"SMS'iniz %d saniye içinde gelecek."</item>
+    </plurals>
+    <plurals name="chatting_rcd_time_limit">
+        <item quantity="other">%d saniye kaldı</item>
+        <item quantity="one">%d saniye kaldı</item>
+    </plurals>
+    <plurals name="settings_room_right_left_size">
+        <item quantity="other">%d davet</item>
+        <item quantity="one">%d davet</item>
+    </plurals>
+    <plurals name="address_contact_count">
+        <item quantity="other">%d kişi</item>
+        <item quantity="one">%d kişi</item>
+    </plurals>
+    <plurals name="find_mcontact_wechat_friend">
+        <item quantity="other">%d kişi bulundu.</item>
+        <item quantity="one">%d kişi bulundu.</item>
+    </plurals>
+    <plurals name="find_mcontact_invite_friend_cnt">
+        <item quantity="other">%d kişi bulundu.</item>
+        <item quantity="one">%d kişi bulundu.</item>
+    </plurals>
+    <plurals name="find_mcontact_already_add_count">
+        <item quantity="other">%d arkadaş eklendi</item>
+        <item quantity="one">%d arkadaş eklendi</item>
+    </plurals>
+    <plurals name="find_mcontact_already_invite_count">
+        <item quantity="other">%d davetiye gönderildi</item>
+        <item quantity="one">%d davetiye gönderildi</item>
+    </plurals>
+    <plurals name="inviteqqfriends_invite_tips">
+        <item quantity="other">"%d arkadaşı WeChat'e davet ediyorsunuz"</item>
+        <item quantity="one">"%d arkadaşı WeChat'e davet ediyorsunuz"</item>
+    </plurals>
+    <plurals name="room_size_count">
+        <item quantity="other">%d kişi</item>
+        <item quantity="one">%d kişi</item>
+    </plurals>
+    <plurals name="room_lbsroom_member_title">
+        <item quantity="other">%s kişi</item>
+        <item quantity="one">%s kişi</item>
+    </plurals>
+    <plurals name="mass_send_contact_count">
+        <item quantity="other">%s alıcı:</item>
+        <item quantity="one">%s alıcı:</item>
+    </plurals>
+    <plurals name="mass_send_count">
+        <item quantity="other">Bu mesajı %s arkadaşınıza gönderiyorsunuz:</item>
+        <item quantity="one">Bu mesajı %s arkadaşınıza gönderiyorsunuz:</item>
+    </plurals>
+    <plurals name="plugin_qqmail_composeui_attach_summary">
+        <item quantity="other">%1$d ek (%2$s)</item>
+        <item quantity="one">%1$d ek (%2$s)</item>
+    </plurals>
+    <plurals name="game_message_tips">
+        <item quantity="other">%s yeni mesaj</item>
+        <item quantity="one">%s yeni mesaj</item>
+    </plurals>
+    <plurals name="say_hi_count_text">
+        <item quantity="other">%d yeni selam</item>
+        <item quantity="one">%d yeni selam</item>
+    </plurals>
+    <plurals name="gallery_pic_limit">
+        <item quantity="other">En fazla %s fotoğraf seçilebilir</item>
+        <item quantity="one">En fazla %s fotoğraf seçilebilir</item>
+    </plurals>
+    <plurals name="gallery_video_limit">
+        <item quantity="other">En fazla %s video seçilebilir</item>
+        <item quantity="one">En fazla %s video seçilebilir</item>
+    </plurals>
+    <plurals name="nearby_lbsroom_member_count">
+        <item quantity="other">%s kişi</item>
+        <item quantity="one">%s kişi</item>
+    </plurals>
+    <plurals name="fmt_in60min">
+        <item quantity="other">%d dakika önce</item>
+        <item quantity="one">%d dakika önce</item>
+    </plurals>
+    <plurals name="fmt_in24h">
+        <item quantity="other">%d saat önce</item>
+        <item quantity="one">%d saat önce</item>
+    </plurals>
+    <plurals name="fmt_indayh">
+        <item quantity="other">%d gün önce</item>
+        <item quantity="one">%d gün önce</item>
+    </plurals>
+    <plurals name="qq_sync_result_add">
+        <item quantity="other">%d kişi eklendi</item>
+        <item quantity="one">%d kişi eklendi</item>
+    </plurals>
+    <plurals name="qq_sync_result_mod">
+        <item quantity="other">%s kişi düzenlendi</item>
+        <item quantity="one">%s kişi düzenlendi</item>
+    </plurals>
+    <plurals name="qq_sync_result_del">
+        <item quantity="other">%d kişi eklendi</item>
+        <item quantity="one">%d kişi eklendi</item>
+    </plurals>
+    <plurals name="shake_tran_img_share_tips">
+        <item quantity="other">%d öğe paylaşıldı. Görüntülemek için sallayın</item>
+        <item quantity="one">%d öğe paylaşıldı. Görüntülemek için sallayın</item>
+    </plurals>
+    <plurals name="sns_total_count">
+        <item quantity="other">%d gönderi</item>
+        <item quantity="one">%d gönder</item>
+    </plurals>
+    <plurals name="sns_some_new_msg">
+        <item quantity="other">%d yeni mesajlar</item>
+        <item quantity="one">%d yeni mesaj</item>
+    </plurals>
+    <plurals name="sns_some_comment">
+        <item quantity="other">%d yeni yorum</item>
+        <item quantity="one">%d yeni yorum</item>
+    </plurals>
+    <plurals name="sns_some_praise">
+        <item quantity="other">%d Beğeni</item>
+        <item quantity="one">%d Beğeni</item>
+    </plurals>
+    <plurals name="sns_comment_detial_ui_photo_count">
+        <item quantity="other">%d resim</item>
+        <item quantity="one">%d resim</item>
+    </plurals>
+    <plurals name="sns_media_count">
+        <item quantity="other">%d gönderi</item>
+        <item quantity="one">%d gönder</item>
+    </plurals>
+    <plurals name="video_recorder_time_limit">
+        <item quantity="other">%s saniye kaldı</item>
+        <item quantity="one">%s saniye kaldı</item>
+    </plurals>
+    <plurals name="wallet_notify_msg">
+        <item quantity="other">%d yeni işlem kaydınız var.</item>
+        <item quantity="one">%d yeni işlem kaydınız var.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_fmt_multi_msg_and_talker">
+        <item quantity="other">%1$d amigos te enviaram %2$d mensagens</item>
+        <item quantity="one">%1$d amigo te enviou %2$d mensagem</item>
+    </plurals>
+    <plurals name="notification_fmt_multi_msg_and_one_talker">
+        <item quantity="other">te enviou %d mensagens</item>
+        <item quantity="one">te enviou %d mensagem</item>
+    </plurals>
+    <plurals name="notification_fmt_multi_bottle">
+        <item quantity="other">%d garrafas obtiveram resposta</item>
+        <item quantity="one">%d garrafa obteve resposta</item>
+    </plurals>
+    <plurals name="mobileverify_send_code_tip">
+        <item quantity="other">O seu SMS deverá chegar em %d segundos.</item>
+        <item quantity="one">Seu SMS deve chegar em %d segundos.</item>
+    </plurals>
+    <plurals name="chatting_rcd_time_limit">
+        <item quantity="other">%d segundos sobrando</item>
+        <item quantity="one">%d segundo restante</item>
+    </plurals>
+    <plurals name="settings_room_right_left_size">
+        <item quantity="other">%d convite(s)</item>
+        <item quantity="one">%d convite</item>
+    </plurals>
+    <plurals name="address_contact_count">
+        <item quantity="other">%d contatos</item>
+        <item quantity="one">%d contato</item>
+    </plurals>
+    <plurals name="find_mcontact_wechat_friend">
+        <item quantity="other">%d contatos encontrados</item>
+        <item quantity="one">%d contato encontrado</item>
+    </plurals>
+    <plurals name="find_mcontact_invite_friend_cnt">
+        <item quantity="other">%d contatos encontrados</item>
+        <item quantity="one">%d contato encontrado</item>
+    </plurals>
+    <plurals name="find_mcontact_already_add_count">
+        <item quantity="other">%d amigos adicionados</item>
+        <item quantity="one">%d amigo adicionado</item>
+    </plurals>
+    <plurals name="find_mcontact_already_invite_count">
+        <item quantity="other">%d convites enviados</item>
+        <item quantity="one">%d convite enviado</item>
+    </plurals>
+    <plurals name="inviteqqfriends_invite_tips">
+        <item quantity="other">Você está convidando %d amigos ao WeChat</item>
+        <item quantity="one">Você está convidando %d amigo ao WeChat</item>
+    </plurals>
+    <plurals name="room_size_count">
+        <item quantity="other">%d pessoas</item>
+        <item quantity="one">%d pessoa</item>
+    </plurals>
+    <plurals name="room_lbsroom_member_title">
+        <item quantity="other">%s pessoas</item>
+        <item quantity="one">%s pessoa</item>
+    </plurals>
+    <plurals name="mass_send_contact_count">
+        <item quantity="other">%s destinatários:</item>
+        <item quantity="one">%s destinatário:</item>
+    </plurals>
+    <plurals name="mass_send_count">
+        <item quantity="other">Você está enviando a mensagem para %s amigos:</item>
+        <item quantity="one">Você está enviando a mensagem para %s amigo:</item>
+    </plurals>
+    <plurals name="plugin_qqmail_composeui_attach_summary">
+        <item quantity="other">%1$d anexos (%2$s)</item>
+        <item quantity="one">%1$d anexo (%2$s)</item>
+    </plurals>
+    <plurals name="game_message_tips">
+        <item quantity="other">%s novas mensagens</item>
+        <item quantity="one">%s nova mensagem</item>
+    </plurals>
+    <plurals name="say_hi_count_text">
+        <item quantity="other">%d novas saudações</item>
+        <item quantity="one">%d nova saudação</item>
+    </plurals>
+    <plurals name="gallery_pic_limit">
+        <item quantity="other">Até %s fotos podem ser selecionadas</item>
+        <item quantity="one">Até %s foto pode ser selecionada</item>
+    </plurals>
+    <plurals name="gallery_video_limit">
+        <item quantity="other">Até %s vídeos podem ser selecionados</item>
+        <item quantity="one">Até %s vídeo pode ser selecionado</item>
+    </plurals>
+    <plurals name="nearby_lbsroom_member_count">
+        <item quantity="other">%s pessoas</item>
+        <item quantity="one">%s pessoa</item>
+    </plurals>
+    <plurals name="fmt_in60min">
+        <item quantity="other">%d minutos atrás</item>
+        <item quantity="one">%d minuto atrás</item>
+    </plurals>
+    <plurals name="fmt_in24h">
+        <item quantity="other">%d horas atrás</item>
+        <item quantity="one">%d hora atrás</item>
+    </plurals>
+    <plurals name="fmt_indayh">
+        <item quantity="other">%d dias atrás</item>
+        <item quantity="one">%d dia atrás</item>
+    </plurals>
+    <plurals name="qq_sync_result_add">
+        <item quantity="other">%d contatos adicionados</item>
+        <item quantity="one">%d contato adicionado</item>
+    </plurals>
+    <plurals name="qq_sync_result_mod">
+        <item quantity="other">%s contatos editados</item>
+        <item quantity="one">%s contato editado</item>
+    </plurals>
+    <plurals name="qq_sync_result_del">
+        <item quantity="other">%d contatos adicionados</item>
+        <item quantity="one">%d contato adicionado</item>
+    </plurals>
+    <plurals name="shake_tran_img_share_tips">
+        <item quantity="other">%d itens compartilhados. Agite para ver</item>
+        <item quantity="one">%d item compartilhado. Agite para ver</item>
+    </plurals>
+    <plurals name="sns_total_count">
+        <item quantity="other">%d posts</item>
+        <item quantity="one">%d post</item>
+    </plurals>
+    <plurals name="sns_some_new_msg">
+        <item quantity="other">%d novas mensagens</item>
+        <item quantity="one">% nova mensagem</item>
+    </plurals>
+    <plurals name="sns_some_comment">
+        <item quantity="other">%d novos comentários</item>
+        <item quantity="one">%d novo comentário</item>
+    </plurals>
+    <plurals name="sns_some_praise">
+        <item quantity="other">%d Curtir</item>
+        <item quantity="one">%d Curtir</item>
+    </plurals>
+    <plurals name="sns_comment_detial_ui_photo_count">
+        <item quantity="other">%d imagens</item>
+        <item quantity="one">%d imagem</item>
+    </plurals>
+    <plurals name="sns_media_count">
+        <item quantity="other">%d posts</item>
+        <item quantity="one">%d post</item>
+    </plurals>
+    <plurals name="video_recorder_time_limit">
+        <item quantity="other">%s segundos restantes</item>
+        <item quantity="one">%s segundo restante</item>
+    </plurals>
+    <plurals name="wallet_notify_msg">
+        <item quantity="other">Você tem %d novos registros de transações.</item>
+        <item quantity="one">Você tem %d novo registro de transação</item>
+    </plurals>
+</resources>

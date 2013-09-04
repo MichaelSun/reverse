@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_fmt_multi_msg_and_talker">
+        <item quantity="other">เพื่อน %1$d คนได้ส่ง %2$d ข้อความถึงคุณ</item>
+        <item quantity="one">เพื่อน %1$d คนได้ส่ง %2$d ข้อความถึงคุณ</item>
+    </plurals>
+    <plurals name="notification_fmt_multi_msg_and_one_talker">
+        <item quantity="other">ได้ส่ง %d ข้อความถึงคุณ</item>
+        <item quantity="one">ได้ส่ง %d ข้อความถึงคุณ</item>
+    </plurals>
+    <plurals name="notification_fmt_multi_bottle">
+        <item quantity="other">%d ขวดได้รับการตอบกลับ</item>
+        <item quantity="one">%d ขวดได้รับการตอบกลับ</item>
+    </plurals>
+    <plurals name="mobileverify_send_code_tip">
+        <item quantity="other">SMS จะถูกส่งไปภายใน %d วินาที</item>
+        <item quantity="one">SMS จะถูกส่งไปภายใน %d วินาที</item>
+    </plurals>
+    <plurals name="chatting_rcd_time_limit">
+        <item quantity="other">ยังเหลือ%dวินาที</item>
+        <item quantity="one">เหลือ %d วินาที</item>
+    </plurals>
+    <plurals name="settings_room_right_left_size">
+        <item quantity="other">%d คำเชิญ</item>
+        <item quantity="one">%d คำเชิญ</item>
+    </plurals>
+    <plurals name="address_contact_count">
+        <item quantity="other">ผู้ติดต่อ %d คน</item>
+        <item quantity="one">ผู้ติดต่อ %d คน</item>
+    </plurals>
+    <plurals name="find_mcontact_wechat_friend">
+        <item quantity="other">พบ %dผู้ติดต่อ</item>
+        <item quantity="one">พบ %dผู้ติดต่อ</item>
+    </plurals>
+    <plurals name="find_mcontact_invite_friend_cnt">
+        <item quantity="other">พบ %dผู้ติดต่อ</item>
+        <item quantity="one">พบ %dผู้ติดต่อ</item>
+    </plurals>
+    <plurals name="find_mcontact_already_add_count">
+        <item quantity="other">เพิ่มเพื่อนแล้ว %d คน</item>
+        <item quantity="one">เพิ่มเพื่อนแล้ว %d คน</item>
+    </plurals>
+    <plurals name="find_mcontact_already_invite_count">
+        <item quantity="other">ส่งคำเชิญแล้ว %d รายการ</item>
+        <item quantity="one">ส่งคำเชิญแล้ว %d รายการ</item>
+    </plurals>
+    <plurals name="inviteqqfriends_invite_tips">
+        <item quantity="other">คุณกำลังเชิญเพื่อน %d คนเข้าร่วม WeChat</item>
+        <item quantity="one">คุณกำลังเชิญเพื่อน %d คนเข้าร่วม WeChat</item>
+    </plurals>
+    <plurals name="room_size_count">
+        <item quantity="other">%d คน</item>
+        <item quantity="one">%d คน</item>
+    </plurals>
+    <plurals name="room_lbsroom_member_title">
+        <item quantity="other">%s คน</item>
+        <item quantity="one">%s คน</item>
+    </plurals>
+    <plurals name="mass_send_contact_count">
+        <item quantity="other">%s ผู้รับ:</item>
+        <item quantity="one">%s ผู้รับ:</item>
+    </plurals>
+    <plurals name="mass_send_count">
+        <item quantity="other">คุณกำลังส่งข้อความถึงเพื่อน %s คน:</item>
+        <item quantity="one">คุณกำลังส่งข้อความถึงเพื่อน %s คน:</item>
+    </plurals>
+    <plurals name="plugin_qqmail_composeui_attach_summary">
+        <item quantity="other">%1$d สิ่งที่แนบมา (%2$s)</item>
+        <item quantity="one">%1$d สิ่งที่แนบมา (%2$s)</item>
+    </plurals>
+    <plurals name="game_message_tips">
+        <item quantity="other">%s ข้อความใหม่</item>
+        <item quantity="one">%s ข้อความใหม่</item>
+    </plurals>
+    <plurals name="say_hi_count_text">
+        <item quantity="other">%d ข้อความทักทายใหม่</item>
+        <item quantity="one">%d ข้อความทักทายใหม่</item>
+    </plurals>
+    <plurals name="gallery_pic_limit">
+        <item quantity="other">เลือกได้สูงสุด %s รูป</item>
+        <item quantity="one">เลือกได้สูงสุด %s รูป</item>
+    </plurals>
+    <plurals name="gallery_video_limit">
+        <item quantity="other">เลือกได้สูงสุด %s วิดีโอ</item>
+        <item quantity="one">เลือกได้สูงสุด %s วิดีโอ</item>
+    </plurals>
+    <plurals name="nearby_lbsroom_member_count">
+        <item quantity="other">%s คน</item>
+        <item quantity="one">%s คน</item>
+    </plurals>
+    <plurals name="fmt_in60min">
+        <item quantity="other">%d นาทีที่ผ่านมา</item>
+        <item quantity="one">%d นาทีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="fmt_in24h">
+        <item quantity="other">%d ชั่วโมงที่ผ่านมา</item>
+        <item quantity="one">%d ชั่วโมงที่ผ่านมา</item>
+    </plurals>
+    <plurals name="fmt_indayh">
+        <item quantity="other">%d วันที่ผ่านมา</item>
+        <item quantity="one">%d วันที่ผ่านมา</item>
+    </plurals>
+    <plurals name="qq_sync_result_add">
+        <item quantity="other">เพิ่มผู้ติดต่อ%d คนแล้ว</item>
+        <item quantity="one">เพิ่มผู้ติดต่อ %d คนแล้ว</item>
+    </plurals>
+    <plurals name="qq_sync_result_mod">
+        <item quantity="other">แก้ไขผู้ติดต่อ %s คนแล้ว</item>
+        <item quantity="one">แก้ไขผู้ติดต่อ %s คนแล้ว</item>
+    </plurals>
+    <plurals name="qq_sync_result_del">
+        <item quantity="other">เพิ่มผู้ติดต่อ%d คนแล้ว</item>
+        <item quantity="one">เพิ่มผู้ติดต่อ %d คนแล้ว</item>
+    </plurals>
+    <plurals name="shake_tran_img_share_tips">
+        <item quantity="other">แชร์ %d รายการ เขย่าเครื่องเพื่อดู</item>
+        <item quantity="one">แชร์ %d รายการ เขย่าเครื่องเพื่อดู</item>
+    </plurals>
+    <plurals name="sns_total_count">
+        <item quantity="other">%d โพสต์</item>
+        <item quantity="one">%d โพสต์</item>
+    </plurals>
+    <plurals name="sns_some_new_msg">
+        <item quantity="other">%d ข้อความใหม่</item>
+        <item quantity="one">%d ข้อความใหม่</item>
+    </plurals>
+    <plurals name="sns_some_comment">
+        <item quantity="other">%d ความคิดเห็นใหม่</item>
+        <item quantity="one">%d ความคิดเห็นใหม่</item>
+    </plurals>
+    <plurals name="sns_some_praise">
+        <item quantity="other">%d ถูกใจ</item>
+        <item quantity="one">%d ถูกใจ</item>
+    </plurals>
+    <plurals name="sns_comment_detial_ui_photo_count">
+        <item quantity="other">%d รูป</item>
+        <item quantity="one">%d รูป</item>
+    </plurals>
+    <plurals name="sns_media_count">
+        <item quantity="other">%d โพสต์</item>
+        <item quantity="one">%d โพสต์</item>
+    </plurals>
+    <plurals name="video_recorder_time_limit">
+        <item quantity="other">เหลือ %s วินาที</item>
+        <item quantity="one">เหลือ %s วินาที</item>
+    </plurals>
+    <plurals name="wallet_notify_msg">
+        <item quantity="other">คุณมีบันทึกธุรกรรมใหม่ %d รายการ</item>
+        <item quantity="one">คุณมีบันทึกธุรกรรมใหม่ %d รายการ</item>
+    </plurals>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:layout_gravity="center" android:id="@id/preview_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center" android:id="@id/scan_line" android:background="@drawable/qrcode_scan_line" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/scan_body_fl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/scan_no_data_mask" android:background="#bb000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:layout_gravity="center" android:id="@id/scan_no_network_tips" android:visibility="gone" android:text="@string/scan_no_network" style="@style/ScanNoNetWorkTips" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/land_left_bg" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <Button android:textColor="@color/mm_title_btn_text" android:id="@id/scan_back_btn" android:background="@drawable/mm_title_btn_back" android:focusable="true" android:visibility="visible" android:text="@string/app_back" style="@style/MMTitleButton" />
+            <View android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/SmallestTextSize" android:textColor="@*android:color/black" android:id="@id/scan_network_flow" android:background="@drawable/qrcode_info_text_bg" android:padding="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" />
+            <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <com.tencent.mm.plugin.scanner.ui.SelectScanModePanel android:id="@id/scan_select_scan_mode_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/scan_bottom_ll" android:background="@drawable/mmfooter_bg" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageButton android:id="@id/scan_title_btn" android:background="@drawable/mm_title_btn_right" android:src="@drawable/mm_title_btn_menu" style="@style/MMTitleButton" />
+            <Button android:textColor="@color/mm_title_btn_text" android:id="@id/scan_bottom_left_btn" android:background="@drawable/mm_title_btn_right" android:visibility="gone" android:layout_margin="2.0dip" android:text="@string/qrcode_select_from_photo_land" style="@style/MMTitleButton" />
+            <View android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <ImageView android:id="@id/qrcode_info_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:src="@drawable/information_highlight" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

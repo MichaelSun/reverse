@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="none" style="@style/MMScroll">
+        <LinearLayout style="@style/MMBody">
+            <TextView android:gravity="center" android:id="@id/bind_mcontact_verify_tip" style="@style/MMLineLabel" />
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/bind_mcontact_verify_hint" android:layout_width="wrap_content" android:layout_marginTop="10.0dip" style="@style/MMLineLabel" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+                <com.tencent.mm.ui.base.MMClearEditText android:textSize="15.0dip" android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/bind_mcontact_verify_num" android:background="@drawable/ic_preference_single_normal" android:paddingLeft="25.0dip" android:paddingRight="25.0dip" android:layout_width="210.0dip" android:hint="@string/bind_mcontact_input_verify_hint" android:layout_weight="1.0" android:inputType="phone" android:imeOptions="actionNext" style="@style/MMLineEditText" />
+                <Button android:textSize="14.0dip" android:textColor="#ff666666" android:layout_gravity="center_horizontal" android:id="@id/bind_mcontact_verify_btn" android:background="@drawable/verification_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:text="@string/mobileverify_resend" />
+                <TextView android:textColor="#ff666666" android:layout_gravity="center_horizontal" android:id="@id/mobileverify_nocode_tv" android:layout_width="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/mobileverify_resend" style="@style/MMLineLabel" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <Button android:id="@id/bind_mcontact_voice_code" android:background="@drawable/btn_style_two" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bind_mcontact_voice_verify_entrance" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notification_fmt_multi_msg_and_talker">
+        <item quantity="other">%1$d teman telah mengirimkan Anda %2$d pesan</item>
+        <item quantity="one">%1$d teman telah mengirimkan Anda %2$d pesan</item>
+    </plurals>
+    <plurals name="notification_fmt_multi_msg_and_one_talker">
+        <item quantity="other">mengirimkan Anda %d pesan</item>
+        <item quantity="one">mengirimkan Anda %d pesan</item>
+    </plurals>
+    <plurals name="notification_fmt_multi_bottle">
+        <item quantity="other">%d botol mendapatkan balasan</item>
+        <item quantity="one">%d botol mendapatkan balasan</item>
+    </plurals>
+    <plurals name="mobileverify_send_code_tip">
+        <item quantity="other">SMS akan sampai dalam %d detik.</item>
+        <item quantity="one">SMS akan sampai dalam %d detik.</item>
+    </plurals>
+    <plurals name="chatting_rcd_time_limit">
+        <item quantity="other">%d detik lagi</item>
+        <item quantity="one">%d detik lagi</item>
+    </plurals>
+    <plurals name="settings_room_right_left_size">
+        <item quantity="other">%d mengundang</item>
+        <item quantity="one">%d mengundang</item>
+    </plurals>
+    <plurals name="address_contact_count">
+        <item quantity="other">%d kontak</item>
+        <item quantity="one">%d kontak</item>
+    </plurals>
+    <plurals name="find_mcontact_wechat_friend">
+        <item quantity="other">%d kontak ditemukan</item>
+        <item quantity="one">%d kontak ditemukan</item>
+    </plurals>
+    <plurals name="find_mcontact_invite_friend_cnt">
+        <item quantity="other">%d kontak ditemukan</item>
+        <item quantity="one">%d kontak ditemukan</item>
+    </plurals>
+    <plurals name="find_mcontact_already_add_count">
+        <item quantity="other">%d teman ditambahkan</item>
+        <item quantity="one">%d teman ditambahkan</item>
+    </plurals>
+    <plurals name="find_mcontact_already_invite_count">
+        <item quantity="other">%d undangan dikirim</item>
+        <item quantity="one">%d undangan dikirim</item>
+    </plurals>
+    <plurals name="inviteqqfriends_invite_tips">
+        <item quantity="other">Anda mengundang %d teman ke WeChat</item>
+        <item quantity="one">Anda mengundang %d teman ke WeChat</item>
+    </plurals>
+    <plurals name="room_size_count">
+        <item quantity="other">%d orang</item>
+        <item quantity="one">%d orang</item>
+    </plurals>
+    <plurals name="room_lbsroom_member_title">
+        <item quantity="other">%s orang</item>
+        <item quantity="one">%s orang</item>
+    </plurals>
+    <plurals name="mass_send_contact_count">
+        <item quantity="other">%s penerima:</item>
+        <item quantity="one">%s penerima:</item>
+    </plurals>
+    <plurals name="mass_send_count">
+        <item quantity="other">Anda mengirimkan pesan ini ke %s teman:</item>
+        <item quantity="one">Anda mengirimkan pesan ini ke %s teman:</item>
+    </plurals>
+    <plurals name="plugin_qqmail_composeui_attach_summary">
+        <item quantity="other">%1$d lampiran (%2$s)</item>
+        <item quantity="one">%1$d lampiran (%2$s)</item>
+    </plurals>
+    <plurals name="game_message_tips">
+        <item quantity="other">%s pesan baru</item>
+        <item quantity="one">%s pesan baru</item>
+    </plurals>
+    <plurals name="say_hi_count_text">
+        <item quantity="other">%d ucapan salam baru</item>
+        <item quantity="one">%d ucapan salam baru</item>
+    </plurals>
+    <plurals name="gallery_pic_limit">
+        <item quantity="other">Maksimum %s foto dapat dipilih</item>
+        <item quantity="one">Maksimum %s foto dapat dipilih</item>
+    </plurals>
+    <plurals name="gallery_video_limit">
+        <item quantity="other">Maksimum %s video dapat dipilih</item>
+        <item quantity="one">Maksimum %s video dapat dipilih</item>
+    </plurals>
+    <plurals name="nearby_lbsroom_member_count">
+        <item quantity="other">%s orang</item>
+        <item quantity="one">%s orang</item>
+    </plurals>
+    <plurals name="fmt_in60min">
+        <item quantity="other">%d menit yang lalu</item>
+        <item quantity="one">%d menit yang lalu</item>
+    </plurals>
+    <plurals name="fmt_in24h">
+        <item quantity="other">%d jam yang lalu</item>
+        <item quantity="one">%d jam yang lalu</item>
+    </plurals>
+    <plurals name="fmt_indayh">
+        <item quantity="other">%d hari yang lalu</item>
+        <item quantity="one">%d hari yang lalu</item>
+    </plurals>
+    <plurals name="qq_sync_result_add">
+        <item quantity="other">%d kontak ditambahkan</item>
+        <item quantity="one">%d kontak ditambahkan</item>
+    </plurals>
+    <plurals name="qq_sync_result_mod">
+        <item quantity="other">%s kontak diedit</item>
+        <item quantity="one">%s kontak diedit</item>
+    </plurals>
+    <plurals name="qq_sync_result_del">
+        <item quantity="other">%d kontak ditambahkan</item>
+        <item quantity="one">%d kontak ditambahkan</item>
+    </plurals>
+    <plurals name="shake_tran_img_share_tips">
+        <item quantity="other">%d item dibagikan. Guncang untuk melihat</item>
+        <item quantity="one">%d item dibagikan. Guncang untuk melihat</item>
+    </plurals>
+    <plurals name="sns_total_count">
+        <item quantity="other">%d pos</item>
+        <item quantity="one">%d pos</item>
+    </plurals>
+    <plurals name="sns_some_new_msg">
+        <item quantity="other">%d pesan baru</item>
+        <item quantity="one">%d pesan baru</item>
+    </plurals>
+    <plurals name="sns_some_comment">
+        <item quantity="other">%d komentar baru</item>
+        <item quantity="one">%d komentar baru</item>
+    </plurals>
+    <plurals name="sns_some_praise">
+        <item quantity="other">%d Suka</item>
+        <item quantity="one">%d Suka</item>
+    </plurals>
+    <plurals name="sns_comment_detial_ui_photo_count">
+        <item quantity="other">%d gambar</item>
+        <item quantity="one">%d gambar</item>
+    </plurals>
+    <plurals name="sns_media_count">
+        <item quantity="other">%d pos</item>
+        <item quantity="one">%d pos</item>
+    </plurals>
+    <plurals name="video_recorder_time_limit">
+        <item quantity="other">%s detik lagi</item>
+        <item quantity="one">%s detik lagi</item>
+    </plurals>
+    <plurals name="wallet_notify_msg">
+        <item quantity="other">Anda memiliki %d catatan transaksi baru.</item>
+        <item quantity="one">Anda memiliki %d catatan transaksi baru.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/mm_listitem" style="@style/MMListItem">
+        <RelativeLayout android:id="@id/game_item_icon_layout" android:layout_width="@dimen/LargeAvatarSize" android:layout_height="@dimen/LargeAvatarSize" android:layout_marginLeft="3.0dip" android:layout_alignParentLeft="true">
+            <ImageView android:id="@id/game_icon" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/app_panel_friendcard_icon" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/game_list_opt_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <TextView android:textSize="14.0dip" android:textColor="#ff737373" android:id="@id/accept_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/mail_attach_item_arrow" android:layout_toRightOf="@id/accept_message" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_toLeftOf="@id/game_list_opt_layout" android:layout_toRightOf="@id/game_item_icon_layout" android:layout_centerHorizontal="true">
+            <TextView android:id="@id/game_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{Game Name}" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerHorizontal="true" style="@style/MMFontTitleInList" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

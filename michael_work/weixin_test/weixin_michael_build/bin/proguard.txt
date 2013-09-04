@@ -1,0 +1,1796 @@
+# view res/layout/gmap_ui.xml #generated:11
+-keep class com.google.android.maps.MapView { <init>(...); }
+
+# view res/layout/smap_ui.xml #generated:11
+-keep class com.tencent.mapapi.tiles.MapView { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.tencent.mm.app.MMApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:305
+-keep class com.tencent.mm.booter.BluetoothReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:317
+-keep class com.tencent.mm.booter.CoreService { <init>(...); }
+
+# view AndroidManifest.xml #generated:329
+-keep class com.tencent.mm.booter.MMReceivers$AlarmReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:319
+-keep class com.tencent.mm.booter.MMReceivers$BootReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:324
+-keep class com.tencent.mm.booter.MMReceivers$ConnectionReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:311
+-keep class com.tencent.mm.booter.MMReceivers$ToolsProcessReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:290
+-keep class com.tencent.mm.booter.MountReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:284
+-keep class com.tencent.mm.booter.NotifyReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:303
+-keep class com.tencent.mm.booter.NotifyReceiver$NotifyService { <init>(...); }
+
+# view AndroidManifest.xml #generated:318
+-keep class com.tencent.mm.booter.cache.CacheService { <init>(...); }
+
+# view AndroidManifest.xml #generated:531
+-keep class com.tencent.mm.compatible.audio.MMRemoteController$Receiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:330
+-keep class com.tencent.mm.jni.platformcomm.Alarm { <init>(...); }
+
+# view AndroidManifest.xml #generated:385
+-keep class com.tencent.mm.modelfriend.AccountAuthenticatorService { <init>(...); }
+
+# view AndroidManifest.xml #generated:304
+-keep class com.tencent.mm.modelfriend.AddrBookObserver$AddrBookService { <init>(...); }
+
+# view AndroidManifest.xml #generated:391
+-keep class com.tencent.mm.modelfriend.ContactsSyncService { <init>(...); }
+
+# view AndroidManifest.xml #generated:168
+-keep class com.tencent.mm.plugin.accountsync.ui.FacebookAuthUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:169
+-keep class com.tencent.mm.plugin.accountsync.ui.FacebookFriendUI { <init>(...); }
+
+# view res/layout/popup_menu.xml #generated:4
+-keep class com.tencent.mm.plugin.accountsync.ui.HorizontalListView { <init>(...); }
+
+# view AndroidManifest.xml #generated:170
+-keep class com.tencent.mm.plugin.accountsync.ui.ShowNonWeixinFriendUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:278
+-keep class com.tencent.mm.plugin.backup.ui.BakChatInputCryptUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:272
+-keep class com.tencent.mm.plugin.backup.ui.BakChatRecoverCheckUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:275
+-keep class com.tencent.mm.plugin.backup.ui.BakChatRecoveringUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:271
+-keep class com.tencent.mm.plugin.backup.ui.BakChatUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:273
+-keep class com.tencent.mm.plugin.backup.ui.BakChatUploadSelectUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:274
+-keep class com.tencent.mm.plugin.backup.ui.BakChatUploadingUI { <init>(...); }
+
+# view res/layout/bakchat_banner_view.xml #generated:4
+-keep class com.tencent.mm.plugin.backup.ui.BakchatBannerView { <init>(...); }
+
+# view AndroidManifest.xml #generated:277
+-keep class com.tencent.mm.plugin.backup.ui.BakchatSelcetCryptUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:276
+-keep class com.tencent.mm.plugin.backup.ui.BakchatSetCryptUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:331
+-keep class com.tencent.mm.plugin.base.stub.MMPluginProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:344
+-keep class com.tencent.mm.plugin.base.stub.OAuthUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:332
+-keep class com.tencent.mm.plugin.base.stub.RContactDBProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:333
+-keep class com.tencent.mm.plugin.base.stub.RConversationDBProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:334
+-keep class com.tencent.mm.plugin.base.stub.RMsgInfoDBProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:343
+-keep class com.tencent.mm.plugin.base.stub.UIEntryStub { <init>(...); }
+
+# view AndroidManifest.xml #generated:335
+-keep class com.tencent.mm.plugin.base.stub.WXEntryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:337
+-keep class com.tencent.mm.plugin.base.stub.WXEntryActivity$EntryReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:336
+-keep class com.tencent.mm.plugin.base.stub.WXPayEntryActivity { <init>(...); }
+
+# view res/layout/bottle_beach.xml #generated:5
+-keep class com.tencent.mm.plugin.bottle.ui.BallonImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:204
+-keep class com.tencent.mm.plugin.bottle.ui.BottleBeachUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:206
+-keep class com.tencent.mm.plugin.bottle.ui.BottleChattingUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:205
+-keep class com.tencent.mm.plugin.bottle.ui.BottleConversationUI { <init>(...); }
+
+# view res/layout/bottle_throw_anim.xml #generated:4
+-keep class com.tencent.mm.plugin.bottle.ui.BottleImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:207
+-keep class com.tencent.mm.plugin.bottle.ui.BottlePersonalInfoUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:202
+-keep class com.tencent.mm.plugin.bottle.ui.BottleWizardStep1 { <init>(...); }
+
+# view AndroidManifest.xml #generated:203
+-keep class com.tencent.mm.plugin.bottle.ui.BottleWizardStep2 { <init>(...); }
+
+# view res/layout/bottle_beach.xml #generated:8
+-keep class com.tencent.mm.plugin.bottle.ui.LightHouseImageView { <init>(...); }
+
+# view res/layout/bottle_beach.xml #generated:7
+-keep class com.tencent.mm.plugin.bottle.ui.MoonImageView { <init>(...); }
+
+# view res/layout/bottle_open.xml #generated:2
+-keep class com.tencent.mm.plugin.bottle.ui.OpenBottleUI { <init>(...); }
+
+# view res/layout/bottle_pick.xml #generated:2
+-keep class com.tencent.mm.plugin.bottle.ui.PickBottleUI { <init>(...); }
+
+# view res/layout/bottle_pick.xml #generated:4
+-keep class com.tencent.mm.plugin.bottle.ui.PickedBottleImageView { <init>(...); }
+
+# view res/layout/bottle_beach.xml #generated:30
+-keep class com.tencent.mm.plugin.bottle.ui.SprayLayout { <init>(...); }
+
+# view res/layout/bottle_beach.xml #generated:27
+# view res/layout/bottle_beach.xml #generated:28
+-keep class com.tencent.mm.plugin.bottle.ui.ThrowBottleAnimUI { <init>(...); }
+
+# view res/layout/bottle_throw.xml #generated:14
+-keep class com.tencent.mm.plugin.bottle.ui.ThrowBottleFooter { <init>(...); }
+
+# view res/layout/bottle_throw.xml #generated:2
+-keep class com.tencent.mm.plugin.bottle.ui.ThrowBottleUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:403
+-keep class com.tencent.mm.plugin.brandservice.ui.BrandServiceIndexUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:404
+-keep class com.tencent.mm.plugin.brandservice.ui.SearchOrRecommendBizUI { <init>(...); }
+
+# view res/layout/brand_service_index.xml #generated:8
+-keep class com.tencent.mm.plugin.brandservice.ui.base.BrandServiceGridPaper { <init>(...); }
+
+# view res/layout/custom_gridview.xml #generated:2
+-keep class com.tencent.mm.plugin.brandservice.ui.base.CustomGridView { <init>(...); }
+
+# view res/layout/emoticon_grid.xml #generated:2
+-keep class com.tencent.mm.plugin.emoji.ui.EmoticonGrid { <init>(...); }
+
+# view AndroidManifest.xml #generated:479
+-keep class com.tencent.mm.plugin.ext.provider.ExtContentProviderBase { <init>(...); }
+
+# view AndroidManifest.xml #generated:484
+-keep class com.tencent.mm.plugin.ext.provider.ExtControlProviderAccountSync { <init>(...); }
+
+# view AndroidManifest.xml #generated:485
+-keep class com.tencent.mm.plugin.ext.provider.ExtControlProviderEntry { <init>(...); }
+
+# view AndroidManifest.xml #generated:480
+-keep class com.tencent.mm.plugin.ext.provider.ExtControlProviderMsg { <init>(...); }
+
+# view AndroidManifest.xml #generated:482
+-keep class com.tencent.mm.plugin.ext.provider.ExtControlProviderNearBy { <init>(...); }
+
+# view AndroidManifest.xml #generated:483
+-keep class com.tencent.mm.plugin.ext.provider.ExtControlProviderSNS { <init>(...); }
+
+# view AndroidManifest.xml #generated:481
+-keep class com.tencent.mm.plugin.ext.provider.ExtControlProviderSearchContact { <init>(...); }
+
+# view AndroidManifest.xml #generated:426
+-keep class com.tencent.mm.plugin.favorite.ui.FavOpenApiEntry { <init>(...); }
+
+# view AndroidManifest.xml #generated:427
+-keep class com.tencent.mm.plugin.favorite.ui.FavTipsUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:425
+-keep class com.tencent.mm.plugin.favorite.ui.FavoriteIndexUI { <init>(...); }
+
+# view res/layout/favorite_grid_menu.xml #generated:4
+-keep class com.tencent.mm.plugin.favorite.ui.base.FavMenuView { <init>(...); }
+
+# view AndroidManifest.xml #generated:430
+-keep class com.tencent.mm.plugin.favorite.ui.detail.FavoriteFileDetailUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:429
+-keep class com.tencent.mm.plugin.favorite.ui.detail.FavoriteImgDetailUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:432
+-keep class com.tencent.mm.plugin.favorite.ui.detail.FavoriteMusicDetailUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:428
+-keep class com.tencent.mm.plugin.favorite.ui.detail.FavoriteTextDetailUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:431
+-keep class com.tencent.mm.plugin.favorite.ui.detail.FavoriteVoiceDetailUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:433
+-keep class com.tencent.mm.plugin.favorite.ui.post.FavPostTextUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:434
+-keep class com.tencent.mm.plugin.favorite.ui.post.FavPostVoiceUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:474
+-keep class com.tencent.mm.plugin.gallery.ui.AlbumPreviewUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:475
+-keep class com.tencent.mm.plugin.gallery.ui.GalleryEntryUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:472
+-keep class com.tencent.mm.plugin.gallery.ui.GalleryUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:473
+-keep class com.tencent.mm.plugin.gallery.ui.ImagePreviewUI { <init>(...); }
+
+# view res/layout/authoried_game_detail_info.xml #generated:16
+-keep class com.tencent.mm.plugin.game.ui.AuthorizationInfoLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:372
+-keep class com.tencent.mm.plugin.game.ui.AuthorizedGameListUI { <init>(...); }
+
+# view res/layout/game_ad_item.xml #generated:4
+-keep class com.tencent.mm.plugin.game.ui.GameAdView { <init>(...); }
+
+# view res/layout/game_header_view.xml #generated:4
+# view res/layout/recommand_game_ad.xml #generated:2
+-keep class com.tencent.mm.plugin.game.ui.GameAdvertisementLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:370
+-keep class com.tencent.mm.plugin.game.ui.GameCenterUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:371
+-keep class com.tencent.mm.plugin.game.ui.GameDetailInfoUI { <init>(...); }
+
+# view res/layout/game_installed_header_ll.xml #generated:2
+-keep class com.tencent.mm.plugin.game.ui.GameInstalledHeaderView { <init>(...); }
+
+# view res/layout/game_installed_header.xml #generated:6
+# view res/layout/game_installed_lv.xml #generated:2
+-keep class com.tencent.mm.plugin.game.ui.GameInstalledListView { <init>(...); }
+
+# view res/layout/recommand_game_detail_info.xml #generated:27
+-keep class com.tencent.mm.plugin.game.ui.GameIntroDescLayout { <init>(...); }
+
+# view res/layout/recommand_game_detail_info.xml #generated:24
+-keep class com.tencent.mm.plugin.game.ui.GameIntroImageList { <init>(...); }
+
+# view AndroidManifest.xml #generated:376
+-keep class com.tencent.mm.plugin.game.ui.GameMD5CheckUI { <init>(...); }
+
+# view res/layout/game_header_view.xml #generated:5
+# view res/layout/game_msg_header.xml #generated:4
+-keep class com.tencent.mm.plugin.game.ui.GameMessageHeaderView { <init>(...); }
+
+# view AndroidManifest.xml #generated:375
+-keep class com.tencent.mm.plugin.game.ui.GameMessageUI { <init>(...); }
+
+# view res/layout/game_rank_footer.xml #generated:2
+-keep class com.tencent.mm.plugin.game.ui.GameRankFooter { <init>(...); }
+
+# view AndroidManifest.xml #generated:374
+-keep class com.tencent.mm.plugin.game.ui.GameRankUI { <init>(...); }
+
+# view res/layout/recommand_game_detail_info.xml #generated:2
+-keep class com.tencent.mm.plugin.game.ui.GameScrollView { <init>(...); }
+
+# view AndroidManifest.xml #generated:373
+-keep class com.tencent.mm.plugin.game.ui.GameSettingsUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:470
+-keep class com.tencent.mm.plugin.gwallet.GWalletQueryProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:463
+-keep class com.tencent.mm.plugin.gwallet.GWalletUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:220
+-keep class com.tencent.mm.plugin.location.ui.GGmapUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:218
+-keep class com.tencent.mm.plugin.location.ui.RedirectUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:221
+-keep class com.tencent.mm.plugin.location.ui.RemarkUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:219
+-keep class com.tencent.mm.plugin.location.ui.SosoMapUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:213
+-keep class com.tencent.mm.plugin.masssend.ui.MassSendHistoryUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:212
+-keep class com.tencent.mm.plugin.masssend.ui.MassSendMsgUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:211
+-keep class com.tencent.mm.plugin.masssend.ui.MassSendSelectContactUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:399
+-keep class com.tencent.mm.plugin.nearby.ui.NearbyFriendShowSayHiUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:398
+-keep class com.tencent.mm.plugin.nearby.ui.NearbyFriendsIntroUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:400
+-keep class com.tencent.mm.plugin.nearby.ui.NearbyFriendsUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:401
+-keep class com.tencent.mm.plugin.nearby.ui.NearbyPersonalInfoUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:402
+-keep class com.tencent.mm.plugin.nearby.ui.NearbySayHiListUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:493
+-keep class com.tencent.mm.plugin.qqmail.ui.AttachDownloadPage { <init>(...); }
+
+# view AndroidManifest.xml #generated:487
+-keep class com.tencent.mm.plugin.qqmail.ui.ComposeUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:492
+-keep class com.tencent.mm.plugin.qqmail.ui.CompressPreviewUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:488
+-keep class com.tencent.mm.plugin.qqmail.ui.MailAddrListUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:490
+-keep class com.tencent.mm.plugin.qqmail.ui.MailAddrProfileUI { <init>(...); }
+
+# view res/layout/qqmail_compose.xml #generated:20
+# view res/layout/qqmail_compose.xml #generated:29
+# view res/layout/qqmail_compose.xml #generated:8
+# view res/layout/readmail.xml #generated:15
+# view res/layout/readmail.xml #generated:19
+# view res/layout/readmail.xml #generated:9
+-keep class com.tencent.mm.plugin.qqmail.ui.MailAddrsViewControl { <init>(...); }
+
+# view res/layout/readmail.xml #generated:31
+-keep class com.tencent.mm.plugin.qqmail.ui.MailAttachListLinearLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:491
+-keep class com.tencent.mm.plugin.qqmail.ui.MailWebViewUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:489
+-keep class com.tencent.mm.plugin.qqmail.ui.ReadMailUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:486
+-keep class com.tencent.mm.plugin.qqmail.ui.RoomInfoShareQrUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:471
+-keep class com.tencent.mm.plugin.qqsync.ui.QQSyncUI { <init>(...); }
+
+# view res/layout/radar_view.xml #generated:5
+-keep class com.tencent.mm.plugin.radar.ui.RadarBackgroundView { <init>(...); }
+
+# view res/layout/radar_member_detail_view.xml #generated:2
+-keep class com.tencent.mm.plugin.radar.ui.RadarMemberView { <init>(...); }
+
+# view AndroidManifest.xml #generated:476
+-keep class com.tencent.mm.plugin.radar.ui.RadarSearchUI { <init>(...); }
+
+# view res/layout/radar_view.xml #generated:7
+-keep class com.tencent.mm.plugin.radar.ui.RadarSpecialGridView { <init>(...); }
+
+# view res/layout/radar_result_item.xml #generated:6
+-keep class com.tencent.mm.plugin.radar.ui.RadarStateView { <init>(...); }
+
+# view res/layout/radar_tips_view.xml #generated:2
+-keep class com.tencent.mm.plugin.radar.ui.RadarTipsView { <init>(...); }
+
+# view res/layout/radar_view.xml #generated:12
+-keep class com.tencent.mm.plugin.radar.ui.RadarWaveView { <init>(...); }
+
+# view AndroidManifest.xml #generated:215
+-keep class com.tencent.mm.plugin.readerapp.ui.ReaderAppIntroUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:217
+-keep class com.tencent.mm.plugin.readerapp.ui.ReaderAppSubscribeUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:214
+-keep class com.tencent.mm.plugin.readerapp.ui.ReaderAppUI { <init>(...); }
+
+# view res/layout/reader_app_root_item.xml #generated:5
+-keep class com.tencent.mm.plugin.readerapp.ui.ReaderItemListView { <init>(...); }
+
+# view AndroidManifest.xml #generated:498
+-keep class com.tencent.mm.plugin.scanner.ui.BaseScanUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:499
+-keep class com.tencent.mm.plugin.scanner.ui.ProductUI { <init>(...); }
+
+# view res/layout/select_scan_mode_grid.xml #generated:2
+-keep class com.tencent.mm.plugin.scanner.ui.SelectScanModeGrid { <init>(...); }
+
+# view res/layout/scan_base.xml #generated:16
+# view res/layout/scan_base_land.xml #generated:17
+-keep class com.tencent.mm.plugin.scanner.ui.SelectScanModePanel { <init>(...); }
+
+# view res/xml/vcard_contact_info_pref.xml #generated:11
+# view res/xml/vcard_contact_info_pref.xml #generated:13
+# view res/xml/vcard_contact_info_pref.xml #generated:19
+# view res/xml/vcard_contact_info_pref.xml #generated:6
+# view res/xml/vcard_contact_info_pref.xml #generated:8
+-keep class com.tencent.mm.plugin.scanner.ui.VcardContactLinkPreference { <init>(...); }
+
+# view AndroidManifest.xml #generated:500
+-keep class com.tencent.mm.plugin.scanner.ui.VcardContactUI { <init>(...); }
+
+# view res/xml/vcard_contact_info_pref.xml #generated:5
+-keep class com.tencent.mm.plugin.scanner.ui.VcardContactUserHeaderPreference { <init>(...); }
+
+# view AndroidManifest.xml #generated:413
+-keep class com.tencent.mm.plugin.shake.shakemedia.ui.ShakeMusicPlayerUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:420
+-keep class com.tencent.mm.plugin.shake.shakemedia.ui.ShakeTVDetailUI { <init>(...); }
+
+# view res/layout/shake_list_dragger.xml #generated:4
+-keep class com.tencent.mm.plugin.shake.ui.DraggerButton { <init>(...); }
+
+# view AndroidManifest.xml #generated:419
+-keep class com.tencent.mm.plugin.shake.ui.ShakeItemListUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:417
+-keep class com.tencent.mm.plugin.shake.ui.ShakePersonalInfoUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:415
+-keep class com.tencent.mm.plugin.shake.ui.ShakePhotoViewerUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:414
+-keep class com.tencent.mm.plugin.shake.ui.ShakeReportUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:412
+-keep class com.tencent.mm.plugin.shake.ui.ShakeSayHiListUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:416
+-keep class com.tencent.mm.plugin.shake.ui.ShakeTranImgGalleryUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:418
+-keep class com.tencent.mm.plugin.shake.ui.ShakeTranImgIntroUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:512
+-keep class com.tencent.mm.plugin.shoot.remote.RemoteNetSceneMgr$RespReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:511
+-keep class com.tencent.mm.plugin.shoot.ui.ShootFlashUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:508
+-keep class com.tencent.mm.plugin.shoot.ui.ShootMainUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:517
+-keep class com.tencent.mm.plugin.shootstub.communicate.ReqReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:229
+-keep class com.tencent.mm.plugin.sns.ui.ArtistBrowseUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:234
+-keep class com.tencent.mm.plugin.sns.ui.ArtistUI { <init>(...); }
+
+# view res/layout/sns_timeline_item_photo_one.xml #generated:8
+# view res/layout/sns_timeline_item_photo_one2.xml #generated:11
+# view res/layout/sns_timeline_item_photo_one3.xml #generated:10
+-keep class com.tencent.mm.plugin.sns.ui.AsyncNormalTextView { <init>(...); }
+
+# view res/layout/sns_timeline_item_photo_one.xml #generated:5
+# view res/layout/sns_timeline_item_photo_one2.xml #generated:7
+# view res/layout/sns_timeline_item_photo_one3.xml #generated:7
+-keep class com.tencent.mm.plugin.sns.ui.AsyncTextView { <init>(...); }
+
+# view res/layout/sns_timeline_item2.xml #generated:7
+# view res/layout/sns_timeline_item3.xml #generated:8
+-keep class com.tencent.mm.plugin.sns.ui.CollapsibleTextView { <init>(...); }
+
+# view res/layout/sns_photo_item_date.xml #generated:26
+# view res/layout/sns_photo_item_date.xml #generated:38
+# view res/layout/sns_photo_item_date.xml #generated:44
+# view res/layout/sns_photo_user_photo.xml #generated:21
+# view res/layout/sns_photo_user_photo.xml #generated:33
+# view res/layout/sns_photo_user_photo.xml #generated:39
+# view res/layout/sns_timeline_imagesline.xml #generated:10
+# view res/layout/sns_timeline_imagesline.xml #generated:11
+# view res/layout/sns_timeline_imagesline.xml #generated:12
+# view res/layout/sns_timeline_imagesline.xml #generated:4
+# view res/layout/sns_timeline_imagesline.xml #generated:5
+# view res/layout/sns_timeline_imagesline.xml #generated:6
+# view res/layout/sns_timeline_imagesline.xml #generated:7
+# view res/layout/sns_timeline_imagesline.xml #generated:8
+# view res/layout/sns_timeline_imagesline.xml #generated:9
+# view res/layout/sns_timeline_imagesline1.xml #generated:4
+# view res/layout/sns_timeline_imagesline1.xml #generated:5
+# view res/layout/sns_timeline_imagesline1.xml #generated:6
+# view res/layout/sns_timeline_imagesline2.xml #generated:4
+# view res/layout/sns_timeline_imagesline2.xml #generated:5
+# view res/layout/sns_timeline_imagesline2.xml #generated:6
+# view res/layout/sns_timeline_imagesline2.xml #generated:7
+# view res/layout/sns_timeline_imagesline2.xml #generated:8
+# view res/layout/sns_timeline_imagesline2.xml #generated:9
+# view res/layout/sns_timeline_imagesline3.xml #generated:10
+# view res/layout/sns_timeline_imagesline3.xml #generated:11
+# view res/layout/sns_timeline_imagesline3.xml #generated:12
+# view res/layout/sns_timeline_imagesline3.xml #generated:4
+# view res/layout/sns_timeline_imagesline3.xml #generated:5
+# view res/layout/sns_timeline_imagesline3.xml #generated:6
+# view res/layout/sns_timeline_imagesline3.xml #generated:7
+# view res/layout/sns_timeline_imagesline3.xml #generated:8
+# view res/layout/sns_timeline_imagesline3.xml #generated:9
+# view res/layout/sns_timeline_imagesline_one.xml #generated:4
+-keep class com.tencent.mm.plugin.sns.ui.MaskImageView { <init>(...); }
+
+# view res/layout/sns_photo_item_date.xml #generated:23
+# view res/layout/sns_photo_user_photo.xml #generated:18
+-keep class com.tencent.mm.plugin.sns.ui.MaskLinearLayout { <init>(...); }
+
+# view res/layout/sns_timeline_comment.xml #generated:4
+-keep class com.tencent.mm.plugin.sns.ui.MaskTextView { <init>(...); }
+
+# view res/layout/sns_timeline_imagesline1.xml #generated:2
+# view res/layout/sns_timeline_imagesline2.xml #generated:2
+# view res/layout/sns_timeline_imagesline3.xml #generated:2
+# view res/layout/sns_timeline_imagesline_one.xml #generated:2
+-keep class com.tencent.mm.plugin.sns.ui.PhotosContent { <init>(...); }
+
+# view res/layout/sns_timeline_imagesline.xml #generated:2
+-keep class com.tencent.mm.plugin.sns.ui.PhotosContent2 { <init>(...); }
+
+# view res/layout/sns_upload_ui.xml #generated:25
+-keep class com.tencent.mm.plugin.sns.ui.PreviewContactView { <init>(...); }
+
+# view res/layout/sns_timeline_item_photo3.xml #generated:12
+-keep class com.tencent.mm.plugin.sns.ui.QTextView { <init>(...); }
+
+# view AndroidManifest.xml #generated:233
+-keep class com.tencent.mm.plugin.sns.ui.SettingSnsBackgroundUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:222
+-keep class com.tencent.mm.plugin.sns.ui.SnsAnimation$SnsPostAnimationUI { <init>(...); }
+
+# view res/xml/settings_sns_background.xml #generated:7
+-keep class com.tencent.mm.plugin.sns.ui.SnsArtistPreference { <init>(...); }
+
+# view AndroidManifest.xml #generated:240
+-keep class com.tencent.mm.plugin.sns.ui.SnsBlackDetailUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:230
+-keep class com.tencent.mm.plugin.sns.ui.SnsBrowseUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:225
+-keep class com.tencent.mm.plugin.sns.ui.SnsCommentDetailUI { <init>(...); }
+
+# view res/layout/sns_comment_detail.xml #generated:11
+# view res/layout/sns_stranger_comment_detail.xml #generated:5
+# view res/layout/sns_timeline_ui.xml #generated:8
+# view res/layout/sns_timeline_ui2.xml #generated:8
+-keep class com.tencent.mm.plugin.sns.ui.SnsCommentFooter { <init>(...); }
+
+# view AndroidManifest.xml #generated:236
+-keep class com.tencent.mm.plugin.sns.ui.SnsCommentUI { <init>(...); }
+
+# view res/layout/sns_comment_ui.xml #generated:5
+# view res/layout/sns_upload_ui.xml #generated:8
+-keep class com.tencent.mm.plugin.sns.ui.SnsEditText { <init>(...); }
+
+# view AndroidManifest.xml #generated:228
+-keep class com.tencent.mm.plugin.sns.ui.SnsGalleryUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:478
+-keep class com.tencent.mm.plugin.sns.ui.SnsLongMsgUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:232
+-keep class com.tencent.mm.plugin.sns.ui.SnsMsgUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:243
+-keep class com.tencent.mm.plugin.sns.ui.SnsPermissionUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:231
+-keep class com.tencent.mm.plugin.sns.ui.SnsSelectContactDialog { <init>(...); }
+
+# view AndroidManifest.xml #generated:477
+-keep class com.tencent.mm.plugin.sns.ui.SnsSingleTextViewUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:226
+-keep class com.tencent.mm.plugin.sns.ui.SnsStrangerCommentDetailUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:239
+-keep class com.tencent.mm.plugin.sns.ui.SnsTagDetailUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:241
+-keep class com.tencent.mm.plugin.sns.ui.SnsTagPartlyUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:238
+-keep class com.tencent.mm.plugin.sns.ui.SnsTagUI { <init>(...); }
+
+# view res/layout/collapsible_textview.xml #generated:4
+# view res/layout/collapsible_textview.xml #generated:5
+-keep class com.tencent.mm.plugin.sns.ui.SnsTextView { <init>(...); }
+
+# view AndroidManifest.xml #generated:224
+-keep class com.tencent.mm.plugin.sns.ui.SnsTimeLineUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:235
+-keep class com.tencent.mm.plugin.sns.ui.SnsUploadBrowseUI { <init>(...); }
+
+# view res/layout/sns_upload_ui.xml #generated:27
+-keep class com.tencent.mm.plugin.sns.ui.SnsUploadConfigView { <init>(...); }
+
+# view res/layout/sns_upload_ui.xml #generated:32
+-keep class com.tencent.mm.plugin.sns.ui.SnsUploadSayFooter { <init>(...); }
+
+# view AndroidManifest.xml #generated:227
+-keep class com.tencent.mm.plugin.sns.ui.SnsUploadUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:223
+-keep class com.tencent.mm.plugin.sns.ui.SnsUserUI { <init>(...); }
+
+# view res/layout/sns_media_sub_item2.xml #generated:5
+# view res/layout/sns_media_sub_item3.xml #generated:4
+-keep class com.tencent.mm.plugin.sns.ui.TagImageView { <init>(...); }
+
+# view res/layout/sns_header_item.xml #generated:13
+# view res/layout/sns_header_item2.xml #generated:6
+-keep class com.tencent.mm.plugin.sns.ui.TouchImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:505
+-keep class com.tencent.mm.plugin.talkroom.component.TalkRoomService { <init>(...); }
+
+# view AndroidManifest.xml #generated:506
+-keep class com.tencent.mm.plugin.talkroom.model.TalkRoomReceiver { <init>(...); }
+
+# view res/layout/talk_room.xml #generated:13
+-keep class com.tencent.mm.plugin.talkroom.ui.TalkRoomAvatarsFrame { <init>(...); }
+
+# view AndroidManifest.xml #generated:504
+-keep class com.tencent.mm.plugin.talkroom.ui.TalkRoomUI { <init>(...); }
+
+# view res/layout/talk_room.xml #generated:24
+-keep class com.tencent.mm.plugin.talkroom.ui.TalkRoomVolumeMeter { <init>(...); }
+
+# view AndroidManifest.xml #generated:208
+-keep class com.tencent.mm.plugin.traceroute.ui.NetworkDiagnoseIntroUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:210
+-keep class com.tencent.mm.plugin.traceroute.ui.NetworkDiagnoseReportUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:209
+-keep class com.tencent.mm.plugin.traceroute.ui.NetworkDiagnoseUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:351
+-keep class com.tencent.mm.plugin.voicereminder.ui.RemindDialog { <init>(...); }
+
+# view AndroidManifest.xml #generated:424
+-keep class com.tencent.mm.plugin.voip.audio.ui.VoipAudioUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:423
+-keep class com.tencent.mm.plugin.voip.ui.InviteRemindDialog { <init>(...); }
+
+# view res/layout/voip_tool_bar.xml #generated:5
+# view res/layout/voip_tool_bar.xml #generated:6
+-keep class com.tencent.mm.plugin.voip.ui.MMCheckBox { <init>(...); }
+
+# view AndroidManifest.xml #generated:421
+-keep class com.tencent.mm.plugin.voip.ui.VideoActivity { <init>(...); }
+
+# view res/layout/voip_video.xml #generated:5
+-keep class com.tencent.mm.plugin.voip.video.CaptureView { <init>(...); }
+
+# view res/layout/voip_video.xml #generated:7
+-keep class com.tencent.mm.plugin.voip.video.VideoView { <init>(...); }
+
+# view res/layout/add_address_ui.xml #generated:10
+# view res/layout/add_address_ui.xml #generated:6
+# view res/layout/add_address_ui.xml #generated:7
+# view res/layout/add_address_ui.xml #generated:8
+# view res/layout/add_address_ui.xml #generated:9
+# view res/layout/cardnum_input_ui.xml #generated:6
+# view res/layout/cardnum_input_ui.xml #generated:7
+# view res/layout/wallet_card_elment_ui.xml #generated:11
+# view res/layout/wallet_card_elment_ui.xml #generated:14
+# view res/layout/wallet_card_elment_ui.xml #generated:15
+# view res/layout/wallet_card_elment_ui.xml #generated:18
+# view res/layout/wallet_card_elment_ui.xml #generated:19
+# view res/layout/wallet_card_elment_ui.xml #generated:22
+# view res/layout/wallet_card_elment_ui.xml #generated:25
+# view res/layout/wallet_card_elment_ui.xml #generated:26
+# view res/layout/wallet_card_elment_ui.xml #generated:27
+# view res/layout/wallet_card_elment_ui.xml #generated:28
+# view res/layout/wallet_card_elment_ui.xml #generated:29
+# view res/layout/wallet_card_elment_ui.xml #generated:30
+# view res/layout/wallet_card_elment_ui.xml #generated:31
+# view res/layout/wallet_card_elment_ui.xml #generated:8
+# view res/layout/wallet_check_pwd.xml #generated:5
+# view res/layout/wallet_forgot_pwd_ui.xml #generated:10
+# view res/layout/wallet_forgot_pwd_ui.xml #generated:9
+# view res/layout/wallet_pwd_dialog.xml #generated:11
+# view res/layout/wallet_reset_info_ui.xml #generated:15
+# view res/layout/wallet_reset_info_ui.xml #generated:16
+# view res/layout/wallet_reset_info_ui.xml #generated:17
+# view res/layout/wallet_set_pwd.xml #generated:6
+# view res/layout/wallet_verify_code.xml #generated:8
+-keep class com.tencent.mm.plugin.wallet.ui.EditHintView { <init>(...); }
+
+# view res/layout/wallet_order_list.xml #generated:4
+-keep class com.tencent.mm.plugin.wallet.ui.MMListView { <init>(...); }
+
+# view res/layout/add_address_ui.xml #generated:2
+# view res/layout/wallet_card_elment_ui.xml #generated:5
+# view res/layout/wallet_pay.xml #generated:2
+# view res/layout/wallet_reset_info_ui.xml #generated:2
+-keep class com.tencent.mm.plugin.wallet.ui.MMScrollView { <init>(...); }
+
+# view res/layout/wallet_cardselect_ui.xml #generated:10
+# view res/layout/wallet_change_bankcard.xml #generated:7
+# view res/layout/wallet_forgot_pwd_ui.xml #generated:7
+-keep class com.tencent.mm.plugin.wallet.ui.MaxListView { <init>(...); }
+
+# view AndroidManifest.xml #generated:461
+-keep class com.tencent.mm.plugin.wallet.ui.MultiRcptSelectUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:457
+-keep class com.tencent.mm.plugin.wallet.ui.OrderHandlerUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:459
+-keep class com.tencent.mm.plugin.wallet.ui.WalletAddAddressUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:452
+-keep class com.tencent.mm.plugin.wallet.ui.WalletBankcardDetailUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:455
+-keep class com.tencent.mm.plugin.wallet.ui.WalletBrandUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:444
+-keep class com.tencent.mm.plugin.wallet.ui.WalletCardElmentUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:453
+-keep class com.tencent.mm.plugin.wallet.ui.WalletCardSelectUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:462
+-keep class com.tencent.mm.plugin.wallet.ui.WalletChangeBankcardUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:451
+-keep class com.tencent.mm.plugin.wallet.ui.WalletCheckPwdUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:454
+-keep class com.tencent.mm.plugin.wallet.ui.WalletForgotPwdUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:456
+-keep class com.tencent.mm.plugin.wallet.ui.WalletIapUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:435
+-keep class com.tencent.mm.plugin.wallet.ui.WalletIndexUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:436
+-keep class com.tencent.mm.plugin.wallet.ui.WalletInputCardIDUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:437
+-keep class com.tencent.mm.plugin.wallet.ui.WalletLauncherUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:449
+-keep class com.tencent.mm.plugin.wallet.ui.WalletOrderInfoUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:448
+-keep class com.tencent.mm.plugin.wallet.ui.WalletOrderListUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:450
+-keep class com.tencent.mm.plugin.wallet.ui.WalletPasswordSettingUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:443
+-keep class com.tencent.mm.plugin.wallet.ui.WalletPayUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:447
+-keep class com.tencent.mm.plugin.wallet.ui.WalletPwdConfirmUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:458
+-keep class com.tencent.mm.plugin.wallet.ui.WalletResetInfoUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:460
+-keep class com.tencent.mm.plugin.wallet.ui.WalletSelectAddrUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:446
+-keep class com.tencent.mm.plugin.wallet.ui.WalletSetPasswordUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:445
+-keep class com.tencent.mm.plugin.wallet.ui.WalletVerifyCodeUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:496
+-keep class com.tencent.mm.plugin.webview.stub.WebViewStubProxyUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:497
+-keep class com.tencent.mm.plugin.webview.stub.WebViewStubService { <init>(...); }
+
+# view AndroidManifest.xml #generated:347
+-keep class com.tencent.mm.plugin.webwx.ui.WebWXLogoutUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:348
+-keep class com.tencent.mm.plugin.webwx.ui.WebWeiXinIntroductionUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:507
+-keep class com.tencent.mm.plugin.whatsnew.ui.WhatsNewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:524
+-keep class com.tencent.mm.pluginsdk.model.downloader.FileDownloadManger$FileDownloadReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:523
+-keep class com.tencent.mm.pluginsdk.model.downloader.FileDownloadManger$FileDownloadService { <init>(...); }
+
+# view res/layout/mm_music_with_lrc.xml #generated:15
+# view res/layout/mm_music_with_lrc.xml #generated:16
+# view res/layout/mm_music_with_lrc.xml #generated:17
+-keep class com.tencent.mm.pluginsdk.module.media.AutoSizeTextView { <init>(...); }
+
+# view res/layout/mm_music_with_lrc.xml #generated:4
+-keep class com.tencent.mm.pluginsdk.module.media.LyricView { <init>(...); }
+
+# view res/layout/get_hd_head_image_gallery_view.xml #generated:4
+-keep class com.tencent.mm.pluginsdk.ui.GetHdHeadImageGalleryView { <init>(...); }
+
+# view res/layout/confirm_dialog_item1.xml #generated:10
+# view res/layout/confirm_dialog_item4.xml #generated:8
+# view res/layout/confirm_dialog_item6.xml #generated:11
+# view res/layout/upload_media_link.xml #generated:7
+# view res/layout/upload_media_music.xml #generated:5
+-keep class com.tencent.mm.pluginsdk.ui.applet.CdnImageView { <init>(...); }
+
+# view res/xml/roominfo_pref.xml #generated:5
+# view res/xml/roominfo_single_pref.xml #generated:5
+# view res/xml/tag_detail_pref.xml #generated:8
+-keep class com.tencent.mm.pluginsdk.ui.applet.ContactListPreference { <init>(...); }
+
+# view res/xml/contact_info_pref_lbs.xml #generated:4
+# view res/xml/contact_info_pref_qqmail.xml #generated:4
+# view res/xml/contact_info_pref_qqsync.xml #generated:4
+# view res/xml/contact_info_pref_shake.xml #generated:4
+-keep class com.tencent.mm.pluginsdk.ui.preference.HelperHeaderPreference { <init>(...); }
+
+# view res/xml/contact_info_pref_normal.xml #generated:11
+-keep class com.tencent.mm.pluginsdk.ui.preference.SnsPreference { <init>(...); }
+
+# view AndroidManifest.xml #generated:522
+-keep class com.tencent.mm.pluginsdk.ui.tools.FileExplorerUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:289
+-keep class com.tencent.mm.sandbox.monitor.CrashUploadAlarmReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:502
+-keep class com.tencent.mm.sandbox.monitor.ExceptionMonitorService { <init>(...); }
+
+# view AndroidManifest.xml #generated:501
+-keep class com.tencent.mm.sandbox.updater.AppUpdaterUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:503
+-keep class com.tencent.mm.sandbox.updater.UpdateReceiver { <init>(...); }
+
+# view res/layout/updater.xml #generated:2
+-keep class com.tencent.mm.sandbox.updater.Updater { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.tencent.mm.ui.DataTransferUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:100
+-keep class com.tencent.mm.ui.GrantRoomUI { <init>(...); }
+
+# view res/layout/sns_timeline_ui.xml #generated:4
+# view res/layout/sns_timeline_ui2.xml #generated:4
+# view res/layout/sns_upload_ui.xml #generated:4
+# view res/layout/webview.xml #generated:2
+-keep class com.tencent.mm.ui.KeyboardLinearLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.tencent.mm.ui.LauncherUI { <init>(...); }
+
+# view res/layout/mm_activity.xml #generated:2
+-keep class com.tencent.mm.ui.LayoutListenerView { <init>(...); }
+
+# view AndroidManifest.xml #generated:102
+-keep class com.tencent.mm.ui.RoomInfoDetailUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:99
+-keep class com.tencent.mm.ui.RoomInfoUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class com.tencent.mm.ui.RoomRightUI { <init>(...); }
+
+# view res/layout/security_image.xml #generated:2
+-keep class com.tencent.mm.ui.applet.SecurityImage { <init>(...); }
+
+# view res/layout/country_code_select_big5.xml #generated:7
+-keep class com.tencent.mm.ui.applet.StrokeScrollBar { <init>(...); }
+
+# view res/layout/address.xml #generated:9
+# view res/layout/bak_chat_upload_select.xml #generated:10
+# view res/layout/country_code_select.xml #generated:7
+# view res/layout/mass_send_select_contact.xml #generated:6
+-keep class com.tencent.mm.ui.base.AlphabetScrollBar { <init>(...); }
+
+# view res/layout/login.xml #generated:5
+# view res/layout/login.xml #generated:9
+# view res/layout/login_history.xml #generated:12
+# view res/layout/login_indep_pass.xml #generated:6
+# view res/layout/loginby_mobile.xml #generated:20
+# view res/layout/mobile_verify_ui.xml #generated:9
+# view res/layout/reg_by_qqui.xml #generated:5
+# view res/layout/reg_by_qqui.xml #generated:9
+# view res/layout/regbymobile_reg.xml #generated:20
+-keep class com.tencent.mm.ui.base.MMClearEditText { <init>(...); }
+
+# view res/layout/app_panel.xml #generated:6
+# view res/layout/game_ad_item.xml #generated:7
+# view res/layout/mm_gridpaper.xml #generated:7
+# view res/layout/select_scan_mode_panel.xml #generated:5
+# view res/layout/smiley_panel.xml #generated:6
+-keep class com.tencent.mm.ui.base.MMDotView { <init>(...); }
+
+# view res/layout/app_panel.xml #generated:5
+# view res/layout/emoticon_group_dialog.xml #generated:5
+# view res/layout/game_ad_item.xml #generated:6
+# view res/layout/mm_gridpaper.xml #generated:6
+# view res/layout/select_scan_mode_panel.xml #generated:4
+# view res/layout/smiley_panel.xml #generated:5
+-keep class com.tencent.mm.ui.base.MMFlipper { <init>(...); }
+
+# view res/layout/brand_service_grid_item.xml #generated:2
+# view res/layout/brand_service_grid_item.xml #generated:4
+-keep class com.tencent.mm.ui.base.MMFrameLayout { <init>(...); }
+
+# view res/layout/readerapp_imageview.xml #generated:4
+# view res/layout/sns_info_flip_view.xml #generated:5
+-keep class com.tencent.mm.ui.base.MMGallery { <init>(...); }
+
+# view res/layout/alert_connector_menu_layout.xml #generated:4
+-keep class com.tencent.mm.ui.base.MMGridPaper { <init>(...); }
+
+# view res/layout/mm_drap_drop_gridview.xml #generated:2
+-keep class com.tencent.mm.ui.base.MMGridPaperGridView { <init>(...); }
+
+# view res/layout/app_preference.xml #generated:5
+-keep class com.tencent.mm.ui.base.MMGridView { <init>(...); }
+
+# view res/layout/crop_image_filter.xml #generated:16
+# view res/layout/talk_room_avatar_frame.xml #generated:4
+-keep class com.tencent.mm.ui.base.MMHorList { <init>(...); }
+
+# view res/layout/gmap_ui.xml #generated:6
+# view res/layout/gmap_ui.xml #generated:8
+# view res/layout/mm_title.xml #generated:14
+# view res/layout/mm_title.xml #generated:4
+# view res/layout/mm_title_faq.xml #generated:4
+# view res/layout/mm_title_faq.xml #generated:8
+# view res/layout/mm_title_webview.xml #generated:11
+# view res/layout/mm_title_webview.xml #generated:4
+# view res/layout/smap_ui.xml #generated:6
+# view res/layout/smap_ui.xml #generated:8
+-keep class com.tencent.mm.ui.base.MMImageButton { <init>(...); }
+
+# view res/layout/sns_info_flip_view.xml #generated:8
+-keep class com.tencent.mm.ui.base.MMPageControlView { <init>(...); }
+
+# view res/layout/app_msg_emoji_download.xml #generated:9
+# view res/layout/attach_download_page.xml #generated:7
+# view res/layout/bak_chat_recovering.xml #generated:6
+# view res/layout/bak_chat_uploading.xml #generated:10
+# view res/layout/download_ui.xml #generated:7
+# view res/layout/fav_img_detail_item.xml #generated:8
+# view res/layout/favorite_download_detail_ui.xml #generated:8
+# view res/layout/image_gallery_item.xml #generated:9
+# view res/layout/network_diagnose_run.xml #generated:11
+# view res/layout/video_download.xml #generated:5
+-keep class com.tencent.mm.ui.base.MMProgressBar { <init>(...); }
+
+# view res/layout/chatting.xml #generated:5
+# view res/layout/contact_search_recommend_biz.xml #generated:5
+# view res/layout/emoji_paid.xml #generated:4
+# view res/layout/emoji_store_detail.xml #generated:4
+# view res/layout/emoji_store_main.xml #generated:4
+# view res/layout/mass_send_history.xml #generated:5
+# view res/layout/reader_app.xml #generated:5
+# view res/layout/sns_self.xml #generated:6
+# view res/layout/sns_tag.xml #generated:4
+# view res/layout/sns_tag_partly_ui2.xml #generated:4
+# view res/layout/sns_timeline_ui.xml #generated:5
+# view res/layout/sns_timeline_ui2.xml #generated:5
+-keep class com.tencent.mm.ui.base.MMPullDownView { <init>(...); }
+
+# view res/layout/smiley_panel.xml #generated:10
+-keep class com.tencent.mm.ui.base.MMRadioGroupView { <init>(...); }
+
+# view res/layout/address_list_item.xml #generated:5
+# view res/layout/base_slide_del_view.xml #generated:2
+# view res/layout/conv_slide_del_view.xml #generated:2
+# view res/layout/fav_slide_del.xml #generated:2
+-keep class com.tencent.mm.ui.base.MMSlideDelView { <init>(...); }
+
+# view res/layout/recommand_game_detail_info.xml #generated:23
+# view res/layout/smiley_panel.xml #generated:9
+-keep class com.tencent.mm.ui.base.MMSmoothHorizontalScrollView { <init>(...); }
+
+# view AndroidManifest.xml #generated:422
+-keep class com.tencent.mm.ui.base.MMSuperAlert { <init>(...); }
+
+# view res/layout/mm_preference_switchbutton.xml #generated:2
+-keep class com.tencent.mm.ui.base.MMSwitchButton { <init>(...); }
+
+# view res/layout/chatting_item_from.xml #generated:9
+# view res/layout/chatting_item_to.xml #generated:12
+# view res/layout/chatting_item_to.xml #generated:18
+# view res/layout/chatting_item_voiceremind_sys.xml #generated:9
+-keep class com.tencent.mm.ui.base.MMTextView { <init>(...); }
+
+# view res/layout/address_list_item.xml #generated:7
+# view res/layout/at_someone_item.xml #generated:7
+# view res/layout/biz_contact_entrance_view.xml #generated:13
+# view res/layout/biz_contact_entrance_view.xml #generated:6
+# view res/layout/brand_service_search_result_item.xml #generated:4
+# view res/layout/contact_item.xml #generated:6
+# view res/layout/contact_search_recommend_biz_item.xml #generated:4
+# view res/layout/contact_search_result_item.xml #generated:4
+# view res/layout/fmessage_contact_header.xml #generated:5
+# view res/layout/fmessage_contact_item.xml #generated:5
+# view res/layout/game_list_item.xml #generated:5
+# view res/layout/local_game_list_item.xml #generated:5
+# view res/layout/mm_preference_content_brand.xml #generated:12
+# view res/layout/mm_preference_content_brand.xml #generated:15
+# view res/layout/mm_preference_content_brand.xml #generated:6
+# view res/layout/mm_preference_content_brand.xml #generated:9
+-keep class com.tencent.mm.ui.base.MaskLayout { <init>(...); }
+
+# view res/layout/fav_img_detail_item.xml #generated:5
+# view res/layout/image_gallery_item.xml #generated:16
+# view res/layout/image_gallery_item.xml #generated:5
+# view res/layout/image_gallery_item.xml #generated:8
+# view res/layout/image_gallery_plugin_item.xml #generated:5
+-keep class com.tencent.mm.ui.base.MultiTouchImageView { <init>(...); }
+
+# view res/layout/confirm_dialog_item1.xml #generated:18
+# view res/layout/confirm_dialog_item2.xml #generated:12
+# view res/layout/confirm_dialog_item3.xml #generated:12
+# view res/layout/confirm_dialog_item4.xml #generated:25
+# view res/layout/confirm_dialog_item6.xml #generated:23
+-keep class com.tencent.mm.ui.base.PasterEditText { <init>(...); }
+
+# view res/layout/switch_button.xml #generated:2
+-keep class com.tencent.mm.ui.base.SwitchButton { <init>(...); }
+
+# view res/layout/talkroom_popup_nav_viewstub_layout.xml #generated:2
+-keep class com.tencent.mm.ui.base.TalkRoomPopupNav { <init>(...); }
+
+# view res/layout/video_recorder_preview.xml #generated:5
+# view res/layout/video_recorder_preview_land.xml #generated:5
+# view res/layout/videoplayer.xml #generated:5
+-keep class com.tencent.mm.ui.base.VideoView { <init>(...); }
+
+# view res/layout/search_bar.xml #generated:6
+-keep class com.tencent.mm.ui.base.VoiceSearchEditText { <init>(...); }
+
+# view res/xml/bottle_wizard_step2.xml #generated:5
+# view res/xml/nearby_personal_info.xml #generated:6
+-keep class com.tencent.mm.ui.base.preference.ChoicePreference { <init>(...); }
+
+# view res/xml/settings_pref_personal_info.xml #generated:8
+# view res/xml/settings_pref_personal_info_new.xml #generated:11
+-keep class com.tencent.mm.ui.base.preference.DialogPreference { <init>(...); }
+
+# view res/xml/share_card_to.xml #generated:4
+-keep class com.tencent.mm.ui.base.preference.EditPreference { <init>(...); }
+
+# view res/xml/settings_pref_account_info.xml #generated:19
+-keep class com.tencent.mm.ui.base.preference.IconSummaryPreference { <init>(...); }
+
+# view res/xml/bottle_wizard_step2.xml #generated:6
+# view res/xml/bottle_wizard_step2.xml #generated:7
+# view res/xml/contact_info_pref_bizinfo.xml #generated:10
+# view res/xml/contact_info_pref_bizinfo.xml #generated:5
+# view res/xml/contact_info_pref_bizinfo.xml #generated:6
+# view res/xml/contact_info_pref_bizinfo.xml #generated:7
+# view res/xml/contact_info_pref_bottlecontact.xml #generated:5
+# view res/xml/contact_info_pref_normal.xml #generated:12
+# view res/xml/contact_info_pref_normal.xml #generated:13
+# view res/xml/contact_info_pref_normal.xml #generated:5
+# view res/xml/contact_info_pref_normal.xml #generated:6
+# view res/xml/contact_info_pref_normal.xml #generated:7
+# view res/xml/mail_receiver_info.xml #generated:4
+# view res/xml/mail_receiver_info.xml #generated:5
+# view res/xml/nearby_personal_info.xml #generated:7
+# view res/xml/nearby_personal_info.xml #generated:8
+# view res/xml/settings_pref_personal_info.xml #generated:7
+# view res/xml/settings_pref_personal_info.xml #generated:9
+# view res/xml/vcard_contact_info_pref.xml #generated:10
+# view res/xml/vcard_contact_info_pref.xml #generated:15
+# view res/xml/vcard_contact_info_pref.xml #generated:17
+# view res/xml/vcard_contact_info_pref.xml #generated:9
+-keep class com.tencent.mm.ui.base.preference.KeyValuePreference { <init>(...); }
+
+# view res/xml/webwx_pref.xml #generated:6
+-keep class com.tencent.mm.ui.base.preference.MMSwitchButtonPreference { <init>(...); }
+
+# view res/xml/addapp_pref.xml #generated:5
+# view res/xml/addapp_pref.xml #generated:8
+# view res/xml/settings_pref_account_info.xml #generated:11
+-keep class com.tencent.mm.ui.base.preference.PluginTextPreference { <init>(...); }
+
+# view res/xml/contact_info_pref_shake.xml #generated:7
+# view res/xml/contact_info_pref_shake.xml #generated:8
+# view res/xml/shake_settings_pref_personal_info.xml #generated:14
+# view res/xml/shake_settings_pref_personal_info.xml #generated:15
+-keep class com.tencent.mm.ui.base.preference.SwitchKeyValuePreference { <init>(...); }
+
+# view AndroidManifest.xml #generated:177
+-keep class com.tencent.mm.ui.bindmobile.BindMContactIntroUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:180
+-keep class com.tencent.mm.ui.bindmobile.BindMContactStatusUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:178
+-keep class com.tencent.mm.ui.bindmobile.BindMContactUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:179
+-keep class com.tencent.mm.ui.bindmobile.BindMContactVerifyUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:181
+-keep class com.tencent.mm.ui.bindmobile.FindMContactIntroUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:184
+-keep class com.tencent.mm.ui.bindqq.BindQQUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:187
+-keep class com.tencent.mm.ui.bindqq.StartUnbindQQ { <init>(...); }
+
+# view AndroidManifest.xml #generated:188
+-keep class com.tencent.mm.ui.bindqq.SuccUnbindQQ { <init>(...); }
+
+# view AndroidManifest.xml #generated:185
+-keep class com.tencent.mm.ui.bindqq.VerifyQQUI { <init>(...); }
+
+# view res/layout/chatting_item_from_voice.xml #generated:12
+# view res/layout/chatting_item_from_voice.xml #generated:9
+# view res/layout/chatting_item_to_voice.xml #generated:13
+# view res/layout/mass_send_item_voice.xml #generated:18
+-keep class com.tencent.mm.ui.chatting.AnimImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:88
+-keep class com.tencent.mm.ui.chatting.AppAttachDownloadUI { <init>(...); }
+
+# view res/layout/app_grid.xml #generated:2
+-keep class com.tencent.mm.ui.chatting.AppGrid { <init>(...); }
+
+# view AndroidManifest.xml #generated:89
+-keep class com.tencent.mm.ui.chatting.AppMsgEmojiDownloadUI { <init>(...); }
+
+# view res/layout/chatting_footer.xml #generated:23
+-keep class com.tencent.mm.ui.chatting.AppPanel { <init>(...); }
+
+# view AndroidManifest.xml #generated:86
+-keep class com.tencent.mm.ui.chatting.AtSomeoneUI { <init>(...); }
+
+# view res/layout/chatting.xml #generated:15
+# view res/layout/mass_send_msg.xml #generated:14
+-keep class com.tencent.mm.ui.chatting.ChatFooter { <init>(...); }
+
+# view res/layout/nav_footer_brand_qa_viewstub_layout.xml #generated:2
+-keep class com.tencent.mm.ui.chatting.ChatFooterBrandQA { <init>(...); }
+
+# view res/layout/chatting_footer_custom_viewstub.xml #generated:2
+-keep class com.tencent.mm.ui.chatting.ChatFooterCustom { <init>(...); }
+
+# view res/layout/chatting.xml #generated:9
+-keep class com.tencent.mm.ui.chatting.ChattingAnimFrame { <init>(...); }
+
+# view res/layout/chatting_item_dyeing_template.xml #generated:17
+-keep class com.tencent.mm.ui.chatting.ChattingItemDyeingTemplateTopView { <init>(...); }
+
+# view res/layout/chatting_item_biz.xml #generated:20
+# view res/layout/chatting_item_from_appmsg.xml #generated:26
+-keep class com.tencent.mm.ui.chatting.ChattingItemFooter { <init>(...); }
+
+# view AndroidManifest.xml #generated:84
+-keep class com.tencent.mm.ui.chatting.ChattingUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:90
+-keep class com.tencent.mm.ui.chatting.CustomSmileyPreviewUI { <init>(...); }
+
+# view res/layout/app_msg_emoji_download.xml #generated:5
+# view res/layout/chatting_item_from_appmsg_emoji.xml #generated:10
+# view res/layout/chatting_item_from_emoji.xml #generated:9
+# view res/layout/chatting_item_to_appmsg_emoji.xml #generated:11
+# view res/layout/chatting_item_to_emoji.xml #generated:11
+# view res/layout/custom_smiley_preview.xml #generated:5
+# view res/layout/smiley_dialog_popview.xml #generated:4
+-keep class com.tencent.mm.ui.chatting.EmojiView { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class com.tencent.mm.ui.chatting.HelperAddressUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:85
+-keep class com.tencent.mm.ui.chatting.ImageDownloadUI { <init>(...); }
+
+# view res/layout/welcome_init_bg.xml #generated:2
+-keep class com.tencent.mm.ui.chatting.InitCallBackLayout { <init>(...); }
+
+# view res/layout/smiley_dialog.xml #generated:5
+-keep class com.tencent.mm.ui.chatting.SmileyDialogGrid { <init>(...); }
+
+# view res/layout/mediapanel.xml #generated:4
+# view res/layout/smiley_grid.xml #generated:2
+-keep class com.tencent.mm.ui.chatting.SmileyGrid { <init>(...); }
+
+# view res/layout/chatting_footer.xml #generated:24
+# view res/layout/sns_comment_footer.xml #generated:15
+# view res/layout/sns_upload_say_footer.xml #generated:7
+-keep class com.tencent.mm.ui.chatting.SmileyPanel { <init>(...); }
+
+# view res/layout/smiley_sub_grid.xml #generated:2
+-keep class com.tencent.mm.ui.chatting.SmileySubGrid { <init>(...); }
+
+# view AndroidManifest.xml #generated:94
+-keep class com.tencent.mm.ui.contact.AddressUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:115
+-keep class com.tencent.mm.ui.contact.ContactQZoneWebView { <init>(...); }
+
+# view res/layout/contact_info_header_normal.xml #generated:29
+-keep class com.tencent.mm.ui.contact.FMessageListView { <init>(...); }
+
+# view res/xml/contact_info_pref_normal.xml #generated:10
+# view res/xml/contact_info_pref_normal.xml #generated:8
+# view res/xml/contact_info_pref_normal.xml #generated:9
+-keep class com.tencent.mm.ui.contact.FriendPreference { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class com.tencent.mm.ui.contact.GroupCardSelectUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:114
+-keep class com.tencent.mm.ui.contact.ModRemarkNameUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:135
+-keep class com.tencent.mm.ui.contact.SayHiEditUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class com.tencent.mm.ui.contact.SelectContactUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:103
+-keep class com.tencent.mm.ui.contact.SendContactCardUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:237
+-keep class com.tencent.mm.ui.contact.SnsAddressUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:242
+-keep class com.tencent.mm.ui.contact.SnsTagContactListUI { <init>(...); }
+
+# view res/xml/contact_info_pref_bizinfo.xml #generated:4
+-keep class com.tencent.mm.ui.contact.profile.BizInfoHeaderPreference { <init>(...); }
+
+# view AndroidManifest.xml #generated:113
+-keep class com.tencent.mm.ui.contact.profile.ContactInfoUI { <init>(...); }
+
+# view res/xml/contact_info_pref_facebookapp.xml #generated:4
+# view res/xml/contact_info_pref_feedsapp.xml #generated:4
+# view res/xml/contact_info_pref_floatbottle.xml #generated:4
+# view res/xml/contact_info_pref_fmessage.xml #generated:4
+# view res/xml/contact_info_pref_masssend.xml #generated:4
+# view res/xml/contact_info_pref_medianote.xml #generated:4
+# view res/xml/contact_info_pref_meishiapp.xml #generated:4
+# view res/xml/contact_info_pref_qmessage.xml #generated:4
+# view res/xml/contact_info_pref_qqfriend.xml #generated:4
+# view res/xml/contact_info_pref_readerappnews.xml #generated:4
+# view res/xml/contact_info_pref_readerappweibo.xml #generated:4
+# view res/xml/contact_info_pref_tmessage.xml #generated:4
+# view res/xml/contact_info_pref_voice_reminder.xml #generated:4
+# view res/xml/contact_info_pref_voiceinput.xml #generated:4
+# view res/xml/contact_info_pref_voip.xml #generated:4
+# view res/xml/contact_info_pref_voip_audio.xml #generated:4
+-keep class com.tencent.mm.ui.contact.profile.HelperHeaderPreference { <init>(...); }
+
+# view res/xml/contact_info_pref_bottlecontact.xml #generated:7
+# view res/xml/contact_info_pref_normal.xml #generated:15
+# view res/xml/contact_info_pref_verify.xml #generated:7
+-keep class com.tencent.mm.ui.contact.profile.NormalUserFooterPreference { <init>(...); }
+
+# view res/xml/contact_info_pref_bottlecontact.xml #generated:4
+# view res/xml/contact_info_pref_chatroom.xml #generated:4
+# view res/xml/contact_info_pref_normal.xml #generated:4
+# view res/xml/contact_info_pref_qcontact.xml #generated:4
+-keep class com.tencent.mm.ui.contact.profile.NormalUserHeaderPreference { <init>(...); }
+
+# view res/xml/contact_info_pref_verify.xml #generated:4
+-keep class com.tencent.mm.ui.contact.profile.VerifyUserHeaderPreference { <init>(...); }
+
+# view res/layout/adlist_item.xml #generated:4
+-keep class com.tencent.mm.ui.conversation.ADListView { <init>(...); }
+
+# view AndroidManifest.xml #generated:106
+-keep class com.tencent.mm.ui.conversation.BizConversationUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:92
+-keep class com.tencent.mm.ui.conversation.MainUI { <init>(...); }
+
+# view res/layout/net_warn_item.xml #generated:4
+-keep class com.tencent.mm.ui.conversation.NetWarnView { <init>(...); }
+
+# view AndroidManifest.xml #generated:108
+-keep class com.tencent.mm.ui.conversation.QConversationUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:107
+-keep class com.tencent.mm.ui.conversation.TConversationUI { <init>(...); }
+
+# view res/layout/emoji_banner_view.xml #generated:4
+-keep class com.tencent.mm.ui.emoji.EmojiBannerView { <init>(...); }
+
+# view AndroidManifest.xml #generated:173
+-keep class com.tencent.mm.ui.emoji.EmojiCustomUI { <init>(...); }
+
+# view res/layout/emoji_store_detail.xml #generated:28
+-keep class com.tencent.mm.ui.emoji.EmojiDetailGridView { <init>(...); }
+
+# view res/layout/emoji_store_detail.xml #generated:5
+-keep class com.tencent.mm.ui.emoji.EmojiDetailScrollView { <init>(...); }
+
+# view AndroidManifest.xml #generated:172
+-keep class com.tencent.mm.ui.emoji.EmojiLocalUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:175
+-keep class com.tencent.mm.ui.emoji.EmojiPaidUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:176
+-keep class com.tencent.mm.ui.emoji.EmojiStoreDetailUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:174
+-keep class com.tencent.mm.ui.emoji.EmojiStoreUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:124
+-keep class com.tencent.mm.ui.friend.ContactsSyncUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:96
+-keep class com.tencent.mm.ui.friend.FMessageConversationUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:182
+-keep class com.tencent.mm.ui.friend.FindMContactAddUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:183
+-keep class com.tencent.mm.ui.friend.FindMContactInviteUI { <init>(...); }
+
+# view res/xml/find_more_friends.xml #generated:4
+-keep class com.tencent.mm.ui.friend.FriendSnsPreference { <init>(...); }
+
+# view AndroidManifest.xml #generated:123
+-keep class com.tencent.mm.ui.friend.InviteFacebookFriendsUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:120
+-keep class com.tencent.mm.ui.friend.InviteFriendUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class com.tencent.mm.ui.friend.InviteRecommendChoiceUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:117
+-keep class com.tencent.mm.ui.friend.MobileFriendUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:118
+-keep class com.tencent.mm.ui.friend.QQFriendUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:119
+-keep class com.tencent.mm.ui.friend.QQGroupUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:122
+-keep class com.tencent.mm.ui.friend.RecommendFriendUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:216
+-keep class com.tencent.mm.ui.gallery.GestureGalleryUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class com.tencent.mm.ui.login.AddAccountLoginUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:186
+-keep class com.tencent.mm.ui.login.BindFacebookUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:70
+-keep class com.tencent.mm.ui.login.FacebookLoginUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:82
+-keep class com.tencent.mm.ui.login.LoginByMobileUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.tencent.mm.ui.login.LoginHistoryUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class com.tencent.mm.ui.login.LoginIndepPass { <init>(...); }
+
+# view AndroidManifest.xml #generated:66
+-keep class com.tencent.mm.ui.login.LoginSelectorUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class com.tencent.mm.ui.login.LoginUI { <init>(...); }
+
+# view res/layout/login_history.xml #generated:6
+-keep class com.tencent.mm.ui.login.MMKeyboardUperView { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class com.tencent.mm.ui.login.MobileVerifyUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:79
+-keep class com.tencent.mm.ui.login.RegByFacebookSetPwdUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:72
+-keep class com.tencent.mm.ui.login.RegByMobileRegUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:77
+-keep class com.tencent.mm.ui.login.RegByMobileSetNickUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class com.tencent.mm.ui.login.RegByMobileSetPwdUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class com.tencent.mm.ui.login.RegByMobileVoiceVerifySelectUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.tencent.mm.ui.login.RegByMobileVoiceVerifyUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:71
+-keep class com.tencent.mm.ui.login.RegByQQAuthUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class com.tencent.mm.ui.login.RegByQQUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:81
+-keep class com.tencent.mm.ui.login.RegSetInfoUI { <init>(...); }
+
+# view res/layout/login_history.xml #generated:5
+-keep class com.tencent.mm.ui.login.ResizeLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:78
+-keep class com.tencent.mm.ui.login.SimpleLoginUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:345
+-keep class com.tencent.mm.ui.openapi.AddAppUI { <init>(...); }
+
+# view res/xml/app_profile.xml #generated:4
+-keep class com.tencent.mm.ui.openapi.AppHeaderPreference { <init>(...); }
+
+# view res/xml/addapp_pref.xml #generated:6
+# view res/xml/addapp_pref.xml #generated:9
+-keep class com.tencent.mm.ui.openapi.AppPreference { <init>(...); }
+
+# view AndroidManifest.xml #generated:346
+-keep class com.tencent.mm.ui.openapi.AppProfileUI { <init>(...); }
+
+# view res/layout/music_banner_view.xml #generated:4
+-keep class com.tencent.mm.ui.player.MusicBannerView { <init>(...); }
+
+# view AndroidManifest.xml #generated:112
+-keep class com.tencent.mm.ui.player.MusicDetailUI { <init>(...); }
+
+# view res/layout/music_banner_view.xml #generated:8
+-keep class com.tencent.mm.ui.player.ScrollAlwaysTextView { <init>(...); }
+
+# view AndroidManifest.xml #generated:105
+-keep class com.tencent.mm.ui.pluginapp.AddMoreFriendsUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:116
+-keep class com.tencent.mm.ui.pluginapp.ContactSearchResultUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:98
+-keep class com.tencent.mm.ui.pluginapp.ContactSearchUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:104
+-keep class com.tencent.mm.ui.pluginapp.FindMoreFriendsUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:353
+-keep class com.tencent.mm.ui.qrcode.GetQRCodeInfoUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:352
+-keep class com.tencent.mm.ui.qrcode.QRCodeIntroductionWebViewUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:368
+-keep class com.tencent.mm.ui.qrcode.ShareMicroMsgChoiceUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:162
+-keep class com.tencent.mm.ui.qrcode.ShareToQQUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:369
+-keep class com.tencent.mm.ui.qrcode.ShowQRCodeStep1UI { <init>(...); }
+
+# view AndroidManifest.xml #generated:283
+-keep class com.tencent.mm.ui.securityaccount.BindSafeDeviceUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:282
+-keep class com.tencent.mm.ui.securityaccount.ModSafeDeviceNameUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:281
+-keep class com.tencent.mm.ui.securityaccount.MySafeDeviceListUI { <init>(...); }
+
+# view res/xml/settings_pref_account_info.xml #generated:17
+-keep class com.tencent.mm.ui.securityaccount.SafeDeviceSwitchKeyValuePreference { <init>(...); }
+
+# view AndroidManifest.xml #generated:279
+-keep class com.tencent.mm.ui.securityaccount.SecurityAccountIntroUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:280
+-keep class com.tencent.mm.ui.securityaccount.SecurityAccountVerifyUI { <init>(...); }
+
+# view res/xml/more_tab_pref.xml #generated:6
+-keep class com.tencent.mm.ui.setting.AccountInfoPreference { <init>(...); }
+
+# view AndroidManifest.xml #generated:161
+-keep class com.tencent.mm.ui.setting.EditSignatureUI { <init>(...); }
+
+# view res/xml/settings_pref_personal_info_new.xml #generated:5
+-keep class com.tencent.mm.ui.setting.HeadImgNewPreference { <init>(...); }
+
+# view res/xml/bottle_settings_pref_personal_info.xml #generated:4
+# view res/xml/settings_pref_personal_info.xml #generated:5
+-keep class com.tencent.mm.ui.setting.HeadImgPreference { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class com.tencent.mm.ui.setting.MoreTabUI { <init>(...); }
+
+# view res/xml/settings_pref_netstat.xml #generated:10
+# view res/xml/settings_pref_netstat.xml #generated:7
+-keep class com.tencent.mm.ui.setting.NetStatPreference { <init>(...); }
+
+# view res/xml/settings_pref_personal_info.xml #generated:11
+-keep class com.tencent.mm.ui.setting.PersonalPreference { <init>(...); }
+
+# view res/xml/room_right_ui.xml #generated:7
+-keep class com.tencent.mm.ui.setting.RoomGrantPreference { <init>(...); }
+
+# view AndroidManifest.xml #generated:367
+-keep class com.tencent.mm.ui.setting.SelfQRCodeUI { <init>(...); }
+
+# view res/xml/settings_pref_account_info.xml #generated:12
+-keep class com.tencent.mm.ui.setting.SelfVuserPreference { <init>(...); }
+
+# view AndroidManifest.xml #generated:164
+-keep class com.tencent.mm.ui.setting.SendFeedBackUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:148
+-keep class com.tencent.mm.ui.setting.SetTextSizeUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:382
+-keep class com.tencent.mm.ui.setting.SettingDeleteAccountAgreementUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:383
+-keep class com.tencent.mm.ui.setting.SettingDeleteAccountInputPassUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:384
+-keep class com.tencent.mm.ui.setting.SettingDeleteAccountUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:138
+-keep class com.tencent.mm.ui.setting.SettingsAboutMicroMsgUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:139
+-keep class com.tencent.mm.ui.setting.SettingsAboutPrivacyUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:149
+-keep class com.tencent.mm.ui.setting.SettingsAboutSystemUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:140
+-keep class com.tencent.mm.ui.setting.SettingsAboutTimelineUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:144
+-keep class com.tencent.mm.ui.setting.SettingsAccountInfoUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:159
+-keep class com.tencent.mm.ui.setting.SettingsActiveTimeUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:145
+-keep class com.tencent.mm.ui.setting.SettingsAliasUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:166
+-keep class com.tencent.mm.ui.setting.SettingsChattingBackgroundUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:171
+-keep class com.tencent.mm.ui.setting.SettingsEmojiUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:165
+-keep class com.tencent.mm.ui.setting.SettingsFAQWebUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:137
+-keep class com.tencent.mm.ui.setting.SettingsLanguageUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:157
+-keep class com.tencent.mm.ui.setting.SettingsModifyEmailAddrUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:156
+-keep class com.tencent.mm.ui.setting.SettingsModifyNameUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:158
+-keep class com.tencent.mm.ui.setting.SettingsModifyPasswordUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:160
+-keep class com.tencent.mm.ui.setting.SettingsNetStatUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:147
+-keep class com.tencent.mm.ui.setting.SettingsNotificationUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:142
+-keep class com.tencent.mm.ui.setting.SettingsPersonalInfoUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:163
+-keep class com.tencent.mm.ui.setting.SettingsPluginsNotifyUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:146
+-keep class com.tencent.mm.ui.setting.SettingsPluginsUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:141
+-keep class com.tencent.mm.ui.setting.SettingsPrivacyUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:155
+-keep class com.tencent.mm.ui.setting.SettingsRingtoneUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:167
+-keep class com.tencent.mm.ui.setting.SettingsSelectBgUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:143
+-keep class com.tencent.mm.ui.setting.SettingsTWeiboUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:136
+-keep class com.tencent.mm.ui.setting.SettingsUI { <init>(...); }
+
+# view res/xml/roominfo_detail_pref.xml #generated:7
+# view res/xml/roominfo_pref.xml #generated:7
+# view res/xml/settings_pref_personal_info_new.xml #generated:13
+-keep class com.tencent.mm.ui.setting.SignaturePreference { <init>(...); }
+
+# view res/xml/settings_pref_personal_info_new.xml #generated:9
+-keep class com.tencent.mm.ui.setting.TipRightIconPreference { <init>(...); }
+
+# view AndroidManifest.xml #generated:196
+-keep class com.tencent.mm.ui.tools.CountryCodeUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:197
+-keep class com.tencent.mm.ui.tools.CropImageNewUI { <init>(...); }
+
+# view res/layout/crop_image_filter.xml #generated:4
+# view res/layout/cropimage_new.xml #generated:4
+-keep class com.tencent.mm.ui.tools.CropImageView { <init>(...); }
+
+# view res/layout/chatting_item_biz.xml #generated:12
+# view res/layout/reader_app_list_item.xml #generated:12
+-keep class com.tencent.mm.ui.tools.CustomFitTextView { <init>(...); }
+
+# view res/layout/cropimage_new.xml #generated:20
+# view res/layout/image_gallery_plugin.xml #generated:21
+-keep class com.tencent.mm.ui.tools.FilterImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:198
+-keep class com.tencent.mm.ui.tools.ImageGalleryUI { <init>(...); }
+
+# view res/layout/favorite_img_detail_ui.xml #generated:4
+# view res/layout/image_gallery.xml #generated:4
+# view res/layout/image_gallery_plugin.xml #generated:4
+# view res/layout/readerapp_imageview.xml #generated:5
+# view res/layout/show_image_ui.xml #generated:4
+# view res/layout/sns_info_flip_view.xml #generated:6
+-keep class com.tencent.mm.ui.tools.MMGestureGallery { <init>(...); }
+
+# view AndroidManifest.xml #generated:530
+-keep class com.tencent.mm.ui.tools.MMTextInputUI { <init>(...); }
+
+# view res/layout/address_list_item.xml #generated:18
+# view res/layout/contact_item.xml #generated:17
+# view res/layout/conversation_item.xml #generated:11
+# view res/layout/conversation_item.xml #generated:7
+# view res/layout/select_conv_item.xml #generated:5
+# view res/layout/sns_timeline_item.xml #generated:8
+# view res/layout/sns_timeline_item2.xml #generated:5
+# view res/layout/sns_timeline_item3.xml #generated:5
+# view res/layout/sns_timeline_item_feed.xml #generated:5
+# view res/layout/sns_timeline_item_photo.xml #generated:5
+# view res/layout/sns_timeline_item_photo2.xml #generated:5
+# view res/layout/sns_timeline_item_photo3.xml #generated:5
+# view res/layout/sns_timeline_item_text.xml #generated:5
+# view res/layout/timeline_item_base.xml #generated:5
+-keep class com.tencent.mm.ui.tools.MMTruncTextView { <init>(...); }
+
+# view res/layout/partly_imageview.xml #generated:4
+# view res/layout/sns_comment_detail_header.xml #generated:4
+# view res/layout/sns_comment_detail_item.xml #generated:8
+# view res/layout/sns_timeline_item.xml #generated:4
+# view res/layout/sns_timeline_item2.xml #generated:4
+# view res/layout/sns_timeline_item3.xml #generated:4
+# view res/layout/sns_timeline_item_feed.xml #generated:4
+# view res/layout/sns_timeline_item_photo.xml #generated:4
+# view res/layout/sns_timeline_item_photo2.xml #generated:4
+# view res/layout/sns_timeline_item_photo3.xml #generated:4
+# view res/layout/sns_timeline_item_photo_one.xml #generated:4
+# view res/layout/sns_timeline_item_photo_one2.xml #generated:4
+# view res/layout/sns_timeline_item_photo_one3.xml #generated:4
+# view res/layout/sns_timeline_item_text.xml #generated:4
+# view res/layout/test_sns.xml #generated:4
+# view res/layout/timeline_item_base.xml #generated:4
+-keep class com.tencent.mm.ui.tools.MaskImageButton { <init>(...); }
+
+# view AndroidManifest.xml #generated:190
+-keep class com.tencent.mm.ui.tools.MultiStageCitySelectUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:189
+-keep class com.tencent.mm.ui.tools.NewTaskUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:244
+-keep class com.tencent.mm.ui.tools.ShareImgUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:259
+-keep class com.tencent.mm.ui.tools.ShareToTimeLineUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:199
+-keep class com.tencent.mm.ui.tools.ShowImageUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:495
+-keep class com.tencent.mm.ui.tools.WebViewUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:494
+-keep class com.tencent.mm.ui.tools.jsapi.ShareToQQWeiboUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class com.tencent.mm.ui.transmit.MsgRetransmitUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:91
+-keep class com.tencent.mm.ui.transmit.SelectConversationUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:110
+-keep class com.tencent.mm.ui.transmit.SendAppMessageWrapperUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class com.tencent.mm.ui.transmit.TaskRedirectUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:201
+-keep class com.tencent.mm.ui.video.VideoDownloadUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:200
+-keep class com.tencent.mm.ui.video.VideoPlayerUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:411
+-keep class com.tencent.mm.ui.video.VideoRecorderPreviewUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:405
+-keep class com.tencent.mm.ui.video.VideoRecorderUI { <init>(...); }
+
+# view AndroidManifest.xml #generated:350
+-keep class com.tencent.mm.ui.voicesearch.SearchConversationResultUI { <init>(...); }
+
+# view res/layout/main_tab.xml #generated:49
+# view res/layout/voice_input_panel.xml #generated:4
+-keep class com.tencent.mm.ui.voicesearch.VoiceSearchLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:349
+-keep class com.tencent.mm.ui.voicesearch.VoiceSearchResultUI { <init>(...); }
+
+# view res/layout/chatting_footer.xml #generated:13
+# view res/layout/mm_comment_dialog.xml #generated:5
+# view res/layout/settings_modify_name.xml #generated:6
+# view res/layout/sns_comment_footer.xml #generated:8
+-keep class com.tencent.mm.ui.widget.MMEditText { <init>(...); }
+
+# view res/layout/mm_preference_content_album.xml #generated:6
+# view res/layout/mm_preference_content_album.xml #generated:7
+# view res/layout/mm_preference_content_album.xml #generated:8
+# view res/layout/sns_photo_item_date.xml #generated:28
+# view res/layout/sns_photo_user_photo.xml #generated:23
+# view res/layout/sns_time_line_item3.xml #generated:6
+# view res/layout/sns_timeline_ui.xml #generated:11
+-keep class com.tencent.mm.ui.widget.QImageView { <init>(...); }
+
+# view res/layout/edit_hint_view.xml #generated:5
+-keep class com.tenpay.android.wechat.TenpaySecureEditText { <init>(...); }
+

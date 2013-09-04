@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/com.tencent.mm">
+    <com.tencent.mm.ui.friend.FriendSnsPreference android:title="@string/sns_dyna_photo_ui_title" android:key="album_dyna_photo_ui_title" />
+    <PreferenceCategory />
+    <IconPreference android:icon="@drawable/find_more_friend_scan" android:title="@string/find_friends_by_qrcode" android:key="find_friends_by_qrcode" />
+    <IconPreference android:icon="@drawable/find_more_friend_shake" android:title="@string/shake_report_title" android:key="find_friends_by_shake" />
+    <PreferenceCategory />
+    <IconPreference android:icon="@drawable/find_more_friend_near_icon" android:title="@string/nearby_friend_title" android:key="find_friends_by_near" />
+    <IconPreference android:icon="@drawable/find_more_friend_bottle" android:title="@string/bottle_beach_title" android:key="voice_bottle" />
+    <PreferenceCategory />
+    <IconPreference android:icon="@drawable/more_game" android:title="@string/game_recommand" android:key="more_tab_game_recommend" />
+    <PreferenceCategory />
+    <IconPreference android:icon="@drawable/find_more_friend_addfriend_icon" android:title="@string/add_more_friends_title" android:key="add_more_friends" />
+    <PreferenceCategory />
+</PreferenceScreen>

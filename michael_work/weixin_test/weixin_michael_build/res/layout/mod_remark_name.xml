@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView style="@style/MMScroll">
+        <LinearLayout style="@style/MMBody">
+            <EditText android:id="@id/contact_info_mod_remark_name_et" android:hint="@string/mod_remark_name_hint" android:maxLength="20" style="@style/MMLineEditText" />
+            <TextView android:gravity="left" android:id="@id/contact_info_mod_remark_name_hint_tv" android:visibility="gone" android:layout_marginTop="10.0dip" style="@style/MMBriefText" />
+            <LinearLayout android:id="@id/mod_remark_mobile_name_area" android:background="@drawable/remark_name_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0dip" android:textColor="#ff8e8e8e" android:id="@id/mode_remark_mobile_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <Button android:textSize="14.0dip" android:textColor="#ff8e8e8e" android:gravity="center" android:id="@id/mode_remark_set_mobile_name_btn" android:background="@drawable/remark_name_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_set" android:shadowColor="#ffffffff" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

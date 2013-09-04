@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/NavPage"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/text_edit" android:layout_height="130.0dip" android:layout_margin="10.0dip" style="@style/MMMultiLineEditText" />
+</LinearLayout>
