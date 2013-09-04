@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/play" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/play_audio" android:drawableLeft="@drawable/ic_play_audio" style="@style/ButtonTileAction" />
+    <LinearLayout android:id="@id/preparing" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/TileAction">
+        <ProgressBar android:layout_gravity="center_vertical" android:layout_width="32.0dip" android:layout_height="32.0dip" android:indeterminate="true" />
+        <TextView android:layout_gravity="center_vertical" android:paddingLeft="@dimen/tile_action_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/loading" style="@style/TileActionText" />
+    </LinearLayout>
+    <Button android:id="@id/pause" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/pause_audio" android:drawableLeft="@drawable/ic_pause_audio" style="@style/ButtonTileAction" />
+</merge>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compose_modes">
+        <item>Svara</item>
+        <item>Svara alla</item>
+        <item>Vidarebefordra</item>
+    </string-array>
+    <string-array name="sync_status">
+        <item>Färdigt</item>
+        <item>Ingen anslutning.</item>
+        <item>Det gick inte att logga in</item>
+        <item>Säkerhetsfel.</item>
+        <item>Det gick inte att synkronisera.</item>
+        <item>Internt fel</item>
+    </string-array>
+    <string-array name="moveto_folder_sections">
+        <item>System</item>
+        <item>Används ofta</item>
+        <item>Alla etiketter</item>
+    </string-array>
+    <string-array name="prefEntries_autoAdvance">
+        <item>Nyare</item>
+        <item>Äldre</item>
+        <item>Konversationslista</item>
+    </string-array>
+    <string-array name="prefSummaries_autoAdvance">
+        <item>Visa nyare konversationer när du tagit bort eller arkiverat.</item>
+        <item>Visa äldre konversationer när du tagit bort eller arkiverat.</item>
+        <item>Visa konversationslista när du tagit bort eller arkiverat.</item>
+    </string-array>
+    <string-array name="prefEntries_removal_action">
+        <item>Visa endast arkivera</item>
+        <item>Visa endast ta bort</item>
+        <item>Visa arkivera och ta bort</item>
+    </string-array>
+    <string-array name="prefSummaries_removal_action_summary">
+        <item>Visa endast arkivera</item>
+        <item>Visa endast ta bort</item>
+        <item>Visa arkivera och ta bort</item>
+    </string-array>
+    <string-array name="prefEntries_swipe">
+        <item>Ingen effekt</item>
+        <item>Arkivera/ta bort etikett/ta bort</item>
+        <item>Alltid ta bort</item>
+    </string-array>
+    <string-array name="prefSummaries_swipe">
+        <item>Har ingen effekt</item>
+        <item>Arkivera i inkorgen. Ta bort etikett från anpassade etiketter. Ta bort från systemetiketter som papperskorgen, Skickat osv.</item>
+        <item>Konversation tas alltid bort</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeName">
+        <item>Pytteliten</item>
+        <item>Liten</item>
+        <item>Normal</item>
+        <item>Stor</item>
+        <item>Mycket stor</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeSummary">
+        <item>Visa innehåll i meddelanden med pytteliten text</item>
+        <item>Visa innehåll i meddelanden med liten text</item>
+        <item>Visa innehåll i meddelanden med normalstor text</item>
+        <item>Visa innehåll i meddelanden med stor text</item>
+        <item>Visa innehåll i meddelanden med jättestor text</item>
+    </string-array>
+    <string-array name="prefSummaries_snapHeader">
+        <item>Visa alltid aktiviteter för meddelanden högst upp på skärmen</item>
+        <item>Visa endast aktiviteter för meddelanden högst upp på skärmen när telefonen är i stående läge</item>
+        <item>Visa inte aktiviteter för meddelanden utanför meddelanderubriken</item>
+    </string-array>
+    <string-array name="prefEntries_snapHeader">
+        <item>Visa alltid</item>
+        <item>Visa bara i stående läge</item>
+        <item>Visa inte</item>
+    </string-array>
+</resources>

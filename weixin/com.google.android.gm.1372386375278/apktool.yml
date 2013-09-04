@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: com.google.android.gm.1372386375278.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '17'
+packageInfo:
+  cur_package: com.google.android.gm
+  orig_package: com.google.android.gm
+compressionType: false

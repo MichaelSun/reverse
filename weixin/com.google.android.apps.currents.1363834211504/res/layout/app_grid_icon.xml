@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/app_grid_icon" android:background="@*android:color/transparent" android:padding="@dimen/app_grid_outer_margin" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dots="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="@dimen/app_grid_cell_size" android:layout_height="@dimen/app_grid_cell_size" android:layout_centerInParent="true">
+        <include layout="@layout/framed_icon" />
+        <com.google.apps.dots.android.dotslib.widget.DotsTextView android:textSize="@dimen/app_grid_icon_caption_text_size" android:textColor="@color/home_edition_title_color" android:ellipsize="end" android:id="@id/title" android:paddingLeft="2.0dip" android:paddingBottom="@dimen/app_grid_icon_caption_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" dots:font="REGULAR_SANS" />
+    </RelativeLayout>
+</RelativeLayout>

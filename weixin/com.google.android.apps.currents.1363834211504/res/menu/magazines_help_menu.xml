@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_support" android:orderInCategory="0" android:title="@string/support" android:showAsAction="always">
+        <menu>
+            <item android:id="@id/menu_customer_support" android:orderInCategory="0" android:title="@string/customer_support" android:showAsAction="never" />
+            <item android:id="@id/menu_feedback" android:orderInCategory="1" android:title="@string/give_product_feedback" android:showAsAction="never" />
+            <item android:id="@id/menu_abuse" android:orderInCategory="2" android:title="@string/report_inappropriate_content" android:showAsAction="never" />
+            <item android:id="@id/menu_copyright" android:orderInCategory="3" android:title="@string/report_copyright_issue" android:showAsAction="never" />
+        </menu>
+    </item>
+    <item android:id="@id/menu_tos" android:orderInCategory="1" android:title="@string/terms_of_service" android:showAsAction="never" />
+    <item android:id="@id/menu_privacy" android:orderInCategory="2" android:title="@string/privacy_policy" android:showAsAction="never" />
+    <item android:id="@id/menu_open_source" android:orderInCategory="3" android:title="@string/open_source_licenses" android:showAsAction="never" />
+</menu>

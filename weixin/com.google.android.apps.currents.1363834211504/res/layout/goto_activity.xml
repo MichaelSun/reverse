@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rootView" android:background="@*android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/gotoView" android:background="@*android:color/white" android:paddingTop="@dimen/action_bar_default_height" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ExpandableListView android:id="@id/list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <com.google.apps.dots.android.dotslib.widget.DotsImageView android:id="@id/tabloidShadow" android:background="@drawable/goto_tablet_shadow" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/gotoView" android:layout_alignTop="@id/gotoView" android:layout_alignBottom="@id/gotoView" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="top" android:id="@id/sync_status_bar" android:background="@*android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/sync_status_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/sync_result" android:padding="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="12.0sp" android:textColor="@*android:color/black" android:id="@id/sync_result_text" android:paddingLeft="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" android:text="@string/no_new_messages" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@id/loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="32.0dip" android:layout_height="32.0dip" android:indeterminate="true" style="?android:attr/progressBarStyle" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_attachments">
+        <item quantity="other">%d lampiran</item>
+        <item quantity="one">%d lampiran</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">Alihkan %1$d perbualan</item>
+        <item quantity="one">Alihkan perbualan</item>
+    </plurals>
+    <plurals name="unread_mail_count">
+        <item quantity="other">%1$d mel belum dibaca</item>
+        <item quantity="one">1 mel belum dibaca</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Draf</item>
+        <item quantity="one">Draf</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Padamkan %1$d perbualan ini?</item>
+        <item quantity="one">Padamkan perbualan ini?</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Arkibkan %1$d perbualan ini?</item>
+        <item quantity="one">Arkibkan perbualan ini?</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="other">Buang draf daripada %1$d perbualan ini?</item>
+        <item quantity="one">Buang draf daripada perbualan ini?</item>
+    </plurals>
+    <plurals name="conversation_unstarred">
+        <item quantity="other">Membuang bintang %1$d perbualan.</item>
+        <item quantity="one">Membuang bintang %1$d perbualan.</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> diredamkan.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> diredamkan.</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> dilaporkan sebagai spam.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> dilaporkan sebagai spam.</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> dilaporkan sebagai bukan spam.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> dilaporkan sebagai bukan spam.</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> ditandakan tidak penting.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> ditandakan tidak penting.</item>
+    </plurals>
+    <plurals name="conversation_phished">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> dilaporkan sebagai pancingan data.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> dilaporkan sebagai pancingan data.</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> diarkibkan.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> diarkibkan.</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> dipadamkan.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> dipadamkan.</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">Label yang ditukar.</item>
+        <item quantity="one">Label yang ditukar.</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">Segerak: %1$d hari terakhir</item>
+        <item quantity="one">Segerak: %1$d hari terakhir</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">%1$d perbualan akan dipadam secara kekal.</item>
+        <item quantity="one">%1$d perbualan akan dipadam secara kekal.</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d hari</item>
+        <item quantity="one">Satu hari</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">Dari</item>
+        <item quantity="one">Hari</item>
+    </plurals>
+    <plurals name="notify_attachment_error">
+        <item quantity="other">Tidak dapat menghantar lampiran%s</item>
+        <item quantity="one">Tidak dapat menghantar lampiran</item>
+    </plurals>
+    <plurals name="sync_messages_partial_description">
+        <item quantity="other">Mesej %1$d hari terakhir akan dimuat turun apabila disambungkan</item>
+        <item quantity="one">Mesej 1 hari terakhir akan dimuat turun apabila disambungkan</item>
+    </plurals>
+    <plurals name="sectioned_inbox_teaser_unseen_plural_text">
+        <item quantity="other">%1$d Baharu</item>
+        <item quantity="one">%1$d Baharu</item>
+    </plurals>
+</resources>

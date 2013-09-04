@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">(рецензентів: %d)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">(%d рецензент)</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">Магазинів: %d</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d магазин</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">Користувачів, які підписалися: %s</item>
+        <item quantity="zero"></item>
+        <item quantity="one">Користувачів, які підписалися: %s</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">Випусків: %d</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d випуск</item>
+        <item quantity="two">Випусків: %d</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">%d хв. тому</item>
+        <item quantity="one">1 хвилину тому</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">%d год. тому</item>
+        <item quantity="one">1 годину тому</item>
+    </plurals>
+</resources>

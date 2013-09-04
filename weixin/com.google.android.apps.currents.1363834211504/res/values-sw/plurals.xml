@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_stores">
+        <item quantity="other">Maduka %d</item>
+        <item quantity="zero"></item>
+        <item quantity="one">Duka la %d</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">%s ya Wateja</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%s ya Mteja</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">Matoleo %d</item>
+        <item quantity="zero"></item>
+        <item quantity="one">Toleo la %d</item>
+        <item quantity="two">Matoleo %d</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">Dakika %d zilizopita</item>
+        <item quantity="one">dakika moja iliyopita</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">Saa %d zilizopita</item>
+        <item quantity="one">saa moja lililopita</item>
+    </plurals>
+</resources>

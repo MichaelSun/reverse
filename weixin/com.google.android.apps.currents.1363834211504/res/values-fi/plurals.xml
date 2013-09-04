@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">(%d arvostelijaa)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">(%d arvostelija)</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">%d myymälää</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d myymälä</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">%s tilaajaa</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%s tilaaja</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">%d numeroa</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d numero</item>
+        <item quantity="two">%d numeroa</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">%d minuuttia sitten</item>
+        <item quantity="one">minuutti sitten</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">%d tuntia sitten</item>
+        <item quantity="one">tunti sitten</item>
+    </plurals>
+</resources>

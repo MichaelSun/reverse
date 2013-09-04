@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/chrome_bar_icons" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_default_height">
+        <RelativeLayout android:id="@id/progressbar" android:paddingLeft="@dimen/chrome_bar_icon_side_padding" android:paddingRight="@dimen/chrome_bar_icon_side_padding" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_default_height" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/screensaver_photo_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/screensaver_detail_label" android:background="@drawable/screensaver_photo_label_background" android:padding="@dimen/screensaver_photo_detail_label_padding" android:layout_width="fill_parent" android:layout_height="@dimen/screensaver_photo_detail_label_height">
+        <TextView android:textSize="@dimen/screensaver_photo_detail_title_textsize" android:textColor="#ffc9c9c9" android:ellipsize="end" android:id="@id/screensaver_photo_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" />
+        <Button android:textSize="@dimen/screensaver_photo_detail_byline_textsize" android:textColor="#ffc9c9c9" android:id="@id/screensaver_open" android:background="@drawable/screensaver_open_button_background" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/screensaver_open_in_app_caption" android:layout_below="@id/screensaver_photo_title" android:layout_alignParentRight="true" />
+        <TextView android:textSize="@dimen/screensaver_photo_detail_byline_textsize" android:textColor="#ffc9c9c9" android:ellipsize="end" android:id="@id/screensaver_photo_byline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_toLeftOf="@id/screensaver_open" android:layout_below="@id/screensaver_photo_title" android:layout_alignBaseline="@id/screensaver_open" />
+    </RelativeLayout>
+</FrameLayout>

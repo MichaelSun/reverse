@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/drawer_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/content_pane" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include layout="@layout/conversation_pager" />
+        <com.android.mail.ui.ActionableToastBar android:id="@id/toast_bar" style="@style/ToastBarStyle" />
+    </FrameLayout>
+    <fragment android:layout_gravity="start" android:id="@id/drawer_pullout" android:layout_width="@dimen/drawer_width" android:layout_height="fill_parent" class="com.android.mail.ui.DrawerFragment" />
+</android.support.v4.widget.DrawerLayout>

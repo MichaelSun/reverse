@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingRight="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dots="http://schemas.android.com/apk/res-auto">
+    <com.google.apps.dots.android.dotslib.widget.DotsTextView android:textSize="@dimen/abs__action_bar_title_text_size" android:textColor="#ff000000" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" dots:font="REGULAR_SANS" />
+    <com.google.apps.dots.android.dotslib.widget.DotsTextView android:textSize="@dimen/abs__action_bar_subtitle_text_size" android:textColor="#ff707070" android:ellipsize="end" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/abs__action_bar_subtitle_top_margin" android:singleLine="true" android:layout_below="@id/title" dots:font="REGULAR_SANS" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dots="http://schemas.android.com/apk/res-auto">
+    <View android:background="@drawable/drop_shadow_up" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/list_header_height">
+        <TextView android:textColor="@*android:color/black" android:gravity="center" android:id="@id/left_button" android:background="@drawable/compose_button_background" android:layout_width="0.0dip" android:layout_height="@dimen/list_header_height" android:layout_weight="1.0" dots:font="LIGHT_SANS" />
+        <View android:background="#ffd7d7d7" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <TextView android:textColor="@*android:color/black" android:gravity="center" android:id="@id/right_button" android:background="@drawable/compose_button_background" android:layout_width="0.0dip" android:layout_height="@dimen/list_header_height" android:layout_weight="1.0" dots:font="LIGHT_SANS" />
+    </LinearLayout>
+</LinearLayout>

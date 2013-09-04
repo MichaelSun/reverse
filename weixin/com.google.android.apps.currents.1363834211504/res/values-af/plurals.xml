@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">(%d beoordelaars)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">(%d resensent)</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">%d winkels</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d winkel</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">%s Intekenaars</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%s Intekenaar</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">%d Uitgawes</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d Uitgawe</item>
+        <item quantity="two">%d Uitgawes</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">%d minute gelede</item>
+        <item quantity="one">Een minuut gelede</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">%d uur gelede</item>
+        <item quantity="one">een uur gelede</item>
+    </plurals>
+</resources>

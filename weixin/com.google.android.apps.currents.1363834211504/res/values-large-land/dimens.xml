@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="magazines_outline_mode_text_area_height">246.0dip</dimen>
+    <dimen name="magazines_outline_mode_text_area_height_minus_bottom">226.0dip</dimen>
+    <dimen name="magazines_outline_mode_text_area_description_height">208.0dip</dimen>
+    <dimen name="magazines_outline_mode_text_side_padding">32.0dip</dimen>
+    <dimen name="magazines_outline_mode_text_area_tags_height">170.0dip</dimen>
+</resources>

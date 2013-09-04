@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_manage_folders">Кіраванне цэтлікамі</string>
+    <string name="menu_folder_options">Кіраванне цэтлікамі</string>
+    <string name="add_cc_label">+ Копія/УК</string>
+    <string name="add_bcc_label">+ схаваная копія</string>
+    <string name="preferences_default_reply_all_summary">Выкарыстоўваць у якасці адказу на паведамленні па змаўчанні</string>
+</resources>

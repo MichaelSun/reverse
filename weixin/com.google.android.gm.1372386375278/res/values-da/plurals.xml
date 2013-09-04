@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_attachments">
+        <item quantity="other">%d vedhæftede filer</item>
+        <item quantity="one">%d vedhæftet fil</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">Flyt %1$d samtaler</item>
+        <item quantity="one">Flyt samtale</item>
+    </plurals>
+    <plurals name="unread_mail_count">
+        <item quantity="other">%1$d ulæste e-mails</item>
+        <item quantity="one">1 ulæst e-mail</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Kladder</item>
+        <item quantity="one">Kladde</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Vil du slette disse %1$d samtaler?</item>
+        <item quantity="one">Vil du slette denne samtale?</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Vil du arkivere disse %1$d samtaler?</item>
+        <item quantity="one">Vil du arkivere denne samtale?</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="other">Vil du kassere kladderne fra disse %1$d samtaler?</item>
+        <item quantity="one">Vil du kassere kladderne fra denne samtale?</item>
+    </plurals>
+    <plurals name="conversation_unstarred">
+        <item quantity="other">Fjerner stjernemarkering fra %1$d samtaler.</item>
+        <item quantity="one">Fjerner stjernemarkering fra %1$d samtale.</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> er ignoreret.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> er ignoreret.</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> er rapporteret som spam.</item>
+        <item quantity="one">lt;b>%1$d&amp;lt;/b> er rapporteret som spam.</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> blev rapporteret som \"ikke spam\".</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> blev rapporteret som \"ikke spam\".</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> er markeret som vigtige.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> er markeret som uvigtige.</item>
+    </plurals>
+    <plurals name="conversation_phished">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> blev rapporteret som phishing.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> blev rapporteret som phishing.</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> er arkiveret.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> er arkiveret.</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> er slettet.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> er slettet.</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">Etiketterne blev ændret.</item>
+        <item quantity="one">Etiketten blev ændret.</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">Synkronisering: Seneste %1$d dage</item>
+        <item quantity="one">Synkronisering: Seneste %1$d dag</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">%1$d samtaler vil blive slettet permanent.</item>
+        <item quantity="one">%1$d samtale vil blive slettet permanent.</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d dage</item>
+        <item quantity="one">En dag</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">dage</item>
+        <item quantity="one">Dag</item>
+    </plurals>
+    <plurals name="notify_attachment_error">
+        <item quantity="other">Den vedhæftede fil kunne ikke sendes%s</item>
+        <item quantity="one">Den vedhæftede fil kunne ikke sendes</item>
+    </plurals>
+    <plurals name="sync_messages_partial_description">
+        <item quantity="other">De sidste %1$d dages meddelelser downloades, når der er oprettet forbindelse</item>
+        <item quantity="one">Den seneste dags meddelelser hentes, når der er oprettet forbindelse</item>
+    </plurals>
+    <plurals name="sectioned_inbox_teaser_unseen_plural_text">
+        <item quantity="other">%1$d nye</item>
+        <item quantity="one">%1$d nye</item>
+    </plurals>
+</resources>

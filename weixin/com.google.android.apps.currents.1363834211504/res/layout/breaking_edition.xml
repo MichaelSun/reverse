@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="@dimen/action_bar_default_height" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v4.view.DotsViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:layout_gravity="top" android:background="@drawable/drop_shadow_down" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+    <com.google.apps.dots.android.dotslib.widget.ChromeBarLightsOut android:layout_gravity="bottom" android:id="@id/chrome_bar_lights_out" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip" />
+</FrameLayout>

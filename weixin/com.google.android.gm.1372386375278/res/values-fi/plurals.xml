@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_attachments">
+        <item quantity="other">%d liitettä</item>
+        <item quantity="one">%d liite</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">Siirrä %1$d keskustelua</item>
+        <item quantity="one">Siirrä keskustelu</item>
+    </plurals>
+    <plurals name="unread_mail_count">
+        <item quantity="other">%1$d lukematonta sähköpostia</item>
+        <item quantity="one">1 lukematon sähköposti</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Luonnokset</item>
+        <item quantity="one">Luonnos</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Poistetaanko nämä %1$d keskustelua?</item>
+        <item quantity="one">Poistetaanko tämä keskustelu?</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Arkistoidaanko nämä %1$d keskustelua?</item>
+        <item quantity="one">Arkistoidaanko tämä keskustelu?</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="other">Hylätäänkö näiden %1$d keskustelun luonnokset?</item>
+        <item quantity="one">Hylätäänkö tämän keskustelun luonnokset?</item>
+    </plurals>
+    <plurals name="conversation_unstarred">
+        <item quantity="other">Poistetaan tähti %1$d keskustelusta.</item>
+        <item quantity="one">Poistetaan tähti %1$d keskustelusta.</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> ohitettu.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> ohitettu.</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> merkitty roskapostiksi.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> merkitty roskapostiksi.</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> merkitty muuksi kuin roskapostiksi.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> merkitty muuksi kuin roskapostiksi.</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> merkitty ei-tärkeäksi.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> merkitty ei-tärkeäksi.</item>
+    </plurals>
+    <plurals name="conversation_phished">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> merkitty tietojenkalasteluksi.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> merkitty tietojenkalasteluksi.</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> arkistoitu.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> arkistoitu.</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> poistettu.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> poistettu.</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">Tunnisteet muutettu.</item>
+        <item quantity="one">Tunniste muutettu.</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">Synkronoi edelliset %1$d päivää</item>
+        <item quantity="one">Synkronoi edellinen %1$d päivä</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">%1$d keskustelua poistetaan pysyvästi.</item>
+        <item quantity="one">%1$d keskustelu poistetaan pysyvästi.</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d päivää</item>
+        <item quantity="one">Yksi päivä</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">päivää</item>
+        <item quantity="one">Päivä</item>
+    </plurals>
+    <plurals name="notify_attachment_error">
+        <item quantity="other">Liitetiedoston lähettäminen tilistä %s epäonnistui</item>
+        <item quantity="one">Liitetiedoston lähettäminen epäonnistui</item>
+    </plurals>
+    <plurals name="sync_messages_partial_description">
+        <item quantity="other">Viimeisen %1$d päivän viestit ladataan, kun yhteys on käytössä.</item>
+        <item quantity="one">Edellisen päivän viestit ladataan, kun yhteys on käytössä.</item>
+    </plurals>
+    <plurals name="sectioned_inbox_teaser_unseen_plural_text">
+        <item quantity="other">%1$d uutta</item>
+        <item quantity="one">%1$d uutta</item>
+    </plurals>
+</resources>

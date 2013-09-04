@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/list_item_half_padding" android:paddingTop="@dimen/list_item_nav_vertical_padding" android:paddingRight="@dimen/list_item_half_padding" android:paddingBottom="@dimen/list_item_nav_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="progressBarStyle" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@*android:color/black" android:gravity="center" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/searching" android:singleLine="true" />
+</LinearLayout>

@@ -1,0 +1,61 @@
+/**
+ * Copyright 2011 Google Inc.  All Rights Reserved.
+ *
+ * Author: shalabi@google.com (Sami Shalabi)
+ */
+
+@font-face {
+  font-family: 'Currents-Regular-Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Roboto'), url('file:///android_asset/fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Currents-Regular-Sans';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Roboto'), url('file:///android_asset/fonts/Roboto-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Currents-Regular-Sans';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Roboto'), url('file:///android_asset/fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Currents-Regular-Sans';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Roboto'), url('file:///android_asset/fonts/Roboto-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Currents-Condensed-Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('sans-serif-condensed'), url('file:///android_asset/fonts/Roboto-Condensed.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Currents-Condensed-Sans';
+  font-style: normal;
+  font-weight: bold;
+  src: local('sans-serif-condensed'), url('file:///android_asset/fonts/Roboto-BoldCondensed.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Currents-Light-Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('sans-serif-light'), url('file:///android_asset/fonts/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Currents-Light-Sans';
+  font-style: italic;
+  font-weight: normal;
+  src: local('sans-serif-light'), url('file:///android_asset/fonts/Roboto-LightItalic.ttf') format('truetype');
+}

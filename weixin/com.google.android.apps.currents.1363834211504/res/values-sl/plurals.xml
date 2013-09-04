@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">(%d ocenjevalcev)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">(%d ocenjevalec)</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">%d trgovin</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d trgovina</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">Št. naročnikov: %s</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%s naročnik</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">%d številk</item>
+        <item quantity="zero"></item>
+        <item quantity="one">Številka %d</item>
+        <item quantity="two">%d številki</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">Pred %d min</item>
+        <item quantity="one">pred eno minuto</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">pred %d h</item>
+        <item quantity="one">pred eno uro</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/media_drawer_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dots="http://schemas.android.com/apk/res-auto">
+    <com.google.apps.dots.android.dotslib.widget.PagedWidgetList android:id="@id/mediaDrawerPagedWidgetList" android:background="@color/media_drawer_item_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" />
+    <com.google.apps.dots.android.dotslib.widget.ProgressDots android:layout_gravity="bottom|center" android:id="@id/mediaDrawerProgressDots" android:background="@color/media_drawer_background" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

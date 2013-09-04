@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@color/post_tile_mask_startColor" android:endColor="@color/post_tile_mask_endColor" android:angle="90.0" android:type="linear" android:centerX="0.3" android:centerColor="@color/post_tile_mask_startColor" />
+        </shape>
+    </item>
+</layer-list>

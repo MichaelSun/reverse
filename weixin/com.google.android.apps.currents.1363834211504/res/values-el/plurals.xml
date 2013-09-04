@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">(%d κριτικοί)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">(%d κριτικός)</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">%d καταστήματα</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d αποθήκευση</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">%s Συνδρομητές</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%s Συνδρομητής</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">%d τεύχη</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d πρόβλημα</item>
+        <item quantity="two">%d τεύχη</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">Πριν από %d λεπτά</item>
+        <item quantity="one">πριν από ένα λεπτό</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">Πριν από %d ώρες</item>
+        <item quantity="one">πριν από μια ώρα</item>
+    </plurals>
+</resources>

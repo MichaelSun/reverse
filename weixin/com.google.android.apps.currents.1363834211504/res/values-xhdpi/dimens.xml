@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="chrome_bar_large_dot_size">24.0px</dimen>
+</resources>

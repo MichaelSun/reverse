@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="horizontal" android:id="@id/audio_button" android:background="@drawable/ontouch_highlight_background" android:layout_width="@dimen/chrome_bar_icon_size" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/audio_meter_1" android:background="@drawable/indicator_playing_peak_meter_3_inactive" android:layout_width="@dimen/audio_player_meter_width" android:layout_height="@dimen/audio_player_meter_height" android:layout_marginRight="1.0dip" android:layout_alignParentLeft="true" />
+    <ImageView android:id="@id/audio_meter_2" android:background="@drawable/indicator_playing_peak_meter_6_inactive" android:layout_width="@dimen/audio_player_meter_width" android:layout_height="@dimen/audio_player_meter_height" android:layout_marginRight="1.0dip" android:layout_toRightOf="@id/audio_meter_1" />
+    <ImageView android:id="@id/audio_meter_3" android:background="@drawable/indicator_playing_peak_meter_4_inactive" android:layout_width="@dimen/audio_player_meter_width" android:layout_height="@dimen/audio_player_meter_height" android:layout_toRightOf="@id/audio_meter_2" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/action_bar_default_height" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/post_item" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/list_item" />
+        <ImageView android:layout_gravity="bottom" android:id="@id/shadow" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    </FrameLayout>
+    <com.google.apps.dots.android.dotslib.widget.DotsBrowserWebView android:id="@id/dotsBrowserWebView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

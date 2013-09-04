@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">(%d atsauksmju sniedzēji)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">(%d atsauksmju sniedzējs)</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">%d veikali</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d veikals</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">%s abonenti</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%s abonents</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">%d numuri</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d izdevums</item>
+        <item quantity="two">%d izdevumi</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">Pirms %d minūtēm</item>
+        <item quantity="one">pirms minūtes</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">Pirms %d stundām</item>
+        <item quantity="one">pirms stundas</item>
+    </plurals>
+</resources>

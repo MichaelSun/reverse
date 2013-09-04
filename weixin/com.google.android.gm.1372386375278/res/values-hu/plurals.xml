@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_attachments">
+        <item quantity="other">%d melléklet</item>
+        <item quantity="one">%d melléklet</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">%1$d beszélgetés áthelyezése</item>
+        <item quantity="one">" Beszélgetés áthelyezése"</item>
+    </plurals>
+    <plurals name="unread_mail_count">
+        <item quantity="other">%1$d olvasatlan levél</item>
+        <item quantity="one">1 olvasatlan levél</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Piszkozatok</item>
+        <item quantity="one">Piszkozat</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Töröli ezt a(z) %1$d beszélgetést?</item>
+        <item quantity="one">Törli ezt a beszélgetést?</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Archiválja ezt a(z) %1$d beszélgetést?</item>
+        <item quantity="one">Archiválja ezt a beszélgetést?</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="other">Elveti a(z) %1$d beszélgetéshez tartozó piszkozatokat?</item>
+        <item quantity="one">Elveti a beszélgetéshez tartozó piszkozatokat?</item>
+    </plurals>
+    <plurals name="conversation_unstarred">
+        <item quantity="other">%1$d beszélgetés csillagozásának megszüntetése.</item>
+        <item quantity="one">%1$d beszélgetés csillagozásának megszüntetése</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> lezárva.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> lezárva.</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> spamnek jelölve.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> spamnek jelölve.</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> jelentve nem spamként.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> jelentve nem spamként.</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> beszélgetés nem fontosnak jelölve.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> beszélgetés nem fontosnak jelölve.</item>
+    </plurals>
+    <plurals name="conversation_phished">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> jelentve adathalászatként.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> jelentve adathalászatként.</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> archiválva.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> archiválva.</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> törölve.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> törölve.</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">Címkék módosítva.</item>
+        <item quantity="one">Címke módosítva.</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">Utolsó %1$d nap szinkronizálása</item>
+        <item quantity="one">Utolsó %1$d nap szinkronizálása</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">%1$d beszélgetés véglegesen törölve lesz.</item>
+        <item quantity="one">%1$d beszélgetés véglegesen törölve lesz.</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d nap</item>
+        <item quantity="one">Egy nap</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">nap</item>
+        <item quantity="one">nap</item>
+    </plurals>
+    <plurals name="notify_attachment_error">
+        <item quantity="other">Nem sikerült elküldeni a mellékletet. %s</item>
+        <item quantity="one">Nem sikerült elküldeni a mellékletet.</item>
+    </plurals>
+    <plurals name="sync_messages_partial_description">
+        <item quantity="other">Az utolsó %1$d nap üzenetei letöltésre kerülnek, amikor létrejön kapcsolat</item>
+        <item quantity="one">Az utolsó 1 nap üzenetei letöltésre kerülnek, amikor létrejön kapcsolat</item>
+    </plurals>
+    <plurals name="sectioned_inbox_teaser_unseen_plural_text">
+        <item quantity="other">%1$d új</item>
+        <item quantity="one">%1$d új</item>
+    </plurals>
+</resources>

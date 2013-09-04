@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="launcher_app_name">Currents</string>
+    <string name="app_name">Currents</string>
+    <string name="long_app_name">Google Currents</string>
+    <string name="magazines_launcher_app_name">Play Magazines</string>
+    <string name="magazines_app_name">Google Play Magazines</string>
+    <string name="magazines_long_app_name">Google Play Magazines</string>
+    <string name="google_play">Google Play</string>
+    <string name="start_msg_prefix">Welkom by</string>
+    <string name="updating_app">Besig met opgradering</string>
+    <string name="syncing">Sinkroniseer</string>
+    <string name="syncing_all_editions">Sinkroniseer alle uitgawes</string>
+    <string name="syncing_images">Sinkroniseer prente</string>
+    <string name="wait_until_online">Wag asseblief totdat jy weer aanlyn is.</string>
+    <string name="cant_refresh_offline">Kan nie verfris nie omdat die toestel vanlyn is.</string>
+    <string name="edition_not_available_offline">Hierdie uitgawe sal beskikbaar wees wanneer jy aanlyn is.</string>
+    <string name="default_error">"'n Fout het voorgekom. Probeer asseblief weer."</string>
+    <string name="edition_sync_error">"Daar was 'n fout met die aflaai van jou uitgawe. Probeer asseblief weer later."</string>
+    <string name="nospace_error">Uit die stoorspasie op jou selfoon.</string>
+    <string name="sync_stopped">Sinkronisasie gestop</string>
+    <string name="sync_restart">Synkroniseer %s asseblief, sodat jy dit kan lees. Dankie!</string>
+    <string name="unmetered_network_restriction_start_message">"Hierdie tydskrif sal verder aflaai wanneer die toestel aan Wi-Fi gekoppel is. 
+
+ As jy dit nou nodig het, kan jy kies om nie te wag nie. Datakostes kan geld."</string>
+    <string name="unmetered_network_restriction_resume_message">"Hierdie tydskrif sal verder aflaai wanneer die toestel aan Wi-Fi gekoppel is. 
+
+ As jy dit nou nodig het, kan jy kies om nie te wag nie. Datakostes kan geld."</string>
+    <string name="never_wait">Wag nooit nie</string>
+    <string name="dont_wait">Moenie wag nie</string>
+    <string name="cant_begin_reading_magazine">Het nog nie genoeg van hierdie tydskrif afgelaai om te begin lees nie.</string>
+    <string name="needed_to_rotate_orientation">Die toestel moes outomaties roteer om die inhoud te kan vertoon.</string>
+    <string name="zooming_is_unavailable">Zoem is nie vir hierdie tydskrif beskikbaar nie.</string>
+    <string name="text_view_is_unavailable">Teksweergawe is nie vir hierdie bladsy beskikbaar nie.</string>
+    <string name="add_to_library">Voeg by biblioteek</string>
+    <string name="manage_content">Bestuur inhoud</string>
+    <string name="reorder_editions">Herrangskik</string>
+    <string name="move_to_first">Verskuif na eerste</string>
+    <string name="table_of_contents">Inhoudsopgawe</string>
+    <string name="start_currents_offline">Jy moet aanlyn wees om Google Currents vir die eerste keer te gebruik.</string>
+    <string name="start_magazines_offline">Jy moet aanlyn wees om Google Play Magazines vir die eerste keer te gebruik.</string>
+    <string name="start_edition_offline">Jy moet aanlyn wees om toegang tot hierdie uitgawe vir die eerste keer te kry.</string>
+    <string name="start_currents_network_error">Ongelukkig is Google Currents tydelik nie beskikbaar nie. Probeer weer later.</string>
+    <string name="start_magazines_network_error">Ongelukkig is Google Play-tydskrifte tydelik nie beskikbaar nie. Probeer weer later.</string>
+    <string name="skip">Slaan oor</string>
+    <string name="loading">Laai tans…</string>
+    <string name="fetching_lastest_stories">Haal tans nuutste...</string>
+    <string name="authenticating">Besig om aan te meld…</string>
+    <string name="product_reviews">Produkoorsigte</string>
+    <string name="product_publisher">(via %s)</string>
+    <string name="product_low_high">%1$s - %2$s</string>
+    <string name="search_hint">Soek vir uitgawes, blogs en artikels.</string>
+    <string name="search_offline">Soek is nie aflyn beskikbaar nie</string>
+    <string name="searching">Soek tans…</string>
+    <string name="search_empty">Geen resultate gevind nie</string>
+    <string name="search_empty_for_query">Geen resultate vir \"%s\" gevind nie</string>
+    <string name="search_failed">Kon nie soek nie. Kontroleer jou internetverbinding.</string>
+    <string name="subscribed_to_everything_in_category">Jy het ingeteken op alles in %s</string>
+    <string name="empty_section">Hierdie afdeling bevat geen inhoud nie.</string>
+    <string name="font_size_small">Klein</string>
+    <string name="font_size_medium">Medium</string>
+    <string name="font_size_large">Groot</string>
+    <string name="saving">Besig om te stoor…</string>
+    <string name="save">Stoor</string>
+    <string name="done">Klaar</string>
+    <string name="delete_prompt_message">Is jy seker jy wil hierdie artikel uitvee?</string>
+    <string name="delete_prompt_title">Verwyder artikel?</string>
+    <string name="original_url_not_found">"Hierdie artikel het nie 'n oorspronklike URL nie"</string>
+    <string name="nonhttp_url">"Kan nie na 'n nie-http-url navigeer nie"</string>
+    <string name="edition_not_found">Uitgawe nie gevind nie.</string>
+    <string name="goto_more">Meer in %s</string>
+    <string name="add">Voeg by</string>
+    <string name="remove">Verwyder</string>
+    <string name="choose">Kies</string>
+    <string name="map_marker_label">Ligging</string>
+    <string name="video_editor_label">"Kies 'n YouTube-video"</string>
+    <string name="search_youtube">Deursoek YouTube</string>
+    <string name="video_not_found">Video nie gevind</string>
+    <string name="audio_error">Fout tydens poging om klankopnames te speel</string>
+    <string name="audio_not_supported_offline">Oudio werk nie vanlyn nie.</string>
+    <string name="show_audio">Wys oudiobalk</string>
+    <string name="hide_audio">Versteek oudiobalk</string>
+    <string name="share">Deel</string>
+    <string name="share_article_dialog_title">Deel hierdie artikel</string>
+    <string name="share_edition_dialog_title">Deel hierdie uitgawe</string>
+    <string name="share_app_dialog_title">Deel Currents</string>
+    <string name="magazines_share_app_dialog_title">Deel Google Play Magazines</string>
+    <string name="share_edition_short_format_text">%2$s: %3$s %1$s</string>
+    <string name="share_edition_long_format_text">"%2$s 
+ %3$s 
+ 
+ %1$s 
+"</string>
+    <string name="share_edition_format_html">&lt;a href=%1$s>%2$s&lt;/a>&lt;br/>%3$s</string>
+    <string name="shared_via_app_text">Gedeel via Google Currents</string>
+    <string name="magazines_shared_via_app_text">Gedeel via Google Play Magazines</string>
+    <string name="shared_via_app_html">&lt;p>&lt;i>Gedeel via&lt;/i> &lt;a href=%s>Google Currents&lt;/a>&lt;/p></string>
+    <string name="magazines_shared_via_app_html">&lt;p>&lt;i>Gedeel via&lt;/i> &lt;a href=%s>Google Play Magazines&lt;/a>&lt;/p></string>
+    <string name="share_source_text">Bron:%s</string>
+    <string name="share_source_html">&lt;p>&lt;i>Bron:&lt;/i> &lt;a href=%1$s>%1$s&lt;/a>&lt;/p></string>
+    <string name="share_app_text">"Kyk die Google Currents!
+%s"</string>
+    <string name="magazines_share_app_text">"Kyk bietjie na Google Play Magazines!
+%s"</string>
+    <string name="share_app_html">Kyk bietjie na Google Currents!&lt;br/>&lt;br/>&lt;a href=%1$s>%1$s&lt;/a></string>
+    <string name="magazines_share_app_html">Kyk bietjie na Google Play Magazines!&lt;br/>&lt;br/>&lt;a href=%1$s>%1$s&lt;/a></string>
+    <string name="share_article_subject_format">%1$s: %2$s</string>
+    <string name="share_article_short_format_text">%4$s: %2$s %1$s</string>
+    <string name="share_article_long_format_text">"%4$s: %2$s
+%1$s
+
+%3$s
+"</string>
+    <string name="share_article_format_html">&lt;a href=%1$s>%2$s&lt;/a>&lt;br/>&lt;br/>%3$s</string>
+    <string name="share_article_short_format_text_no_edition_name">%2$s %1$s</string>
+    <string name="share_article_long_format_text_no_edition_name">"%2$s
+%1$s
+
+%3$s
+"</string>
+    <string name="share_article_format_html_no_edition_name">&lt;a href=%1$s>%2$s&lt;/a>&lt;br/>&lt;br/>%3$s</string>
+    <string name="share_link_title_html">&lt;p>&lt;i>Bron:&lt;/i> &lt;a href=%1$s>%2$s&lt;/a>&lt;/p></string>
+    <string name="share_link_title_text">%2$s: %1$s</string>
+    <string name="contribute_hint">"Dit is 'n leë afdeling - skep die eerste artikel deur gebruik te maak van die knoppie hierbo ..."</string>
+    <string name="youtube_choose">Kies</string>
+    <string name="youtube_load_error">Nie in staat om data van YouTube te laai nie.</string>
+    <string name="saved_post_edition_title">Gestoor</string>
+    <string name="saved_for_later">Artikel kan nou gevind word in %1$s</string>
+    <string name="add_apps_title_long">Voeg uitgawes by</string>
+    <string name="no_app_results">Geen uitgawes stem ooreen met jou soektog nie.</string>
+    <string name="confirm_subscribe_dialog_title">Bevestig intekening</string>
+    <string name="subscribe_button">Teken gratis in</string>
+    <string name="confirm_subscribe_message">Teken gratis in op %s?</string>
+    <string name="unsubscribe">Teken uit</string>
+    <string name="unsubscribe_message">Wil jy van %s uitteken?</string>
+    <string name="edition_search_unknown_error">"'n Onbekende fout het voorgekom in die soektog na uitgawes."</string>
+    <string name="edition_search_offline">"Jy moet aanlyn wees om 'n uitgawe by te voeg."</string>
+    <string name="open_edition">Oop uitgawe</string>
+    <string name="this_edition">hierdie uitgawe</string>
+    <string name="add_edition">Voeg uitgawe by</string>
+    <string name="launch_browser">Begin blaaier</string>
+    <string name="add_for_free">Voeg gratis by</string>
+    <string name="in_library">In die biblioteek</string>
+    <string name="subscription_added">Ledegeld bygevoeg vir %s.</string>
+    <string name="subscription_added_in_category">%1$s is gevoeg by %2$s</string>
+    <string name="initial_sync_unknown_error">Onbekende fout tydens die aanskakeling.</string>
+    <string name="initial_sync_forbidden">"%s is verbode. Kies asseblief 'n ander rekening."</string>
+    <string name="text_size">Teksgrootte</string>
+    <string name="category_featured">Hoofitem</string>
+    <string name="category_recommended">Aanbeveel</string>
+    <string name="category_news">Nuus</string>
+    <string name="category_lifestyle">Lewenstyl</string>
+    <string name="category_business">Besigheid</string>
+    <string name="category_science">Wetenskap &amp; Tegnologie</string>
+    <string name="category_sports">Sport</string>
+    <string name="category_entertainment">Vermaak</string>
+    <string name="category_design">Ontwerp</string>
+    <string name="category_blogs">Google Reader</string>
+    <string name="category_curators">Kuratore</string>
+    <string name="category_other">Ander</string>
+    <string name="category_youtube">YouTube</string>
+    <string name="currents">Currents</string>
+    <string name="right_now">"Minder as 'n minuut gelede"</string>
+    <string name="ok">Goed</string>
+    <string name="cancel">Kanselleer</string>
+    <string name="enable">Aktiveer</string>
+    <string name="disable">Deaktiveer</string>
+    <string name="data_collection_title">Verskaf e-posadres?</string>
+    <string name="data_collection_opt_in_message">Wil jy graag spesiale opdaterings of aanbiedings ontvang deurdat jy toelaat dat Google jou e-posadres, &lt;b>%1$s&lt;/b> verskaf aan &lt;b>%2$s&lt;/b> in ooreenstemming met hulle &lt;a href=#>privaatheidsbeleid&lt;/a>?</string>
+    <string name="data_collection_required_message">Wil jy graag volle toegang tot die uitgawe hê deurdat jy toelaat dat Google jou e-posadres, &lt;b>%1$s&lt;/b> verskaf aan &lt;b>%2$s&lt;/b> in ooreenstemming met hulle &lt;a href=#>privaatheidsbeleid&lt;/a>?</string>
+    <string name="privacy_policy_not_found">Geen privaatheidsbeleid vir %1$s gevind nie</string>
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="plus">Google+</string>
+    <string name="byline_shared_via">Gedeel via %s</string>
+    <string name="byline_shared_by">Gedeel deur %s</string>
+    <string name="byline_by">%s</string>
+    <string name="latest">Jongste</string>
+    <string name="thanks_for_installing">Dankie dat jy Google-strome geïnstalleer het.</string>
+    <string name="magazines_thanks_for_installing">Dankie dat jy Google Play Magazines geïnstalleer het!</string>
+    <string name="ask_add_to_library">Wil jy %s byvoeg by jou biblioteek?</string>
+    <string name="no_thanks">Nee dankie</string>
+    <string name="go_to_library">Gaan na die biblioteek</string>
+    <string name="settings">Instellings</string>
+    <string name="google">Google</string>
+    <string name="enabled">Geaktiveer</string>
+    <string name="disabled">Gedeaktiveer</string>
+    <string name="offline_reading_capitalized">VANLYN-LEES</string>
+    <string name="include_images">Sluit prente in</string>
+    <string name="none">Geen</string>
+    <string name="first_ten_editions">Eerste tien uitgawes</string>
+    <string name="all_editions">Alle uitgawes</string>
+    <string name="background_sync_capitalized">AGTERGROND SINKRONISASIE</string>
+    <string name="enable_background_sync">Aktiveer agtergrondsinkronisasie</string>
+    <string name="only_if_unmetered">Slegs as onbeperkte netwerk is</string>
+    <string name="only_if_unmetered_summary">Voorbeeld: Wi-Fi</string>
+    <string name="only_if_charging">Slegs as besig is om te laai</string>
+    <string name="sync_now">Sinkroniseer nou</string>
+    <string name="refresh">Verfris</string>
+    <string name="refreshing">Verfris tans…</string>
+    <string name="additional_info_capitalized">BYKOMENDE INLIGTING</string>
+    <string name="feedback">Stuur terugvoer</string>
+    <string name="feedback_description">Stuur vir ons terugvoer</string>
+    <string name="feedback_email_recipient">strome-terugvoer + android@google.com</string>
+    <string name="feedback_email_subject">Android Terugvoering,%1$s op %2$s</string>
+    <string name="terms_of_service">Diensvoorwaardes</string>
+    <string name="privacy_policy">Privaatheidsbeleid</string>
+    <string name="usage_policy">Gebruiksbeleid</string>
+    <string name="usage_policy_description">Google Currents is slegs vir persoonlike en niekommersiële gebruik.</string>
+    <string name="open_source_licenses">Oopbronlisensies</string>
+    <string name="open_source_licenses_description">Wetlike inligting oor lisensies</string>
+    <string name="report_abuse">Rapporteer misbruik</string>
+    <string name="report_abuse_description">Rapporteer enige inhoud wat jy onvanpas ag.</string>
+    <string name="report_content_problem">"Meld 'n inhoudprobleem aan"</string>
+    <string name="report_content_problem_description">Meld enige gebreekte of verkeerde inhoud aan</string>
+    <string name="release">Weergawe %1$s | Bou %2$s</string>
+    <string name="powered_by">Aangedryf deur %1$s %2$s %3$s</string>
+    <string name="launch_in_browser_error">Jammer, kan hierdie bladsy nie op die blaaier loods nie</string>
+    <string name="support">Steundiens</string>
+    <string name="customer_support">Kontak klantesteundiens</string>
+    <string name="give_product_feedback">Gee produkterugvoer</string>
+    <string name="report_inappropriate_content">Rapporteer onvanpaste inhoud</string>
+    <string name="report_copyright_issue">"Rapporteer 'n kopieregkwessie"</string>
+    <string name="account">Google-rekening</string>
+    <string name="account_short">Rekening</string>
+    <string name="help">Hulp</string>
+    <string name="automatically_download">Laai outomaties af</string>
+    <string name="automatically_download_short">Laai outomties af</string>
+    <string name="automatically_download_description">Laai alle aankope en intekeninge outomaties af sonder om te vra</string>
+    <string name="automatically_download_description_short">Laai aankope af sonder om te vra</string>
+    <string name="unmetered_networks_only">Laai net via Wi-Fi af</string>
+    <string name="unmetered_networks_only_description">Om diensverskaffer-datakoste te verminder, moenie oor mobielnetwerke aflaai nie</string>
+    <string name="automatically_archive">Argiveer outomaties</string>
+    <string name="automatically_archive_description">Argiveer ouer uitgawes sonder om te vra wanneer daar geen plek oor is nie</string>
+    <string name="show_notifications">Wys kennisgewings</string>
+    <string name="show_notifications_description">"Stel in kennis wanneer 'n nuwe uitgawe beskikbaar is of afgelaai is"</string>
+    <string name="show_notifications_currents_description">Wanneer nuwe inhoud beskikbaar is, hoogstens een keer per dag</string>
+    <string name="show_pick_of_the_week">Wys keuse van die week</string>
+    <string name="crash_report_message">Ongelukkig het %s gestop.</string>
+    <string name="report">Verslag</string>
+    <string name="crash_email_recipient">strome-terugvoer + crash@google.com</string>
+    <string name="crash_email_subject">Android Crash,%1$s op %2$s</string>
+    <string name="upgrade_required">Opgradering vereis</string>
+    <string name="upgrade_required_short_message">Opgradering vereis vir nuwe inhoud</string>
+    <string name="upgrade_required_long_message">"Jy gebruik 'n verouderde weergawe van Google Currents. Gradeer asseblief op. Geen nuwe inhoud sal ontvang word voordat Google Currents opgegradeer is nie."</string>
+    <string name="magazines_upgrade_required_long_message">"Jy gebruik 'n ou weergawe van Google Play Magazines, gradeer asseblief op. Geen nuwe inhoud sal ontvang word totdat Google Play Magazines opgegradeer is nie."</string>
+    <string name="auth_problem_message">Probleem met %s</string>
+    <string name="no_account_selected">Geen rekening gekies nie</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="subscribing_to_edition">Teken in op uitgawe ...</string>
+    <string name="image_unavailable_offline_message">Prent sal beskikbaar wees sodra jy weer aanlyn is</string>
+    <string name="image_not_found_message">Geen beeld gekry nie</string>
+    <string name="article_not_found">Jammer, hierdie artikel bestaan ​​nie meer nie.</string>
+    <string name="article_offline">Hierdie artikel is nie aflyn beskikbaar nie.</string>
+    <string name="article_failed">Jammer, hierdie artikel is nie tans beskikbaar nie.</string>
+    <string name="presentation_capitalized">VOORLEGGING</string>
+    <string name="status_bar">Statusbalk</string>
+    <string name="set_status_bar">Wys/versteek toestel-statusbalk</string>
+    <string name="translation_title">Vertaling</string>
+    <string name="translation_title_description">Wanneer dit beskikbaar is, wys die opsie om te vertaal na %s</string>
+    <string name="translate_this_edition">Vertaal hierdie uitgawe?</string>
+    <string name="edition_translate_message">Hierdie uitgawe lyk of dit in %1$s is. Wil jy dit laat vertaal na %2$s?</string>
+    <string name="edition_translate_message_no_source">Wil jy graag hierdie uitgawe na %1$s vertaal?</string>
+    <string name="edition_untranslate_message">Hierdie uitgawe is vertaal na %1$s. Wil jy dit in sy oorspronklike taal bekyk?</string>
+    <string name="edition_untranslate_message_no_source">Hierdie uitgawe is vertaal na %1$s. Wil jy dit in die oorspronklike taal bekyk?</string>
+    <string name="please_wait_to_translate_offline">Jy is tans vanlyn. Die vertaling sal opgedateer word sodra jy weer sinkroniseer.</string>
+    <string name="please_wait_to_translate_network">"Daar was 'n probleem met die netwerk tydens die opdatering van jou uitgawe; die vertaling sal beskikbaar wees sodra jy weer sinkroniseer."</string>
+    <string name="translate">Vertaal</string>
+    <string name="translate_active">Vertaal tans…</string>
+    <string name="untranslate">Bekyk oorspronklike</string>
+    <string name="creating_new_translation">"'n Nuwe vertaling vir hierdie uitgawe is aan die gang. Jou uitgawe sal binne 'n paar minute opdateer."</string>
+    <string name="translating_edition">Vertaal tans uitgawe, wag asseblief...</string>
+    <string name="original_language">Oorspronklike taal</string>
+    <string name="translate_failed_no_sub">Teken asseblief in op hierdie uitgawe om dit te kan vertaal.</string>
+    <string name="language_chinese_simplified">Sjinees (vereenvoudig)</string>
+    <string name="language_chinese_traditional">Sjinees (tradisioneel)</string>
+    <string name="appicon_label">Currents-uitgawe</string>
+    <string name="postlist_label">Currents</string>
+    <string name="new_in_currents">Nuut in Google Currents</string>
+    <string name="new_in_edition">Nuut in %s</string>
+    <string name="appicon_configure_instructions">"Kies 'n uitgawe"</string>
+    <string name="postlist_configure_instructions">Kies die stel uitgawes wat jy wil hê jou legstuk moet insluit.</string>
+    <string name="last_updated">Laas opgedateer</string>
+    <string name="warn_offline_for_images">"Sommige beelde is nie beskikbaar nie, want jy is vanlyn.
+
+Jy kan hulle beskikbaar stel deur intekeninge vas te speld."</string>
+    <string name="change_settings">Pasmaak</string>
+    <string name="magazines_home_new">NUUT</string>
+    <string name="magazines_home_archived">GEARGIVEER</string>
+    <string name="magazines_home_download">LAAI AF</string>
+    <string name="magazines_home_archive">Argiveer hierdie tydskrif</string>
+    <string name="magazines_home_delete">Vee uit biblioteek uit</string>
+    <string name="magazines_home_delete_offline">"Jy moet aanlyn wees om 'n probleem uit te vee"</string>
+    <string name="magazines_home_delete_prompt_title">Moet dit uit jou biblioteek uitgevee word?</string>
+    <string name="magazines_home_delete_prompt">"Hierdie tydskrif sal PERMANENT uit jou toestel en enige ander plek waar jy jou Google Play-biblioteek ingaan, verdwyn. 
+
+ Jy sal dit nie weer kan terug kry nie."</string>
+    <string name="magazines_home_view_by_title">Bekyk volgens titel</string>
+    <string name="magazines_home_view_recent">Bekyk onlangs</string>
+    <string name="magazines_menu_show_archived">Wys geargiveerde tydskrifte</string>
+    <string name="magazines_menu_hide_archived">Versteek geargiveerde tydskrifte</string>
+    <string name="magazines_menu_manage_subscriptions">Bestuur intekeninge</string>
+    <string name="magazines_menu_shop">Soek-en-koop tydskrifte</string>
+    <string name="magazines_menu_search">Deursoek tydskrifte</string>
+    <string name="magazines_view_flowing_text">Bekyk teks</string>
+    <string name="magazines_view_original_pages">Verlaat teks</string>
+    <string name="magazines_view_toggle_text">Wissel teks-aansig</string>
+    <string name="magazines_view_flowing_text_dialog_title">Artikels in vloeiende teks</string>
+    <string name="next_button_description">Volgende bladsy</string>
+    <string name="goto_button_description">Inhoudsopgawe</string>
+    <string name="images_only_magazine_notification">Hierdie tydskrif bevat alleenlik prente.</string>
+    <string name="magazine_not_downloaded">Nie afgelaai nie</string>
+    <string name="magazine_downloading">Laai tans af...</string>
+    <string name="new_magazine_downloadable_notification">%1$s uitgawe is beskikbaar</string>
+    <string name="new_magazine_downloaded_notification">%1$s uitgawe is suksesvol afgelaai</string>
+    <string name="new_multi_magazine_downloadable_notification_title">%1$s nuwe uitgawes beskikbaar</string>
+    <string name="new_multi_magazine_downloaded_notification_title">%1$s nuwe uitgawes afgelaai</string>
+    <string name="new_multi_magazine_notification_content">Raak om jou tydskrifte te sien</string>
+    <string name="whats_next_new">Nuut</string>
+    <string name="account_selection_heading">"Kies 'n rekening"</string>
+    <string name="account_selection_body">"Koppel jou rekening aan Google Currents sodat jy gratis inhoud kan lees vanuit duisende van publikasies.
+
+Watter rekening wil jy gebruik?"</string>
+    <string name="magazines_account_selection_body">"Koppel jou rekening aan Google Play Magazines, sodat jy kan inteken op en uitgawes van top tydskrifte kan kry.
+
+ Watter rekening wil jy gebruik?"</string>
+    <string name="account_selection_add_account">Voeg rekening by</string>
+    <string name="authentication_failure_no_network">Jy moet aan die internet gekoppel wees om jou rekening te kan staaf.</string>
+    <string name="authentication_failure">Nie gestaaf nie</string>
+    <string name="authentication_failure_error">Kon nie jou rekening staaf nie.</string>
+    <string name="no_network_connection">Nie gekoppel nie</string>
+    <string name="empty_library_welcome">Welkom!</string>
+    <string name="empty_library_instructions">Raak die winkelikoon hierbo om Google Playse volledige katalogus deur te blaai.</string>
+    <string name="all_archived">Al jou tydskrifte is geargiveer.</string>
+    <string name="all_archived_instructions">Kies \"Wys geargiveerde tydskrifte\" om dit te vertoon, of raak die winkelikoon bo om deur ons volledige katalogus te blaai.</string>
+    <string name="save_for_later">Stoor vir later</string>
+    <string name="save_for_later_saved">Verwyder uit storing</string>
+    <string name="top_editions">Top uitgawes</string>
+    <string name="other_editions">Ander uitgawes</string>
+    <string name="feed_editions">Strome</string>
+    <string name="articles">Artikels</string>
+    <string name="screensaver_open_in_app_caption">Maak in Google Currents oop ↗</string>
+    <string name="screensaver_no_content_available">Om te begin sluimer, raak om aan te meld.</string>
+    <string name="screensaver_open_app_caption">Maak Google Currents oop ↗</string>
+    <string name="category_all">Alle</string>
+    <string name="add_subscriptions">Voeg intekeninge by</string>
+    <string name="breaking_stories">Nuutste stories</string>
+    <string name="breaking_stories_with_category">Nuutste stories - %1$s</string>
+    <string name="customize">Pasmaak</string>
+    <string name="customize_category">Paspaak %1$s</string>
+    <string name="add_category">Voeg %1$s by</string>
+    <string name="pick_of_the_week">Keuse van die week</string>
+    <string name="more">nog</string>
+    <string name="see_all_results">Sien alle</string>
+    <string name="preferred_section_description">Kies afdelings wat jy wil hê op die tuisskerm moet verskyn.</string>
+    <string name="add_preferred_section_message">Hierdie deel is tans versteek, wil jy dit vertoon?</string>
+    <string name="save_for_later_name">Gestoor</string>
+    <string name="loading_my_stuff">Nog geen gestoorde stories nie.</string>
+    <string name="all_posts_are_read">Alle stories is gelees.</string>
+    <string name="need_online_for_breaking_stories">Jy moet aanlyn wees om hierdie storie te bekyk.</string>
+    <string name="breaking_stories_offline">Jy moet aanlyn wees om die nuuste stories te bekyk.</string>
+    <string name="web_content">Web</string>
+    <string name="trending_time">%1$s | Web</string>
+    <string name="customize_sections">PASMAAK</string>
+    <string name="subscribe">TEKEN IN</string>
+    <string name="never_suggest_again">NEE DANKIE</string>
+    <string name="black_list_failure">"Jy moet aanlyn wees om 'Keuse van die week' te verwerp. Probeer asseblief weer later."</string>
+    <string name="removing_pick_of_week">Verwyder %s.</string>
+    <string name="adding_pick_of_week">Voeg %1$s by %2$s.</string>
+    <string name="show_read_posts">Versteek artikels wat ek reeds gelees het</string>
+    <string name="unable_to_install">Legstuk nie versoenbaar met jou toestel nie.</string>
+    <string name="widget_error">Raak asseblief om stories te verfris.</string>
+    <string name="widget_loading">Eerste keer wat dit laai. Wees asseblief geduldig.</string>
+    <string name="widget_post_error">Storie nie beskikbaar nie.</string>
+    <string name="widget_not_signed_in">Tik om aan te meld</string>
+    <string name="customize_edition">Verwyder of herrangskik</string>
+    <string name="edit_preferred_sections">Kies gunsteling afdelings</string>
+    <string name="mark_all_unread">Merk alles as ongelees</string>
+    <string name="mark_all_read">Merk alles as gelees</string>
+    <string name="edition_has_been_pinned">%1$s - beelde sal beskikbaar wees vir vanlyn lees.</string>
+    <string name="edition_has_been_unpinned">%1$s - beelde sal nie beskikbaar wees vir vanlyn lees nie.</string>
+    <string name="editions">Uitgawes</string>
+    <string name="offline_images">Sluit prente in vir vanlyn lees</string>
+    <string name="offline_hint">"Jy kan intekeningbeelde vir vanlyn lees vassteek deur \"pasmaak' op die sybalk te raak."</string>
+    <string name="play_audio">Speel oudio</string>
+    <string name="pause_audio">Laat oudio wag</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">（%d 人のレビュー投稿者）</item>
+        <item quantity="zero"></item>
+        <item quantity="one">（%d 人のレビュー投稿者）</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">%d 件のストア</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d 件のストア</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">定期購読者 %s 人</item>
+        <item quantity="zero"></item>
+        <item quantity="one">定期購読者 %s 人</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">%d 号</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d 号</item>
+        <item quantity="two">%d 号</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">%d 分前</item>
+        <item quantity="one">1 分前</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">%d 時間前</item>
+        <item quantity="one">1 時間前</item>
+    </plurals>
+</resources>

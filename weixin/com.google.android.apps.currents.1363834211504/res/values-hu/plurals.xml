@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">(%d véleményíró)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">(%d véleményíró)</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">%d áruház</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d áruház</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">%s előfizető</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%s előfizető</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">%d szám</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d probléma</item>
+        <item quantity="two">%d szám</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">%d perce</item>
+        <item quantity="one">egy perce</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">%d órája</item>
+        <item quantity="one">egy órával ezelőtt</item>
+    </plurals>
+</resources>

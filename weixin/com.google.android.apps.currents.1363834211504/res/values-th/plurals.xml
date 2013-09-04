@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">(%d ผู้แสดงความเห็น)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">(%d ผู้แสดงความเห็น)</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">%d ร้าน</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d ร้าน</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">สมาชิก %s</item>
+        <item quantity="zero"></item>
+        <item quantity="one">สมาชิก %s</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">ฉบับที่ %d</item>
+        <item quantity="zero"></item>
+        <item quantity="one">ฉบับที่ %d</item>
+        <item quantity="two">ฉบับที่ %d</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">%d นาทีที่ผ่านมา</item>
+        <item quantity="one">หนึ่งนาทีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">%d ชั่วโมงที่ผ่านมา</item>
+        <item quantity="one">หนึ่งชั่วโมงที่ผ่านมา</item>
+    </plurals>
+</resources>

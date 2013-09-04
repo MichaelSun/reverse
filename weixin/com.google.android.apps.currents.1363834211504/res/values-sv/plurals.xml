@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">(%d granskare)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">(%d granskare)</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">%d butiker</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d butik</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">%s prenumeranter</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%s prenumerant</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">%d nummer</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d nummer</item>
+        <item quantity="two">%d nummer</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">för %d minuter sedan</item>
+        <item quantity="one">för en minut sedan</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">för %d timmar sedan</item>
+        <item quantity="one">för en timme sedan</item>
+    </plurals>
+</resources>

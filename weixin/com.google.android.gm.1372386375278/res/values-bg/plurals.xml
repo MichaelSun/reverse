@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_attachments">
+        <item quantity="other">%d прикачени файла</item>
+        <item quantity="one">%d прикачен файл</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">Преместване на %1$d кореспонденции</item>
+        <item quantity="one">Преместване на кореспонденция</item>
+    </plurals>
+    <plurals name="unread_mail_count">
+        <item quantity="other">%1$d непрочетени имейла</item>
+        <item quantity="one">1 непрочетен имейл</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Чернови</item>
+        <item quantity="one">Чернова</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Да се изтрият ли тези %1$d кореспонденции?</item>
+        <item quantity="one">Да се изтрие ли тази кореспонденция?</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Да се архивират ли тези %1$d кореспонденции?</item>
+        <item quantity="one">Да се архивира ли тази кореспонденция?</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="other">Да се отхвърлят ли черновите от %1$d кореспонденции?</item>
+        <item quantity="one">Да се отхвърлят ли черновите от кореспонденцията?</item>
+    </plurals>
+    <plurals name="conversation_unstarred">
+        <item quantity="other">Звездите се премахват от %1$d кореспонденции.</item>
+        <item quantity="one">Звездата се премахва от %1$d кореспонденция.</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">Спряхте &amp;lt;b>%1$d&amp;lt;/b>.</item>
+        <item quantity="one">Спряхте &amp;lt;b>%1$d&amp;lt;/b&amp;amp;gt.</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">Подадохте сигнал за спам за &amp;lt;b>%1$d&amp;lt;/b>.</item>
+        <item quantity="one">Подадохте сигнал за спам за &amp;lt;b>%1$d&amp;lt;/b>.</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">Подадохте сигнал „Не е спам“ за &amp;lt;b>%1$d&amp;lt;/b>.</item>
+        <item quantity="one">Подадохте сигнал „Не е спам“ за &amp;lt;b>%1$d&amp;lt;/b>.</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">Означихте &amp;lt;b>%1$d&amp;lt;/b&amp;amp; като маловажни.</item>
+        <item quantity="one">Означихте &amp;lt;b>%1$d&amp;lt;/b&amp;amp; като маловажна.</item>
+    </plurals>
+    <plurals name="conversation_phished">
+        <item quantity="other">Подадохте сигнал за фишинг за &amp;lt;b>%1$d&amp;lt;/b>.</item>
+        <item quantity="one">Подадохте сигнал за фишинг за &amp;lt;b>%1$d&amp;lt;/b>.</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">Архивирахте &amp;lt;b>%1$d&amp;lt;/b>.</item>
+        <item quantity="one">Архивирахте &amp;lt;b>%1$d&amp;lt;/b>.</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">Изтрихте &amp;lt;b>%1$d&amp;lt;/b>.</item>
+        <item quantity="one">Изтрихте &amp;lt;b>%1$d&amp;lt;/b>.</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">Променихте етикетите.</item>
+        <item quantity="one">Променихте етикета.</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">Синхронизиране: Последните %1$d дни</item>
+        <item quantity="one">Синхронизиране: Последният %1$d ден</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">%1$d кореспонденции ще бъдат изтрити за постоянно.</item>
+        <item quantity="one">%1$d кореспонденция ще бъде изтрита за постоянно.</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d дни</item>
+        <item quantity="one">Един ден</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">Дни</item>
+        <item quantity="one">Ден</item>
+    </plurals>
+    <plurals name="notify_attachment_error">
+        <item quantity="other">Прикаченият файл от %s не можа да бъде изпратен</item>
+        <item quantity="one">Прикаченият файл не можа да бъде изпратен</item>
+    </plurals>
+    <plurals name="sync_messages_partial_description">
+        <item quantity="other">Съобщенията от последните %1$d дни ще бъдат изтеглени при наличие на връзка</item>
+        <item quantity="one">Съобщенията от последния 1 ден ще бъдат изтеглени при наличие на връзка</item>
+    </plurals>
+    <plurals name="sectioned_inbox_teaser_unseen_plural_text">
+        <item quantity="other">%1$d нови</item>
+        <item quantity="one">%1$d ново</item>
+    </plurals>
+</resources>

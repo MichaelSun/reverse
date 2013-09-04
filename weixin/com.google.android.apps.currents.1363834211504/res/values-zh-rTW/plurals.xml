@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">(%d 位評論者)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">(%d 位評論者)</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">%d 間商店</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d 間商店</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">%s 位訂閱者</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%s 位訂閱者</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">%d 期</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d 個問題</item>
+        <item quantity="two">%d 期</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">%d 分鐘前</item>
+        <item quantity="one">1 分鐘前</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">%d 個小時前</item>
+        <item quantity="one">1 小時前</item>
+    </plurals>
+</resources>

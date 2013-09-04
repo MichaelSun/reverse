@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:gm="http://schemas.android.com/apk/res/com.google.android.gm">
+    <com.google.android.gm.preference.FancySummaryListPreference android:persistent="false" android:entries="@array/prefEntries_removal_action" android:title="@string/preference_removal_action_title" android:key="removal-action" android:defaultValue="@string/prefDefault_removal_action" android:dialogTitle="@string/prefDialogTitle_removal_action" android:entryValues="@array/prefValues_removal_action" gm:entrySummaries="@array/prefSummaries_removal_action_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/preference_swipe_title_archive" android:key="conversation-list-swipe" android:summary="@string/preference_swipe_description" android:defaultValue="true" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/preference_sender_image_title" android:key="conversation-list-sender-image" android:summary="@string/preference_sender_image_description" android:defaultValue="true" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/preferences_default_reply_all_title" android:key="default-reply-all" android:summary="@string/preferences_default_reply_all_summary" android:defaultValue="@bool/prefDefault_actionStripActionReplyAll" />
+    <CheckBoxPreference android:title="@string/preferences_conversation_mode_title" android:key="conversation-mode2" android:summary="@string/preferences_conversation_mode_summary" android:defaultValue="true" />
+    <com.google.android.gm.preference.FancySummaryListPreference android:persistent="false" android:entries="@array/prefEntries_autoAdvance" android:title="@string/preference_advance_to_title" android:key="auto-advance-key" android:defaultValue="@string/prefDefault_autoAdvance" android:dialogTitle="@string/prefDialogTitle_autoAdvance" android:entryValues="@array/prefValues_autoAdvance" gm:entrySummaries="@array/prefSummaries_autoAdvance" />
+    <com.google.android.gm.preference.FancySummaryListPreference android:persistent="false" android:entries="@array/prefEntries_messageTextSizeName" android:title="@string/preferences_message_text_size_title" android:key="message-text-key" android:defaultValue="@string/prefDefault_messageTextSize" android:dialogTitle="@string/prefDialogTitle_messageTextSize" android:entryValues="@array/prefValues_messageTextSize" gm:entrySummaries="@array/prefEntries_messageTextSizeSummary" />
+    <com.google.android.gm.preference.FancySummaryListPreference android:entries="@array/prefEntries_snapHeader" android:title="@string/preferences_disable_snap_headers_title" android:key="snap-headers" android:defaultValue="@string/prefDefault_snapHeader" android:dialogTitle="@string/preferences_disable_snap_headers_title" android:entryValues="@array/prefValues_snapHeader" gm:entrySummaries="@array/prefSummaries_snapHeader" />
+    <PreferenceCategory android:title="@string/preference_header_action_confirmations">
+        <CheckBoxPreference android:persistent="false" android:title="@string/preference_confirm_before_delete_title" android:key="confirm-actions-delete" android:defaultValue="true" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/preference_confirm_before_archive_title" android:key="confirm-actions-archive" android:defaultValue="true" />
+        <CheckBoxPreference android:persistent="false" android:title="@string/preference_confirm_before_send_title" android:key="confirm-actions-send" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

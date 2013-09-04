@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dots="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textSize="24.0dip" android:textColor="#ff000000" android:id="@id/thanks_for_installing" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_centerHorizontal="true" />
+        <TextView android:textColor="#ff000000" android:id="@id/message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/ask_add_to_library" android:layout_below="@id/thanks_for_installing" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="20.0dip" android:layout_below="@id/message" android:layout_centerHorizontal="true">
+            <com.google.apps.dots.android.dotslib.widget.CacheableAttachmentView android:id="@id/thumbnail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:scaleType="fitCenter" android:minWidth="@dimen/app_grid_icon_size" android:minHeight="@dimen/app_grid_icon_size" dots:cacheName="ICONS" />
+            <TextView android:textColor="#ff000000" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/thumbnail" />
+            <TextView android:textColor="#ff757575" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/thumbnail" android:layout_below="@id/title" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:layout_below="@id/preview">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <Button android:id="@id/subscribeButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/subscribe_button" style="?blueButton" />
+                <Button android:id="@id/goToEditionButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/open_edition" style="?grayButton" />
+                <Button android:id="@id/doneButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/go_to_library" style="?grayButton" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

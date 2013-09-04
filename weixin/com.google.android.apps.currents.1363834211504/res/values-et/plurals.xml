@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">(%d arvustajat)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">(%d arvustaja)</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">%d – kauplused</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d – kauplus</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">%s tellijat</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%s tellija</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">%d väljaannet</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d väljaanne</item>
+        <item quantity="two">%d väljaannet</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">%d minutit tagasi</item>
+        <item quantity="one">üks minut tagasi</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">%d tundi tagasi</item>
+        <item quantity="one">tund aega tagasi</item>
+    </plurals>
+</resources>

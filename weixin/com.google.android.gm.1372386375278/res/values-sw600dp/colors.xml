@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="color" name="folder_list_background_color">@*android:color/transparent</item>
+</resources>

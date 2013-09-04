@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_attachments">
+        <item quantity="other">%d (de) ataşamente</item>
+        <item quantity="one">%d ataşament</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">Mutaţi %1$d conversaţii</item>
+        <item quantity="one">Mutaţi conversaţia</item>
+    </plurals>
+    <plurals name="unread_mail_count">
+        <item quantity="other">%1$d (de) e-mailuri necitite</item>
+        <item quantity="one">Un e-mail necitit</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Mesaje nefinalizate</item>
+        <item quantity="one">Mesaj nefinalizat</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Ștergeţi aceste %1$d (de) conversaţii?</item>
+        <item quantity="one">Ștergeţi această conversaţie?</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Arhivaţi aceste %1$d (de) conversaţii?</item>
+        <item quantity="one">Arhivaţi această conversaţie?</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="other">Ștergeţi mesajele nefinalizate din %1$d conversaţii?</item>
+        <item quantity="one">Ștergeţi mesajele nefinalizate din conversaţie?</item>
+    </plurals>
+    <plurals name="conversation_unstarred">
+        <item quantity="other">Se elimină steaua pentru %1$d (de) conversaţii.</item>
+        <item quantity="one">Se elimină steaua pentru %1$d conversaţie.</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> suprimate.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> suprimate.</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> raportate ca spam.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> raportată ca spam.</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> au fost raportate că nu sunt spam.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> a fost raportată că nu este spam.</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> au fost marcate ca neimportante.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> a fost marcată ca neimportantă.</item>
+    </plurals>
+    <plurals name="conversation_phished">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> au fost raportate ca phishing.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> a fost raportată ca phishing.</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> arhivate.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> arhivată.</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> şterse.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> ştearsă.</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">Etichetele au fost modificate.</item>
+        <item quantity="one">Eticheta a fost modificată.</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">Sincronizare: ultimele %1$d (de) zile</item>
+        <item quantity="one">Sincronizare: ultima %1$d zi</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">%1$d conversații vor fi șterse definitiv.</item>
+        <item quantity="one">%1$d conversație va fi ștearsă definitiv.</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d (de) zile</item>
+        <item quantity="one">O zi</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">Zile</item>
+        <item quantity="one">Zi</item>
+    </plurals>
+    <plurals name="notify_attachment_error">
+        <item quantity="other">Atașamentul nu s-a trimis %s</item>
+        <item quantity="one">Atașamentul nu s-a trimis</item>
+    </plurals>
+    <plurals name="sync_messages_partial_description">
+        <item quantity="other">Mesajele din ultimele %1$d (de) zile vor fi descărcate la conectare</item>
+        <item quantity="one">Mesajele din ultima zi vor fi descărcate la conectare</item>
+    </plurals>
+    <plurals name="sectioned_inbox_teaser_unseen_plural_text">
+        <item quantity="other">%1$d noi</item>
+        <item quantity="one">%1$d nou</item>
+    </plurals>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abs__action_bar_embed_tabs">false</bool>
+    <bool name="abs__split_action_bar_is_narrow">true</bool>
+    <bool name="abs__action_bar_expanded_action_views_exclusive">true</bool>
+    <bool name="abs__config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <bool name="abs__config_actionMenuItemAllCaps">true</bool>
+    <bool name="abs__config_allowActionMenuItemTextWithIcon">false</bool>
+    <bool name="is_magazines">false</bool>
+    <bool name="enable_translate">true</bool>
+    <bool name="crash_report_on_uncaught_exception">true</bool>
+    <bool name="dump_hprof_on_uncaught_exception">false</bool>
+    <bool name="beep_on_c2dm">false</bool>
+    <bool name="enable_synced_files_update">true</bool>
+    <bool name="enable_youtube_from_subscriptions">false</bool>
+    <bool name="enable_c2dm_new_app_notification">false</bool>
+    <bool name="enable_developer_options">false</bool>
+    <bool name="enable_magazines_outline_mode">true</bool>
+    <bool name="enable_recommended">false</bool>
+</resources>

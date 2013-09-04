@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abs__action_bar_default_height">40.0dip</dimen>
+    <dimen name="abs__action_bar_icon_vertical_padding">4.0dip</dimen>
+    <dimen name="abs__action_bar_title_text_size">14.0dip</dimen>
+    <dimen name="abs__action_bar_subtitle_text_size">12.0dip</dimen>
+    <dimen name="abs__action_bar_subtitle_top_margin">-4.0dip</dimen>
+    <dimen name="abs__action_bar_subtitle_bottom_margin">4.0dip</dimen>
+    <dimen name="magazines_outline_mode_text_area_height">140.0dip</dimen>
+    <dimen name="magazines_outline_mode_text_area_height_minus_bottom">125.0dip</dimen>
+    <dimen name="magazines_outline_mode_text_area_description_height">113.0dip</dimen>
+    <dimen name="magazines_outline_mode_text_side_padding">10.0dip</dimen>
+</resources>

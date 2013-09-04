@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_shop_holo_dark" android:id="@id/menu_shop" android:orderInCategory="0" android:title="@string/magazines_menu_shop" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_menu_search_holo_dark" android:id="@id/menu_search" android:orderInCategory="1" android:title="@string/magazines_menu_search" android:showAsAction="ifRoom|collapseActionView" />
+    <item android:id="@id/menu_switch_view" android:orderInCategory="2" android:title="@string/magazines_home_view_by_title" android:showAsAction="never" />
+    <item android:id="@id/menu_show_archived" android:orderInCategory="3" android:checkableBehavior="all" android:title="@string/magazines_menu_show_archived" android:showAsAction="never" />
+    <item android:id="@id/menu_manage_subscriptions" android:orderInCategory="4" android:title="@string/magazines_menu_manage_subscriptions" android:showAsAction="never" />
+    <item android:icon="@drawable/refresh_up" android:id="@id/menu_sync" android:orderInCategory="5" android:title="@string/refresh" android:showAsAction="never" />
+    <item android:icon="@drawable/settings" android:id="@id/menu_settings" android:orderInCategory="6" android:title="@string/settings" android:showAsAction="never" />
+    <item android:id="@id/menu_help" android:orderInCategory="7" android:title="@string/help" android:showAsAction="never" />
+</menu>

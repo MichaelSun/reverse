@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_attachments">
+        <item quantity="other">%d קבצים מצורפים</item>
+        <item quantity="one">קובץ מצורף %d</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">העבר %1$d שיחות</item>
+        <item quantity="one">העבר שיחה</item>
+    </plurals>
+    <plurals name="unread_mail_count">
+        <item quantity="other">%1$d הודעות דוא\"ל שלא נקראו</item>
+        <item quantity="one">הודעת דוא\"ל אחת שלא נקראה</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">טיוטות</item>
+        <item quantity="one">טיוטה</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">למחוק %1$d שיחות אלה?</item>
+        <item quantity="one">למחוק שיחה זו?</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">להעביר %1$d שיחות אלה לארכיון?</item>
+        <item quantity="one">להעביר שיחה זו לארכיון?</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="other">למחוק טיוטות מ-%1$d שיחות אלה?</item>
+        <item quantity="one">למחוק טיוטות משיחה זו?</item>
+    </plurals>
+    <plurals name="conversation_unstarred">
+        <item quantity="other">מסיר כוכב מ-‏%1$d שיחות.</item>
+        <item quantity="one">מסיר כוכב משיחה %1$d.</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> פריטים הושתקו.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> פריטים הושתקו.</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> פריטים דווחו כספאם.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> פריטים דווחו כספאם.</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> דווחו שאינן דואר זבל.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> דווחו שאינן דואר זבל.</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> סומנה כלא חשובה.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> סומנה כלא חשובה.</item>
+    </plurals>
+    <plurals name="conversation_phished">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> דווחו כהתחזות.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> דווחו כהתחזות.</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> פריטים הועברו לארכיון.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> פריטים הועברו לארכיון.</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> פריטים נמחקו.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> פריטים נמחקו.</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">תוויות שונו.</item>
+        <item quantity="one">תווית שונתה.</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">סינכרון: ב-%1$d הימים האחרונים</item>
+        <item quantity="one">סנכרון: ביום האחרון %1$d</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">%1$d שיחות יימחקו לצמיתות.</item>
+        <item quantity="one">שיחה %1$d תימחק לצמיתות.</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d ימים</item>
+        <item quantity="one">יום אחד</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">ימים</item>
+        <item quantity="one">יום</item>
+    </plurals>
+    <plurals name="notify_attachment_error">
+        <item quantity="other">לא ניתן היה לשלוח את הקובץ המצורף%s</item>
+        <item quantity="one">לא ניתן היה לשלוח את הקובץ המצורף</item>
+    </plurals>
+    <plurals name="sync_messages_partial_description">
+        <item quantity="other">תתבצע הורדה של ההודעות מ-%1$d הימים האחרונים בעת ההתחברות</item>
+        <item quantity="one">תתבצע הורדה של ההודעות מהיום האחרון בעת ההתחברות</item>
+    </plurals>
+    <plurals name="sectioned_inbox_teaser_unseen_plural_text">
+        <item quantity="other">%1$d חדשות</item>
+        <item quantity="one">%1$d חדשות</item>
+    </plurals>
+</resources>

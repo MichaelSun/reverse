@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/currents_category_menu_category_background_selector" android:paddingLeft="@dimen/list_item_half_padding" android:paddingRight="@dimen/list_item_half_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dots="http://schemas.android.com/apk/res-auto">
+    <com.google.apps.dots.android.dotslib.widget.CacheableAttachmentView android:id="@id/thumbnail" android:layout_width="@dimen/currents_category_menu_app_icon_size" android:layout_height="@dimen/currents_category_menu_app_icon_size" android:layout_marginRight="6.0dip" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" dots:cacheName="ICONS" />
+    <com.google.apps.dots.android.dotslib.widget.DotsTextView android:textSize="@dimen/currents_category_menu_category_title_size" android:textColor="@color/currents_category_menu_category_text_color" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/thumbnail" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" dots:font="REGULAR_SANS" />
+</RelativeLayout>

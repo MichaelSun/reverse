@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_text_view" android:visible="false" android:orderInCategory="0" android:title="@string/magazines_view_flowing_text" android:showAsAction="never" />
+    <item android:icon="@drawable/ic_ab_thumbnail_outline_holo_dark" android:id="@id/menu_magazine_outline_view" android:visible="false" android:orderInCategory="1" android:title="@string/magazines_view_magazine_outline" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_menu_share_holo_light" android:id="@id/menu_share" android:orderInCategory="2" android:title="@string/share" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_menu_text_size_dark" android:id="@id/menu_text_size" android:orderInCategory="3" android:title="@string/text_size" android:showAsAction="never" />
+    <item android:id="@id/menu_translate" android:orderInCategory="4" android:title="@string/translate" android:showAsAction="never" />
+    <item android:icon="@drawable/ic_menu_search" android:id="@id/menu_search" android:orderInCategory="5" android:title="@*android:string/search_go" android:showAsAction="collapseActionView" />
+    <item android:id="@id/menu_sync" android:orderInCategory="6" android:title="@string/sync_now" android:showAsAction="never" />
+    <item android:id="@id/menu_settings" android:orderInCategory="7" android:title="@string/settings" android:showAsAction="never" />
+    <item android:id="@id/menu_help" android:orderInCategory="8" android:title="@string/help" android:showAsAction="never" />
+    <item android:icon="@drawable/menu_save_for_later" android:id="@id/menu_save_for_later" android:orderInCategory="9" android:title="@string/save_for_later" android:showAsAction="ifRoom" />
+</menu>

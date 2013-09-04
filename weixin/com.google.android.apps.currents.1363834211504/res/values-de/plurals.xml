@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">(%d Rezensenten)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">(%d Rezensent)</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">%d Geschäfte</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d Geschäft</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">%s Abonnenten</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%s Abonnent</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">%d Ausgaben</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d Ausgabe</item>
+        <item quantity="two">%d Ausgaben</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">vor %d Minuten</item>
+        <item quantity="one">vor einer Minute</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">vor %d Stunden</item>
+        <item quantity="one">vor einer Stunde</item>
+    </plurals>
+</resources>

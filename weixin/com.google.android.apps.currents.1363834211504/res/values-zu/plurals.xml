@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">(%d ababukeli)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">(%d umbuyekezi)</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">%d okulondoloziwe</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d gcina</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">%s Abakhokhela uhlelo</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%s Okhokhela uhlelo</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">%d Ukukhishwa</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d Isiqephu</item>
+        <item quantity="two">%d Ukukhishwa</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">imizuzu engu-%d edlule</item>
+        <item quantity="one">eminithini elingu-ONE eledlule</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">%d amahora adlule</item>
+        <item quantity="one">ehoreni elilodwa eledlule</item>
+    </plurals>
+</resources>

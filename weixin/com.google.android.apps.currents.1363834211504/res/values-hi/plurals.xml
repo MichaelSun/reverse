@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">(%d समीक्षक)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">(%d समीक्षक)</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">%d स्टोर</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d स्टोर</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">%s सदस्‍य</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%s सदस्‍य</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">%d संस्करण</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d संस्करण</item>
+        <item quantity="two">%d संस्करण</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">%d मिनट पहले</item>
+        <item quantity="one">एक मिनट पहले</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">%d घंटे पहले</item>
+        <item quantity="one">एक घंटे पहले</item>
+    </plurals>
+</resources>

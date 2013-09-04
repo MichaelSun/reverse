@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/app_grid_icon_size_with_padding" android:layout_height="@dimen/app_grid_icon_size_with_padding" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dots="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:id="@id/icon_frame" android:background="@drawable/app_icon_background" android:layout_width="@dimen/app_grid_icon_size_with_border" android:layout_height="@dimen/app_grid_icon_size_with_border">
+        <com.google.apps.dots.android.dotslib.widget.CacheableAttachmentView android:layout_gravity="center" android:id="@id/icon" android:layout_width="@dimen/app_grid_icon_size" android:layout_height="@dimen/app_grid_icon_size" android:scaleType="fitCenter" dots:cacheName="ICONS" />
+    </FrameLayout>
+</FrameLayout>

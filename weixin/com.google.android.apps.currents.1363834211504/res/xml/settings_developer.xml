@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/developer_options_capitalized" android:key="@string/developer_preference_key">
+        <ListPreference android:entries="@array/serverTypes" android:title="@string/server_type_title" android:key="@string/server_type_key" android:defaultValue="@string/default_environment" android:entryValues="@array/serverTypeValues" />
+        <EditTextPreference android:title="@string/server_custom_title" android:key="@string/server_custom_key" android:defaultValue="http://.cam.corp.google.com:8181" android:dialogTitle="@string/server_custom_title" android:dialogMessage="@string/server_custom_summary" />
+        <CheckBoxPreference android:title="Synchronize local reading position with server" android:key="@string/reading_position_sync_preference_key" />
+        <EditTextPreference android:title="@string/country_override_title" android:key="@string/country_override_key" android:defaultValue="" android:dialogTitle="@string/country_override_title" android:dialogMessage="@string/country_override_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="abs__home" />
+    <item type="id" name="abs__up" />
+    <item type="id" name="abs__action_menu_divider" />
+    <item type="id" name="abs__action_menu_presenter" />
+    <item type="id" name="abs__progress_circular" />
+    <item type="id" name="abs__progress_horizontal" />
+    <item type="id" name="progressDotContainer" />
+    <item type="id" name="chromeBarNextButton" />
+    <item type="id" name="chromeBarGotoButton" />
+    <item type="id" name="seekBar" />
+    <item type="id" name="audioNotification" />
+    <item type="id" name="syncStatusSyncButton" />
+    <item type="id" name="navBackButton" />
+    <item type="id" name="navDoneButton" />
+    <item type="id" name="navCancelButton" />
+    <item type="id" name="navSaveButton" />
+    <item type="id" name="navContentsButton" />
+    <item type="id" name="navShareButton" />
+    <item type="id" name="navEditButton" />
+    <item type="id" name="navAddButton" />
+    <item type="id" name="navSearchButton" />
+    <item type="id" name="navSettingsButton" />
+    <item type="id" name="navHomeButton" />
+    <item type="id" name="navBrowserButton" />
+    <item type="id" name="navLogo" />
+    <item type="id" name="navTitleText" />
+    <item type="id" name="addMoreCenterPoint" />
+    <item type="id" name="previewDone" />
+    <item type="id" name="previewSubscribe" />
+    <item type="id" name="accountProblemNotification" />
+    <item type="id" name="upgradeRequiredNotification" />
+    <item type="id" name="customizeAppsChildId" />
+    <item type="id" name="loadingChildId" />
+    <item type="id" name="emptyChildId" />
+    <item type="id" name="moreChildId" />
+    <item type="id" name="allSubscribedChildId" />
+    <item type="id" name="tocChildId" />
+    <item type="id" name="tagAlphaAnimator" />
+    <item type="id" name="tagHandlesAlpha" />
+    <item type="id" name="tagNBBuildContext" />
+    <item type="id" name="abs__action_bar_title">false</item>
+    <item type="id" name="abs__action_bar_subtitle">false</item>
+    <item type="id" name="abs__imageButton">false</item>
+    <item type="id" name="abs__textButton">false</item>
+    <item type="id" name="abs__action_mode_close_button">false</item>
+    <item type="id" name="abs__activity_chooser_view_content">false</item>
+    <item type="id" name="abs__expand_activities_button">false</item>
+    <item type="id" name="abs__image">false</item>
+    <item type="id" name="abs__default_activity_button">false</item>
+    <item type="id" name="abs__list_item">false</item>
+    <item type="id" name="abs__icon">false</item>
+    <item type="id" name="abs__title">false</item>
+    <item type="id" name="abs__titleDivider">false</item>
+    <item type="id" name="abs__content">false</item>
+    <item type="id" name="abs__checkbox">false</item>
+    <item type="id" name="abs__shortcut">false</item>
+    <item type="id" name="abs__radio">false</item>
+    <item type="id" name="abs__action_bar_container">false</item>
+    <item type="id" name="abs__action_bar">false</item>
+    <item type="id" name="abs__action_context_bar">false</item>
+    <item type="id" name="abs__split_action_bar">false</item>
+    <item type="id" name="abs__action_mode_bar_stub">false</item>
+    <item type="id" name="abs__action_mode_bar">false</item>
+    <item type="id" name="edit_query">false</item>
+    <item type="id" name="abs__search_bar">false</item>
+    <item type="id" name="abs__search_badge">false</item>
+    <item type="id" name="abs__search_button">false</item>
+    <item type="id" name="abs__search_edit_frame">false</item>
+    <item type="id" name="abs__search_mag_icon">false</item>
+    <item type="id" name="abs__search_plate">false</item>
+    <item type="id" name="abs__search_src_text">false</item>
+    <item type="id" name="abs__search_close_btn">false</item>
+    <item type="id" name="abs__submit_area">false</item>
+    <item type="id" name="abs__search_go_btn">false</item>
+    <item type="id" name="abs__search_voice_btn">false</item>
+    <item type="id" name="account_selection">false</item>
+    <item type="id" name="heading_text">false</item>
+    <item type="id" name="divider">false</item>
+    <item type="id" name="empty_view">false</item>
+    <item type="id" name="add_account_button">false</item>
+    <item type="id" name="description_text">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="result_list">false</item>
+    <item type="id" name="thumbnail_wrapper">false</item>
+    <item type="id" name="thumbnail">false</item>
+    <item type="id" name="widgetGroup">false</item>
+    <item type="id" name="subscribed">false</item>
+    <item type="id" name="unsubscribe">false</item>
+    <item type="id" name="subscribe">false</item>
+    <item type="id" name="textGroup">false</item>
+    <item type="id" name="subscribers">false</item>
+    <item type="id" name="subtitle">false</item>
+    <item type="id" name="app_grid_icon">false</item>
+    <item type="id" name="frame">false</item>
+    <item type="id" name="loading">false</item>
+    <item type="id" name="errorText">false</item>
+    <item type="id" name="rootView">false</item>
+    <item type="id" name="chrome_bar_lights_out">false</item>
+    <item type="id" name="audio_button">false</item>
+    <item type="id" name="audio_meter_1">false</item>
+    <item type="id" name="audio_meter_2">false</item>
+    <item type="id" name="audio_meter_3">false</item>
+    <item type="id" name="notificationBackground">false</item>
+    <item type="id" name="favicon">false</item>
+    <item type="id" name="cancel_button">false</item>
+    <item type="id" name="next_button">false</item>
+    <item type="id" name="play_button">false</item>
+    <item type="id" name="previous_button">false</item>
+    <item type="id" name="audio_text">false</item>
+    <item type="id" name="article_title">false</item>
+    <item type="id" name="publisher">false</item>
+    <item type="id" name="notificationbg">false</item>
+    <item type="id" name="horizontal_divider">false</item>
+    <item type="id" name="buttons">false</item>
+    <item type="id" name="previous_button_disabled">false</item>
+    <item type="id" name="next_button_disabled">false</item>
+    <item type="id" name="shadow">false</item>
+    <item type="id" name="audio_player">false</item>
+    <item type="id" name="progressBar">false</item>
+    <item type="id" name="preparing">false</item>
+    <item type="id" name="play_button_container">false</item>
+    <item type="id" name="pager">false</item>
+    <item type="id" name="browserWebView">false</item>
+    <item type="id" name="loadingView">false</item>
+    <item type="id" name="loadingViewBackground">false</item>
+    <item type="id" name="loadingProgress">false</item>
+    <item type="id" name="label">false</item>
+    <item type="id" name="chrome_bar_icons">false</item>
+    <item type="id" name="progressbar">false</item>
+    <item type="id" name="category_menu">false</item>
+    <item type="id" name="edition_container">false</item>
+    <item type="id" name="home_fragment">false</item>
+    <item type="id" name="sync_progress_bar">false</item>
+    <item type="id" name="seeAllResults">false</item>
+    <item type="id" name="arrow">false</item>
+    <item type="id" name="page0">false</item>
+    <item type="id" name="image0">false</item>
+    <item type="id" name="page1">false</item>
+    <item type="id" name="image1">false</item>
+    <item type="id" name="category">false</item>
+    <item type="id" name="source">false</item>
+    <item type="id" name="sync_status">false</item>
+    <item type="id" name="pager_drop_shadow">false</item>
+    <item type="id" name="audio_control_bar">false</item>
+    <item type="id" name="rootFrame">false</item>
+    <item type="id" name="pagedWidgetList">false</item>
+    <item type="id" name="chrome_bar_lights_on">false</item>
+    <item type="id" name="goto_menu">false</item>
+    <item type="id" name="alt_format_button_container">false</item>
+    <item type="id" name="alt_format_button">false</item>
+    <item type="id" name="thanks_for_installing">false</item>
+    <item type="id" name="message">false</item>
+    <item type="id" name="preview">false</item>
+    <item type="id" name="description">false</item>
+    <item type="id" name="subscribeButton">false</item>
+    <item type="id" name="goToEditionButton">false</item>
+    <item type="id" name="doneButton">false</item>
+    <item type="id" name="text">false</item>
+    <item type="id" name="left_button">false</item>
+    <item type="id" name="right_button">false</item>
+    <item type="id" name="icon_frame">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="gf_expandable_row">false</item>
+    <item type="id" name="gf_label">false</item>
+    <item type="id" name="gf_app_header">false</item>
+    <item type="id" name="gf_app_icon">false</item>
+    <item type="id" name="gf_app_name">false</item>
+    <item type="id" name="gf_feedback_header">false</item>
+    <item type="id" name="gf_feedback">false</item>
+    <item type="id" name="gf_privacy">false</item>
+    <item type="id" name="gf_system_logs_option">false</item>
+    <item type="id" name="gf_send_system_info">false</item>
+    <item type="id" name="gf_screenshot_option">false</item>
+    <item type="id" name="gf_send_screenshot">false</item>
+    <item type="id" name="gf_privacy_option">false</item>
+    <item type="id" name="gf_user_account">false</item>
+    <item type="id" name="gf_account_spinner">false</item>
+    <item type="id" name="gf_preview">false</item>
+    <item type="id" name="gf_send">false</item>
+    <item type="id" name="gf_label_value_row">false</item>
+    <item type="id" name="gf_value">false</item>
+    <item type="id" name="gf_back">false</item>
+    <item type="id" name="gf_send_from_preview">false</item>
+    <item type="id" name="gf_screenshot_row">false</item>
+    <item type="id" name="gf_feedback_screenshot_view">false</item>
+    <item type="id" name="gf_section_header_row">false</item>
+    <item type="id" name="gf_text_view">false</item>
+    <item type="id" name="gf_text">false</item>
+    <item type="id" name="gf_empty_view">false</item>
+    <item type="id" name="gf_empty_message">false</item>
+    <item type="id" name="gotoView">false</item>
+    <item type="id" name="list">false</item>
+    <item type="id" name="tabloidShadow">false</item>
+    <item type="id" name="goto_contents">false</item>
+    <item type="id" name="spinner">false</item>
+    <item type="id" name="image">false</item>
+    <item type="id" name="caption_container">false</item>
+    <item type="id" name="caption">false</item>
+    <item type="id" name="thumbnail_frame">false</item>
+    <item type="id" name="authorAndTime">false</item>
+    <item type="id" name="author">false</item>
+    <item type="id" name="relDate">false</item>
+    <item type="id" name="editionName">false</item>
+    <item type="id" name="post_item">false</item>
+    <item type="id" name="dotsBrowserWebView">false</item>
+    <item type="id" name="dark_spinner">false</item>
+    <item type="id" name="skip">false</item>
+    <item type="id" name="magazinesHomeWidget">false</item>
+    <item type="id" name="home_all_archived">false</item>
+    <item type="id" name="all_archived">false</item>
+    <item type="id" name="all_archived_instructions">false</item>
+    <item type="id" name="home_empty">false</item>
+    <item type="id" name="empty_library_welcome">false</item>
+    <item type="id" name="empty_library_instructions">false</item>
+    <item type="id" name="attribute_label">false</item>
+    <item type="id" name="sublabel">false</item>
+    <item type="id" name="download_status_label">false</item>
+    <item type="id" name="home_carousel">false</item>
+    <item type="id" name="home_issues">false</item>
+    <item type="id" name="home_titles">false</item>
+    <item type="id" name="outline_mode_metadata_contents">false</item>
+    <item type="id" name="outline_mode_kicker">false</item>
+    <item type="id" name="outline_mode_title">false</item>
+    <item type="id" name="outline_mode_author">false</item>
+    <item type="id" name="outline_mode_description">false</item>
+    <item type="id" name="outline_mode_video_icon">false</item>
+    <item type="id" name="outline_mode_slideshow_icon">false</item>
+    <item type="id" name="outline_mode_audio_icon">false</item>
+    <item type="id" name="outline_mode_tags">false</item>
+    <item type="id" name="outline_mode_pointer">false</item>
+    <item type="id" name="magazines_outline_mode_view">false</item>
+    <item type="id" name="outline_mode_thumbnails">false</item>
+    <item type="id" name="outline_mode_seekbar">false</item>
+    <item type="id" name="outline_mode_text_metadata">false</item>
+    <item type="id" name="dragHandle">false</item>
+    <item type="id" name="delete">false</item>
+    <item type="id" name="pinned_image">false</item>
+    <item type="id" name="checkbox">false</item>
+    <item type="id" name="mediaDrawerPagedWidgetList">false</item>
+    <item type="id" name="mediaDrawerProgressDots">false</item>
+    <item type="id" name="more_from_section_text">false</item>
+    <item type="id" name="stack_items">false</item>
+    <item type="id" name="widget_empty_text">false</item>
+    <item type="id" name="appwidget_refresh">false</item>
+    <item type="id" name="appwidget_refresh_inactive">false</item>
+    <item type="id" name="appwidget_refresh_active">false</item>
+    <item type="id" name="loading_view">false</item>
+    <item type="id" name="postlist_item">false</item>
+    <item type="id" name="byline">false</item>
+    <item type="id" name="time">false</item>
+    <item type="id" name="thumbnail_text">false</item>
+    <item type="id" name="preferred_sections_dialog">false</item>
+    <item type="id" name="section_list">false</item>
+    <item type="id" name="price">false</item>
+    <item type="id" name="rating">false</item>
+    <item type="id" name="rating_count">false</item>
+    <item type="id" name="metadata">false</item>
+    <item type="id" name="buy_button">false</item>
+    <item type="id" name="product_review_list">false</item>
+    <item type="id" name="ratings_bar">false</item>
+    <item type="id" name="comment">false</item>
+    <item type="id" name="screensaver_article_image">false</item>
+    <item type="id" name="screensaver_detail_label">false</item>
+    <item type="id" name="screensaver_open">false</item>
+    <item type="id" name="screensaver_article_title">false</item>
+    <item type="id" name="screensaver_article_divider_1">false</item>
+    <item type="id" name="screensaver_article_author">false</item>
+    <item type="id" name="screensaver_article_time">false</item>
+    <item type="id" name="screensaver_article_divider_2">false</item>
+    <item type="id" name="screensaver_article_text">false</item>
+    <item type="id" name="screensaver_article_headline_image">false</item>
+    <item type="id" name="screensaver_photo_image">false</item>
+    <item type="id" name="screensaver_photo_title">false</item>
+    <item type="id" name="screensaver_photo_byline">false</item>
+    <item type="id" name="screensaver_photo_label">false</item>
+    <item type="id" name="section_name_wrapper">false</item>
+    <item type="id" name="section_name">false</item>
+    <item type="id" name="empty_list">false</item>
+    <item type="id" name="play">false</item>
+    <item type="id" name="pause">false</item>
+    <item type="id" name="tooltip_layout_root">false</item>
+    <item type="id" name="playButton">false</item>
+    <item type="id" name="menu_share">false</item>
+    <item type="id" name="menu_launch_browser">false</item>
+    <item type="id" name="menu_add_edition">false</item>
+    <item type="id" name="menu_open_edition">false</item>
+    <item type="id" name="menu_search">false</item>
+    <item type="id" name="menu_sync">false</item>
+    <item type="id" name="menu_settings">false</item>
+    <item type="id" name="menu_help">false</item>
+    <item type="id" name="menu_edit_preferred_sections">false</item>
+    <item type="id" name="menu_mark_all_read">false</item>
+    <item type="id" name="menu_mark_all_unread">false</item>
+    <item type="id" name="menu_unsubscribe">false</item>
+    <item type="id" name="menu_audio">false</item>
+    <item type="id" name="menu_translate">false</item>
+    <item type="id" name="menu_text_view">false</item>
+    <item type="id" name="menu_magazine_outline_view">false</item>
+    <item type="id" name="menu_text_size">false</item>
+    <item type="id" name="menu_save_for_later">false</item>
+    <item type="id" name="search_apps">false</item>
+    <item type="id" name="menu_support">false</item>
+    <item type="id" name="menu_customer_support">false</item>
+    <item type="id" name="menu_feedback">false</item>
+    <item type="id" name="menu_abuse">false</item>
+    <item type="id" name="menu_copyright">false</item>
+    <item type="id" name="menu_tos">false</item>
+    <item type="id" name="menu_privacy">false</item>
+    <item type="id" name="menu_open_source">false</item>
+    <item type="id" name="menu_archive">false</item>
+    <item type="id" name="menu_delete">false</item>
+    <item type="id" name="menu_shop">false</item>
+    <item type="id" name="menu_switch_view">false</item>
+    <item type="id" name="menu_show_archived">false</item>
+    <item type="id" name="menu_manage_subscriptions">false</item>
+    <item type="id" name="header">false</item>
+</resources>

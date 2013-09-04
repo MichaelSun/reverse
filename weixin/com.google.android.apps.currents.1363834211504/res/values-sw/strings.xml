@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="launcher_app_name">Currents</string>
+    <string name="app_name">Currents</string>
+    <string name="long_app_name">Google Currents</string>
+    <string name="magazines_launcher_app_name">Majarida ya Play</string>
+    <string name="magazines_app_name">Majarida ya Google Play</string>
+    <string name="magazines_long_app_name">Majarida ya Google Play</string>
+    <string name="google_play">Google Play</string>
+    <string name="start_msg_prefix">Karibu kwa</string>
+    <string name="updating_app">upandishaji gredi unaendelea</string>
+    <string name="syncing">Inalandanisha...</string>
+    <string name="syncing_all_editions">Inalandanisha matoleo yote</string>
+    <string name="syncing_images">Inalandanisha picha</string>
+    <string name="wait_until_online">Tafadhali subiri hadi uwe mtandaoni tena.</string>
+    <string name="cant_refresh_offline">Haiwezi kuonyesha upya kwa sababu kifaa kiko nje ya mtandao.</string>
+    <string name="edition_not_available_offline">Toleo hili litapatikana ukiwa mtandaoni.</string>
+    <string name="default_error">Hitilafu imetokea, tafadhali jaribu tena.</string>
+    <string name="edition_sync_error">Kulikuwa na hitilafu ya kupakua toleo lako. Tafadhali jaribu tena baadaye.</string>
+    <string name="nospace_error">Hakuna nafasi ya kuhifadhi kwenye kifaa chako.</string>
+    <string name="sync_stopped">Ulandanishi umesitishwa</string>
+    <string name="unmetered_network_restriction_start_message">"Jarida hili litaanza kupakualiwa wakati kifaa kitakapounganishwa kwenye Wi-Fi.
+
+Ikiwa unalitaka sasa, unaweza kuchagua kutosubiri. Gharama za data zinaweza kutozwa."</string>
+    <string name="unmetered_network_restriction_resume_message">"Jarida hili litaendelea kupakualiwa wakati kifaa kitakapounganishwa kwenye Wi-Fi.
+
+Ikiwa unalitaka sasa, unaweza kuchagua kutosubiri. Gharama za data zinaweza kutozwa."</string>
+    <string name="never_wait">Usisubiri kamwe</string>
+    <string name="dont_wait">Usisubiri</string>
+    <string name="cant_begin_reading_magazine">Haijapakua jarida hili vya kutosha ili kuanza kusoma.</string>
+    <string name="needed_to_rotate_orientation">Kifaa kinachohitajika kuzunguka otomatiki ili kuonyeswa maudhui haya.</string>
+    <string name="zooming_is_unavailable">Ukuzaji haupatikani kwa jarida hili.</string>
+    <string name="text_view_is_unavailable">Muonekano wa maandishi haupatikani kwenye ukurasa huu.</string>
+    <string name="add_to_library">Ongeza kwenye Maktaba</string>
+    <string name="manage_content">Dhibiti maudhui</string>
+    <string name="reorder_editions">Panga upya</string>
+    <string name="move_to_first">Songeza kwanza</string>
+    <string name="table_of_contents">Orodha ya Yaliyomo</string>
+    <string name="start_currents_offline">"Lazima uwe kwenye mtandao ili utumie  Google Currents kwa mara ya kwanza."</string>
+    <string name="start_magazines_offline">Ni lazima uwe mtandaoni ili kutumia Majarida ya Google Play kwa mara ya kwanza.</string>
+    <string name="start_edition_offline">Ni lazima uwe mtandaoni ili kulifikia toleo hili kwa mara ya kwanza.</string>
+    <string name="start_currents_network_error">Kwa bahati mbaya, Google Currents hazipatikani kwa muda mfupi. Jaribu tena baadaye.</string>
+    <string name="start_magazines_network_error">Kwa bahati mbaya, Majarida ya Google Play hayapatikani kwa muda mfupi. Jaribu tena baadaye.</string>
+    <string name="skip">Ruka</string>
+    <string name="loading">Inapakia…</string>
+    <string name="fetching_lastest_stories">Inaleta ya hivi karibuni…</string>
+    <string name="authenticating">Inaingia…</string>
+    <string name="product_reviews">Ukaguaji Bidhaa</string>
+    <string name="product_publisher">(kupitia %s)</string>
+    <string name="product_low_high">%1$s - %2$s</string>
+    <string name="search_hint">Tafuta matoleo, blogu, na makala</string>
+    <string name="search_offline">Utafutaji haupatikani nje ya mtandao.</string>
+    <string name="searching">Inatafuta…</string>
+    <string name="search_empty">Hakuna matokeo yaliyopatikana</string>
+    <string name="search_empty_for_query">Hakuna matokeo yaliyopatikana ya \"%s\"</string>
+    <string name="search_failed">Haikuweza kutafuta. Angalia muunganisho wako wa mtandao.</string>
+    <string name="subscribed_to_everything_in_category">Umejisajili kwa kila kitu kwenye %s</string>
+    <string name="empty_section">Sehemu hii haina maudhui.</string>
+    <string name="font_size_small">Ndogo</string>
+    <string name="font_size_medium">Wastani</string>
+    <string name="font_size_large">Kubwa</string>
+    <string name="saving">Inahifadhi…</string>
+    <string name="save">Hifadhi</string>
+    <string name="done">Imefanywa</string>
+    <string name="delete_prompt_message">Una uhakika unataka kufuta makala haya?</string>
+    <string name="delete_prompt_title">Futa makala?</string>
+    <string name="original_url_not_found">Makala haya hayana url asili</string>
+    <string name="nonhttp_url">Haiwezi kuabiri kwa url isiyo ya http</string>
+    <string name="edition_not_found">Toleo halikupatikana.</string>
+    <string name="goto_more">Zaidi katika %s</string>
+    <string name="add">Ongeza</string>
+    <string name="remove">Ondoa</string>
+    <string name="choose">Chagua</string>
+    <string name="map_marker_label">Eneo</string>
+    <string name="video_editor_label">Chagua video ya YouTube</string>
+    <string name="search_youtube">Tafuta kwenye YouTube</string>
+    <string name="video_not_found">Video haipatikani</string>
+    <string name="audio_error">Hitilafu wakati wa kujaribu kucheza rekodi ya sauti</string>
+    <string name="audio_not_supported_offline">Sauti haiwezi kutumiwa nje ya mtandao.</string>
+    <string name="show_audio">Onyesha upau wa sauti</string>
+    <string name="hide_audio">Ficha upau wa sauti</string>
+    <string name="share">Shiriki</string>
+    <string name="share_article_dialog_title">Shiriki makala haya</string>
+    <string name="share_edition_dialog_title">Shiriki toleo hili</string>
+    <string name="share_app_dialog_title">Shiriki Currents</string>
+    <string name="magazines_share_app_dialog_title">Shiriki Majarida ya Google Play</string>
+    <string name="share_edition_short_format_text">%2$s: %3$s %1$s</string>
+    <string name="share_edition_long_format_text">"%2$s
+%3$s
+
+%1$s
+"</string>
+    <string name="share_edition_format_html">&lt;a href=%1$s>%2$s&lt;/a>&lt;br/>%3$s</string>
+    <string name="shared_via_app_text">Imeshirikiwa kupitia Google Currents</string>
+    <string name="magazines_shared_via_app_text">Imeshirikiwa kupitia Majarida ya Google Play</string>
+    <string name="shared_via_app_html">&lt;p>&lt;i>Imeshirikishwa kupitia&lt;/i> &lt;a href=%s>Google Currents&lt;/a>&lt;/p></string>
+    <string name="magazines_shared_via_app_html">&lt;p>&lt;i>Imeshirikiwa kupitia&lt;/i> &lt;a href=%s>Majarida ya Google Play&lt;/a>&lt;/p></string>
+    <string name="share_source_text">Chanzo:%s</string>
+    <string name="share_source_html">&lt;p>&lt;i>Chanzo:&lt;/i> &lt;a href=%1$s>%1$s&lt;/a>&lt;/p></string>
+    <string name="share_app_text">"Kagua Google Currents!
+%s"</string>
+    <string name="magazines_share_app_text">"Kagua Majarida ya Google Play! 
+ %s"</string>
+    <string name="share_app_html">Angalia Google Currents!&lt;br/>&lt;br/>&lt;a href=%1$s>%1$s&lt;/a></string>
+    <string name="magazines_share_app_html">Kagua Majarida ya Google Play!&lt;br/>&lt;br/>&lt;a href=%1$s>%1$s&lt;/a></string>
+    <string name="share_article_subject_format">%1$s: %2$s</string>
+    <string name="share_article_short_format_text">%4$s: %2$s %1$s</string>
+    <string name="share_article_long_format_text">"%4$s: %2$s
+%1$s
+
+%3$s
+"</string>
+    <string name="share_article_format_html">&lt;a href=%1$s>%2$s&lt;/a>&lt;br/>&lt;br/>%3$s</string>
+    <string name="share_article_short_format_text_no_edition_name">%2$s %1$s</string>
+    <string name="share_article_long_format_text_no_edition_name">"%2$s
+%1$s
+
+%3$s
+"</string>
+    <string name="share_article_format_html_no_edition_name">&lt;a href=%1$s>%2$s&lt;/a>&lt;br/>&lt;br/>%3$s</string>
+    <string name="share_link_title_html">&lt;p>&lt;i>Source:&lt;/i> &lt;a href=%1$s>%2$s&lt;/a>&lt;/p></string>
+    <string name="share_link_title_text">%2$s: %1$s</string>
+    <string name="contribute_hint">Hii ni sehemu tupu - unda makala ya kwanza kwa kutumia kitufe kilicho hapa juu...</string>
+    <string name="youtube_choose">Chagua</string>
+    <string name="youtube_load_error">Haiwezi kupakia data kutoka kwa YouTube.</string>
+    <string name="saved_post_edition_title">Imehifadhiwa</string>
+    <string name="saved_for_later">Makala sasa yanaweza kupatikana katika %1$s</string>
+    <string name="add_apps_title_long">Ongeza matoleo</string>
+    <string name="no_app_results">Hakuna matoleo yanayolingana na utafutaji wako</string>
+    <string name="confirm_subscribe_dialog_title">Thibitisha Usajili</string>
+    <string name="subscribe_button">Jisajili bila malipo</string>
+    <string name="confirm_subscribe_message">Jisajili kwa %s bila malipo?</string>
+    <string name="unsubscribe">Jiengue</string>
+    <string name="unsubscribe_message">Je, unataka kujiengua kutoka %s?</string>
+    <string name="edition_search_unknown_error">Hitilafu isiyojulikana ilitokea wakati wa kutafuta matoleo.</string>
+    <string name="edition_search_offline">Lazima uwe mtandaoni ili kuongeza toleo.</string>
+    <string name="open_edition">Toleo wazi</string>
+    <string name="this_edition">toleo hili</string>
+    <string name="add_edition">Ongeza toleo</string>
+    <string name="launch_browser">Zindua kivinjari</string>
+    <string name="add_for_free">Ongeza bila malipo</string>
+    <string name="in_library">Katika maktaba</string>
+    <string name="subscription_added">Usajili umeongezwa kwa %s.</string>
+    <string name="subscription_added_in_category">%1$s imeongeza hadi %2$s</string>
+    <string name="initial_sync_unknown_error">Hitilafu isiyojulikana wakati wa kuanza.</string>
+    <string name="initial_sync_forbidden">Asilimia haziruhusiwi. Tafadhali chagua akaunti nyingine.</string>
+    <string name="text_size">Ukubwa wa maandishi</string>
+    <string name="category_featured">Iliyoangaziwa</string>
+    <string name="category_recommended">Inayopendekezwa</string>
+    <string name="category_news">Habari</string>
+    <string name="category_lifestyle">Mtindo wa maisha</string>
+    <string name="category_business">Biashara</string>
+    <string name="category_science">Sayansi &amp; Tek</string>
+    <string name="category_sports">Michezo</string>
+    <string name="category_entertainment">Burudani</string>
+    <string name="category_design">Muundo</string>
+    <string name="category_blogs">Google Reader</string>
+    <string name="category_curators">Wangalizi</string>
+    <string name="category_other">Nyingine</string>
+    <string name="category_youtube">YouTube</string>
+    <string name="currents">Currents</string>
+    <string name="right_now">chini ya dakika iliyopita</string>
+    <string name="ok">SAWA</string>
+    <string name="cancel">Ghairi</string>
+    <string name="enable">Washa</string>
+    <string name="disable">Lemaza</string>
+    <string name="data_collection_title">Peana anwani ya barua pepe?</string>
+    <string name="data_collection_opt_in_message">Ungependa kupokea masasisho maalum au matangazo ya mauzo maalum kwa kuruhusu Google kupeana anwani yako ya barua pepe, &lt;b>%1$s&lt;/b> kwa &lt;b>%2$s&lt;/b> kulingana na sera zake &lt;a href=#>za faragha&lt;/a>?</string>
+    <string name="data_collection_required_message">Ungependa kufikia kikamilifu toleo kwa kuruhusu Google kupeana anwani yako ya barua pepe, &lt;b>%1$s&lt;/b> kwa &lt;b>%2$s&lt;/b> kulingana na sera zake &lt;a href=#>za faragha&lt;/a>?</string>
+    <string name="privacy_policy_not_found">Hakuna sera ya faragha ya asilimia za $ iliyopatikana</string>
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="plus">Google+</string>
+    <string name="byline_shared_via">Imeshirikiwa kupitia %s</string>
+    <string name="byline_shared_by">Imeshirikiwa na %s</string>
+    <string name="byline_by">%s</string>
+    <string name="latest">Mpya zaidi</string>
+    <string name="thanks_for_installing">Asante kwa kusakinisha Google Currents!</string>
+    <string name="magazines_thanks_for_installing">Asante kwa kusakinisha Majarida ya Google Play!</string>
+    <string name="ask_add_to_library">Ungependa kuongeza %s kwa maktaba yako?</string>
+    <string name="no_thanks">Hapana asante</string>
+    <string name="go_to_library">Nenda kwa maktaba</string>
+    <string name="settings">Mipangilio</string>
+    <string name="google">Google</string>
+    <string name="enabled">Imewezeshwa</string>
+    <string name="disabled">Imelemazwa</string>
+    <string name="offline_reading_capitalized">USOMAJI WA NJE YA MTANDAO</string>
+    <string name="include_images">Jumuisha taswira</string>
+    <string name="none">Hamna</string>
+    <string name="first_ten_editions">Matole kumi ya kwanza</string>
+    <string name="all_editions">Matoleo yote</string>
+    <string name="background_sync_capitalized">UPATANISHI WA MANDHARI NYUMA</string>
+    <string name="enable_background_sync">Wezesha upatanishi wa mandharinyuma</string>
+    <string name="only_if_unmetered">Kama tu ni mtandao usiyo wa waya</string>
+    <string name="only_if_unmetered_summary">Mfano: Wi-Fi</string>
+    <string name="only_if_charging">Kama tu inachaji</string>
+    <string name="sync_now">Sawazisha sasa</string>
+    <string name="refresh">Onyesha upya</string>
+    <string name="refreshing">Inaonyesha upya…</string>
+    <string name="additional_info_capitalized">TAARIFA YA ZIADA</string>
+    <string name="feedback">Tuma Maoni</string>
+    <string name="feedback_description">Tutumie baadhi ya maoni</string>
+    <string name="feedback_email_recipient">maoni ya mikondo+ android@google.com</string>
+    <string name="feedback_email_subject">Maoni ya Android, %1$s mnamo %2$s</string>
+    <string name="terms_of_service">Sheria na Masharti</string>
+    <string name="privacy_policy">Sera ya Faragha</string>
+    <string name="usage_policy">Sera ya Matumizi</string>
+    <string name="usage_policy_description">Mikondo ya Google ni ya matumizi ya kibinafsi na ya kibiashara tu.</string>
+    <string name="open_source_licenses">Leseni Huria</string>
+    <string name="open_source_licenses_description">Maelezo ya kisheria, kuhusu leseni</string>
+    <string name="report_abuse">Ripoti matumizi mabaya</string>
+    <string name="report_abuse_description">Ripoti maudhui yoyote unayochukulia hayafai</string>
+    <string name="report_content_problem">Ripoti tatizo la maudhui</string>
+    <string name="report_content_problem_description">Ripoti maudhui yoyote yaliyoharibika au mabaya</string>
+    <string name="release">Toleo %1$s | Muundo %2$s</string>
+    <string name="powered_by">Inaendeshwa na %1$s %2$s %3$s</string>
+    <string name="launch_in_browser_error">Samahani, huwezi kuzindua ukurasa huu katika kivinjari</string>
+    <string name="support">Usaidizi</string>
+    <string name="customer_support">Wasiliana na Wanaotoa Usaidizi kwa Wateja</string>
+    <string name="give_product_feedback">Toa maoni ya bidhaa</string>
+    <string name="report_inappropriate_content">Ripoti madhui yasiyofaa</string>
+    <string name="report_copyright_issue">Ripoti suala la hatimiliki</string>
+    <string name="account">Akaunti ya Google</string>
+    <string name="account_short">Akaunti</string>
+    <string name="help">Usaidizi</string>
+    <string name="automatically_download">Pakua kiotomatiki</string>
+    <string name="automatically_download_short">Pakua-kiotomatiki</string>
+    <string name="automatically_download_description">Pakua ununuzi na usajili wote bila kuuliza</string>
+    <string name="automatically_download_description_short">Pakua ununuzi bila kuuliza</string>
+    <string name="unmetered_networks_only">Pakua kupitia Wi-Fi pekee</string>
+    <string name="unmetered_networks_only_description">Ili kupunguza gharama ya data ya mtoa huduma, usipakue kwenye mitandao ya simu.</string>
+    <string name="automatically_archive">Jalidi kiotomatiki</string>
+    <string name="automatically_archive_description">Ukiishiwa na nafasi, jalidi masuala ya zamani bila kuuliza</string>
+    <string name="show_notifications">Onyesha arifa</string>
+    <string name="show_notifications_description">Arifu wakati suala jipya linapatikana au limepakuwa</string>
+    <string name="show_notifications_currents_description">Wakati maudhui mapya yanapatikana, isizidi mara moja kwa siku</string>
+    <string name="show_pick_of_the_week">Onyesha Chaguo la Wiki</string>
+    <string name="crash_report_message">Kwa bahati mbaya,%s imekoma.</string>
+    <string name="report">Ripoti</string>
+    <string name="crash_email_recipient">currents-feedback+crash@google.com</string>
+    <string name="crash_email_subject">Mvurugo wa Android, %1$s on %2$s</string>
+    <string name="upgrade_required">Uboreshaji unahitajika</string>
+    <string name="upgrade_required_short_message">Uboreshaji unahitajika kwa maudhui mapya</string>
+    <string name="upgrade_required_long_message">Unatumia toleo la zamani la Mikondo ya Google, tafadhali iboreshe. Mpaka Mikondo ya Google iboreshwe hakuna mikondo mipya itakayopokelewa.</string>
+    <string name="magazines_upgrade_required_long_message">Unatumia toleo la zamani la Majarida ya Google Play, tafadhali boresha. Hadi Majarida ya Google Play yaboreshwe hakuna maudhui mapya yatapokewa.</string>
+    <string name="auth_problem_message">Tatizo na %s</string>
+    <string name="no_account_selected">Hakuna akaunti iliyoteuliwa</string>
+    <string name="yes">Ndiyo</string>
+    <string name="no">Hapana</string>
+    <string name="subscribing_to_edition">Inajisajili kwa toleo...</string>
+    <string name="image_unavailable_offline_message">Picha itapatikana wakati mwingine ukiwa mtandaoni</string>
+    <string name="image_not_found_message">Picha haipatikani</string>
+    <string name="article_not_found">Samahani, makala haya hayapo tena.</string>
+    <string name="article_offline">Makala haya hayapatikani nje ya mtandao.</string>
+    <string name="article_failed">Samahani, makala haya hayapatikani kwa sasa.</string>
+    <string name="presentation_capitalized">WASILISHO</string>
+    <string name="status_bar">Mwambaa hali</string>
+    <string name="set_status_bar">Onyesha/ficha mwambaa wa hali ya kifaa</string>
+    <string name="translation_title">Utafsiri</string>
+    <string name="translate_this_edition">Tafsiri toleo hili?</string>
+    <string name="edition_translate_message_no_source">Ungependa kutafsiri toleo hili hadi %1$s?</string>
+    <string name="please_wait_to_translate_offline">Uko nje ya mtandao kwa sasa; utafsiri utasasishwa wakati huo mwingine utakapopatanisha.</string>
+    <string name="please_wait_to_translate_network">Kulikuwa na tatizo la mtandao wakati wa kasasisha toleo lako; utafsiri utapatikana wakati mwingine utakapopatanisha.</string>
+    <string name="translate">Tafsiri</string>
+    <string name="translate_active">Inatafsiri...</string>
+    <string name="untranslate">Ona halisi</string>
+    <string name="creating_new_translation">Utafsiri mpya wa toleo hili unaendelea. Toleo lako litasasisha katika dakika chache.</string>
+    <string name="translating_edition">Inatafsiri toleo; tafadhali subiri…</string>
+    <string name="original_language">Lugha asili</string>
+    <string name="translate_failed_no_sub">Tafadhali jisajili kwenye toleo hili ili kulitafsiri.</string>
+    <string name="language_chinese_simplified">Kichina (kilichorahisishwa)</string>
+    <string name="language_chinese_traditional">Kichina (cha jadi)</string>
+    <string name="appicon_label">Toleo la Currents</string>
+    <string name="postlist_label">Currents</string>
+    <string name="new_in_currents">Mpya kwenye Google Currents</string>
+    <string name="new_in_edition">Mpya kwenye %s</string>
+    <string name="appicon_configure_instructions">Chagua toleo</string>
+    <string name="postlist_configure_instructions">Chagua seti ya matoleo unayotaka wiji yako ijumuishe.</string>
+    <string name="last_updated">Mara ya mwisho kusasishwa</string>
+    <string name="warn_offline_for_images">"Baadhi ya picha hazipatikani kwa sababu uko nje ya mtandao. 
+
+Unaweza kuzifanya zipatikane kwa kubana usajili."</string>
+    <string name="change_settings">Geuza kukufaa</string>
+    <string name="magazines_home_new">MPYA</string>
+    <string name="magazines_home_archived">IMEJALIDIWA</string>
+    <string name="magazines_home_download">DOWNLOAD</string>
+    <string name="magazines_home_archive">Weka jarida hili kwenye kumbukumbu</string>
+    <string name="magazines_home_delete">Futa kutoka kwenye maktaba</string>
+    <string name="magazines_home_delete_offline">Sharti uwe katika mtandao ili kufuta suala</string>
+    <string name="magazines_home_delete_prompt_title">Futa kutoka kwenye maktaba?</string>
+    <string name="magazines_home_delete_prompt">"Jarida hili litapotea PERMANENTLY kutoka kwenye kifaa na mahali pengine popote ambapo unafikia maktaba yako ya Google Play.
+
+Hutaweza kulipata tena."</string>
+    <string name="magazines_home_view_by_title">Tazama kwa jina</string>
+    <string name="magazines_home_view_recent">Tazama ya hivi karibuni</string>
+    <string name="magazines_menu_show_archived">Onyesha majarida yaliyowekwa kwenye kumbukumbu</string>
+    <string name="magazines_menu_hide_archived">Ficha majarida yaliyowekwa kwenye kumbukumbu</string>
+    <string name="magazines_menu_manage_subscriptions">Dhibiti usajili</string>
+    <string name="magazines_menu_shop">Nunua magazeti</string>
+    <string name="magazines_menu_search">Tafuta magazeti</string>
+    <string name="magazines_view_flowing_text">Tazama maandishi</string>
+    <string name="magazines_view_original_pages">Ondoka kwenye maandishi</string>
+    <string name="magazines_view_toggle_text">Geuza muonekano wa maandishi</string>
+    <string name="magazines_view_flowing_text_dialog_title">Makala ya maandishi yanayotiririka</string>
+    <string name="next_button_description">Ukurasa Unaofuata</string>
+    <string name="goto_button_description">Jedwali la Maudhui</string>
+    <string name="images_only_magazine_notification">Hili ni jarida la picha-tu.</string>
+    <string name="magazine_not_downloaded">Haijapakuliwa</string>
+    <string name="magazine_downloading">Inapakua</string>
+    <string name="new_multi_magazine_downloaded_notification_title">Matoleo %1$s mapya yamepakuliwa</string>
+    <string name="new_multi_magazine_notification_content">Gusa ili kuona majarida yako</string>
+    <string name="whats_next_new">Mpya</string>
+    <string name="account_selection_heading">Chagua akaunti</string>
+    <string name="account_selection_body">"Unganisha akaunti yako kwenye Mikondo ya Google ili uweze kusoma maudhui ya bila malipo kutoka katika maelfu ya machapisho.
+
+Je, ni akaunti ipi unayotaka kutumia?"</string>
+    <string name="magazines_account_selection_body">"Unganisha akaunti yako kwenye Majarida ya Google Play ili uwezea kujisajili na kupata masuala kutoka majarida maarufu.
+
+Ni akaunti ipi unayotaka kutumia?"</string>
+    <string name="account_selection_add_account">Ongeza akaunti</string>
+    <string name="authentication_failure_no_network">Utahitaji kuunganishwa kwenye Mtandao ili kuthibitisha akaunti yako.</string>
+    <string name="authentication_failure">Haijathibitishwa</string>
+    <string name="authentication_failure_error">Haikuweza kuthibitisha akaunti yako.</string>
+    <string name="no_network_connection">Haijaunganishwa</string>
+    <string name="empty_library_welcome">Karibu!</string>
+    <string name="empty_library_instructions">Gusa ikoni ya duko ili pale juu ili kuvinjari katalogi nzima ya Google Play.</string>
+    <string name="all_archived">Majarida yako yote yamewekwa kwenye kumbukumbu.</string>
+    <string name="all_archived_instructions">Teua \"Onyesha majarida yaliyowekwa kwenye kumbukumbu\" ili kuyaona, au gusa ikoni ya duka iliyo hapo juu ili kuvinjari katalogi yetu nzima.</string>
+    <string name="save_for_later">Hifadhi ili Kutumia Baadaye</string>
+    <string name="save_for_later_saved">Ondoa Kutoka Kwenye iliyo Hifadhiwa</string>
+    <string name="top_editions">Matoleo bora</string>
+    <string name="other_editions">Matoleo mengine</string>
+    <string name="feed_editions">Milisho</string>
+    <string name="articles">Makala</string>
+    <string name="screensaver_open_in_app_caption">Fungua katika Google Currents ↗</string>
+    <string name="screensaver_no_content_available">Ili kuanzisha kuota mchana, gusa ili uingie.</string>
+    <string name="screensaver_open_app_caption">Fungua Google Currents ↗</string>
+    <string name="category_all">Yote</string>
+    <string name="add_subscriptions">Ongeza usajili</string>
+    <string name="breaking_stories">Habari zinazochipuka</string>
+    <string name="breaking_stories_with_category">Habari zinazochipuka - %1$s</string>
+    <string name="customize">Geuza kukufaa</string>
+    <string name="customize_category">"Geuza %1$s  ikufae"</string>
+    <string name="add_category">Ongeza %1$s</string>
+    <string name="pick_of_the_week">Tukio la wiki</string>
+    <string name="more">zaidi</string>
+    <string name="see_all_results">Tazama zote</string>
+    <string name="preferred_section_description">Chagua sehemu ambazo ungependa zionekane kwenye skrini ya mwanzo.</string>
+    <string name="add_preferred_section_message">Sehemu hii imefichwa kwa sasa, je, ungependa kuionyesha?</string>
+    <string name="save_for_later_name">Imehifadhiwa</string>
+    <string name="loading_my_stuff">Bado hakuna taarifa zilizohifadhiwa.</string>
+    <string name="all_posts_are_read">Taarifa zote zimesomwa.</string>
+    <string name="need_online_for_breaking_stories">Unahitaji kuwa mtandaoni ili kuona taarifa hii.</string>
+    <string name="breaking_stories_offline">Unahitaji kuwa mtandaoni ili kuona habari zinazochipuka.</string>
+    <string name="web_content">Wavuti</string>
+    <string name="trending_time">%1$s | Wavuti</string>
+    <string name="customize_sections">GEUZA IKUFAE</string>
+    <string name="subscribe">JISAJILI</string>
+    <string name="never_suggest_again">LA, ASANTE</string>
+    <string name="black_list_failure">Unahitaji kuwa mtandaoni ili kupuuza Chaguo la wiki. Tafadhali jaribu tena baadaye.</string>
+    <string name="removing_pick_of_week">Inaondoa %s.</string>
+    <string name="adding_pick_of_week">Inaongeza %1$s hadi %2$s.</string>
+    <string name="show_read_posts">Ficha makala ambayo tayari nimeyasoma</string>
+    <string name="unable_to_install">Wijeti haipatani kwa kifaa chako.</string>
+    <string name="widget_error">Tafadhali gusa ili kuonyesha upya taarifa.</string>
+    <string name="widget_loading">Inapakia kwa mara ya kwanza. Tafadhali vumilia.</string>
+    <string name="widget_post_error">Taarifa haipatikani.</string>
+    <string name="widget_not_signed_in">Gonga ili uingie.</string>
+    <string name="customize_edition">Ondoa au upange upya</string>
+    <string name="edit_preferred_sections">Chagua sehemu unazopenda</string>
+    <string name="mark_all_unread">Tia alama kwa zote kuwa hazijasomwa</string>
+    <string name="mark_all_read">Tia alama kwa zote kuwa zimesomwa</string>
+    <string name="edition_has_been_pinned">%1$s - picha zitapatikana kwa usomaji wa nje ya mtandaoni.</string>
+    <string name="edition_has_been_unpinned">%1$s - picha hazitapatikana kwa usomaji wa nje ya mtandaoni..</string>
+    <string name="editions">Matoleo</string>
+    <string name="offline_images">Jumuisha picha za kusoma nje ya mtandao</string>
+    <string name="offline_hint">Unaweza kubana picha za usajili wa usomaji wa nje ya mtandao kwa kugusa \"geuza kukufaa\"kwenye upau wa upande.</string>
+    <string name="play_audio">Cheza sauti</string>
+    <string name="pause_audio">Sitisha sauti</string>
+</resources>

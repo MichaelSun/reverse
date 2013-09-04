@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_attachments">
+        <item quantity="other">%d adjuntos</item>
+        <item quantity="one">%d adjunto</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">Mover %1$d conversaciones</item>
+        <item quantity="one">Mover una conversación</item>
+    </plurals>
+    <plurals name="unread_mail_count">
+        <item quantity="other">%1$d correos sin leer</item>
+        <item quantity="one">1 correo sin leer</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Borradores</item>
+        <item quantity="one">Borrador</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">¿Eliminar estas %1$d conversaciones?</item>
+        <item quantity="one">¿Eliminar esta conversación?</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">¿Archivar estas %1$d conversaciones?</item>
+        <item quantity="one">¿Archivar esta conversación?</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="other">¿Descartar borradores de estas %1$d conversaciones?</item>
+        <item quantity="one">¿Descartar borradores de esta conversación?</item>
+    </plurals>
+    <plurals name="conversation_unstarred">
+        <item quantity="other">Anulando %1$d conversaciones destacadas</item>
+        <item quantity="one">Anulando %1$d conversación destacada</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">Se han silenciado &amp;lt;b>%1$d&amp;lt;/b> conversaciones.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> conversación silenciada</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">Se han marcado &amp;lt;b>%1$d&amp;lt;/b> conversaciones como spam.</item>
+        <item quantity="one">Se ha marcado &amp;lt;b>%1$d&amp;lt;/b> conversación como spam.</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">Se han marcado &amp;lt;b>%1$d&amp;lt;/b> conversaciones como deseadas.</item>
+        <item quantity="one">Se ha marcado &amp;lt;b>%1$d&amp;lt;/b> conversación como deseada.</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">Se han marcado &amp;lt;b>%1$d&amp;lt;/b> conversaciones como no importantes.</item>
+        <item quantity="one">Se ha marcado &amp;lt;b>%1$d&amp;lt;/b> conversación como no importante.</item>
+    </plurals>
+    <plurals name="conversation_phished">
+        <item quantity="other">Se han marcado &amp;lt;b>%1$d&amp;lt;/b> conversaciones como suplantación de identidad.</item>
+        <item quantity="one">Se ha marcado &amp;lt;b>%1$d&amp;lt;/b> conversación como suplantación de identidad.</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">Se han archivado &amp;lt;b>%1$d&amp;lt;/b> conversaciones.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> conversación archivada</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">Se han eliminado &amp;lt;b>%1$d&amp;lt;/b> conversaciones.</item>
+        <item quantity="one">Se ha eliminado &amp;lt;b>%1$d&amp;lt;/b> conversación.</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">Etiquetas modificadas</item>
+        <item quantity="one">Etiqueta modificada</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">Sincronizar: conversaciones de los últimos %1$d días</item>
+        <item quantity="one">Sincronizar: conversaciones de hace %1$d día</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">%1$d conversaciones se eliminarán de forma permanente.</item>
+        <item quantity="one">%1$d conversación se eliminará de forma permanente.</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d días</item>
+        <item quantity="one">Un día</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">días</item>
+        <item quantity="one">Día</item>
+    </plurals>
+    <plurals name="notify_attachment_error">
+        <item quantity="other">Error al enviar archivo adjunto (%s)</item>
+        <item quantity="one">Error al enviar archivo adjunto</item>
+    </plurals>
+    <plurals name="sync_messages_partial_description">
+        <item quantity="other">Los mensajes de los últimos %1$d días se descargarán al conectarte</item>
+        <item quantity="one">Los mensajes del último día se descargarán al conectarte</item>
+    </plurals>
+    <plurals name="sectioned_inbox_teaser_unseen_plural_text">
+        <item quantity="other">%1$d nuevos</item>
+        <item quantity="one">%1$d nuevos</item>
+    </plurals>
+</resources>

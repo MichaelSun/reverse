@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="launcher_app_name">Медыя</string>
+    <string name="app_name">Часопiс</string>
+    <string name="long_app_name">Google Часопiс</string>
+    <string name="magazines_launcher_app_name">Play Часопісы</string>
+    <string name="magazines_app_name">Google Play Часопісы</string>
+    <string name="magazines_long_app_name">Google Play Часопiсы</string>
+    <string name="google_play">Google Play</string>
+    <string name="start_msg_prefix">вітаем</string>
+    <string name="updating_app">ідзе абнаўленне</string>
+    <string name="syncing">Сінхранізацыя...</string>
+    <string name="syncing_all_editions">Сінхранiзацыя ўсіх выданняў</string>
+    <string name="syncing_images">Сінхранiзацыя выяў</string>
+    <string name="wait_until_online">Пачакайце, пакуль зноў падключыцеся да Iнтэрнэту.</string>
+    <string name="cant_refresh_offline">Не атрымалася абнавіць, бо прылада ў аўтаномным рэжыме.</string>
+    <string name="edition_not_available_offline">Гэта выданне будзе даступна пры падключэнні да Iнтэрнэту.</string>
+    <string name="default_error">Адбылася памылка. Паўтарыце спробу пазней.</string>
+    <string name="edition_sync_error">Пры спампоўцы ыдання адбылася памылка. Паўтарыце спробу пазней.</string>
+    <string name="nospace_error">З памяці на вашай прыладзе.</string>
+    <string name="sync_stopped">Сінхранізацыя спынена</string>
+    <string name="sync_restart">Трэба сінхранiзаваць %s, каб яго можна было прачытаць.</string>
+    <string name="unmetered_network_restriction_start_message">"Спампоўка гэтага часопіса пачнецца, калі прылада будзе падлучана да сеткі Wi-Fi.
+
+Калі вам гэта трэба цяпер, вы можаце не чакаць. Можа спаганяцца плата за перадачу дадзеных."</string>
+    <string name="unmetered_network_restriction_resume_message">"Спампоўка гэтага часопіса будзе адноўлена, калі прылада будзе падлучана да сеткі Wi-Fi.
+
+Калі вам гэта трэба цяпер, не чакайце. Можа спаганяцца плата за перадачу дадзеных."</string>
+    <string name="never_wait">Ніколі не чакаць</string>
+    <string name="dont_wait">Не чакаць</string>
+    <string name="cant_begin_reading_magazine">"Каб пачаць чытанне гэтага часопiса, трэба спампаваць неабходны аб'ём."</string>
+    <string name="needed_to_rotate_orientation">Прыладзе патрэбны аўтаматычны паварот, каб адлюстроўваць гэтаы кантэнт.</string>
+    <string name="zooming_is_unavailable">Для гэтага часопіса маштабаванне недаступнае.</string>
+    <string name="text_view_is_unavailable">Прагляд тэксту не даступны для гэтай старонкі.</string>
+    <string name="add_to_library">Дадаць у бібліятэку</string>
+    <string name="manage_content">Кіраванне змесцівам</string>
+    <string name="reorder_editions">Змяніць парадак</string>
+    <string name="move_to_first">Зрабіць першы крок</string>
+    <string name="table_of_contents">Змест</string>
+    <string name="start_currents_offline">Перад першым выкарыстаннем Google Currents трэба падключыцца да Iнтэрнэта</string>
+    <string name="start_magazines_offline">Вы павінныя быць падключаныя да Інтэрнэту, каб выкарыстоўваць Google Play Magazines упершыню.</string>
+    <string name="start_edition_offline">Вы павінныя быць падключаныя да Інтэрнэту, каб атрымаць доступ да гэтага выдання ў першы раз.</string>
+    <string name="start_currents_network_error">На жаль, Google Медыя часова недаступны. Паўтарыце спробу пазней.</string>
+    <string name="start_magazines_network_error">На жаль, часопісы ў Google Медыя часова недаступны. Паўтарыце спробу пазней.</string>
+    <string name="skip">Прапусціць</string>
+    <string name="loading">Загрузка...</string>
+    <string name="fetching_lastest_stories">Атрыманне апошняга...</string>
+    <string name="authenticating">Уваход...</string>
+    <string name="product_reviews">Водгукі пра тавар</string>
+    <string name="product_publisher">(праз %s)</string>
+    <string name="product_low_high">%1$s-%2$s</string>
+    <string name="search_hint">Пошук выданняў, блогаў і артыкулаў</string>
+    <string name="search_offline">Пошук недаступны ў аўтаномным рэжыме</string>
+    <string name="searching">Пошук...</string>
+    <string name="search_empty">Нічога не знойдзена</string>
+    <string name="search_empty_for_query">Няма вынікаў: &amp;s</string>
+    <string name="search_failed">Немагчыма знайсці. Праверце падключэнне да Інтэрнэту.</string>
+    <string name="subscribed_to_everything_in_category">Вы падпісаліся на ўсё ў %s</string>
+    <string name="empty_section">Няма змесціва ў раздзеле.</string>
+    <string name="font_size_small">Малы</string>
+    <string name="font_size_medium">Сярэдні</string>
+    <string name="font_size_large">Вялікі</string>
+    <string name="saving">Захаванне...</string>
+    <string name="save">Захаваць</string>
+    <string name="done">Гатова</string>
+    <string name="delete_prompt_message">Вы жадаеце выдаліць гэты артыкул?</string>
+    <string name="delete_prompt_title">Выдаліць артыкул?</string>
+    <string name="original_url_not_found">Гэты артыкул не мае арыгінальнага URL</string>
+    <string name="nonhttp_url">Немагчыма перайсці да URL, які не змяшчае http</string>
+    <string name="edition_not_found">Выданне не знойдзена.</string>
+    <string name="goto_more">Дадатковая інфармацыя: %s</string>
+    <string name="add">Дадаць</string>
+    <string name="remove">Выдаліць</string>
+    <string name="choose">Выбраць</string>
+    <string name="map_marker_label">Месцазнаходжанне</string>
+    <string name="video_editor_label">Выберыце відэа на YouTube</string>
+    <string name="search_youtube">Пошук у YouTube</string>
+    <string name="video_not_found">Відэа не знойдзена</string>
+    <string name="audio_error">Памылка пры спробе прайгравання аўдыёзапісу</string>
+    <string name="audio_not_supported_offline">У аўтаномным рэжыме аўдыё не прайграецца</string>
+    <string name="show_audio">Паказаць аўдыёбар</string>
+    <string name="hide_audio">Схаваць аўдыёбар</string>
+    <string name="share">Адкрыць доступ</string>
+    <string name="share_article_dialog_title">Адкрыць доступ да гэтага артыкула</string>
+    <string name="share_edition_dialog_title">Адкрыць доступ да гэтага выпуску</string>
+    <string name="share_app_dialog_title">Share Currents</string>
+    <string name="magazines_share_app_dialog_title">Адкрыць доступ да Google Play Часопiсаў</string>
+    <string name="share_edition_short_format_text">%2$s: %3$s %1$s</string>
+    <string name="share_edition_long_format_text">"%2$s
+%3$s
+
+%1$s
+"</string>
+    <string name="share_edition_format_html">&lt;a href=%1$s>%2$s&lt;/a>&lt;br/>%3$s</string>
+    <string name="shared_via_app_text">Доступ адкрыты праз Google Currents</string>
+    <string name="magazines_shared_via_app_text">Доступ адкрыты праз Google Play Часопiсы</string>
+    <string name="shared_via_app_html">&lt;p>&lt;i>Доступ адкрыты праз&lt;/i> &lt;a href=%s>Google Currents&lt;/a>&lt;/p></string>
+    <string name="magazines_shared_via_app_html">&lt;p>&lt;i>Доступ адкрыты праз&lt;/i> &lt;a href=%s>Google Play Часопicы&lt;/a>&lt;/p></string>
+    <string name="share_source_text">Крыніца: %s</string>
+    <string name="share_source_html">&lt;p>&lt;i>Крыніца:&lt;/i> &lt;a href=%1$s>%1$s&lt;/a>&lt;/p></string>
+    <string name="share_app_text">"Пазнаёмцеся з Google Currents!
+%s"</string>
+    <string name="magazines_share_app_text">"Пазнаёмцеся з Google Play Часопiсамi!
+%s"</string>
+    <string name="share_app_html">Пазнаёмцеся з Google Currents!&lt;br/>&lt;br/>&lt;a href=%1$s>%1$s&lt;/a></string>
+    <string name="magazines_share_app_html">Пазнаёмцеся з Google Часопiсамi!&lt;br/>&lt;br/>&lt;a href=%1$s>%1$s&lt;/a></string>
+    <string name="share_article_subject_format">%1$s: %2$s</string>
+    <string name="share_article_short_format_text">%4$s: %2$s %1$s</string>
+    <string name="share_article_long_format_text">"%4$s: %2$s
+%1$s
+
+%3$s
+"</string>
+    <string name="share_article_format_html">&lt;a href=%1$s>%2$s&lt;/a>&lt;br/>&lt;br/>%3$s</string>
+    <string name="share_article_short_format_text_no_edition_name">%2$s %1$s</string>
+    <string name="share_article_long_format_text_no_edition_name">"%2$s
+%1$s
+
+%3$s
+"</string>
+    <string name="share_article_format_html_no_edition_name">&lt;a href=%1$s>%2$s&lt;/a>&lt;br/>&lt;br/>%3$s</string>
+    <string name="share_link_title_html">&lt;p>&lt;i>Крыніца:&lt;/i> &lt;a href=%1$s>%2$s&lt;/a>&lt;/p></string>
+    <string name="share_link_title_text">%2$s: %1$s</string>
+    <string name="contribute_hint">Раздзел пусты. Стварыце першы артыкул, націснуўшы кнопку вышэй...</string>
+    <string name="youtube_choose">Выбраць</string>
+    <string name="youtube_load_error">Немагчыма загрузіць дадзеныя з YouTube.</string>
+    <string name="saved_post_edition_title">Памылка захавання</string>
+    <string name="saved_for_later">Артыкул зараз можна знайсці ў %1$s</string>
+    <string name="add_apps_title_long">Дадаць выданні</string>
+    <string name="no_app_results">Няма выданняў, якiя адпавядаюць крытэрыям пошуку</string>
+    <string name="confirm_subscribe_dialog_title">пацверджанне падпіскі</string>
+    <string name="subscribe_button">Падпісацца бясплатна</string>
+    <string name="confirm_subscribe_message">Падпісацца на %s бясплатна?</string>
+    <string name="unsubscribe">Адмовіцца ад падпіскі</string>
+    <string name="unsubscribe_message">Вы хочаце адмовіцца ад падпіскі на %s?</string>
+    <string name="edition_search_unknown_error">Адбылася невядомая памылка падчас пошуку выданняў.</string>
+    <string name="edition_search_offline">Каб дадаць выданне, вы павінны быць у Iнтэрнэце.</string>
+    <string name="open_edition">Адкрытае выданне</string>
+    <string name="this_edition">гэта выданне</string>
+    <string name="add_edition">Даданне выдання</string>
+    <string name="launch_browser">Запуск браўзера</string>
+    <string name="add_for_free">Дадаць бясплатна</string>
+    <string name="in_library">У бiблiятэцы</string>
+    <string name="subscription_added">Дададзена падпіска на %s.</string>
+    <string name="subscription_added_in_category">%1$s было дададзена ў %2$s</string>
+    <string name="initial_sync_unknown_error">Невядомая памылка пры запуску.</string>
+    <string name="initial_sync_forbidden">%s забаронены. Абярыце іншы ўліковы запіс.</string>
+    <string name="text_size">Памер тэкста</string>
+    <string name="category_featured">Рэкамендаваныя</string>
+    <string name="category_recommended">Рэкамендаванае</string>
+    <string name="category_news">Навіны</string>
+    <string name="category_lifestyle">Стыль жыцця</string>
+    <string name="category_business">Бізнэс</string>
+    <string name="category_science">Навука і тэхналогіі</string>
+    <string name="category_sports">Спорт</string>
+    <string name="category_entertainment">Забаўкі</string>
+    <string name="category_design">Дызайн</string>
+    <string name="category_blogs">Google Reader</string>
+    <string name="category_curators">Куратары</string>
+    <string name="category_other">Іншае</string>
+    <string name="category_youtube">YouTube</string>
+    <string name="currents">Часопiс</string>
+    <string name="right_now">менш за хвіліну таму</string>
+    <string name="ok">ОК</string>
+    <string name="cancel">Адмена</string>
+    <string name="enable">Уключыць</string>
+    <string name="disable">Адключыць</string>
+    <string name="data_collection_title">Прадаставіць адрас электроннай пошты?</string>
+    <string name="data_collection_opt_in_message">Вы б хацелі атрымліваць спецыяльныя абнаўлення і прапановы, дазваляючы Google даць адрас электроннай пошты &lt;b>%1$s&lt;/b> да &lt;b>%2$s&lt;/b> у адпаведнасці з &lt;a href=#>палітыкай прыватнасці&lt;/a>?</string>
+    <string name="data_collection_required_message">Вы б хацелі мець поўны доступ да выдання, дазволіўшы Google прадставіць ваш адрас электроннай пошты &lt;b>%1$s&lt;/b> да &lt;b>%2$s&lt;/b> у адпаведнасці з &lt;a href=#>палітыкай прыватнасці&lt;/a>?</string>
+    <string name="privacy_policy_not_found">Палітыка прыватнасці для %1$s не знойдзеная</string>
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="plus">Google+</string>
+    <string name="byline_shared_via">Адкрыты доступ з дапамогай %s.</string>
+    <string name="byline_shared_by">Агульныя %s</string>
+    <string name="byline_by">%s</string>
+    <string name="latest">Самыя апошнія</string>
+    <string name="thanks_for_installing">Дзякуем за ўсталёўку Google Currents!</string>
+    <string name="magazines_thanks_for_installing">Дзякуй за ўсталёўку Google Play Часопiсаў!</string>
+    <string name="ask_add_to_library">Жадаеце дадаць %s да сваёй бібліятэкі?</string>
+    <string name="no_thanks">Не, дзякуй</string>
+    <string name="go_to_library">Перайсці да бібліятэкі</string>
+    <string name="settings">Налады</string>
+    <string name="google">Google</string>
+    <string name="enabled">Уключана</string>
+    <string name="disabled">Адключанае</string>
+    <string name="offline_reading_capitalized">ЧЫТАННЕ Ў АЎТАНОМНЫМ РЭЖЫМЕ</string>
+    <string name="include_images">Уключыць выявы</string>
+    <string name="none">Нічога не выбрана</string>
+    <string name="first_ten_editions">Першыя дзесяць выданняў</string>
+    <string name="all_editions">Усе версіі</string>
+    <string name="background_sync_capitalized">ФОНАВАЯ СІНХРАНІЗАЦЫЯ</string>
+    <string name="enable_background_sync">Уключыць фонавую сінхранізацыю</string>
+    <string name="only_if_unmetered">Толькі ў сетцы, якая не вымяраецца</string>
+    <string name="only_if_unmetered_summary">Прыклад: Wi-Fi</string>
+    <string name="only_if_charging">Толькі пры зарадцы</string>
+    <string name="sync_now">Сінхранізаваць зараз</string>
+    <string name="refresh">Абнавіць</string>
+    <string name="refreshing">Абнаўленне...</string>
+    <string name="additional_info_capitalized">ДАДАТКОВАЯ ІНФАРМАЦЫЯ:</string>
+    <string name="feedback">Адправіць водгук</string>
+    <string name="feedback_description">Дашліце нам водгук</string>
+    <string name="feedback_email_recipient">currents-feedback+android@google.com</string>
+    <string name="feedback_email_subject">Водгук Android, %1$s на %2$s</string>
+    <string name="terms_of_service">Умовы выкарыстання</string>
+    <string name="privacy_policy">Палітыка прыватнасці</string>
+    <string name="usage_policy">Палітыка выкарыстання</string>
+    <string name="usage_policy_description">Google Currents прызначанае толькі для асабістага і некамерцыйнага выкарыстання.</string>
+    <string name="open_source_licenses">Ліцэнзii ПЗ з адкрытым зыходным кодам</string>
+    <string name="open_source_licenses_description">Прававая інфармацыя аб ліцэнзіях</string>
+    <string name="report_abuse">Паскардзіцца</string>
+    <string name="report_abuse_description">Паведамляйце аб любым змесціве, якое вам здаецца недапушчальным</string>
+    <string name="report_content_problem">Паведаміць аб праблеме змесцiва</string>
+    <string name="report_content_problem_description">Паведаміць пра любое пашкоджанае або няправiльнае змесцiва</string>
+    <string name="release">Версiя %1$s | Зборка %2$s</string>
+    <string name="powered_by">Працуе на %1$s %2$s %3$s</string>
+    <string name="launch_in_browser_error">Немагчыма запусціць гэту старонку ў браўзеры</string>
+    <string name="support">Падтрымка</string>
+    <string name="customer_support">Звярніцеся ў службу падтрымкі</string>
+    <string name="give_product_feedback">Адправiць водгук аб прадукце</string>
+    <string name="report_inappropriate_content">Паведаміць аб недапушчальным змесціве</string>
+    <string name="report_copyright_issue">Паведаміць аб праблеме з аўтарскімі правамі</string>
+    <string name="account">Уліковы запіс Google</string>
+    <string name="account_short">Уліковы запіс</string>
+    <string name="help">Даведка</string>
+    <string name="automatically_download">Аўтаматычная спампоўка</string>
+    <string name="automatically_download_short">Аўтаматычная спампоўка</string>
+    <string name="automatically_download_description">Спампоўваць усе набыткi і падпіскі, не пытаючыся</string>
+    <string name="automatically_download_description_short">Спампоўваць набытак, не пытаючыся</string>
+    <string name="unmetered_networks_only">Спампоўваць только па Wi-Fi</string>
+    <string name="unmetered_networks_only_description">Каб паменшыць плацяжы за перадачу дадзеных на носьбіт, не спампоўвайце дадзеныя праз мабільныя сеткі</string>
+    <string name="automatically_archive">Аўтаматычна архiваваць</string>
+    <string name="automatically_archive_description">Калі не хапае месца, архiваваць старыя выданнi без запытання</string>
+    <string name="show_notifications">Паказваць паведамленні</string>
+    <string name="show_notifications_description">Паведаміце, калі новы выпуск будзе даступны або запампаваны</string>
+    <string name="show_notifications_currents_description">Калі даступна новае змесцiва, максiмум адзiн раз у дзень</string>
+    <string name="show_pick_of_the_week">Паказаць навіну тыдня</string>
+    <string name="crash_report_message">На жаль, працэс %s спынены.</string>
+    <string name="report">Справаздача</string>
+    <string name="crash_email_recipient">currents-feedback+crash@google.com</string>
+    <string name="crash_email_subject">Android Crash, %1$s на %2$s</string>
+    <string name="upgrade_required">Патрабуецца абнаўленне</string>
+    <string name="upgrade_required_short_message">Патрабуецца абнаўленне для новага змесціва</string>
+    <string name="upgrade_required_long_message">Вы выкарыстоўваеце састарэлую версію Google Currents. Абнавіце яе. Пакуль Google Currents не будзе абноўленае, новае змесціва атрымлівацца не будзе.</string>
+    <string name="magazines_upgrade_required_long_message">Вы выкарыстоўваеце састарэлую версію Google Play Magazines, абнавіце яе. Пакуль вы гэтага не зробiце, вы не зможаце атрымлiваць новае змесціва.</string>
+    <string name="auth_problem_message">Праблема з %s</string>
+    <string name="no_account_selected">Уліковы запіс не выбраны</string>
+    <string name="yes">Так</string>
+    <string name="no">Не</string>
+    <string name="subscribing_to_edition">Падпіска на выданне...</string>
+    <string name="image_unavailable_offline_message">Малюнак будзе даступны, калi вы падключыцеся да Інтэрнэту</string>
+    <string name="image_not_found_message">Выява не знойдзена</string>
+    <string name="article_not_found">На жаль, гэтага артыкула больш не існуе.</string>
+    <string name="article_offline">Гэты артыкул недаступны ў аўтаномным рэжыме.</string>
+    <string name="article_failed">На жаль, гэты артыкул зараз недаступны.</string>
+    <string name="presentation_capitalized">ПРЭЗЕНТАЦЫЯ</string>
+    <string name="status_bar">Радок стану</string>
+    <string name="set_status_bar">Паказаць/схаваць радок стану прылады</string>
+    <string name="translation_title">Пераклад</string>
+    <string name="translation_title_description">Па магчымасці, паказаць магчымасць перакладу на %s</string>
+    <string name="translate_this_edition">Перакласцi гэтае выданне?</string>
+    <string name="edition_translate_message">Здаецца, мова гэтага выдання – %1$s. Перакласцi яго на мову \"%2$s\"?</string>
+    <string name="edition_translate_message_no_source">Перакласцi гэта выданне на мову \"%1$s\"?</string>
+    <string name="edition_untranslate_message">Гэта выданне было перакладзена на мову \"%1$s\". Хочацк праглядаць яго на мове арыгінала \"%2$s\"?</string>
+    <string name="edition_untranslate_message_no_source">Гэта выданне было перакладзена на мову \"%1$s\". Хочаце ўбачыць яго на мове арыгінала?</string>
+    <string name="please_wait_to_translate_offline">Зараз вы працуеце ў аўтаномным рэжыме. Пераклад будзе абноўлены пры наступным запуску сінхранізацыі.</string>
+    <string name="please_wait_to_translate_network">Адбылася праблема з сеткай пры абнаўленні вашага выдання. Пераклад будзе даступны пры наступным запуску сінхранізацыі.</string>
+    <string name="translate">Перакласцi</string>
+    <string name="translate_active">Ідзе пераклад...</string>
+    <string name="untranslate">Глядзець арыгінал</string>
+    <string name="creating_new_translation">Новы пераклад гэтага выдання выконваецца. Вашае выданне будзе абноўленае праз некалькіх хвілін.</string>
+    <string name="translating_edition">Пераклад выдання; чакайце...</string>
+    <string name="original_language">Зыходная мова</string>
+    <string name="translate_failed_no_sub">Каб перакласцi гэта выданне, падпiшыцеся на яго.</string>
+    <string name="language_chinese_simplified">кітайская (спрошчаная)</string>
+    <string name="language_chinese_traditional">кітайская (традыцыйная)</string>
+    <string name="appicon_label">Выданне Currents</string>
+    <string name="postlist_label">Часопiс</string>
+    <string name="new_in_currents">Новае ў Google Медыя</string>
+    <string name="new_in_edition">Новае ў %s</string>
+    <string name="appicon_configure_instructions">Выберыце выданне</string>
+    <string name="postlist_configure_instructions">Выберыце набор выданняў, якія вы жадаеце ўключыць у віджэт.</string>
+    <string name="last_updated">Апошняе абнаўленне</string>
+    <string name="warn_offline_for_images">"Некаторыя выявы недаступныя, таму што вы знаходзіцеся ў аўтаномным рэжыме.
+
+Вы можаце зрабіць іх даступнымі, замацаваўшы падпіскі."</string>
+    <string name="change_settings">Наладзіць</string>
+    <string name="magazines_home_new">НАВIНКА</string>
+    <string name="magazines_home_archived">АРХІЎ</string>
+    <string name="magazines_home_download">СПАМПАВАЦЬ</string>
+    <string name="magazines_home_archive">Заархіваваць гэты часопіс</string>
+    <string name="magazines_home_delete">Выдалiць з бібліятэкі</string>
+    <string name="magazines_home_delete_offline">Трэба быць у Інтэрнэце, каб выдаліць пытанне</string>
+    <string name="magazines_home_delete_prompt_title">Выдалiць з бібліятэкі?</string>
+    <string name="magazines_home_delete_prompt">"Гэты часопіс НАЗАЎСЁДЫ знікне з памяці прылады і любых іншых месц, з якіх вы атрымліваеце доступ да сваёй бібліятэкі Google Play.
+
+Вы не зможаце вярнуць яго."</string>
+    <string name="magazines_home_view_by_title">Прагледзець па назве</string>
+    <string name="magazines_home_view_recent">Прагледзець апошнія</string>
+    <string name="magazines_menu_show_archived">Паказаць заархіваваныя часопісы</string>
+    <string name="magazines_menu_hide_archived">Схаваць заархіваваныя часопісы</string>
+    <string name="magazines_menu_manage_subscriptions">Кіраванне падпіскамі</string>
+    <string name="magazines_menu_shop">Набыць часопiсы</string>
+    <string name="magazines_menu_search">Пошук часопісаў</string>
+    <string name="magazines_view_flowing_text">Прагледзець тэкст</string>
+    <string name="magazines_view_original_pages">Выйсці з тэксту</string>
+    <string name="magazines_view_toggle_text">Пераключэнне рэжыму прагляду тэксту</string>
+    <string name="magazines_view_flowing_text_dialog_title">Артыкулы з перацякаючым тэкстам</string>
+    <string name="next_button_description">Наступная старонка</string>
+    <string name="goto_button_description">Змест</string>
+    <string name="images_only_magazine_notification">Гэта часопiс толькi з малюнкамi.</string>
+    <string name="magazine_not_downloaded">Не спампавана</string>
+    <string name="magazine_downloading">Спампоўка</string>
+    <string name="new_magazine_downloadable_notification">Зараз даступны выпуск %1$s</string>
+    <string name="new_magazine_downloaded_notification">Выпуск %1$s паспяхова спампаваны</string>
+    <string name="new_multi_magazine_downloadable_notification_title">Даступныя новыя выпускі: %1$s</string>
+    <string name="new_multi_magazine_downloaded_notification_title">Спампаваныя новыя выпускі: %1$s</string>
+    <string name="new_multi_magazine_notification_content">Націсніце, каб убачыць свае часопісы</string>
+    <string name="whats_next_new">Новы выпуск</string>
+    <string name="account_selection_heading">Абраць уліковы запіс</string>
+    <string name="account_selection_body">"Прывяжыце свой ​​уліковы запіс да Google Currents, каб здолець прачытаць бясплатнае змесціва з тысяч публікацый.
+
+Які ўліковы запіс жадаеце выкарыстоўваць?"</string>
+    <string name="magazines_account_selection_body">"Змесціць у вашым уліковым запісе спасылку на часопісы Google Play, каб вы маглі падпісацца і атрымаць выпускі лепшых часопісаў.
+
+Які ўліковы запіс вы жадаеце выкарыстоўваць?"</string>
+    <string name="account_selection_add_account">Дадаць уліковы запіс</string>
+    <string name="authentication_failure_no_network">Вы павінныя быць падлучаныя да Інтэрнэту для праверкі сапраўднасці ўліковага запісу.</string>
+    <string name="authentication_failure">Не аўтэнтыфiкаваныя</string>
+    <string name="authentication_failure_error">Немагчыма праверыць сапраўднасць вашага ўліковага запісу.</string>
+    <string name="no_network_connection">Падключэння няма</string>
+    <string name="empty_library_welcome">Вітаем!</string>
+    <string name="empty_library_instructions">Націсніце на значок вышэй, каб прагледзець поўны каталог Google Play.</string>
+    <string name="all_archived">Усе вашы часопісы былі заархіваваны.</string>
+    <string name="all_archived_instructions">Выберыце \"Паказаць заархіваваныя часопісы\", каб адлюстраваць іх, ці дакраніцеся да значка крамы вышэй, каб прагледзець наш поўны каталог.</string>
+    <string name="save_for_later">Захаваць на будучыню</string>
+    <string name="save_for_later_saved">Выдаліць з захаваных</string>
+    <string name="top_editions">Лепшыя выданні</string>
+    <string name="other_editions">Іншыя выданнi</string>
+    <string name="feed_editions">Фiды</string>
+    <string name="articles">Артыкулы</string>
+    <string name="screensaver_open_in_app_caption">Адкрыць у Google Медыя ↗</string>
+    <string name="screensaver_no_content_available">Каб пачаць марыць, націсніце, каб увайсцi.</string>
+    <string name="screensaver_open_app_caption">Адкрыць Google Медыя ↗</string>
+    <string name="category_all">Усе</string>
+    <string name="add_subscriptions">Дадаць падпіскі</string>
+    <string name="breaking_stories">Рэпартажы</string>
+    <string name="breaking_stories_with_category">Рэпартажы - %1$s</string>
+    <string name="customize">Наладзіць</string>
+    <string name="customize_category">Наладзіць %1$s</string>
+    <string name="add_category">Дадаць %1$s</string>
+    <string name="pick_of_the_week">Навіна тыдня</string>
+    <string name="more">яшчэ</string>
+    <string name="see_all_results">Прагледзець усе</string>
+    <string name="preferred_section_description">Выберыце раздзелы, якія вы б хацелі размясціць на галоўным экране.</string>
+    <string name="add_preferred_section_message">Гэты раздзел зараз схаваны, хочаце адлюстраваць яго?</string>
+    <string name="save_for_later_name">Захаваныя</string>
+    <string name="loading_my_stuff">Захаваных гісторый пакуль няма.</string>
+    <string name="all_posts_are_read">Усё гiсторыі прачытаны.</string>
+    <string name="need_online_for_breaking_stories">Вы павінны быць у Інтэрнэце, каб прагледзець гэтую гісторыю.</string>
+    <string name="breaking_stories_offline">Трэба быць у Інтэрнэце, каб праглядаць рэпартажы.</string>
+    <string name="web_content">Вэб</string>
+    <string name="trending_time">%1$s | Вэб</string>
+    <string name="customize_sections">НАЛАДЗІЦЬ</string>
+    <string name="subscribe">ПАДПІСАЦЦА</string>
+    <string name="never_suggest_again">НЕ, ДЗЯКУЙ</string>
+    <string name="black_list_failure">Трэба быць у Інтэрнэце, каб адмяніць функцыю \"Навіна тыдня\". Паўтарыце спробу пазней.</string>
+    <string name="removing_pick_of_week">Выдаленне %s.</string>
+    <string name="adding_pick_of_week">Даданне %1$s да %2$s.</string>
+    <string name="show_read_posts">Схаваць прачытаныя артыкулы</string>
+    <string name="unable_to_install">Віджэт несумяшчальны з вашай прыладай.</string>
+    <string name="widget_error">Дакраніцеся, каб абнавіць апавяданні.</string>
+    <string name="widget_loading">Першая загрузка. Пачакайце.</string>
+    <string name="widget_post_error">Апавяданне недаступнае.</string>
+    <string name="widget_not_signed_in">Дакраніцеся, каб увайсці.</string>
+    <string name="customize_edition">Выдаліць або змяніць парадак</string>
+    <string name="edit_preferred_sections">Выбраць любімыя раздзелы</string>
+    <string name="mark_all_unread">Адзначыць усе як непрачытаныя</string>
+    <string name="mark_all_read">Адзначыць усе як прачытаныя</string>
+    <string name="edition_has_been_pinned">%1$s - выявы будуць даступныя для чытання ў аўтаномным рэжыме.</string>
+    <string name="edition_has_been_unpinned">%1$s - выявы не будуць даступныя для чытання ў аўтаномным рэжыме.</string>
+    <string name="editions">Выданні</string>
+    <string name="offline_images">Уключае ў сябе выявы для чытання ў аўтаномным рэжыме</string>
+    <string name="offline_hint">Вы можаце замацаваць выявы з падпіскі для чытання ў аўтаномным рэжыме, націснуўшы кнопку \"наладзіць\" на бакавой панэлі.</string>
+    <string name="play_audio">Прайграванне аўдыё</string>
+    <string name="pause_audio">Паставіць прайграванне аўдыё на паўзу</string>
+</resources>

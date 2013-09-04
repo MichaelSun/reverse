@@ -1,0 +1,13 @@
+version: 1.5.2
+apkFileName: com.google.android.apps.currents.1363834211504.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '8'
+  targetSdkVersion: '17'
+packageInfo:
+  cur_package: com.google.android.apps.currents
+  orig_package: com.google.android.apps.currents
+compressionType: false

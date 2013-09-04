@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="launcher_app_name">I-Currents</string>
+    <string name="app_name">I-Currents</string>
+    <string name="long_app_name">I-Google Currents</string>
+    <string name="magazines_launcher_app_name">I-Play Magazines</string>
+    <string name="magazines_app_name">I-Google Play Magazines</string>
+    <string name="magazines_long_app_name">I-Google Play Magazines</string>
+    <string name="google_play">I-Google Play</string>
+    <string name="start_msg_prefix">Siyakwamukela ku</string>
+    <string name="updating_app">Kusaqhubeka ukuthuthukisa</string>
+    <string name="syncing">Iyavumelanisa</string>
+    <string name="syncing_all_editions">Kuvumelanisa onke izinhlobo</string>
+    <string name="syncing_images">Ivumelanisa izithombe</string>
+    <string name="wait_until_online">Sicela ulinde kuze kube yilapho uxhumeka futhi kwi-inthanethi.</string>
+    <string name="cant_refresh_offline">Ayikwazi ukuqala kabusha ngoba idivayisi ayixhumekile kwi-intanethi.</string>
+    <string name="edition_not_available_offline">Lengxenye iyotholakala uma uku-inthanethi.</string>
+    <string name="default_error">Kuvele iphutha. Sicela uzame futhi emuva kwesikhathi.</string>
+    <string name="edition_sync_error">Kube nephutha ukulanda isiqephu sakho. Sicela uzame futhi kamuva.</string>
+    <string name="nospace_error">Asisekho isikhala edivayisii yakho</string>
+    <string name="sync_stopped">Ukuvumelanisa kumisiwe</string>
+    <string name="sync_restart">Uyacelwa ukuthi uvumelanise %s ukuze ufunde. Siyabonga!</string>
+    <string name="unmetered_network_restriction_start_message">"Le magazini izoqala ukulanda uma idivayisi ixhunyiwe ku-Wi-Fi.
+
+Uma uyidinga manje ungakhetha ukungalindi. Amashaji edatha angasebenza."</string>
+    <string name="unmetered_network_restriction_resume_message">"Le magazini izoqhuba futhi ukulanda uma idivayisi ixhunyiwe ku-Wi-Fi.
+
+Uma uyidinga manje, ungakhetha ukungalindi. Amashaji edatha angasebenza."</string>
+    <string name="never_wait">Ungalokothi ulinde</string>
+    <string name="dont_wait">Ungalindi</string>
+    <string name="cant_begin_reading_magazine">Ayilandanga okwanele kwale magazini ukuqala ukufunda.</string>
+    <string name="needed_to_rotate_orientation">Idivayisi edingekayo ukuphendukisa ngokuzenzakalela ukubonisa lokhu okuqukethwe.</string>
+    <string name="zooming_is_unavailable">Ukusondeza akutholakali kule magazini.</string>
+    <string name="text_view_is_unavailable">Ukubuka kombhalo akutholakali kuleli khasi.</string>
+    <string name="add_to_library">Engeza kwilabhulali</string>
+    <string name="manage_content">Phatha okuqukethwe</string>
+    <string name="reorder_editions">Misa kabusha</string>
+    <string name="move_to_first">Gudluza kuqala</string>
+    <string name="table_of_contents">Okuqukethwe</string>
+    <string name="start_currents_offline">Kumele uxhumeke kwi-inthanethi ukuze usebenzise okokuqala i-Google Currents.</string>
+    <string name="start_magazines_offline">Kufanele uxhumeke kwi-intanethi ukuze usebenzise i-Google Play Magazines kokuqala.</string>
+    <string name="start_edition_offline">Kufanele uxhumeke kwi-intanethi ukuze ufinyelele lolu hlobo kokuqala.</string>
+    <string name="start_currents_network_error">Ngeshwa, i-Google Currents ayikho okwesikhashana. Zama futhi emuva kwesikhathi.</string>
+    <string name="start_magazines_network_error">Ngeshwa, i-Google Play Magazines ayikho okwesikhashana. Zama futhi emuva kwesikhathi.</string>
+    <string name="skip">Yeqa</string>
+    <string name="loading">Iyalayisha…</string>
+    <string name="fetching_lastest_stories">Ilanda okwakamuva…</string>
+    <string name="authenticating">Iyangena ngemvume...</string>
+    <string name="product_reviews">Ukuhlaziywa Kwemikhiqizo</string>
+    <string name="product_publisher">(via %s)</string>
+    <string name="product_low_high">%1$s \"%2$s</string>
+    <string name="search_hint">Sesha ama-edishini, amabhulogi, neziqephu zendatshana</string>
+    <string name="search_offline">Usesho alutholakali gaphandle kwasemoyeni</string>
+    <string name="searching">Iyasesha...</string>
+    <string name="search_empty">Akunamiphumela etholakele</string>
+    <string name="search_empty_for_query">Ayikho imiphumela etholelwe ye-\"%s\"</string>
+    <string name="search_failed">Ayikwazanga ukusesha. Hlola uxhumo lwakho lwe-intanethi.</string>
+    <string name="subscribed_to_everything_in_category">Ubhalisele yonke into ku-%s</string>
+    <string name="empty_section">Lengxenye ayiqukethe lutho.</string>
+    <string name="font_size_small">Ncane</string>
+    <string name="font_size_medium">Okulingene</string>
+    <string name="font_size_large">Okukhulu</string>
+    <string name="saving">Iyalondoloza…</string>
+    <string name="save">Londoloza</string>
+    <string name="done">Kwenziwe</string>
+    <string name="delete_prompt_message">Unesiqiniseko sokuthi ufuna ukususa le nqubomgomo?</string>
+    <string name="delete_prompt_title">Sula isiqephu?</string>
+    <string name="original_url_not_found">Lesi siqephu asinayo i-URL endala</string>
+    <string name="nonhttp_url">Yehlulekile ukuya kwi-url engesiyona i-http</string>
+    <string name="edition_not_found">Umbhalo awutholakanga.</string>
+    <string name="goto_more">"Okunye kwi  %s"</string>
+    <string name="add">Engeza</string>
+    <string name="remove">Susa</string>
+    <string name="choose">Khetha</string>
+    <string name="map_marker_label">Indawo</string>
+    <string name="video_editor_label">Khetha ividiyo ye-YouTube</string>
+    <string name="search_youtube">Sesha i-YouTube</string>
+    <string name="video_not_found">Ividyo ayitholakalanga</string>
+    <string name="audio_error">Iphutha ngesikhathi izama ukudlala okuqoshiwe kwakho okulalelwayo</string>
+    <string name="audio_not_supported_offline">Umsindo awusekelwe uma kungaxhunyiwe ku-intanethi.</string>
+    <string name="show_audio">Bonisa ibha yomsindo</string>
+    <string name="hide_audio">Fihla ibha yomsindo</string>
+    <string name="share">Yabelana</string>
+    <string name="share_article_dialog_title">Yabelana ngelesisiqephu</string>
+    <string name="share_edition_dialog_title">Yabelana ngelesi sandiso</string>
+    <string name="share_app_dialog_title">Yabelane nge-Currents</string>
+    <string name="magazines_share_app_dialog_title">Yaba i-Google Play Magazines</string>
+    <string name="share_edition_short_format_text">%2$s: %3$s %1$s</string>
+    <string name="share_edition_long_format_text">"%2$s
+%3$s
+
+%1$s
+"</string>
+    <string name="share_edition_format_html">&lt;a href=%1$s>%2$s&lt;/a>&lt;br/>%3$s</string>
+    <string name="shared_via_app_text">Kwabelanwe nge-Google Currents</string>
+    <string name="magazines_shared_via_app_text">Kwabiwe nge-Google Play Magazines</string>
+    <string name="shared_via_app_html">&lt;p>&lt;i>Kwabelanwe nge-&lt;/i> &lt;a href=%s>I-Google Currents&lt;/a>&lt;/p></string>
+    <string name="magazines_shared_via_app_html">&lt;p>&lt;i>Kwabelanwe nge-&lt;/i> &lt;a href=%s>Google Currents&lt;/a>&lt;/p></string>
+    <string name="share_source_text">Umthombo: %s</string>
+    <string name="share_source_html">&lt;p>&lt;i>Source:&lt;/i> &lt;a href=%1$s>%1$s&lt;/a>&lt;/p></string>
+    <string name="share_app_text">"Hlola i-Google Currents!
+%s"</string>
+    <string name="magazines_share_app_text">"Hlola i-Google Play Magazines!
+%s"</string>
+    <string name="share_app_html">Hlola i-Google Currents!&lt;br/>&lt;br/>&lt;a href=%1$s>%1$s&lt;/a></string>
+    <string name="magazines_share_app_html">Hlola i-Google Magazines!&lt;br/>&lt;br/>&lt;a href=%1$s>%1$s&lt;/a></string>
+    <string name="share_article_subject_format">%1$s \"%2$s</string>
+    <string name="share_article_short_format_text">%4$s: %2$s %1$s</string>
+    <string name="share_article_long_format_text">"%4$s: %2$s
+%1$s
+
+%3$s
+"</string>
+    <string name="share_article_format_html">&lt;a href=%1$s>%2$s&lt;/a>&lt;br/>&lt;br/>%3$s</string>
+    <string name="share_article_short_format_text_no_edition_name">%2$s %1$s</string>
+    <string name="share_article_long_format_text_no_edition_name">"%2$s
+%1$s
+
+%3$s
+"</string>
+    <string name="share_article_format_html_no_edition_name">&lt;a href=%1$s>%2$s&lt;/a>&lt;br/>&lt;br/>%3$s</string>
+    <string name="share_link_title_html">&lt;p>&lt;i>Umthombo:&lt;/i> &lt;a href=%1$s>%2$s&lt;/a>&lt;/p></string>
+    <string name="share_link_title_text">%2$s: %1$s</string>
+    <string name="contribute_hint">Lengxenye ayinalutho - yenzaa isiqephu sokuqala usebenzisa inkinobho engenhla...</string>
+    <string name="youtube_choose">Khetha</string>
+    <string name="youtube_load_error">Kuyehlulekeka ukulayisha i-data isuka ku-YouTube.</string>
+    <string name="saved_post_edition_title">Ulondoloziwe</string>
+    <string name="saved_for_later">Isiqephu sendatshana manje sesingatholakala e-%1$s</string>
+    <string name="add_apps_title_long">Yengeza izinhlelo</string>
+    <string name="no_app_results">Akukho okwengeziwe okuhambisana nosesho lwakho</string>
+    <string name="confirm_subscribe_dialog_title">Qinisekisa ukubhalisa</string>
+    <string name="subscribe_button">Bhalisa mahhala</string>
+    <string name="confirm_subscribe_message">Bhalisela ku %s mahhala?</string>
+    <string name="unsubscribe">Zikhiphe ohlwini</string>
+    <string name="unsubscribe_message">Ingabe ufuna ukuzikhipha ohlwini olungu-%s?</string>
+    <string name="edition_search_unknown_error">Kwenzeke iphutha elingaziwa ngesikhahti kucingwa ukulungiswa</string>
+    <string name="edition_search_offline">Kumelwe ube semoyeni, ukufaka okufakwayo.</string>
+    <string name="open_edition">Isengezo esivulekle</string>
+    <string name="this_edition">lolu hlelo</string>
+    <string name="add_edition">Engeza uhlobo</string>
+    <string name="launch_browser">Qala isiphequluli</string>
+    <string name="add_for_free">Engeza mahhala</string>
+    <string name="in_library">Emtapwenilwazi</string>
+    <string name="subscription_added">Ukubhaliswa kwengezelwe %s.</string>
+    <string name="subscription_added_in_category">I-%1$s ingeziwe ku-%2$s</string>
+    <string name="initial_sync_unknown_error">Iphutha elingaziwa phakathi kokuqala.</string>
+    <string name="initial_sync_forbidden">I-%s ivinjelwe. Sicela ukhethe enye i-akhawunti.</string>
+    <string name="text_size">Usayizi wombhalo</string>
+    <string name="category_featured">Afakiwe</string>
+    <string name="category_recommended">Iziphakamiso</string>
+    <string name="category_news">Izindaba</string>
+    <string name="category_lifestyle">Indlela yokuphila</string>
+    <string name="category_business">Ibhizinisi</string>
+    <string name="category_science">"Isayensi  &amp; nobucwepheshe"</string>
+    <string name="category_sports">Ezemidlalo</string>
+    <string name="category_entertainment">Okokuzijabulisa</string>
+    <string name="category_design">Idizayini</string>
+    <string name="category_blogs">I-Google Reader</string>
+    <string name="category_curators">Abahluleli</string>
+    <string name="category_other">Okunye</string>
+    <string name="category_youtube">I-YouTube</string>
+    <string name="currents">I-Currents</string>
+    <string name="right_now">Ngaphansi kweminithi</string>
+    <string name="ok">KULUNGILE</string>
+    <string name="cancel">Khansela</string>
+    <string name="enable">Yenza kusebenza</string>
+    <string name="disable">Yenza kungasebenzi</string>
+    <string name="data_collection_title">Nikela ngekheli le-imeyili?</string>
+    <string name="data_collection_opt_in_message">Ingabe ungathanda ukuthola izibuyekezo ezikhethekile noma ukunikelwa ngokuvumela i-Google inikele ikheli lakho le-imeyili, &lt;b>%1$s&lt;/b> to &lt;b>%2$s&lt;/b> ngokuya &lt;a href=#>ngenqubomgomo yayo yemfihlo&lt;/a>?</string>
+    <string name="data_collection_required_message">Ingabe ungathanda ukuba nokufinyelela okugcwele esiqeshini ngokuvumela i-Google ukuthi inikele ikheli lakho le-imeyili, &lt;b>%1$s&lt;/b> ku-&lt;b>%2$s&lt;/b> ngokuya &lt;a href=#>ngenqubomgomo yayo yemfihlo&lt;/a>?</string>
+    <string name="privacy_policy_not_found">Ayikho inqubomgomo yemfihlo etholakele ye-%1$s</string>
+    <string name="twitter">i-Twitter</string>
+    <string name="facebook">I-Facebook</string>
+    <string name="plus">Google+</string>
+    <string name="byline_shared_via">Yabiwe nge-%s</string>
+    <string name="byline_shared_by">Yabiwe ngu %s</string>
+    <string name="byline_by">%s</string>
+    <string name="latest">Okwakamuva</string>
+    <string name="thanks_for_installing">Siyabonga ukuthi usebenzise i-Google Currents!</string>
+    <string name="magazines_thanks_for_installing">Siyabonga ngokufaka i-Google Play Magazines!</string>
+    <string name="ask_add_to_library">Ingabe ungathanda ukwengeza %s emtapweni wakho?</string>
+    <string name="no_thanks">Cha, ngiyabonga</string>
+    <string name="go_to_library">Yana emtapweni</string>
+    <string name="settings">Izilungiselelo</string>
+    <string name="google">U-Google</string>
+    <string name="enabled">Kunikwa amandla</string>
+    <string name="disabled">Kukhutshaziwe</string>
+    <string name="offline_reading_capitalized">UKUFUNDA NGOKUNGAXHUNYIWE KWI-INTANETHI</string>
+    <string name="include_images">Hlanganisa izithombe</string>
+    <string name="none">Abekho</string>
+    <string name="first_ten_editions">Iziqephu zokuqala</string>
+    <string name="all_editions">Zonke iziqephu</string>
+    <string name="background_sync_capitalized">UKUVUMELANISA NGEMUVA</string>
+    <string name="enable_background_sync">Nika amandla ukuvumelanisa kwangemuva</string>
+    <string name="only_if_unmetered">Uma kuyinethiwekhi engalinganisiwe kuphela</string>
+    <string name="only_if_unmetered_summary">Isibonelo: Wi-Fi</string>
+    <string name="only_if_charging">Uma ishaja kuphela</string>
+    <string name="sync_now">Vumelanisa manje</string>
+    <string name="refresh">Qala kabusha</string>
+    <string name="refreshing">Iqala kabusha...</string>
+    <string name="additional_info_capitalized">ULWAZI OLUNGEZIWE</string>
+    <string name="feedback">Thumela impendulo</string>
+    <string name="feedback_description">Sithumelele izimvo</string>
+    <string name="feedback_email_recipient">currents-feedback+android@google.com</string>
+    <string name="feedback_email_subject">I-Android Feedback, %1$s on %2$s</string>
+    <string name="terms_of_service">Imigomo yensizakalo</string>
+    <string name="privacy_policy">Inqubomgomo yemfihlo</string>
+    <string name="usage_policy">Umgomo wokusetshenziswa</string>
+    <string name="usage_policy_description">I-Google Currents eyomuntu siqu futhi isetshenziselwa ukungenzi inzuzo kuphela.</string>
+    <string name="open_source_licenses">Vula amalayisensi omthombo</string>
+    <string name="open_source_licenses_description">Ulwazi lwezomthetho mayelana namalayisensi</string>
+    <string name="report_abuse">Bika ukuhlukunyezwa</string>
+    <string name="report_abuse_description">Bika noma yini oyiqukethe oyibona ingeyinhle</string>
+    <string name="report_content_problem">Bika inkinga yokuqukethwe</string>
+    <string name="report_content_problem_description">Bika noma yikuphi okuqukethwe noma okungalungile</string>
+    <string name="release">Inguqulo-%1$s | Build %2$s</string>
+    <string name="powered_by">Ixhaswe ngu %1$s %2$s %3$s</string>
+    <string name="launch_in_browser_error">Siyaxolisa. Ayikwazi ukwethula lelikhasi esipheqululini</string>
+    <string name="support">Zemidlalo</string>
+    <string name="customer_support">Xhumana nokwesekwa kwamakhasimende</string>
+    <string name="give_product_feedback">Nika impendulo yomkhiqizo</string>
+    <string name="report_inappropriate_content">Bika okuqukethwe okungalungile</string>
+    <string name="report_copyright_issue">Bika inkinga yelungelo lobunikazi</string>
+    <string name="account">I-akhawunti yakwa-Google</string>
+    <string name="account_short">I-akhawunti</string>
+    <string name="help">Usizo</string>
+    <string name="automatically_download">Landa ngokuzenzakalela</string>
+    <string name="automatically_download_short">Landa ngokuzenzakalela</string>
+    <string name="automatically_download_description">Landa konke ukuthenga nokubhalisa ngaphandle kokubuza</string>
+    <string name="automatically_download_description_short">Landa ukuthenga ngaphandle kokubuza</string>
+    <string name="unmetered_networks_only">Landa nge-Wi-Fi kuphela</string>
+    <string name="unmetered_networks_only_description">Ukuze wehlise amashaji edatha enkampani yenethiwekhi, ungalandi ngamanethiwekhi eselula</string>
+    <string name="automatically_archive">Faka kungobo yomlando ngokuzenzakalela</string>
+    <string name="automatically_archive_description">Uma uphelelwe isikhala, faka kungobo yomlando izinto ngaphandle kokubuza</string>
+    <string name="show_notifications">Bonisa izaziso</string>
+    <string name="show_notifications_description">Yazisa uma ukukhishwa okusha kutholakala noma kulandeka</string>
+    <string name="show_notifications_currents_description">Uma okuqukethwe okusha kutholakala, ngobuningi kanye ngosuku</string>
+    <string name="show_pick_of_the_week">Bonisa ukutomulwa kweviki</string>
+    <string name="crash_report_message">Ngeshwa, i-%s imile.</string>
+    <string name="report">Bika</string>
+    <string name="crash_email_recipient">currents-feedback+crash@google.com</string>
+    <string name="crash_email_subject">I-Android Crash, %1$s on %2$s</string>
+    <string name="upgrade_required">Kudingeka ukuthuthukiswa</string>
+    <string name="upgrade_required_short_message">Ukuthuthukisa kiyadingeka ngokuqukethwe okusha</string>
+    <string name="upgrade_required_long_message">Usebenzisa inguqulo engekho esikhathini ye-Google Currents, sicela uthuthukise. Kuze kuthuthukiswe i-Google Currents, akukho okuqukethwe okusha okuzotholwa.</string>
+    <string name="magazines_upgrade_required_long_message">Usebenizsa inguquko ephelelwe isikhathi ye-Google Play Magazines, sicela uthuthukise. Kuze kuthuthukiswe i-Google Play Magazines akukho okuqukethwe okusha okuzotholwa.</string>
+    <string name="auth_problem_message">Inkinga nge-%s</string>
+    <string name="no_account_selected">Ayikho i-akhawunti ekhethiwe</string>
+    <string name="yes">Yebo</string>
+    <string name="no">Cha</string>
+    <string name="subscribing_to_edition">Ukubhalisela uhlelo…</string>
+    <string name="image_unavailable_offline_message">Umfanekiso uyotholakala ngesikhathi esizayo uku-inthanethi</string>
+    <string name="image_not_found_message">Umfanekiso awutholakanga.</string>
+    <string name="article_not_found">Siyaxolisa, lesisiqephu asisatholakali.</string>
+    <string name="article_offline">Lesisiqephu asitholakali ngaphandle kwasemoyeni.</string>
+    <string name="article_failed">Siyaxolisa, lesi siqephu asikho njengamanje.</string>
+    <string name="presentation_capitalized">ISETHULO</string>
+    <string name="status_bar">Ibha yesimo</string>
+    <string name="set_status_bar">Bonisa/fihla ibha yesimo yedivayisi</string>
+    <string name="translation_title">Ukuhunyushwa</string>
+    <string name="translation_title_description">Uma kutholakala, bonisa inketho yokuhumushela kusi-%s</string>
+    <string name="translate_this_edition">Humusha lolu hlobo?</string>
+    <string name="edition_translate_message">Lolu hlelo lubukeka sengathi %1$s. Ingabe ungathanda ukuluhumushela ku %2$s?</string>
+    <string name="edition_translate_message_no_source">Ungathanda ukuhumushela le-edishini ku-%1$s?</string>
+    <string name="edition_untranslate_message">Le nguqulo ihunyushelwe ku-%1$s. Ungathanda ukuyibuka ngesi-%2$s, ulimi lwakhona loqobo?</string>
+    <string name="edition_untranslate_message_no_source">Le- edishini isihunyushelwe ku%1$s. Ingabe ungathanda ukulubona ngolimi lwalo lwasekuqaleni?</string>
+    <string name="please_wait_to_translate_offline">Okwamanje awuxhumekile kwi-inthanethi; ukuhunyuswha kuzobuyekezwa ngesikhathi esizayo uma uvumelanisa.</string>
+    <string name="please_wait_to_translate_network">Kube nenkinga yenethiwekhi ngenkathi ibuyekeza uhlobo lwakho; ukuhunyushwa kuzotholakala ngesikhathi esilandelayo uma uvumelanisa.</string>
+    <string name="translate">Humusha</string>
+    <string name="translate_active">Iyahumusha...</string>
+    <string name="untranslate">Buka okoqobo</string>
+    <string name="creating_new_translation">Ukuhumusha okusha kwalolu hlobo kuyaqhubeka. Uhlobo lwakho luzobuyekeza emaminithini ambalwa.</string>
+    <string name="translating_edition">Ihumusha uhlobo; sicela ulinde…</string>
+    <string name="original_language">Ulimi loqobo</string>
+    <string name="translate_failed_no_sub">Sicela ubhalisele kulolu hlobo ukuze ulihumushe.</string>
+    <string name="language_chinese_simplified">Isi-Chinese (simplified)</string>
+    <string name="language_chinese_traditional">Isi-Chinese (traditional)</string>
+    <string name="appicon_label">I-edishini yamanje</string>
+    <string name="postlist_label">I-Currents</string>
+    <string name="new_in_currents">Okusha ku-Google Currents</string>
+    <string name="new_in_edition">Okusha ku-%s</string>
+    <string name="appicon_configure_instructions">Khetha i-edishini</string>
+    <string name="postlist_configure_instructions">Khetha isethi yezinhlobo ofuna ukuthi iwijethi yakho izifake.</string>
+    <string name="last_updated">Kugcinwe ukubuyekezwa</string>
+    <string name="warn_offline_for_images">"Ezinye izithombe azitholakali ngoba awuxhumekile ku-intanethi.
+
+Ungazenza zitholakale ngokuphina ukubhalisa."</string>
+    <string name="change_settings">Enza ngendlela oyifisayo</string>
+    <string name="magazines_home_new">OKUSHA</string>
+    <string name="magazines_home_download">LANDA</string>
+    <string name="magazines_home_archive">Faka kungobo yomlando le magazini</string>
+    <string name="magazines_home_delete">Susa kusuka kulabhulali</string>
+    <string name="magazines_home_delete_offline">Kufanele uxhumeke ku-intanethi ukuze ususe inkinga</string>
+    <string name="magazines_home_delete_prompt_title">Susa kusuka kulabhulali?</string>
+    <string name="magazines_home_delete_prompt">"Le magazini izonyamalala unaphakade kusuka kudivayisi yakho nanoma ikuphi lapho ungafinyelela khona ilabhulali yakho ye-Google Play.
+
+Ngeke ukwazi ukuyithola futhi."</string>
+    <string name="magazines_home_view_by_title">Buka ngesihloko</string>
+    <string name="magazines_home_view_recent">Buka kwakamuva</string>
+    <string name="magazines_menu_show_archived">Bonisa omagazini abafakwe kungobo yomlando</string>
+    <string name="magazines_menu_hide_archived">Fihla omagazini abafakwe kungobo yomlando</string>
+    <string name="magazines_menu_manage_subscriptions">Phatha okubhalisile</string>
+    <string name="magazines_menu_shop">Thenga omamagazini</string>
+    <string name="magazines_menu_search">Sesha omamagazini</string>
+    <string name="magazines_view_toggle_text">Shintsha ukubukeka kombhalo</string>
+    <string name="magazines_view_flowing_text_dialog_title">Iziqephu zendatshana zombhalo ogobhozayo</string>
+    <string name="next_button_description">Ikhasi elilandelayo</string>
+    <string name="goto_button_description">Okuqukethwe</string>
+    <string name="images_only_magazine_notification">Le imagazini yesithombe kuphela.</string>
+    <string name="magazine_not_downloaded">Akulandiwe</string>
+    <string name="magazine_downloading">Iyalanda</string>
+    <string name="new_magazine_downloadable_notification">Ukukhishwa okungu-%1$s kuyatholakala</string>
+    <string name="new_magazine_downloaded_notification">Ukukhishwa okungu-%1$s kulandwe ngempumelelo</string>
+    <string name="new_multi_magazine_downloadable_notification_title">Ukukhishwa okungu-%1$s okusha kuyatholakala</string>
+    <string name="new_multi_magazine_downloaded_notification_title">Ukukhishwa okungu-%1$s okusha kulandiwe</string>
+    <string name="new_multi_magazine_notification_content">Thinta ukuze ubome omagazini bakho</string>
+    <string name="whats_next_new">Okusha</string>
+    <string name="account_selection_heading">Khetha i-akhawunti</string>
+    <string name="account_selection_body">"Xhumanisa i-akhawunti yakho ku-Google Currents ukuze ufunde okuqukethwe kwamahhala okuvela ekushicilelweni okuyizinkulungwane.
+
+Iyiphi i-akhawunti ofuna ukuyisebenzisa?"</string>
+    <string name="magazines_account_selection_body">"Xhumanisa i-akhawunti yakho ku-Google Play Magazines ukuze ubhalise bese uthola ukukhishwa komamagazini abaphezulu.
+
+Iyiphi i-akhawunti ofuna ukuyisebenzisa?"</string>
+    <string name="account_selection_add_account">Engeza i-akhawunti</string>
+    <string name="authentication_failure_no_network">Uzodinga ukuxhumeka kwi-intanethi ukuze ugunyaze i-akhawunti yakho.</string>
+    <string name="authentication_failure">Akugunyaziwe</string>
+    <string name="authentication_failure_error">Ayikwazanga ukugunyaza i-akhawunti yakho.</string>
+    <string name="no_network_connection">Akuxhunyiwe</string>
+    <string name="empty_library_welcome">Siyakwamukela!</string>
+    <string name="empty_library_instructions">Thinta isithonjana sokuthenga ngaphezulu ukuze uphequlule ikhathalogi egcwele ye-Google Play.</string>
+    <string name="all_archived">Wonke amamagazini wakho bafakwe kungobo yomlando.</string>
+    <string name="all_archived_instructions">Khetha u-\"Bonisa omagazini abafakwe kungobo yomlando\" ukuze ubabonise, noma thinta isithonjana sokuthenga ngenhla ukuze udlulise amehlo kukhathalogi yethu egcwele.</string>
+    <string name="save_for_later">Londolozela ngokuzayo</string>
+    <string name="save_for_later_saved">Susa kokulondoloziwe</string>
+    <string name="top_editions">Okungeziwe okuphuma phambili</string>
+    <string name="other_editions">Okunye okungeziwe</string>
+    <string name="feed_editions">Okuphekelayo</string>
+    <string name="articles">Iziqephu zendatshana</string>
+    <string name="screensaver_open_in_app_caption">Vula ku-Google Currents ↗</string>
+    <string name="screensaver_no_content_available">Ukuze uqale ukuphupha emini thinta ukuze ungene ngemvume.</string>
+    <string name="screensaver_open_app_caption">Vula i-Google Currents ↗</string>
+    <string name="category_all">Konke</string>
+    <string name="add_subscriptions">Engeza ukubhalisa</string>
+    <string name="breaking_stories">Izindaba zakamuva</string>
+    <string name="breaking_stories_with_category">Izindaba zakamuva - %1$s</string>
+    <string name="customize">Enza ngendlela oyifisayo</string>
+    <string name="customize_category">Enza ngendlela oyifisayo i-%1$s</string>
+    <string name="add_category">Engeza %1$s</string>
+    <string name="pick_of_the_week">Ukutomula kweviki</string>
+    <string name="more">okuningi</string>
+    <string name="see_all_results">Buka konke</string>
+    <string name="preferred_section_description">Khetha izigaba ongathanda ukuthi zivele esikrinini sasekhaya.</string>
+    <string name="add_preferred_section_message">Lesi sigaba sifihliwe okwamanje, ungathanda ukusibonakalisa?</string>
+    <string name="save_for_later_name">Ulondoloziwe</string>
+    <string name="loading_my_stuff">Azikho izindaba ezilondoloziwe okwamanje.</string>
+    <string name="all_posts_are_read">Zonke izindaba zifundiwe.</string>
+    <string name="need_online_for_breaking_stories">Udinga ukuba ku-intanethi ukuze ubuke lendaba.</string>
+    <string name="breaking_stories_offline">Udinga ukuba ku-intanethi ukuze ubuke izindaba zakamuva.</string>
+    <string name="web_content">Iwebhu</string>
+    <string name="trending_time">%1$s | Iwebhu</string>
+    <string name="customize_sections">ENZA NGENDLELA OYIFISAYO</string>
+    <string name="subscribe">BHALISELA</string>
+    <string name="never_suggest_again">CHA NGIYABONGA</string>
+    <string name="black_list_failure">Udinga ukuba ku-intanethi ukuze uchithe ukukhetha kweviki. Sicela uzame futhi emuva kwesikhathi.</string>
+    <string name="removing_pick_of_week">Ukususa i-%s.</string>
+    <string name="adding_pick_of_week">Ukungeza i-%1$s to %2$s.</string>
+    <string name="show_read_posts">Fihla iziqephu zendatshana esengivele ngizifundile</string>
+    <string name="unable_to_install">Iwijethi ayihambisani nedivayisi yakho.</string>
+    <string name="widget_error">Sicela uthinte ukuze uqalise kabusha izindaba.</string>
+    <string name="widget_loading">Ukulayisha kokuqala. Sicela ubekezele.</string>
+    <string name="widget_post_error">Indaba ayitholakali.</string>
+    <string name="widget_not_signed_in">Thepha ukuze ungene ngemvume.</string>
+    <string name="customize_edition">Susa noma hlela kabusha</string>
+    <string name="edit_preferred_sections">Khetha izigaba ozithandayo</string>
+    <string name="mark_all_unread">Maka njengokungafundiwe</string>
+    <string name="mark_all_read">Maka njengokufundiwe</string>
+    <string name="edition_has_been_pinned">%1$s - izithombe zizotholakala ngokufundwa ku-intanethi.</string>
+    <string name="edition_has_been_unpinned">%1$s - izithombe ngeke zitholakale ngokufundwa ku-intanethi.</string>
+    <string name="editions">Okunye</string>
+    <string name="offline_images">Faka phakathi izithombe zokufunda okungaxhunyiwe ku-intanethi</string>
+    <string name="offline_hint">Ungaphina izithombe zokubhalisa ngokungaxhunyiwe ku-intanethi ngokuthinta \"enza ngendlela oyifisayo\" kwibha eliseceleni.</string>
+    <string name="play_audio">Dlala umsindo</string>
+    <string name="pause_audio">Misa okwesikhashana umsindo</string>
+</resources>

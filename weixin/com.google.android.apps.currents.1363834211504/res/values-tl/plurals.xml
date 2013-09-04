@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">(%d (na) reviewer)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">(%d reviewer)</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">%d (na) store</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d store</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">%s (na) Subscriber</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%s Subscriber</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">%d (na) Isyu</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d (na) Isyu</item>
+        <item quantity="two">%d (na) Isyu</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">%d (na) minuto ang nakalipas</item>
+        <item quantity="one">isang minuto ang nakalipas</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">%d (na) oras ang nakalipas</item>
+        <item quantity="one">isang oras ang nakalipas</item>
+    </plurals>
+</resources>

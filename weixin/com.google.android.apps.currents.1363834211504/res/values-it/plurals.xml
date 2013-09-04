@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">(%d recensori)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">(%d recensore)</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">%d negozi</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d negozio</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">%s iscritti</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%s abbonato</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">%d numeri</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d numero</item>
+        <item quantity="two">%d numeri</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">%d minuti fa</item>
+        <item quantity="one">un minuto fa</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">%d ore fa</item>
+        <item quantity="one">"un'ora fa"</item>
+    </plurals>
+</resources>

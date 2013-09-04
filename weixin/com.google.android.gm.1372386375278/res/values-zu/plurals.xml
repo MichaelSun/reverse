@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_attachments">
+        <item quantity="other">Okunamatheselwe okungu-%d</item>
+        <item quantity="one">Okunamatheselwe okungu-%d</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">Hambisa %1$d izingxoxo</item>
+        <item quantity="one">Enye ingxoxo</item>
+    </plurals>
+    <plurals name="unread_mail_count">
+        <item quantity="other">%1$d ama-imeyili angafundiwe</item>
+        <item quantity="one">1 i-imeyili engafundiwe</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Okungaphelele</item>
+        <item quantity="one">Okungaphelele</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Ufuna ukususa lezi %1$d zingxoxo?</item>
+        <item quantity="one">Uyasula le ngxoxo?</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Ufuna ukugcina lezi %1$d zinkulumo?</item>
+        <item quantity="one">Ufuna ukulondoloza lenkulumo?</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="other">Lahla okungakapheli kulezi zingxoxo ezingu-%1$d?</item>
+        <item quantity="one">Lahla okungakapheli kule ngxoxo?</item>
+    </plurals>
+    <plurals name="conversation_unstarred">
+        <item quantity="other">Isusa izinkanyezi ezingxoxweni ezingu-%1$d.</item>
+        <item quantity="one">Isusa izinkanyezi engxoxweni engu-%1$d.</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> Ithulisiwe</item>
+        <item quantity="one">&amp;lt;b>%1$dUNT&amp;lt;/b> Ithulisiwe</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">&amp;lt;b>%1$d&amp;amp;i-lt;/i-b> Ibikwe njengogaxekile</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;amp;i-lt;/i-b> Ibikwe njengogaxekile</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">Okungu-&amp;lt;b>%1$d&amp;lt;/b> kubikwe njengokungayena ugaxekile.</item>
+        <item quantity="one">Okungu-&amp;lt;b>%1$d&amp;lt;/b> kubikwe njengokungayena ugaxekile.</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> kumakwe njengokungabalulekile.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> kumakwe njengokungabalulekile.</item>
+    </plurals>
+    <plurals name="conversation_phished">
+        <item quantity="other">Okungu-&amp;lt;b>%1$d&amp;lt;/b> kubikwe njengokuyengayo.</item>
+        <item quantity="one">Okungu-&amp;lt;b>%1$d&amp;lt;/b> kubikwe njengokuyengayo.</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> i-Archived</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> i-Archived</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> Isusiwe</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> Isusiwe</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">Amalebula ashintshiwe.</item>
+        <item quantity="one">Ilebula eshintshiwe.</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">Vumelanisa: Izinsuku %1$d zokugcina</item>
+        <item quantity="one">Vumelanisa: Usuku %1$d lokugcina</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">%1$d izingxoxo zizosuswa unaphakade.</item>
+        <item quantity="one">%1$d ingxoxo izosuswa ngonaphakade.</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d izinsuku</item>
+        <item quantity="one">Usuku olulodwa</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">Izinsuku</item>
+        <item quantity="one">Usuku</item>
+    </plurals>
+    <plurals name="notify_attachment_error">
+        <item quantity="other">Ayikwazanga ukuthumela okunamathiselwe%s</item>
+        <item quantity="one">Ayikwazanga ukuthumela okunamathiselwe</item>
+    </plurals>
+    <plurals name="sync_messages_partial_description">
+        <item quantity="other">Izinsuku %1$d zokugcina zemilalezo iyolayishwa ngokungena uma kuxhunyiwe</item>
+        <item quantity="one">Umyalezo wosuku lokugcina o- 1 uzolayishwa uma sekuxhunyene</item>
+    </plurals>
+    <plurals name="sectioned_inbox_teaser_unseen_plural_text">
+        <item quantity="other">%1$d Okusha</item>
+        <item quantity="one">%1$d Okusha</item>
+    </plurals>
+</resources>

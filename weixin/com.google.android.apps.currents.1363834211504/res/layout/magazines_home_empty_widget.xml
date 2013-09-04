@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/home_empty" android:background="@color/magazines_home_background" android:paddingLeft="@dimen/magazines_home_empty_text_padding" android:paddingRight="@dimen/magazines_home_empty_text_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/magazines_home_empty_welcome_text_size" android:id="@id/empty_library_welcome" android:paddingBottom="@dimen/magazines_home_empty_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/empty_library_welcome" android:layout_above="@id/empty_library_instructions" android:layout_centerInParent="true" />
+    <TextView android:textSize="@dimen/magazines_home_empty_text_size" android:gravity="center_horizontal" android:id="@id/empty_library_instructions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/empty_library_instructions" android:layout_centerInParent="true" />
+</RelativeLayout>

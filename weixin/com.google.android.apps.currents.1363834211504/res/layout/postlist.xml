@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <StackView android:layout_gravity="bottom" android:id="@id/stack_items" android:layout_width="fill_parent" android:layout_height="fill_parent" android:loopViews="true" />
+    <RelativeLayout android:gravity="center" android:id="@id/empty_view" android:background="#88ffffff" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/icon" android:visibility="gone" android:layout_width="@dimen/widget_icon_imagesize" android:layout_height="@dimen/widget_icon_imagesize" android:layout_marginBottom="5.0dip" android:src="@mipmap/ic_launcher_currents" android:layout_centerInParent="true" />
+        <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/widget_empty_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/widget_loading" android:layout_below="@id/icon" />
+    </RelativeLayout>
+    <FrameLayout android:layout_gravity="bottom|right|center" android:id="@id/appwidget_refresh" android:layout_width="@dimen/widget_icon_imagesize" android:layout_height="@dimen/widget_icon_imagesize" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip">
+        <ImageButton android:id="@id/appwidget_refresh_inactive" android:background="@drawable/ontouch_highlight_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/navigation_refresh" android:scaleType="centerInside" />
+        <ProgressBar android:id="@id/appwidget_refresh_active" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</FrameLayout>

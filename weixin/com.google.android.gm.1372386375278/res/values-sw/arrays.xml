@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compose_modes">
+        <item>Jibu</item>
+        <item>Jibu wote</item>
+        <item>Sambaza</item>
+    </string-array>
+    <string-array name="sync_status">
+        <item>Mafanikio</item>
+        <item>Hakuna muunganisho.</item>
+        <item>Haikuweza kuingia</item>
+        <item>Hitilafu ya usalama.</item>
+        <item>Haikuweza kusawazisha.</item>
+        <item>Hitilafu ya Ndani</item>
+    </string-array>
+    <string-array name="moveto_folder_sections">
+        <item>Mfumo</item>
+        <item>Inayotumika Mara kwa mara</item>
+        <item>Lebo Zote</item>
+    </string-array>
+    <string-array name="prefEntries_autoAdvance">
+        <item>Mpya zaidi</item>
+        <item>Nzee zaidi</item>
+        <item>Orodha ya mazungumzo</item>
+    </string-array>
+    <string-array name="prefSummaries_autoAdvance">
+        <item>Onyesha mazungumzo mapya zaidi baada ya kuhifadhi kwenye kumbukumbu au kufuta</item>
+        <item>Onyesha mazungumzo ya zamani zaidi baada ya kuhifadhi kwenye kumbukumbu au kufuta</item>
+        <item>Onyesha orodha ya mazungumzo baada ya kuhifadhi kwenye kumbukumbu au kufuta</item>
+    </string-array>
+    <string-array name="prefEntries_removal_action">
+        <item>Onyesha kumbukumbu pekee</item>
+        <item>Onyesha futa pekee</item>
+        <item>Onyesha kumbukumbu na futa</item>
+    </string-array>
+    <string-array name="prefSummaries_removal_action_summary">
+        <item>Onyesha kumbukumbu pekee</item>
+        <item>Onyesha futa pekee</item>
+        <item>Onyesha kumbukumbu na futa</item>
+    </string-array>
+    <string-array name="prefEntries_swipe">
+        <item>Hakuna athari</item>
+        <item>Jalidi/ondoa lebo/futa</item>
+        <item>Futa kila wakati</item>
+    </string-array>
+    <string-array name="prefSummaries_swipe">
+        <item>Haina athari</item>
+        <item>Hifadhi kama kumbukumbu kwenye kikasha. Ondoa lebo katika lebo maalum. Futa lebo za za mfumo kama Taka, Zilizotumwa.</item>
+        <item>Hufura mazungumzo kila mara</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeName">
+        <item>Dogo sana</item>
+        <item>Ndogo</item>
+        <item>Kawaida</item>
+        <item>Kubwa</item>
+        <item>Kubwa mno</item>
+    </string-array>
+    <string-array name="prefEntries_messageTextSizeSummary">
+        <item>Onyesha maudhui ya ujumbe katika maandishi madogo sana</item>
+        <item>Onyesha maudhui ya jumbe katika maandishi madogo</item>
+        <item>Onyesha maudhui ya ujumbe katika maandishi yenye ukubwa wa kawaida</item>
+        <item>Onyesha maudhui ya jumbe katika maandishi makubwa</item>
+        <item>Onyesha maudhui ya ujumbe katika maandishi makubwa</item>
+    </string-array>
+    <string-array name="prefSummaries_snapHeader">
+        <item>Onyesha yanayoweza kufanyiwa barua pepe juu ya skrini kila wakati</item>
+        <item>Onyesha yanayoweza kufanyiwa barua pepe juu ya skrini wakati iko wima</item>
+        <item>Usionyeshe vitendo vya ujumbe nje ya kichwa cha ujumbe</item>
+    </string-array>
+    <string-array name="prefEntries_snapHeader">
+        <item>Onyesha kila wakati</item>
+        <item>Onyesha ukiwa wima pekee</item>
+        <item>Usionyeshe</item>
+    </string-array>
+</resources>

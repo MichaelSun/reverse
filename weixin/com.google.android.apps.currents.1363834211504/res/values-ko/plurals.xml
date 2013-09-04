@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">(리뷰 작성자 %d명)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">(리뷰 작성자 %d명)</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">상점 %d개</item>
+        <item quantity="zero"></item>
+        <item quantity="one">상점 %d개</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">%s 구독자</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%s 구독자</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">%d부</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d부</item>
+        <item quantity="two">%d부</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">%d분 전</item>
+        <item quantity="one">1분 전</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">%d시간 전</item>
+        <item quantity="one">1시간 전</item>
+    </plurals>
+</resources>

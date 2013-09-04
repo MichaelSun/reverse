@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="magazines_home_carousel_margin">40.0dip</dimen>
+    <dimen name="magazines_home_carousel_progress_area_height">50.0dip</dimen>
+    <dimen name="thumbnail_scrubber_bottom_padding">0.0dip</dimen>
+    <dimen name="thumbnail_scrubber_top_padding">10.0dip</dimen>
+    <dimen name="thumbnail_scrubber_horizontal_padding">10.0dip</dimen>
+    <dimen name="thumbnail_scrubber_height">180.0dip</dimen>
+</resources>

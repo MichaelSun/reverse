@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_attachments">
+        <item quantity="other">%d attachments</item>
+        <item quantity="one">%d attachment</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">Move %1$d conversations</item>
+        <item quantity="one">Move conversation</item>
+    </plurals>
+    <plurals name="unread_mail_count">
+        <item quantity="other">%1$d unread mails</item>
+        <item quantity="one">1 unread mail</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Drafts</item>
+        <item quantity="one">Draft</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Delete these %1$d conversations?</item>
+        <item quantity="one">Delete this conversation?</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Archive these %1$d conversations?</item>
+        <item quantity="one">Archive this conversation?</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="other">Discard drafts from these %1$d conversations?</item>
+        <item quantity="one">Discard drafts from this conversation?</item>
+    </plurals>
+    <plurals name="conversation_unstarred">
+        <item quantity="other">Unstarring %1$d conversations.</item>
+        <item quantity="one">Unstarring %1$d conversation.</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> muted.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> muted.</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> reported as spam.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> reported as spam.</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> reported as not spam.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> reported as not spam.</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> marked not important.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> marked not important.</item>
+    </plurals>
+    <plurals name="conversation_phished">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> reported as phishing.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> reported as phishing.</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> archived.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> archived.</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> deleted.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> deleted.</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">Changed labels.</item>
+        <item quantity="one">Changed label.</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">Sync: Last %1$d days</item>
+        <item quantity="one">Sync: Last %1$d day</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">%1$d conversations will be permanently deleted.</item>
+        <item quantity="one">%1$d conversation will be permanently deleted.</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d days</item>
+        <item quantity="one">One day</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">Days</item>
+        <item quantity="one">Day</item>
+    </plurals>
+    <plurals name="notify_attachment_error">
+        <item quantity="other">"Couldn't send attachment%s"</item>
+        <item quantity="one">"Couldn't send attachment"</item>
+    </plurals>
+    <plurals name="sync_messages_partial_description">
+        <item quantity="other">Last %1$d days of messages will download when connected</item>
+        <item quantity="one">Last 1 day of messages will download when connected</item>
+    </plurals>
+    <plurals name="sectioned_inbox_teaser_unseen_plural_text">
+        <item quantity="other">%1$d New</item>
+        <item quantity="one">%1$d New</item>
+    </plurals>
+</resources>

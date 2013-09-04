@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_attachments">
+        <item quantity="other">%d pielikums(-i)</item>
+        <item quantity="one">%d pielikums</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">Pārvietot %1$d sarunas</item>
+        <item quantity="one">Pārvietot sarunu</item>
+    </plurals>
+    <plurals name="unread_mail_count">
+        <item quantity="other">%1$d nelasīti ziņojumi</item>
+        <item quantity="one">1 nelasīts ziņojums</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Melnraksti</item>
+        <item quantity="one">Melnraksts</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Vai dzēst šīs sarunas (%1$d)?</item>
+        <item quantity="one">Vai dzēst šo sarunu?</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Vai arhivēt šīs sarunas (%1$d)?</item>
+        <item quantity="one">Vai arhivēt šo sarunu?</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="other">Vai atmest melnrakstus no šīm %1$d sarunām?</item>
+        <item quantity="one">Vai atmest melnrakstus no šīs sarunas?</item>
+    </plurals>
+    <plurals name="conversation_unstarred">
+        <item quantity="other">Notiek zvaigznītes noņemšana no %1$d sarunas(-ām).</item>
+        <item quantity="one">Notiek zvaigznītes noņemšana no %1$d sarunas.</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> saruna(-as) ar izslēgtu skaņu</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> saruna ar izslēgtu skaņu.</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">Par &amp;lt;b>%1$d&amp;lt;/b> sarunu(-ām) ziņots kā par mēstuli(-ēm).</item>
+        <item quantity="one">Par &amp;lt;b>%1$d&amp;lt;/b> sarunu ziņots kā par mēstuli.</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> saruna(-as) atzīmēta(-as) kā “nav mēstule”.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> saruna atzīmēta kā “nav mēstule”.</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> saruna(-as) atzīmēta(-as) kā nesvarīga(-as).</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> saruna atzīmēta kā nesvarīga.</item>
+    </plurals>
+    <plurals name="conversation_phished">
+        <item quantity="other">Par &amp;lt;b>%1$d&amp;lt;/b> sarunu(-ām) ziņots kā par pikšķerēšanu.</item>
+        <item quantity="one">Par &amp;lt;b>%1$d&amp;lt;/b> sarunu ziņots kā par pikšķerēšanu.</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">Tika arhivēta(-as) &amp;lt;b>%1$d&amp;lt;/b> saruna(-as).</item>
+        <item quantity="one">Tika arhivēta &amp;lt;b>%1$d&amp;lt;/b> saruna.</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">Tika dzēsta(-as) &amp;lt;b>%1$d&amp;lt;/b> saruna(-as).</item>
+        <item quantity="one">Tika dzēsta &amp;lt;b>%1$d&amp;lt;/b> saruna.</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">Iezīmes ir mainītas.</item>
+        <item quantity="one">Iezīme ir mainīta.</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">Sinhronizēt: pēdējās %1$d dienas</item>
+        <item quantity="one">Sinhronizēt: pēdējo %1$d dienu</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">%1$d sarunas tiks neatgriezeniski dzēstas.</item>
+        <item quantity="one">%1$d saruna tiks neatgriezeniski dzēsta.</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d diena(-as)</item>
+        <item quantity="one">Viena diena</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">Dienas</item>
+        <item quantity="one">Diena</item>
+    </plurals>
+    <plurals name="notify_attachment_error">
+        <item quantity="other">No konta %s nevarēja nosūtīt pielikumu</item>
+        <item quantity="one">Pielikumu nevarēja nosūtīt</item>
+    </plurals>
+    <plurals name="sync_messages_partial_description">
+        <item quantity="other">Pēdējo %1$d dienu ziņojumi tiks lejupielādēti, kad būs izveidots savienojums.</item>
+        <item quantity="one">Pēdējās 1 dienas ziņojumi tiks lejupielādēti, kad būs izveidots savienojums.</item>
+    </plurals>
+    <plurals name="sectioned_inbox_teaser_unseen_plural_text">
+        <item quantity="other">%1$d jauni</item>
+        <item quantity="one">%1$d jauni</item>
+    </plurals>
+</resources>

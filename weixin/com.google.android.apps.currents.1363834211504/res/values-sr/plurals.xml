@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">(%d аутора рецензија)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">(%d аутор рецензије)</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">%d продавница</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d продавница</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">%s претплатника</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%s претплатник</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">%d издања</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d издање</item>
+        <item quantity="two">%d издања</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">пре %d минута</item>
+        <item quantity="one">пре један минут</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">пре %d сати</item>
+        <item quantity="one">пре сат времена</item>
+    </plurals>
+</resources>

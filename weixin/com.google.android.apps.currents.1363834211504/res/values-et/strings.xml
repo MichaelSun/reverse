@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="launcher_app_name">Currents</string>
+    <string name="app_name">Currents</string>
+    <string name="long_app_name">Google Currents</string>
+    <string name="magazines_launcher_app_name">Play ajakirjad</string>
+    <string name="magazines_app_name">Google Play ajakirjad</string>
+    <string name="magazines_long_app_name">Google Play ajakirjad</string>
+    <string name="google_play">Google Play</string>
+    <string name="start_msg_prefix">tere tulemast teenusesse</string>
+    <string name="updating_app">ülendamine on pooleli</string>
+    <string name="syncing">Sünkroonimine ...</string>
+    <string name="syncing_all_editions">Kõikide väljaannete sünkroonimine</string>
+    <string name="syncing_images">Kujutiste sünkroonimine</string>
+    <string name="wait_until_online">Oodake, kuni olete uuesti võrgus</string>
+    <string name="cant_refresh_offline">Ei saa värskendada, kuna seade on võrguühenduseta.</string>
+    <string name="edition_not_available_offline">See väljaanne on saadaval siis, kui olete võrgus.</string>
+    <string name="default_error">Ilmnes viga. Proovige uuesti.</string>
+    <string name="edition_sync_error">Teie väljaande allalaadimisel ilmnes viga. Proovige hiljem uuesti.</string>
+    <string name="nospace_error">Seadme salvestusruum on täis.</string>
+    <string name="sync_stopped">Sünkroonimine on peatatud</string>
+    <string name="sync_restart">Lugemiseks sünkroonige %s. Täname!</string>
+    <string name="unmetered_network_restriction_start_message">"Ajakirja allalaadimist alustatakse, kui seade ühendatakse WiFi-võrku.
+ 
+Kui teil on seda kohe vaja, ei pea te ootama. Lisanduda võivad andmetasud."</string>
+    <string name="unmetered_network_restriction_resume_message">"See ajakiri jätkab allalaadimist, kui seade ühendatakse WiFi-võrku.
+
+Kui teil on seda kohe vaja, ei pea te ootama. Lisanduda võivad andmetasud."</string>
+    <string name="never_wait">Ära oota kunagi</string>
+    <string name="dont_wait">Ära oota</string>
+    <string name="cant_begin_reading_magazine">Ajakirja pole lugemise alustamiseks piisavalt alla laaditud.</string>
+    <string name="needed_to_rotate_orientation">Sisu kuvamiseks pidi seade seda automaatselt pöörama</string>
+    <string name="zooming_is_unavailable">Sissesuumimine ei ole selle ajakirja jaoks saadaval.</string>
+    <string name="text_view_is_unavailable">Tekstivaade ei ole selle lehe jaoks saadaval.</string>
+    <string name="add_to_library">Lisa kogusse</string>
+    <string name="manage_content">Halda sisu</string>
+    <string name="reorder_editions">Korralda ümber</string>
+    <string name="move_to_first">Teisalda esimeseks</string>
+    <string name="table_of_contents">Sisukord</string>
+    <string name="start_currents_offline">Google Currentsi esmakordseks kasutamiseks on vaja võrguühendust.</string>
+    <string name="start_magazines_offline">Esimest korda Google Play ajakirju kasutades on vaja võrguühendust.</string>
+    <string name="start_edition_offline">Esimest korda väljaannet avades on vaja võrguühendust.</string>
+    <string name="start_currents_network_error">Kahjuks pole Google Currents ajutiselt saadaval. Proovige hiljem uuesti.</string>
+    <string name="start_magazines_network_error">Kahjuks pole teenus Google Play ajakirjad ajutiselt saadaval. Proovige hiljem uuesti.</string>
+    <string name="skip">Jäta vahele</string>
+    <string name="loading">Laadimine …</string>
+    <string name="fetching_lastest_stories">Uusimate lugude toomine ...</string>
+    <string name="authenticating">Sisselogimine ...</string>
+    <string name="product_reviews">Toodete arvustused</string>
+    <string name="product_publisher">(väljaandja: %s)</string>
+    <string name="product_low_high">%1$s–%2$s</string>
+    <string name="search_hint">Otsi väljaandeid, blogisid ja artikleid</string>
+    <string name="search_offline">Otsing ei ole võrguühenduseta saadaval</string>
+    <string name="searching">Otsing ...</string>
+    <string name="search_empty">Tulemusi ei leitud</string>
+    <string name="search_empty_for_query">Päringule „%s” ei leitud ühtegi tulemust</string>
+    <string name="search_failed">Otsing ei õnnestunud. Kontrollige Interneti-ühendust.</string>
+    <string name="subscribed_to_everything_in_category">Olete kategooriast %s juba kõik tellinud</string>
+    <string name="empty_section">Jaotises ei ole sisu.</string>
+    <string name="font_size_small">Väike</string>
+    <string name="font_size_medium">Keskmine</string>
+    <string name="font_size_large">Suur</string>
+    <string name="saving">Salvestamine ...</string>
+    <string name="save">Salvesta</string>
+    <string name="done">Valmis</string>
+    <string name="delete_prompt_message">Kas soovite kindlasti artikli kustutada?</string>
+    <string name="delete_prompt_title">Kas soovite artikli kustutada?</string>
+    <string name="original_url_not_found">Artiklil ei ole algupärast URL-i</string>
+    <string name="nonhttp_url">Ei saa avada URL-i, mis ei kasuta http-protokolli</string>
+    <string name="edition_not_found">Väljaannet ei leitud.</string>
+    <string name="goto_more">Rohkem: %s</string>
+    <string name="add">Lisa</string>
+    <string name="remove">Eemalda</string>
+    <string name="choose">Vali</string>
+    <string name="map_marker_label">Asukoht</string>
+    <string name="video_editor_label">"Vali YouTube'i video"</string>
+    <string name="search_youtube">"Otsi YouTube'ist"</string>
+    <string name="video_not_found">Videot ei leitud</string>
+    <string name="audio_error">Viga helisalvestuse esitamisel</string>
+    <string name="audio_not_supported_offline">Võrguühenduseta heli ei toetata.</string>
+    <string name="show_audio">Kuva heliriba</string>
+    <string name="hide_audio">Peida heliriba</string>
+    <string name="share">Jaga</string>
+    <string name="share_article_dialog_title">Artikli jagamine</string>
+    <string name="share_edition_dialog_title">Väljaande jagamine</string>
+    <string name="share_app_dialog_title">Jaga Currentsit</string>
+    <string name="magazines_share_app_dialog_title">Google Play ajakirjade jagamine</string>
+    <string name="share_edition_short_format_text">%2$s: %3$s %1$s</string>
+    <string name="share_edition_long_format_text">"%2$s
+%3$s
+
+%1$s
+"</string>
+    <string name="share_edition_format_html">&lt;a href=%1$s>%2$s&lt;/a>&lt;br/>%3$s</string>
+    <string name="shared_via_app_text">Jagatud Google Currentsi kaudu</string>
+    <string name="magazines_shared_via_app_text">Jagatud teenuse Google Play ajakirjad kaudu</string>
+    <string name="shared_via_app_html">&lt;p>&lt;i>Jagatud&lt;/i> &lt;a href=%s>Google Currentsi&lt;/a> kaudu&lt;/p></string>
+    <string name="magazines_shared_via_app_html">&lt;p>&lt;i>Jagatud teenuse&lt;/i> &lt;a href=%s>Google Play ajakirjad kaudu&lt;/a>&lt;/p></string>
+    <string name="share_source_text">Allikas: %s</string>
+    <string name="share_source_html">&lt;p>&lt;i>Allikas:&lt;/i> &lt;a href=%1$s>%1$s&lt;/a>&lt;/p></string>
+    <string name="share_app_text">"Tutvuge teenusega Google Currents!
+%s"</string>
+    <string name="magazines_share_app_text">"Tutvuge teenusega Google Play ajakirjad.
+%s"</string>
+    <string name="share_app_html">Tutvuge teenusega Google Currents!&lt;br/>&lt;br/>&lt;a href=%1$s>%1$s&lt;/a></string>
+    <string name="magazines_share_app_html">Tutvuge teenusega Google Play ajakirjad.&lt;br/>&lt;br/>&lt;a href=%1$s>%1$s&lt;/a></string>
+    <string name="share_article_subject_format">%1$s: %2$s</string>
+    <string name="share_article_short_format_text">%4$s: %2$s %1$s</string>
+    <string name="share_article_long_format_text">"%4$s: %2$s
+%1$s
+
+%3$s
+"</string>
+    <string name="share_article_format_html">&lt;a href=%1$s>%2$s&lt;/a>&lt;br/>&lt;br/>%3$s</string>
+    <string name="share_article_short_format_text_no_edition_name">%2$s %1$s</string>
+    <string name="share_article_long_format_text_no_edition_name">"%2$s
+%1$s
+
+%3$s
+"</string>
+    <string name="share_article_format_html_no_edition_name">&lt;a href=%1$s>%2$s&lt;/a>&lt;br/>&lt;br/>%3$s</string>
+    <string name="share_link_title_html">&lt;p>&lt;i>Allikas:&lt;/i> &lt;a href=%1$s>%2$s&lt;/a>&lt;/p></string>
+    <string name="share_link_title_text">%2$s: %1$s</string>
+    <string name="contribute_hint">Jaotis on tühi. Looge esimene artikkel ülaloleva nupu abil ...</string>
+    <string name="youtube_choose">Vali</string>
+    <string name="youtube_load_error">"YouTube'ist pärinevaid andmeid ei saa laadida."</string>
+    <string name="saved_post_edition_title">Salvestatud</string>
+    <string name="saved_for_later">Artikli leiate nüüd jaotisest %1$s</string>
+    <string name="add_apps_title_long">Väljaannete lisamine</string>
+    <string name="no_app_results">Ükski väljaanne ei vasta teie otsingule</string>
+    <string name="confirm_subscribe_dialog_title">Tellimuse kinnitamine</string>
+    <string name="subscribe_button">Telli tasuta</string>
+    <string name="confirm_subscribe_message">Kas soovite teenuse %s tasuta tellida?</string>
+    <string name="unsubscribe">Tellimusest loobumine</string>
+    <string name="unsubscribe_message">Kas soovite loobuda väljaande %s tellimusest?</string>
+    <string name="edition_search_unknown_error">Väljaannete otsimisel ilmnes tundmatu viga.</string>
+    <string name="edition_search_offline">Väljaande lisamiseks on vaja võrguühendust.</string>
+    <string name="open_edition">Ava väljaanne</string>
+    <string name="this_edition">see väljaanne</string>
+    <string name="add_edition">Väljaande lisamine</string>
+    <string name="launch_browser">Brauseri käivitamine</string>
+    <string name="add_for_free">Lisa tasuta</string>
+    <string name="in_library">Kogus</string>
+    <string name="subscription_added">Tellimus on lisatud: %s.</string>
+    <string name="subscription_added_in_category">Väljaanne %1$s on lisatud kategooriasse %2$s</string>
+    <string name="initial_sync_unknown_error">Käivitamisel ilmnes tundmatu viga.</string>
+    <string name="initial_sync_forbidden">%s on keelatud. Valige muu konto.</string>
+    <string name="text_size">Teksti suurus</string>
+    <string name="category_featured">Esiletoodud</string>
+    <string name="category_recommended">Soovitatud</string>
+    <string name="category_news">Uudised</string>
+    <string name="category_lifestyle">Elustiil</string>
+    <string name="category_business">Äri</string>
+    <string name="category_science">Teadus ja tehnika</string>
+    <string name="category_sports">Sport</string>
+    <string name="category_entertainment">Meelelahutus</string>
+    <string name="category_design">Kujundus</string>
+    <string name="category_blogs">"Google'i lugeja"</string>
+    <string name="category_curators">Kuraatorid</string>
+    <string name="category_other">Muu</string>
+    <string name="category_youtube">YouTube</string>
+    <string name="currents">Currents</string>
+    <string name="right_now">vähem kui minut tagasi</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Tühista</string>
+    <string name="enable">Luba</string>
+    <string name="disable">Keela</string>
+    <string name="data_collection_title">Kas soovite saata e-posti aadressi?</string>
+    <string name="data_collection_opt_in_message">"Kas soovite saada erivärskendusi või -pakkumisi, lubades Google'il saata teie e-posti aadress &lt;b>%1$s&lt;/b> teenusepakkujale &lt;b>%2$s&lt;/b> &lt;a href=#>privaatsuseeskirjade&lt;/a> kohaselt?"</string>
+    <string name="data_collection_required_message">"Kas soovite väljaandele täielikku juurdepääsu, lubades Google'il saata teie e-posti aadressi &lt;b>%1$s&lt;/b> teenusepakkujale &lt;b>%2$s&lt;/b> &lt;a href=#>privaatsuseeskirjade&lt;/a> kohaselt?"</string>
+    <string name="privacy_policy_not_found">Üksuse %1$s privaatsuseeskirju ei leitud</string>
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="plus">Google+</string>
+    <string name="byline_shared_via">Jagatud teenuse %s kaudu</string>
+    <string name="byline_shared_by">Jagas %s</string>
+    <string name="byline_by">%s</string>
+    <string name="latest">Uusimad</string>
+    <string name="thanks_for_installing">Täname, et installisite Google Currentsi.</string>
+    <string name="magazines_thanks_for_installing">Täname, et installisite teenuse Google Play ajakirjad.</string>
+    <string name="ask_add_to_library">Kas soovite lisada üksuse %s oma kogusse?</string>
+    <string name="no_thanks">Tänan, ei</string>
+    <string name="go_to_library">Mine kogusse</string>
+    <string name="settings">Seaded</string>
+    <string name="google">Google</string>
+    <string name="enabled">Lubatud</string>
+    <string name="disabled">Keelatud</string>
+    <string name="offline_reading_capitalized">VÕRGUÜHENDUSETA LUGEMINE</string>
+    <string name="include_images">Kaasa kujutised</string>
+    <string name="none">Puudub</string>
+    <string name="first_ten_editions">Esimesed kümme väljaannet</string>
+    <string name="all_editions">Kõik väljaanded</string>
+    <string name="background_sync_capitalized">SÜNKROONIMINE TAUSTAL</string>
+    <string name="enable_background_sync">Luba taustal sünkroonimine</string>
+    <string name="only_if_unmetered">Ainult mõõdikuta võrgu puhul</string>
+    <string name="only_if_unmetered_summary">Näide: WiFi</string>
+    <string name="only_if_charging">Ainult seadme laadimisel</string>
+    <string name="sync_now">Sünkrooni kohe</string>
+    <string name="refresh">Värskenda</string>
+    <string name="refreshing">Värskendamine ...</string>
+    <string name="additional_info_capitalized">LISATEAVE</string>
+    <string name="feedback">Saada tagasiside</string>
+    <string name="feedback_description">Saatke meile tagasisidet</string>
+    <string name="feedback_email_recipient">currents-feedback+android@google.com</string>
+    <string name="feedback_email_subject">Androidi tagasiside, %1$s, %2$s</string>
+    <string name="terms_of_service">Teenusetingimused</string>
+    <string name="privacy_policy">Privaatsuseeskirjad</string>
+    <string name="usage_policy">Kasutuseeskirjad</string>
+    <string name="usage_policy_description">Google Currents on mõeldud vaid isiklikuks ja mitteäriliseks kasutamiseks.</string>
+    <string name="open_source_licenses">Avatud allika litsentsid</string>
+    <string name="open_source_licenses_description">Juriidiline teave litsentside kohta</string>
+    <string name="report_abuse">Teata väärkasutusest</string>
+    <string name="report_abuse_description">Teavitage teie arvates sobimatust sisust</string>
+    <string name="report_content_problem">Sisuprobleemist teatamine</string>
+    <string name="report_content_problem_description">Katkenud või valest sisust teatamine</string>
+    <string name="release">Versioon %1$s | Järk %2$s</string>
+    <string name="powered_by">Toimib teenuse %1$s %2$s %3$s jõul</string>
+    <string name="launch_in_browser_error">Kahjuks ei saa lehte brauseris käivitada</string>
+    <string name="support">Tugi</string>
+    <string name="customer_support">Võtke ühendust klienditoega</string>
+    <string name="give_product_feedback">Andke toote kohta tagasisidet</string>
+    <string name="report_inappropriate_content">Teatage sobimatust sisust</string>
+    <string name="report_copyright_issue">Teatage autoriõiguse probleemist</string>
+    <string name="account">"Google'i konto"</string>
+    <string name="account_short">Konto</string>
+    <string name="help">Abi</string>
+    <string name="automatically_download">Automaatne allalaadimine</string>
+    <string name="automatically_download_short">Automaatne allalaadimine</string>
+    <string name="automatically_download_description">Kõikide ostude ja tellimuste allalaadimine kinnitust küsimata</string>
+    <string name="automatically_download_description_short">Ostude allalaadimine kinnitust küsimata</string>
+    <string name="unmetered_networks_only">Laadi alla ainult WiFi kaudu</string>
+    <string name="unmetered_networks_only_description">Operaatori andmetasude vähendamiseks ärge laadige alla mobiilsidevõrkude kaudu.</string>
+    <string name="automatically_archive">Automaatne arhiveerimine</string>
+    <string name="automatically_archive_description">Ruumipuudusel arhiveeritakse vanemad väljaanded kinnitust küsimata</string>
+    <string name="show_notifications">Kuva teatised</string>
+    <string name="show_notifications_description">Teavita, kui uus number on saadaval või alla laaditud</string>
+    <string name="show_notifications_currents_description">Kui uus sisu on saadaval, siis kõige rohkem kord päevas</string>
+    <string name="show_pick_of_the_week">Kuva nädala valik</string>
+    <string name="crash_report_message">Kahjuks %s seiskus.</string>
+    <string name="report">Teata</string>
+    <string name="crash_email_recipient">currents-feedback+crash@google.com</string>
+    <string name="crash_email_subject">Androidi krahh, %1$s, %2$s</string>
+    <string name="upgrade_required">Vajalik on üleminek uuemale versioonile</string>
+    <string name="upgrade_required_short_message">Uue sisu hankimiseks on vajalik üleminek uuemale versioonile</string>
+    <string name="upgrade_required_long_message">Kasutate Google Currentsi aegunud versiooni. Minge üle uuemale versioonile. Enne Google Currentsi üleminekut uuemale versioonile ei võeta uut sisu vastu.</string>
+    <string name="magazines_upgrade_required_long_message">Kasutate teenuse Google Play ajakirjad vananenud versiooni – minge üle uuemale versioonile. Enne Google Play ajakirjade uuemale versioonile üleminekut ei võeta uut sisu vastu.</string>
+    <string name="auth_problem_message">Probleem üksusega %s</string>
+    <string name="no_account_selected">Ühtki kontot pole valitud</string>
+    <string name="yes">Jah</string>
+    <string name="no">Ei</string>
+    <string name="subscribing_to_edition">Väljaande tellimine ...</string>
+    <string name="image_unavailable_offline_message">Järgmine kord, kui olete võrgus, on kujutis saadaval</string>
+    <string name="image_not_found_message">Kujutist ei leitud</string>
+    <string name="article_not_found">Kahjuks artiklit enam ei ole.</string>
+    <string name="article_offline">Artikkel ei ole võrguühenduseta saadaval.</string>
+    <string name="article_failed">Kahjuks ei ole artikkel praegu saadaval.</string>
+    <string name="presentation_capitalized">ESITLUS</string>
+    <string name="status_bar">Olekuriba</string>
+    <string name="set_status_bar">Kuva/peida seadme olekuriba</string>
+    <string name="translation_title">Tõlge</string>
+    <string name="translation_title_description">Võimalusel kuvatakse %s keelde tõlkimise valik</string>
+    <string name="translate_this_edition">Kas soovite väljaande tõlkida?</string>
+    <string name="edition_translate_message">Paistab, et see väljaanne on %1$s keeles. Kas tahate tõlkida selle %2$s keelde?</string>
+    <string name="edition_translate_message_no_source">Kas soovite tõlkida selle väljaande %1$s keelde?</string>
+    <string name="edition_untranslate_message">See väljaanne on tõlgitud %1$s keelde. Kas soovite seda vaadata originaalkeeles (%2$s)?</string>
+    <string name="edition_untranslate_message_no_source">See väljaanne on tõlgitud %1$s keelde. Kas soovite vaadata seda originaalkeeles?</string>
+    <string name="please_wait_to_translate_offline">Võrguühendus puudub. Tõlge värskendatakse pärast järgmist sünkroonimist.</string>
+    <string name="please_wait_to_translate_network">Teie väljaande värskendamisel ilmnes võrgu probleem. Tõlge on saadaval pärast järgmist sünkroonimist.</string>
+    <string name="translate">Tõlkimine</string>
+    <string name="translate_active">Tõlkimine …</string>
+    <string name="untranslate">Kuva originaal</string>
+    <string name="creating_new_translation">Väljaande uus tõlge on pooleli. Väljaannet värskendatakse mõne minuti pärast.</string>
+    <string name="translating_edition">Väljaannet tõlgitakse, oodake ...</string>
+    <string name="original_language">Algkeel</string>
+    <string name="translate_failed_no_sub">Tellige see väljaanne, kui soovite seda tõlkida.</string>
+    <string name="language_chinese_simplified">hiina keel (lihtsustatud)</string>
+    <string name="language_chinese_traditional">hiina keel (traditsiooniline)</string>
+    <string name="appicon_label">Currentsi väljaanne</string>
+    <string name="postlist_label">Currents</string>
+    <string name="new_in_currents">Uus Google Currentsis</string>
+    <string name="new_in_edition">Uus teenuses %s</string>
+    <string name="appicon_configure_instructions">Väljaande valimine</string>
+    <string name="postlist_configure_instructions">Valige väljaanded, mille soovite vidinasse kaasata.</string>
+    <string name="last_updated">Viimati värskendatud</string>
+    <string name="warn_offline_for_images">"Mõned pildid pole saadaval, sest teil pole ühendust.
+
+Saate muuta need kättesaadavaks, kinnitades tellimused."</string>
+    <string name="change_settings">Kohandamine</string>
+    <string name="magazines_home_new">UUS</string>
+    <string name="magazines_home_archived">ARHIVEERITUD</string>
+    <string name="magazines_home_download">LAADI ALLA</string>
+    <string name="magazines_home_archive">Arhiveeri see ajakiri</string>
+    <string name="magazines_home_delete">Kustuta kogust</string>
+    <string name="magazines_home_delete_offline">Probleemi kustutamiseks on vaja võrguühendust</string>
+    <string name="magazines_home_delete_prompt_title">Kas kustutada kogust?</string>
+    <string name="magazines_home_delete_prompt">"Ajakiri kustub JÄÄDAVALT teie seadmest ja mujalt, kust teil on juurdepääs Google Play kogusse.
+
+Seda pole võimalik enam tagasi saada."</string>
+    <string name="magazines_home_view_by_title">Kuva pealkirja alusel</string>
+    <string name="magazines_home_view_recent">Kuva hiljutised</string>
+    <string name="magazines_menu_show_archived">Näita arhiveeritud ajakirju</string>
+    <string name="magazines_menu_hide_archived">Peida arhiveeritud ajakirjad</string>
+    <string name="magazines_menu_manage_subscriptions">Halda tellimusi</string>
+    <string name="magazines_menu_shop">Osta ajakirju</string>
+    <string name="magazines_menu_search">Otsi ajakirju</string>
+    <string name="magazines_view_flowing_text">Kuva tekst</string>
+    <string name="magazines_view_original_pages">Välju tekstist</string>
+    <string name="magazines_view_toggle_text">Vaheta tekstivaadet</string>
+    <string name="magazines_view_flowing_text_dialog_title">Voolava tekstiga artiklid</string>
+    <string name="next_button_description">Järgmine leht</string>
+    <string name="goto_button_description">Sisukord</string>
+    <string name="images_only_magazine_notification">See on ainult pildiajakiri.</string>
+    <string name="magazine_not_downloaded">Alla laadimata</string>
+    <string name="magazine_downloading">Allalaadimine</string>
+    <string name="new_magazine_downloadable_notification">Ajakirja %1$s number on saadaval</string>
+    <string name="new_magazine_downloaded_notification">Ajakirja %1$s numbri allalaadimine õnnestus</string>
+    <string name="new_multi_magazine_downloadable_notification_title">%1$s uut ajakirja numbrit on saadaval</string>
+    <string name="new_multi_magazine_downloaded_notification_title">%1s ajakirja uut numbrit laaditi alla</string>
+    <string name="new_multi_magazine_notification_content">Puudutage, et näha oma ajakirju</string>
+    <string name="whats_next_new">Uus</string>
+    <string name="account_selection_heading">Valige konto</string>
+    <string name="account_selection_body">"Linkige oma konto Google Currentsiga, et saaksite lugeda tasuta sisu tuhandetest väljaannetest.
+
+Millist kontot soovite kasutada?"</string>
+    <string name="magazines_account_selection_body">"Linkige oma konto Google Play ajakirjadega, et saaksite tellida ja hankida populaarsete ajakirjade numbreid.
+
+Millist kontot soovite kasutada?"</string>
+    <string name="account_selection_add_account">Lisa konto</string>
+    <string name="authentication_failure_no_network">Konto autentimiseks on vaja Interneti-ühendust.</string>
+    <string name="authentication_failure">Autentimata</string>
+    <string name="authentication_failure_error">Teie kontot ei õnnestunud autentida.</string>
+    <string name="no_network_connection">Ühendus puudub</string>
+    <string name="empty_library_welcome">Tere tulemast!</string>
+    <string name="empty_library_instructions">Google Play kogu kataloogi sirvimiseks puudutage ülal poeikooni.</string>
+    <string name="all_archived">Teie kõik ajakirjad on arhiveeritud.</string>
+    <string name="all_archived_instructions">Nende kuvamiseks valige „Näita arhiveeritud ajakirju” või puudutage ülalolevat poe ikooni, et kogu kataloogi sirvida.</string>
+    <string name="save_for_later">Salvestage hiljem kasutamiseks</string>
+    <string name="save_for_later_saved">Eemalda salvestusruumist</string>
+    <string name="top_editions">Tähtsaimad väljaanded</string>
+    <string name="other_editions">Muud väljaanded</string>
+    <string name="feed_editions">Vood</string>
+    <string name="articles">Artiklid</string>
+    <string name="screensaver_open_in_app_caption">Ava rakenduses Google Currents ↗</string>
+    <string name="screensaver_no_content_available">Unerežiimi käivitamiseks puudutage sisselogimiseks.</string>
+    <string name="screensaver_open_app_caption">Ava Google Currents ↗</string>
+    <string name="category_all">Kõik</string>
+    <string name="add_subscriptions">Tellimuste lisamine</string>
+    <string name="breaking_stories">Värskeimad uudised</string>
+    <string name="breaking_stories_with_category">Värskeimad uudised – %1$s</string>
+    <string name="customize">Kohandamine</string>
+    <string name="customize_category">Kohandamine: %1$s</string>
+    <string name="add_category">Lisa kategooriasse %1$s</string>
+    <string name="pick_of_the_week">Nädala valik</string>
+    <string name="more">rohkem</string>
+    <string name="see_all_results">Vaata kõiki</string>
+    <string name="preferred_section_description">Valige jaotised, mida soovite näha avaekraanil.</string>
+    <string name="add_preferred_section_message">See jaotis on praegu peidetud, kas soovite seda kuvada?</string>
+    <string name="save_for_later_name">Salvestatud</string>
+    <string name="loading_my_stuff">Praegu pole veel ühtegi salvestatud lugu.</string>
+    <string name="all_posts_are_read">Kõik lood on loetud.</string>
+    <string name="need_online_for_breaking_stories">Selle loo vaatamiseks peab teil olema võrguühendus.</string>
+    <string name="breaking_stories_offline">Värskeimate uudiste vaatamiseks peab teil olema võrguühendus.</string>
+    <string name="web_content">Veeb</string>
+    <string name="trending_time">%1$s | Veeb</string>
+    <string name="customize_sections">KOHANDAMINE</string>
+    <string name="subscribe">TELLI</string>
+    <string name="never_suggest_again">TÄNAN, EI</string>
+    <string name="black_list_failure">Nädala valikust loobumiseks peab teil olema võrguühendus. Proovige hiljem uuesti.</string>
+    <string name="removing_pick_of_week">Üksuse %s eemaldamine.</string>
+    <string name="adding_pick_of_week">Lisamine: %1$s kuni %2$s.</string>
+    <string name="show_read_posts">Peida artiklid, mida olen juba lugenud</string>
+    <string name="unable_to_install">Vidin ei ühildu seadmega.</string>
+    <string name="widget_error">Puudutage lugude värskendamiseks.</string>
+    <string name="widget_loading">Esmakordne laadimine, olge kannatlik.</string>
+    <string name="widget_post_error">Lugu ei ole saadaval.</string>
+    <string name="widget_not_signed_in">Sisselogimiseks puudutage.</string>
+    <string name="customize_edition">Eemaldamine või ümberkorrastamine</string>
+    <string name="edit_preferred_sections">Lemmikjaotiste valimine</string>
+    <string name="mark_all_unread">Märgi kõik kui lugemata</string>
+    <string name="mark_all_read">Märgi kõik loetuks</string>
+    <string name="edition_has_been_pinned">%1$s – pildid on saadaval ka võrguühenduseta lugemisel.</string>
+    <string name="edition_has_been_unpinned">%1$s – võrguühenduseta lugemisel pole pildid saadaval.</string>
+    <string name="editions">Väljaanded</string>
+    <string name="offline_images">Kaasa pildid võrguühenduseta lugemiseks</string>
+    <string name="offline_hint">Saate kinnitada tellimuse pildid võrguühenduseta lugemiseks, puudutades külgribal valikut „Kohandamine”.</string>
+    <string name="play_audio">Heli esitamine</string>
+    <string name="pause_audio">Heli peatamine</string>
+</resources>

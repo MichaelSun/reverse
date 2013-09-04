@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/page0" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/image0" style="@style/CurrentsCategoryViewImageView" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/page1" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/image1" style="@style/CurrentsCategoryViewImageView" />
+        </FrameLayout>
+    </FrameLayout>
+    <View android:background="@drawable/image_mask_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="100.0">
+        <com.google.apps.dots.android.dotslib.widget.DotsTextView android:textSize="@dimen/currents_category_view_category_row_textsize" android:gravity="bottom|right|center" android:layout_gravity="bottom|right|center" android:id="@id/category" android:paddingLeft="@dimen/currents_category_view_category_row_side_padding" android:paddingRight="@dimen/currents_category_view_category_row_side_padding" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="90.0" style="@style/CurrentsCategoryViewText" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="10.0" />
+    </LinearLayout>
+    <RelativeLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/currents_category_view_footer_side_margin" android:layout_marginRight="@dimen/currents_category_view_footer_side_margin" android:layout_marginBottom="@dimen/currents_category_view_footer_bottom_margin">
+        <com.google.apps.dots.android.dotslib.widget.DotsTextView android:id="@id/source" android:layout_toLeftOf="@id/sync_status" style="@style/CurrentsCategoryViewSourceText" />
+        <com.google.apps.dots.android.dotslib.widget.DotsTextView android:id="@id/sync_status" style="@style/CurrentsCategoryViewSyncText" />
+    </RelativeLayout>
+</merge>

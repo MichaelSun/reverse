@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout android:id="@id/drawer_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.mail.ui.TwoPaneLayout android:id="@id/two_pane_activity" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/content_pane" android:layout_width="0.0dip" android:layout_height="fill_parent">
+            <fragment android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.android.mail.ui.DrawerFragment" />
+            <FrameLayout android:layout_gravity="right" android:id="@id/folders_pane_edge" android:background="@drawable/shadow_right" android:layout_width="8.0dip" android:layout_height="fill_parent">
+                <View android:layout_gravity="right" android:background="@color/light_gray" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+            </FrameLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/conversation_list_pane" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+        <com.android.mail.ui.ConversationListCopy android:id="@id/conversation_list_copy" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+        <include android:id="@id/conversation_pane" android:layout_width="0.0dip" android:layout_height="fill_parent" layout="@layout/conversation_pager" />
+        <com.android.mail.ui.ActionableToastBar android:id="@id/toast_bar" style="@style/ToastBarStyle" />
+    </com.android.mail.ui.TwoPaneLayout>
+</android.support.v4.widget.DrawerLayout>

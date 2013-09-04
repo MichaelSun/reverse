@@ -1,0 +1,58 @@
+.class public final Lcom/tencent/mm/c/a/v;
+.super Lcom/tencent/mm/sdk/b/e;
+.source "SourceFile"
+
+
+# instance fields
+.field public aIn:Lcom/tencent/mm/c/a/w;
+
+.field public aIo:Lcom/tencent/mm/c/a/x;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .prologue
+    .line 8
+    invoke-direct {p0}, Lcom/tencent/mm/sdk/b/e;-><init>()V
+
+    .line 24
+    new-instance v0, Lcom/tencent/mm/c/a/w;
+
+    invoke-direct {v0}, Lcom/tencent/mm/c/a/w;-><init>()V
+
+    iput-object v0, p0, Lcom/tencent/mm/c/a/v;->aIn:Lcom/tencent/mm/c/a/w;
+
+    .line 28
+    new-instance v0, Lcom/tencent/mm/c/a/x;
+
+    invoke-direct {v0}, Lcom/tencent/mm/c/a/x;-><init>()V
+
+    iput-object v0, p0, Lcom/tencent/mm/c/a/v;->aIo:Lcom/tencent/mm/c/a/x;
+
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final eQ()Z
+    .locals 1
+
+    .prologue
+    .line 22
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public final getId()Ljava/lang/String;
+    .locals 1
+
+    .prologue
+    .line 14
+    const-string v0, "EmojiStorageIsCustomExist"
+
+    return-object v0
+.end method

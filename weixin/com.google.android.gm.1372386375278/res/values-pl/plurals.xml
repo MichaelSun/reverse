@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="move_conversation">
+        <item quantity="other">Przenieś wątki: %1$d</item>
+        <item quantity="one">Przenieś wątek</item>
+    </plurals>
+    <plurals name="unread_mail_count">
+        <item quantity="other">Nieprzeczytane wiadomości: %1$d</item>
+        <item quantity="one">1 nieprzeczytana wiadomość</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Wersje robocze</item>
+        <item quantity="one">Wersja robocza</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Usunąć wątki (%1$d)?</item>
+        <item quantity="one">Usunąć wątek?</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Zarchiwizować wątki (%1$d)?</item>
+        <item quantity="one">Zarchiwizować wątek?</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="other">Odrzucić kopie robocze z tych %1$d wątków?</item>
+        <item quantity="one">Odrzucić kopie robocze z tego wątku?</item>
+    </plurals>
+    <plurals name="conversation_unstarred">
+        <item quantity="other">Cofanie oznaczenia gwiazdką %1$d wątków.</item>
+        <item quantity="one">Cofanie oznaczenia gwiazdką %1$d wątku.</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">Zignorowane: &amp;lt;b>%1$d&amp;lt;/b></item>
+        <item quantity="one">Zignorowane: &amp;lt;b>%1$d&amp;lt;/b></item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">Zgłoszone jako spam: &amp;lt;b>%1$d&amp;lt;/b></item>
+        <item quantity="one">Zgłoszone jako spam: &amp;lt;b>%1$d&amp;lt;/b></item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">Zgłoszone jako nie spam: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+        <item quantity="one">Zgłoszone jako nie spam: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">&amp;lt;b>%1$d&amp;lt;/b> oznaczono jako mało ważny.</item>
+        <item quantity="one">&amp;lt;b>%1$d&amp;lt;/b> oznaczono jako mało ważny.</item>
+    </plurals>
+    <plurals name="conversation_phished">
+        <item quantity="other">Zgłoszone jako wyłudzanie informacji: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+        <item quantity="one">Zgłoszone jako wyłudzanie informacji: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">Zarchiwizowane: &amp;lt;b>%1$d&amp;lt;/b></item>
+        <item quantity="one">Zarchiwizowane: &amp;lt;b>%1$d&amp;lt;/b></item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">Usunięte: &amp;lt;b>%1$d&amp;lt;/b></item>
+        <item quantity="one">Usunięte: &amp;lt;b>%1$d&amp;lt;/b></item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">Zmieniono etykiety.</item>
+        <item quantity="one">Zmieniono etykietę.</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">Synchronizuj: ostatnie %1$d dni</item>
+        <item quantity="one">Synchronizuj: ostatni %1$d dzień</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">Liczba wątków, które zostaną trwale usunięte: %1$d.</item>
+        <item quantity="one">%1$d wątek zostanie trwale usunięty.</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d dni</item>
+        <item quantity="one">Jeden dzień</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">Dni</item>
+        <item quantity="one">Dzień</item>
+    </plurals>
+    <plurals name="notify_attachment_error">
+        <item quantity="other">Nie udało się wysłać załącznika, %s</item>
+        <item quantity="one">Nie udało się wysłać załącznika</item>
+    </plurals>
+    <plurals name="sync_messages_partial_description">
+        <item quantity="other">Wiadomości z ostatnich %1$d dni zostaną pobrane po nawiązaniu połączenia.</item>
+        <item quantity="one">Wiadomości z ostatniego dnia zostaną pobrane po nawiązaniu połączenia.</item>
+    </plurals>
+    <plurals name="sectioned_inbox_teaser_unseen_plural_text">
+        <item quantity="other">Nowe: %1$d</item>
+        <item quantity="one">Nowe: %1$d</item>
+    </plurals>
+</resources>

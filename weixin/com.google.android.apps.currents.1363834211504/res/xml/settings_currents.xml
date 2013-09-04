@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/account" android:key="@string/account_preference_key" />
+    <ListPreference android:title="@string/translation_title" android:key="@string/translation_preference_key" />
+    <PreferenceCategory android:title="@string/presentation_capitalized" android:key="@string/presentation_preference_category_key">
+        <CheckBoxPreference android:title="@string/show_read_posts" android:key="@string/show_read_posts_preference_key" />
+        <CheckBoxPreference android:title="@string/show_pick_of_the_week" android:key="@string/show_pick_of_the_week_preference_key" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/background_sync_capitalized">
+        <CheckBoxPreference android:title="@string/enable_background_sync" android:key="@string/enable_sync_preference_key" android:disableDependentsState="false" />
+        <CheckBoxPreference android:title="@string/unmetered_networks_only" android:key="@string/wifi_only_preference_key" android:dependency="@string/enable_sync_preference_key" android:disableDependentsState="false" />
+        <CheckBoxPreference android:title="@string/only_if_charging" android:key="@string/only_if_charging_preference_key" android:dependency="@string/enable_sync_preference_key" android:disableDependentsState="false" />
+        <Preference android:title="@string/offline_images" android:key="@string/include_images_preference_key" />
+    </PreferenceCategory>
+</PreferenceScreen>

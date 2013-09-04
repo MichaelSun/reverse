@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.apps.dots.android.dotslib.widget.home.MagazinesHomeWidget android:id="@id/magazinesHomeWidget" android:background="@null" android:paddingTop="@dimen/action_bar_default_height" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:dots="http://schemas.android.com/apk/res/com.google.apps.dots.android.app" />

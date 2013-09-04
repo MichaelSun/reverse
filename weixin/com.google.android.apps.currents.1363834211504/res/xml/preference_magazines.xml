@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/account_short" android:key="@string/account_preference_key" />
+    <CheckBoxPreference android:title="@string/automatically_download" android:key="@string/automatically_download_preference_key" android:summary="@string/automatically_download_description" />
+    <CheckBoxPreference android:title="@string/unmetered_networks_only" android:key="@string/wifi_only_preference_key" android:summary="@string/unmetered_networks_only_description" />
+    <CheckBoxPreference android:title="@string/show_notifications" android:key="@string/notification_preference_key" android:summary="@string/show_notifications_description" />
+    <CheckBoxPreference android:title="@string/status_bar" android:key="@string/status_bar_preference_key" android:summary="@string/set_status_bar" />
+</PreferenceScreen>

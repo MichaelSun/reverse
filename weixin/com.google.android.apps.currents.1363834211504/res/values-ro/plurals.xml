@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">(%d (de) examinatori)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">(%d examinator)</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">%d (de) magazine</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d magazin</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">%s (de) abonaţi</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%s abonat</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">%d (de) numere</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d număr</item>
+        <item quantity="two">%d numere</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">Acum %d (de) minute</item>
+        <item quantity="one">acum un minut</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">Acum %d (de) ore</item>
+        <item quantity="one">acum o oră</item>
+    </plurals>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">(%d ገምጋሚዎች)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">(%d ገምጋሚ)</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">%d መደብሮች</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d መደብር</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">%s በደንበኝነት ተመዝጋቢዎች</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%s በደንበኝነት ተመዝጋቢ</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">%d እትሞች</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d ችግር</item>
+        <item quantity="two">%d እትሞች</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">ከ%d ደቂቃዎች በፊት</item>
+        <item quantity="one">ከአንድ ደቂቃ በፊት</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">ከ%d ሰዓቶች በፊት</item>
+        <item quantity="one">ከአንድ ሰዓት በፊት</item>
+    </plurals>
+</resources>

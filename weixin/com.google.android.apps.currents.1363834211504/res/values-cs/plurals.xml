@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">(recenzenti: %d)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">(%d recenzent)</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">Obchody: %d</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d obchod</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">Odběratelů: %s</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%s odběratel</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">%d vydání</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d vydání</item>
+        <item quantity="two">%d vydání</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">před %d minutami</item>
+        <item quantity="one">před minutou</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">před %d hodinami</item>
+        <item quantity="one">před hodinou</item>
+    </plurals>
+</resources>

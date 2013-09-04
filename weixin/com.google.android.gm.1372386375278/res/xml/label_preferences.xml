@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:gm="http://schemas.android.com/apk/res/com.google.android.gm">
+    <Preference android:persistent="false" android:title="@string/sync_messages_title" android:key="label-sync" />
+    <PreferenceCategory android:persistent="false" android:title="@string/preferences_label_notifications_header" android:key="label-notifications-category" />
+</PreferenceScreen>

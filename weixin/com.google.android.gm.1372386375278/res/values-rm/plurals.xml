@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="draft">
+        <item quantity="other">Sbozs</item>
+        <item quantity="one">Sboz</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d dis</item>
+        <item quantity="one">In di</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">Dis</item>
+        <item quantity="one">Di</item>
+    </plurals>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/media_drawer_item_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dots="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:layout_gravity="center" android:id="@id/spinner" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="?android:attr/progressBarStyleInverse" />
+    <com.google.apps.dots.android.dotslib.widget.AsyncImageView android:layout_gravity="center" android:id="@id/image" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:scaleType="matrix" dots:pinchzoom="true" />
+    <ScrollView android:layout_gravity="center_horizontal" android:id="@id/caption_container" android:background="@color/translucent_offblack" android:padding="5.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <com.google.apps.dots.android.dotslib.widget.DotsTextView android:textColor="@color/divider" android:id="@id/caption" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:isScrollContainer="false" dots:font="REGULAR_SANS" />
+    </ScrollView>
+</FrameLayout>

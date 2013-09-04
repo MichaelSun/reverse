@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="all">
+        <item android:id="@id/menu_archive" android:orderInCategory="0" android:title="@string/magazines_home_archive" android:showAsAction="never" />
+    </group>
+    <item android:id="@id/menu_delete" android:orderInCategory="1" android:title="@string/magazines_home_delete" android:showAsAction="never" />
+</menu>

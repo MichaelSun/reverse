@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">(Recenzentų: %d)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">(%d recenz.)</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">Parduotuvių: %d</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d parduotuvė</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">%s prenumerator.</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%s prenumerator.</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">Problemų: %d</item>
+        <item quantity="zero"></item>
+        <item quantity="one">Problemų: %d</item>
+        <item quantity="two">Problemų: %d</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">Prieš %d min.</item>
+        <item quantity="one">prieš minutę</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">Prieš %d val.</item>
+        <item quantity="one">prieš valandą</item>
+    </plurals>
+</resources>

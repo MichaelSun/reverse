@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="launcher_app_name">Aliran</string>
+    <string name="app_name">Aliran</string>
+    <string name="long_app_name">Google Aliran</string>
+    <string name="magazines_launcher_app_name">Majalah Play</string>
+    <string name="magazines_app_name">Majalah Google Play</string>
+    <string name="magazines_long_app_name">Majalah Google Play</string>
+    <string name="google_play">Google Play</string>
+    <string name="start_msg_prefix">selamat datang ke</string>
+    <string name="updating_app">peningkatan sedang dijalankan</string>
+    <string name="syncing">Menyegerak…</string>
+    <string name="syncing_all_editions">Menyegerakkan semua edisi</string>
+    <string name="syncing_images">Menyegerakkan imej</string>
+    <string name="wait_until_online">Sila tunggu sehingga anda kembali semula ke dalam talian.</string>
+    <string name="cant_refresh_offline">Tidak dapat muat semula kerana peranti di luar talian.</string>
+    <string name="edition_not_available_offline">Edisi ini akan tersedia apabila anda berada dalam talian.</string>
+    <string name="default_error">Ralat telah berlaku, sila cuba lagi.</string>
+    <string name="edition_sync_error">Berlaku ralat semasa memuat turun edisi anda. Sila cuba sebentar lagi.</string>
+    <string name="nospace_error">Peranti anda kehabisan ruang.</string>
+    <string name="sync_stopped">Penyegerakan dihentikan</string>
+    <string name="sync_restart">Sila segerakkan %s supaya anda boleh membacanya. Terima kasih!</string>
+    <string name="unmetered_network_restriction_start_message">"Majalah ini akan mula dimuat turun apabila peranti bersambung ke Wi-Fi.
+
+Jika anda memerlukan majalah ini sekarang, anda boleh memilih untuk tidak menunggu. Caj data mungkin dikenakan."</string>
+    <string name="unmetered_network_restriction_resume_message">"Muat turun majalah ini akan disambung semula apabila peranti disambungkan ke Wi-Fi..
+
+Jika anda memerlukan majalah ini sekarang, anda boleh memilih untuk tidak menunggu. Caj data mungkin dikenakan."</string>
+    <string name="never_wait">Jangan tunggu</string>
+    <string name="dont_wait">Jangan tunggu</string>
+    <string name="cant_begin_reading_magazine">Belum memuat turun majalah ini secukupnya untuk mula membaca.</string>
+    <string name="needed_to_rotate_orientation">Peranti perlu auto-putar untuk memaparkan kandungan ini.</string>
+    <string name="zooming_is_unavailable">Zum tidak tersedia untuk majalah ini.</string>
+    <string name="text_view_is_unavailable">Paparan teks tidak tersedia untuk halaman ini.</string>
+    <string name="add_to_library">Tambah ke Perpustakaan</string>
+    <string name="manage_content">Uruskan kandungan</string>
+    <string name="reorder_editions">Menyusun semula</string>
+    <string name="move_to_first">Gerak dahulu</string>
+    <string name="table_of_contents">Jadual Kandungan</string>
+    <string name="start_currents_offline">Anda mesti berada dalam talian untuk menggunakan Google Aliran untuk kali pertama.</string>
+    <string name="start_magazines_offline">Anda mesti berada dalam talian untuk menggunakan Majalah Google Play untuk kali pertama.</string>
+    <string name="start_edition_offline">Anda mesti berada dalam talian untuk mengakses edisi ini buat kali pertama.</string>
+    <string name="start_currents_network_error">Malangnya, Google Aliran tidak tersedia buat sementara waktu. Cuba sebentar lagi.</string>
+    <string name="start_magazines_network_error">Malangnya, Majalah Google Play tidak tersedia buat sementara waktu. Cuba sebentar lagi.</string>
+    <string name="skip">Langkau</string>
+    <string name="loading">Memuatkan…</string>
+    <string name="fetching_lastest_stories">Mengambil yang terkini...</string>
+    <string name="authenticating">Melog masuk…</string>
+    <string name="product_reviews">Ulasan Produk</string>
+    <string name="product_publisher">(melalui %s)</string>
+    <string name="product_low_high">%1$s - %2$s</string>
+    <string name="search_hint">Cari edisi, blog dan artikel</string>
+    <string name="search_offline">Carian tidak tersedia di luar talian</string>
+    <string name="searching">Mencari...</string>
+    <string name="search_empty">Tiada hasil ditemui</string>
+    <string name="search_empty_for_query">Tiada hasil dijumpai untuk \"%s\"</string>
+    <string name="search_failed">Tidak dapat mencari. Semak sambungan internet anda.</string>
+    <string name="subscribed_to_everything_in_category">Anda telah melanggan kepada segalanya dalam %s</string>
+    <string name="empty_section">Bahagian ini tiada kandungan.</string>
+    <string name="font_size_small">Kecil</string>
+    <string name="font_size_medium">Sederhana</string>
+    <string name="font_size_large">Besar</string>
+    <string name="saving">Menyimpan…</string>
+    <string name="save">Simpan</string>
+    <string name="done">Selesai</string>
+    <string name="delete_prompt_message">Adakah anda pasti ingin memadamkan artikel ini?</string>
+    <string name="delete_prompt_title">Padamkan artikel?</string>
+    <string name="original_url_not_found">Artikel ini tiada url asal</string>
+    <string name="nonhttp_url">Tidak dapat menavigasi ke url bukan http</string>
+    <string name="edition_not_found">Edisi tidak ditemui.</string>
+    <string name="goto_more">Lagi dalam %s</string>
+    <string name="add">Tambah</string>
+    <string name="remove">Buang</string>
+    <string name="choose">Pilih</string>
+    <string name="map_marker_label">Lokasi</string>
+    <string name="video_editor_label">Pilih video YouTube</string>
+    <string name="search_youtube">Cari di YouTube</string>
+    <string name="video_not_found">Video tidak dijumpai</string>
+    <string name="audio_error">Ralat semasa cuba memainkan rakaman audio</string>
+    <string name="audio_not_supported_offline">Audio tidak disokong di luar talian.</string>
+    <string name="show_audio">Tunjukkan bar audio</string>
+    <string name="hide_audio">Sembunyikan bar audio</string>
+    <string name="share">Kongsi</string>
+    <string name="share_article_dialog_title">Kongsi artikel ini</string>
+    <string name="share_edition_dialog_title">Kongsi edisi ini</string>
+    <string name="share_app_dialog_title">Kongsi Aliran</string>
+    <string name="magazines_share_app_dialog_title">Kongsi Majalah Google Play</string>
+    <string name="share_edition_short_format_text">%2$s: %3$s %1$s</string>
+    <string name="share_edition_long_format_text">"%2$s
+%3$s
+
+%1$s
+"</string>
+    <string name="share_edition_format_html">&lt;a href=%1$s>%2$s&lt;/a>&lt;br/>%3$s</string>
+    <string name="shared_via_app_text">Dikongsi melalui Google Aliran</string>
+    <string name="magazines_shared_via_app_text">Dikongsi melalui Majalah Google Play</string>
+    <string name="shared_via_app_html">&lt;p>&lt;i>Dikongsi melalui&lt;/i> &lt;a href=%s>Google Aliran&lt;/a>&lt;/p></string>
+    <string name="magazines_shared_via_app_html">&lt;p>&lt;i>Dikongsi melalui&lt;/i> &lt;a href=%s>Majalah Google Play&lt;/a>&lt;/p></string>
+    <string name="share_source_text">Sumber: %s</string>
+    <string name="share_source_html">&lt;p>&lt;i>Sumber:&lt;/i> &lt;a href=%1$s>%1$s&lt;/a>&lt;/p></string>
+    <string name="share_app_text">"Lihat Google Aliran!
+%s"</string>
+    <string name="magazines_share_app_text">"Lihat Majalah Google Play!
+%s"</string>
+    <string name="share_app_html">Lihat Google Aliran!&lt;br/>&lt;br/>&lt;a href=%1$s>%1$s&lt;/a></string>
+    <string name="magazines_share_app_html">Lihat Majalah Google Play!&lt;br/>&lt;br/>&lt;a href=%1$s>%1$s&lt;/a></string>
+    <string name="share_article_subject_format">%1$s: %2$s</string>
+    <string name="share_article_short_format_text">%4$s: %2$s %1$s</string>
+    <string name="share_article_long_format_text">"%4$s: %2$s
+%1$s
+
+%3$s
+"</string>
+    <string name="share_article_format_html">&lt;a href=%1$s>%2$s&lt;/a>&lt;br/>&lt;br/>%3$s</string>
+    <string name="share_article_short_format_text_no_edition_name">%2$s %1$s</string>
+    <string name="share_article_long_format_text_no_edition_name">"%2$s
+%1$s
+
+%3$s
+"</string>
+    <string name="share_article_format_html_no_edition_name">&lt;a href=%1$s>%2$s&lt;/a>&lt;br/>&lt;br/>%3$s</string>
+    <string name="share_link_title_html">&lt;p>&lt;i>Sumber:&lt;/i> &lt;a href=%1$s>%2$s&lt;/a>&lt;/p></string>
+    <string name="share_link_title_text">%2$s: %1$s</string>
+    <string name="contribute_hint">Ini bahagian kosong - buat artikel pertama menggunakan butang di atas…</string>
+    <string name="youtube_choose">Pilih</string>
+    <string name="youtube_load_error">Tidak dapat memuatkan data daripada YouTube.</string>
+    <string name="saved_post_edition_title">Disimpan</string>
+    <string name="saved_for_later">Artikel kini boleh didapati di %1$s</string>
+    <string name="add_apps_title_long">Tambah edisi</string>
+    <string name="no_app_results">Tiada edisi yang sepadan dengan carian anda</string>
+    <string name="confirm_subscribe_dialog_title">Sahkan Langganan</string>
+    <string name="subscribe_button">Langgan secara percuma</string>
+    <string name="confirm_subscribe_message">Langgan %s secara percuma?</string>
+    <string name="unsubscribe">Nyahlanggan</string>
+    <string name="unsubscribe_message">Adakah anda ingin menyahlanggan dari %s?</string>
+    <string name="edition_search_unknown_error">Ralat tidak diketahui telah berlaku semasa mencari edisi.</string>
+    <string name="edition_search_offline">Anda mesti berada dalam talian untuk menambah edisi.</string>
+    <string name="open_edition">Buka edisi</string>
+    <string name="this_edition">edisi ini</string>
+    <string name="add_edition">Tambah edisi</string>
+    <string name="launch_browser">Lancarkan penyemak imbas</string>
+    <string name="add_for_free">Tambahkan secara percuma</string>
+    <string name="in_library">Dalam perpustakaan</string>
+    <string name="subscription_added">Langganan ditambah untuk %s.</string>
+    <string name="subscription_added_in_category">%1$s telah ditambahkan kepada %2$s</string>
+    <string name="initial_sync_unknown_error">Berlaku ralat tidak diketahui semasa bermula.</string>
+    <string name="initial_sync_forbidden">%s dilarang. Sila pilih akaun lain.</string>
+    <string name="text_size">Saiz teks</string>
+    <string name="category_featured">Ditampilkan</string>
+    <string name="category_recommended">Disyorkan</string>
+    <string name="category_news">Berita</string>
+    <string name="category_lifestyle">Gaya Hidup</string>
+    <string name="category_business">Perniagaan</string>
+    <string name="category_science">Sains &amp; Teknologi</string>
+    <string name="category_sports">Sukan</string>
+    <string name="category_entertainment">Hiburan</string>
+    <string name="category_design">Reka bentuk</string>
+    <string name="category_blogs">Pustaka Google</string>
+    <string name="category_curators">Pengelola</string>
+    <string name="category_other">Lain-lain</string>
+    <string name="category_youtube">YouTube</string>
+    <string name="currents">Aliran</string>
+    <string name="right_now">kurang daripada seminit yang lalu</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Batal</string>
+    <string name="enable">Dayakan</string>
+    <string name="disable">Lumpuhkan</string>
+    <string name="data_collection_title">Berikan alamat e-mel?</string>
+    <string name="data_collection_opt_in_message">Adakah anda ingin menerima kemas kini atau tawaran istimewa dengan membenarkan Google memberikan alamat e-mel anda, &lt;b>%1$s&lt;/b> to &lt;b>%2$s&lt;/b> selaras dengan&lt;a href=#>dasar privasi&lt;/a> Google?</string>
+    <string name="data_collection_required_message">Adakah anda ingin mempunyai akses penuh ke edisi itu dengan membenarkan Google memberikan alamat e-mel anda, &lt;b>%1$s&lt;/b> to &lt;b>%2$s&lt;/b> selaras dengan &lt;a href=#>dasar privasi&lt;/a> Google?</string>
+    <string name="privacy_policy_not_found">Tiada dasar privasi ditemui untuk %1$s</string>
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="plus">Google+</string>
+    <string name="byline_shared_via">Dikongsi melalui %s</string>
+    <string name="byline_shared_by">Dikongsi oleh %s</string>
+    <string name="byline_by">%s</string>
+    <string name="latest">Terbaru</string>
+    <string name="thanks_for_installing">Terima kasih kerana memasang Google Currents!</string>
+    <string name="magazines_thanks_for_installing">Terima kasih kerana memasang Majalah Google Play!</string>
+    <string name="ask_add_to_library">Adakah anda mahu menambahkan %s pada perpustakaan anda?</string>
+    <string name="no_thanks">Tidak, terima kasih</string>
+    <string name="go_to_library">Pergi ke perpustakaan</string>
+    <string name="settings">Tetapan</string>
+    <string name="google">Google</string>
+    <string name="enabled">Didayakan</string>
+    <string name="disabled">Dilumpuhkan</string>
+    <string name="offline_reading_capitalized">BACAAN LUAR TALIAN</string>
+    <string name="include_images">Termasuk imej</string>
+    <string name="none">Tiada</string>
+    <string name="first_ten_editions">Sepuluh edisi pertama</string>
+    <string name="all_editions">Semua edisi</string>
+    <string name="background_sync_capitalized">PENYEGERAKAN LATAR BELAKANG</string>
+    <string name="enable_background_sync">Dayakan penyegerakan latar belakang</string>
+    <string name="only_if_unmetered">Hanya jika rangkaian tidak bermeter</string>
+    <string name="only_if_unmetered_summary">Contoh: Wi-Fi</string>
+    <string name="only_if_charging">Hanya jika sedang dicaj</string>
+    <string name="sync_now">Segerakkan sekarang</string>
+    <string name="refresh">Muat semula</string>
+    <string name="refreshing">Memuatkan semula...</string>
+    <string name="additional_info_capitalized">MAKLUMAT TAMBAHAN</string>
+    <string name="feedback">Hantar Maklum Balas</string>
+    <string name="feedback_description">Hantarkan kami beberapa maklum balas</string>
+    <string name="feedback_email_recipient">currents-feedback+android@google.com</string>
+    <string name="feedback_email_subject">Maklum Balas Android, %1$s on %2$s</string>
+    <string name="terms_of_service">Syarat Perkhidmatan</string>
+    <string name="privacy_policy">Dasar Privasi</string>
+    <string name="usage_policy">Dasar Penggunaan</string>
+    <string name="usage_policy_description">Google Aliran adalah untuk kegunaan peribadi dan bukan komersil sahaja.</string>
+    <string name="open_source_licenses">Lesen Sumber Terbuka</string>
+    <string name="open_source_licenses_description">Maklumat undang-undang mengenai lesen</string>
+    <string name="report_abuse">Laporkan penyalahgunaan</string>
+    <string name="report_abuse_description">Laporkan sebarang kandungan yang anda anggap tidak sesuai</string>
+    <string name="report_content_problem">Laporkan masalah kandungan</string>
+    <string name="report_content_problem_description">Laporkan mana-mana kandungan yang rosak atau salah</string>
+    <string name="release">Versi %1$s | Binaan %2$s</string>
+    <string name="powered_by">Dikuasakan oleh %1$s %2$s %3$s</string>
+    <string name="launch_in_browser_error">Maaf, tidak dapat melancarkan halaman ini dalam penyemak imbas</string>
+    <string name="support">Sokongan</string>
+    <string name="customer_support">Hubungi Sokongan Pelanggan</string>
+    <string name="give_product_feedback">Beri maklum balas produk</string>
+    <string name="report_inappropriate_content">Laporkan kandungan yang tidak sesuai</string>
+    <string name="report_copyright_issue">Laporkan isu hak cipta</string>
+    <string name="account">Akaun Google</string>
+    <string name="account_short">Akaun</string>
+    <string name="help">Bantuan</string>
+    <string name="automatically_download">Muat turun secara automatik</string>
+    <string name="automatically_download_short">Automuat turun</string>
+    <string name="automatically_download_description">Muat turun semua pembelian dan langganan tanpa bertanya</string>
+    <string name="automatically_download_description_short">Muat turun pembelian tanpa bertanya</string>
+    <string name="unmetered_networks_only">Muat turun melalui Wi-Fi sahaja</string>
+    <string name="unmetered_networks_only_description">Untuk mengurangkan caj data pembawa, jangan muat turun melalui rangkaian mudah alih.</string>
+    <string name="automatically_archive">Arkib secara automatik</string>
+    <string name="automatically_archive_description">Apabila kehabisan ruang, arkibkan isu lama tanpa bertanya</string>
+    <string name="show_notifications">Tunjukkan pemberitahuan</string>
+    <string name="show_notifications_description">Beritahu apabila isu baharu tersedia atau dimuat turun</string>
+    <string name="show_notifications_currents_description">Apabila kandungan baharu tersedia, paling banyak sekali sehari</string>
+    <string name="show_pick_of_the_week">Tunjukkan Pilihan Minggu Ini</string>
+    <string name="crash_report_message">Malangnya, %s telah berhenti.</string>
+    <string name="report">Lapor</string>
+    <string name="crash_email_recipient">currents-feedback+crash@google.com</string>
+    <string name="crash_email_subject">Android Ranap, %1$s pada %2$s</string>
+    <string name="upgrade_required">Naik taraf diperlukan</string>
+    <string name="upgrade_required_short_message">Naik taraf diperlukan untuk kandungan baharu</string>
+    <string name="upgrade_required_long_message">Anda sedang menggunakan versi usang Google Aliran, sila tingkatkan versi. Tiada kandungan baharu akan diterima sehingga Google Aliran ditingkatkan.</string>
+    <string name="magazines_upgrade_required_long_message">Anda menggunakan versi lama Majalah Google Play, sila naik taraf. Selagi Majalah Google Play belum dinaik taraf tiada kandungan baharu akan diterima.</string>
+    <string name="auth_problem_message">Masalah dengan %s</string>
+    <string name="no_account_selected">Tiada akaun dipilih</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="subscribing_to_edition">Melanggan edisi…</string>
+    <string name="image_unavailable_offline_message">Imej akan tersedia apabila lain kali anda berada dalam talian</string>
+    <string name="image_not_found_message">Imej tidak ditemui</string>
+    <string name="article_not_found">Harap maaf, artikel ini tidak lagi wujud.</string>
+    <string name="article_offline">Artikel ini tidak tersedia di luar talian.</string>
+    <string name="article_failed">Harap maaf, artikel ini tidak tersedia pada masa ini.</string>
+    <string name="presentation_capitalized">PEMBENTANGAN</string>
+    <string name="status_bar">Bar status</string>
+    <string name="set_status_bar">Tunjukkan/sorokkan bar status peranti</string>
+    <string name="translation_title">Terjemahan</string>
+    <string name="translation_title_description">Apabila tersedia, tunjukkan pilihan untuk menterjemah ke %s</string>
+    <string name="translate_this_edition">Terjemah edisi ini?</string>
+    <string name="edition_translate_message">Edisi ini nampaknya dalam %1$s. Adakah anda mahu menterjemahkannya ke %2$s?</string>
+    <string name="edition_translate_message_no_source">Adakah anda ingin menterjemahkan edisi ini kepada %1$s?</string>
+    <string name="edition_untranslate_message">Edisi ini telah diterjemahkan ke %1$s. Adakah anda mahu melihatnya dalam %2$s, bahasa asal?</string>
+    <string name="edition_untranslate_message_no_source">Edisi ini telah diterjemahkan ke %1$s. Adakah anda mahu melihatnya dalam bahasa asal?</string>
+    <string name="please_wait_to_translate_offline">Anda kini berada di luar talian, terjemahan akan dikemas kini apabila anda menyegerak kali berikutnya.</string>
+    <string name="please_wait_to_translate_network">Terdapat masalah rangkaian semasa mengemaskinikan edisi anda; terjemahan akan tersedia apabila anda menyegerak di masa hadapan.</string>
+    <string name="translate">Terjemah</string>
+    <string name="translate_active">Menterjemah…</string>
+    <string name="untranslate">Lihat yang asal</string>
+    <string name="creating_new_translation">Terjemahan baharu edisi ini sedang dijalankan. Edisi anda akan dikemaskinikan dalam beberapa minit.</string>
+    <string name="translating_edition">Menterjemahkan edisi, sila tunggu...</string>
+    <string name="original_language">Bahasa asal</string>
+    <string name="translate_failed_no_sub">Sila langgan edisi ini untuk menterjemahkannya.</string>
+    <string name="language_chinese_simplified">Bahasa Cina (mudah)</string>
+    <string name="language_chinese_traditional">Bahasa Cina (tradisional)</string>
+    <string name="appicon_label">Edisi Aliran</string>
+    <string name="postlist_label">Aliran</string>
+    <string name="new_in_currents">Baharu di Google Aliran</string>
+    <string name="new_in_edition">Baharu di %s</string>
+    <string name="appicon_configure_instructions">Pilih edisi</string>
+    <string name="postlist_configure_instructions">Pilih set edisi yang anda mahu widget anda masukkan.</string>
+    <string name="last_updated">Kali terakhir dikemas kini</string>
+    <string name="warn_offline_for_images">"Sesetengah imej tidak tersedia kerana anda berada di luar talian.
+
+Anda boleh menjadikannya tersedia dengan mengepin langganan."</string>
+    <string name="change_settings">Peribadikan</string>
+    <string name="magazines_home_new">BAHARU</string>
+    <string name="magazines_home_archived">DIARKIBKAN</string>
+    <string name="magazines_home_download">MUAT TURUN</string>
+    <string name="magazines_home_archive">Arkibkan majalah ini</string>
+    <string name="magazines_home_delete">Padam dari perpustakaan</string>
+    <string name="magazines_home_delete_offline">Anda mesti berada dalam talian untuk memadam isu</string>
+    <string name="magazines_home_delete_prompt_title">Padam dari perpustakaan?</string>
+    <string name="magazines_home_delete_prompt">"Majalah ini akan hilang secara KEKAL dari peranti anda dan di mana-mana sahaja anda mengakses perpustakaan Google Play anda.
+
+Anda tidak akan boleh mendapat majalah ini semula."</string>
+    <string name="magazines_home_view_by_title">Lihat ikut tajuk</string>
+    <string name="magazines_home_view_recent">Lihat yang terkini</string>
+    <string name="magazines_menu_show_archived">Tunjukkan majalah yang diarkibkan</string>
+    <string name="magazines_menu_hide_archived">Sembunyikan majalah yang diarkibkan</string>
+    <string name="magazines_menu_manage_subscriptions">Urus langganan</string>
+    <string name="magazines_menu_shop">Beli majalah</string>
+    <string name="magazines_menu_search">Carian majalah</string>
+    <string name="magazines_view_flowing_text">Lihat teks</string>
+    <string name="magazines_view_original_pages">Keluar teks</string>
+    <string name="magazines_view_toggle_text">Togol paparan teks</string>
+    <string name="magazines_view_flowing_text_dialog_title">Artikel teks berterusan</string>
+    <string name="next_button_description">Halaman Seterusnya</string>
+    <string name="goto_button_description">Isi Kandungan</string>
+    <string name="images_only_magazine_notification">Ini majalah imej sahaja.</string>
+    <string name="magazine_not_downloaded">Tidak Dimuat Turun</string>
+    <string name="magazine_downloading">Memuat turun</string>
+    <string name="new_magazine_downloadable_notification">Isu %1$s tersedia</string>
+    <string name="new_magazine_downloaded_notification">Isu %1$s berjaya dimuat turun</string>
+    <string name="new_multi_magazine_downloadable_notification_title">%1$s isu baharu tersedia</string>
+    <string name="new_multi_magazine_downloaded_notification_title">%1$s isu baharu telah dimuat turun</string>
+    <string name="new_multi_magazine_notification_content">Sentuh untuk melihat majalah anda</string>
+    <string name="whats_next_new">Baharu</string>
+    <string name="account_selection_heading">Pilih akaun</string>
+    <string name="account_selection_body">"Pautkan akaun anda ke Google Aliran agar anda boleh membaca kandungan percuma dari ribuan penerbitan.
+
+Akaun mana yang anda mahu gunakan?"</string>
+    <string name="magazines_account_selection_body">"Pautkan akaun anda ke Majalah Google Play agar anda boleh melanggan dan mendapatkan isu majalah popular.
+
+Akaun mana yang anda ingin gunakan?"</string>
+    <string name="account_selection_add_account">Tambah akaun</string>
+    <string name="authentication_failure_no_network">Anda perlu disambungkan ke Internet untuk mengesahkan akaun anda.</string>
+    <string name="authentication_failure">Tidak disahkan</string>
+    <string name="authentication_failure_error">Tidak dapat mengesahkan akaun anda.</string>
+    <string name="no_network_connection">Tidak bersambung</string>
+    <string name="empty_library_welcome">Selamat datang!</string>
+    <string name="empty_library_instructions">Sentuh ikon kedai di atas untuk menyemak imbas katalog penuh Google Play.</string>
+    <string name="all_archived">Semua majalah anda telah diarkibkan.</string>
+    <string name="all_archived_instructions">Pilih \"Tunjuk majalah diarkibkan\" untuk memaparkan majalah atau sentuh ikon kedai di atas untuk menyemak imbas katalog penuh kami.</string>
+    <string name="save_for_later">Simpan Untuk Kemudian</string>
+    <string name="save_for_later_saved">Alih Keluar Daripada Disimpan</string>
+    <string name="top_editions">Edisi paling popular</string>
+    <string name="other_editions">Edisi lain</string>
+    <string name="feed_editions">Suapan</string>
+    <string name="articles">Artikel</string>
+    <string name="screensaver_open_in_app_caption">Buka dalam Google Aliran ↗</string>
+    <string name="screensaver_no_content_available">Untuk mula melamun, sentuh untuk melog masuk.</string>
+    <string name="screensaver_open_app_caption">Buka Google Aliran ↗</string>
+    <string name="category_all">Semua</string>
+    <string name="add_subscriptions">Tambah langganan</string>
+    <string name="breaking_stories">Cerita utama</string>
+    <string name="breaking_stories_with_category">Cerita utama - %1$s</string>
+    <string name="customize">Peribadikan</string>
+    <string name="customize_category">Peribadikan %1$s</string>
+    <string name="add_category">Tambah %1$s</string>
+    <string name="pick_of_the_week">Pilihan minggu ini</string>
+    <string name="more">lagi</string>
+    <string name="see_all_results">Lihat semua</string>
+    <string name="preferred_section_description">Pilih bahagian yang anda ingin muncul pada skrin utama.</string>
+    <string name="add_preferred_section_message">Bahagian ini tersembunyi, adakah anda mahu memaparkannya?</string>
+    <string name="save_for_later_name">Disimpan</string>
+    <string name="loading_my_stuff">Tiada cerita yang disimpan lagi.</string>
+    <string name="all_posts_are_read">Semua cerita telah dibaca.</string>
+    <string name="need_online_for_breaking_stories">Anda perlu berada dalam talian untuk menonton cerita ini.</string>
+    <string name="breaking_stories_offline">Anda perlu berada dalam talian untuk melihat cerita utama.</string>
+    <string name="web_content">Web</string>
+    <string name="trending_time">%1$s | Web</string>
+    <string name="customize_sections">PERIBADIKAN</string>
+    <string name="subscribe">LANGGAN</string>
+    <string name="never_suggest_again">TIDAK, TERIMA KASIH</string>
+    <string name="black_list_failure">Anda perlu berada dalam talian untuk mengenepikan Pilihan minggu ini. Sila cuba sebentar lagi.</string>
+    <string name="removing_pick_of_week">Mengalih keluar %s.</string>
+    <string name="adding_pick_of_week">Menambah %1$s ke %2$s.</string>
+    <string name="show_read_posts">Sembunyikan artikel yang telah saya baca</string>
+    <string name="unable_to_install">Widget tidak serasi dengan peranti anda.</string>
+    <string name="widget_error">Sila sentuh untuk memuat semula cerita.</string>
+    <string name="widget_loading">Kali pertama memuatkan. Harap bersabar.</string>
+    <string name="widget_post_error">Cerita tidak tersedia.</string>
+    <string name="widget_not_signed_in">Ketik untuk melog masuk.</string>
+    <string name="customize_edition">Alih keluar atau susun semula</string>
+    <string name="edit_preferred_sections">Pilih bahagian kegemaran</string>
+    <string name="mark_all_unread">Tandakan semua sebagai belum dibaca</string>
+    <string name="mark_all_read">Tandakan semua sebagai dibaca</string>
+    <string name="edition_has_been_pinned">%1$s - imej akan tersedia untuk bacaan luar talian.</string>
+    <string name="edition_has_been_unpinned">%1$s - imej tidak akan tersedia untuk bacaan luar talian.</string>
+    <string name="editions">Edisi</string>
+    <string name="offline_images">Termasuk imej untuk bacaan luar talian.</string>
+    <string name="offline_hint">Anda boleh pinkan imej langganan untuk bacaan luar talian dengan menyentuh \"peribadikan\" dalam bar sisi.</string>
+    <string name="play_audio">Mainkan audio</string>
+    <string name="pause_audio">Jeda audio</string>
+</resources>

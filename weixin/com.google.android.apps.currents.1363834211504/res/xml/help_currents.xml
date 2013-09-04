@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/feedback" android:key="@string/feedback_preference_key" android:summary="@string/feedback_description" />
+    <Preference android:title="@string/report_abuse" android:key="@string/abuse_preference_key" android:summary="@string/report_abuse_description" />
+    <Preference android:title="@string/report_content_problem" android:key="@string/report_content_problem_preference_key" android:summary="@string/report_content_problem_description" />
+    <PreferenceCategory android:title="@string/additional_info_capitalized" android:key="@string/additional_info_preference_category_key">
+        <Preference android:title="@string/terms_of_service" android:key="@string/terms_of_service_preference_key" />
+        <Preference android:title="@string/privacy_policy" android:key="@string/privacy_policy_preference_key" />
+        <Preference android:title="@string/usage_policy" android:key="@string/usage_policy_preference_key" android:summary="@string/usage_policy_description" />
+        <Preference android:title="@string/open_source_licenses" android:key="@string/open_source_licenses_preference_key" android:summary="@string/open_source_licenses_description" />
+        <Preference android:key="@string/about_preference_key" />
+    </PreferenceCategory>
+</PreferenceScreen>

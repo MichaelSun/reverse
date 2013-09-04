@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_manage_folders">Gestisci etichette</string>
+    <string name="menu_folder_options">Gestisci etichette</string>
+    <string name="add_cc_label">+ Cc/Ccn</string>
+    <string name="add_bcc_label">+ Ccn</string>
+    <string name="preferences_default_reply_all_summary">Usa come predefinito per le risposte alle notifiche</string>
+</resources>

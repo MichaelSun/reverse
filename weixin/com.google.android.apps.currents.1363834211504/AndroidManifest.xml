@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="130781200" android:versionName="2.1.0" android:installLocation="auto" package="com.google.android.apps.currents"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <supports-screens android:smallScreens="false" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" />
+    <permission android:name="com.google.android.apps.currents.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_SYNC_STATS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.apps.currents.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <application android:theme="@style/Theme.Sherlock" android:label="@string/app_name" android:icon="@mipmap/ic_launcher_currents" android:name="com.google.apps.dots.android.currents.CurrentsApplication" android:allowBackup="false" android:hardwareAccelerated="true" android:largeHeap="true">
+        <activity android:theme="@style/BaseTheme.Currents" android:label="@string/launcher_app_name" android:name="com.google.apps.dots.android.app.activity.CurrentsStartActivity" android:exported="true" android:launchMode="singleTask" android:configChanges="keyboardHidden" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" android:host="*.google.com" android:pathPrefix="/producer/editions" />
+                <data android:scheme="https" android:host="*.google.com" android:pathPrefix="/producer/editions" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="currents" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.google.apps.dots.android.dotslib.activity.ArticlePreviewActivity" android:exported="false" android:configChanges="keyboardHidden" />
+        <activity android:name="com.google.apps.dots.android.dotslib.activity.EditionPreviewActivity" android:exported="false" android:configChanges="keyboardHidden" />
+        <activity android:name="com.google.apps.dots.android.currents.home.CurrentsHomeActivity" android:exported="false" android:launchMode="singleTask" android:configChanges="keyboardHidden" />
+        <activity android:name="com.google.apps.dots.android.dotslib.activity.EditionActivity" android:exported="false" android:launchMode="singleTask" android:configChanges="keyboardHidden" />
+        <activity android:name="com.google.apps.dots.android.currents.activity.BreakingStoryEditionActivity" android:exported="false" android:configChanges="keyboardHidden" />
+        <activity android:name="com.google.apps.dots.android.currents.activity.LibraryManagementActivity" android:exported="false" android:configChanges="keyboardHidden" />
+        <activity android:name="com.google.apps.dots.android.currents.activity.ContentManagementActivity" android:exported="false" android:configChanges="keyboardHidden" />
+        <activity android:name="com.google.apps.dots.android.currents.activity.AddEditionsOverviewActivity" android:exported="false" android:configChanges="keyboardHidden" />
+        <activity android:name="com.google.apps.dots.android.dotslib.activity.BrowserActivity" android:exported="false" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name="com.google.apps.dots.android.dotslib.activity.MediaDrawerActivity" android:exported="false" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@style/ThemeTranslucentNoTitleBar" android:name="com.google.apps.dots.android.dotslib.activity.UpgradeRequiredActivity" android:exported="false" android:excludeFromRecents="true" android:launchMode="singleTop" />
+        <activity android:theme="@style/ThemeTranslucentNoTitleBar" android:name="com.google.apps.dots.android.dotslib.activity.YoutubePlayerActivity" android:exported="false" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:theme="@style/ThemeTranslucentNoTitleBar" android:name="com.google.apps.dots.android.dotslib.activity.StreamingVideoPlayerActivity" android:exported="false" android:launchMode="singleTop" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name="com.google.apps.dots.android.currents.activity.CurrentsSettingsActivity" android:exported="false" />
+        <activity android:name="com.google.apps.dots.android.currents.activity.CurrentsHelpActivity" android:exported="false" />
+        <activity android:label="@string/account_selection_heading" android:name="com.google.apps.dots.android.dotslib.activity.AccountSelectionActivity" android:exported="false" android:clearTaskOnLaunch="true" />
+        <activity android:name="com.google.apps.dots.android.dotslib.activity.SearchActivity" android:exported="false" android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable" />
+        </activity>
+        <meta-data android:name="android.app.default_searchable" android:value="com.google.apps.dots.android.dotslib.activity.SearchActivity" />
+        <provider android:label="@string/long_app_name" android:name="com.google.apps.dots.android.currents.provider.CurrentsSuggestionProvider" android:exported="false" android:authorities="@string/search_suggestion_content_authority" />
+        <activity android:name="com.google.apps.dots.android.dotslib.activity.AudioQueueActivity" android:exported="false" android:launchMode="singleTop" />
+        <service android:name="com.google.apps.dots.android.dotslib.service.AudioPlayerService" android:exported="false" />
+        <receiver android:name="com.google.apps.dots.android.dotslib.service.MediaButtonIntentReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+                <action android:name="android.media.AUDIO_BECOMING_NOISY" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.apps.dots.android.app.service.SyncService" android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/syncadapter" />
+        </service>
+        <service android:name="com.google.apps.dots.android.dotslib.service.DotsSyncService" android:exported="false" />
+        <receiver android:name="com.google.apps.dots.android.dotslib.analytics.InstallReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <provider android:label="@string/long_app_name" android:name="com.google.apps.dots.android.currents.provider.CurrentsContentProvider" android:exported="false" android:multiprocess="false" android:authorities="com.google.android.apps.currents" android:syncable="false" />
+        <provider android:label="@string/long_app_name" android:name="com.google.apps.dots.android.currents.provider.CurrentsExportedContentProvider" android:exported="false" android:multiprocess="false" android:authorities="com.google.android.apps.currents.exported" android:syncable="false" />
+        <activity android:theme="@style/ThemeTranslucentNoTitleBar" android:name="com.google.apps.dots.android.dotslib.activity.CrashReportActivity" android:exported="false" android:process=":feedback" android:clearTaskOnLaunch="true" android:launchMode="singleTop" />
+        <activity android:name="com.google.apps.dots.android.dotslib.activity.StartFeedbackActivity" android:exported="false" android:process=":feedback" android:clearTaskOnLaunch="true" android:excludeFromRecents="true" android:launchMode="singleTop" android:noHistory="true" />
+        <activity android:name="com.google.userfeedback.android.api.UserFeedbackActivity" android:exported="false" android:process=":feedback" android:excludeFromRecents="true" />
+        <activity android:name="com.google.userfeedback.android.api.PreviewActivity" android:exported="false" android:process=":feedback" android:excludeFromRecents="true" />
+        <activity android:name="com.google.userfeedback.android.api.ShowTextActivity" android:exported="false" android:process=":feedback" android:excludeFromRecents="true" />
+        <activity android:name="com.google.userfeedback.android.api.ShowStringListActivity" android:exported="false" android:process=":feedback" android:excludeFromRecents="true" />
+        <service android:name="com.google.userfeedback.android.api.SendUserFeedbackService" android:exported="false" android:process=":feedback" />
+        <receiver android:name="com.google.userfeedback.android.api.FeedbackConnectivityReceiver" android:enabled="false" android:exported="true" android:process=":feedback">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.apps.dots.android.dotslib.c2dm.DotsC2DMReceiver" android:exported="false" />
+        <receiver android:name="com.google.android.c2dm.C2DMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="com.google.android.apps.currents" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <category android:name="com.google.android.apps.currents" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/FullScreenTransparentDialog" android:name="com.google.apps.dots.android.app.appwidget.PostListAppWidgetConfigure" android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+        <receiver android:label="@string/postlist_label" android:name="com.google.apps.dots.android.app.appwidget.PostListAppWidgetProvider" android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="com.google.apps.dots.android.app.appwidget.UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/postlist_info" />
+        </receiver>
+        <service android:name="com.google.apps.dots.android.app.appwidget.PostListAppWidgetService" android:permission="android.permission.BIND_REMOTEVIEWS" android:exported="false" />
+        <service android:label="@string/app_name" android:name="com.google.apps.dots.android.app.screensaver.Screensaver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.dreams.DreamService" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.apps.dots.android.dotslib.widget.DotsCheckedTextView android:textSize="@dimen/section_header_textsize" android:gravity="center_vertical" android:id="@*android:id/text1" android:paddingLeft="12.0dip" android:paddingTop="@dimen/preferred_sections_row_padding" android:paddingRight="12.0dip" android:paddingBottom="@dimen/preferred_sections_row_padding" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight" android:drawableLeft="?android:listChoiceIndicatorMultiple" dots:font="LIGHT_SANS"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:dots="http://schemas.android.com/apk/res-auto" />

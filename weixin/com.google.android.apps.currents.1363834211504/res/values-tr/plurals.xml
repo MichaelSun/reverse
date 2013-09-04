@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">(%d yorumcu)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">(%d yorumcu)</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">%d mağaza</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d mağaza</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">%s Abone</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%s Abone</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">%d Sayı</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d Sayı</item>
+        <item quantity="two">%d Sayı</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">%d dakika önce</item>
+        <item quantity="one">bir dakika önce</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">%d saat önce</item>
+        <item quantity="one">bir saat önce</item>
+    </plurals>
+</resources>

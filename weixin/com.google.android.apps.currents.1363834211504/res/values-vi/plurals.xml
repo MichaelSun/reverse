@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">(%d người đánh giá)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">(%d người đánh giá)</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">%d cửa hàng</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d cửa hàng</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">%s người đăng ký</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%s người đăng ký</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">%d ấn bản</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d sự cố</item>
+        <item quantity="two">%d ấn bản</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">%d phút trước</item>
+        <item quantity="one">một phút trước</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">%d giờ trước</item>
+        <item quantity="one">1 giờ trước</item>
+    </plurals>
+</resources>

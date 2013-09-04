@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/legacy_title_container" android:background="?android:actionBarItemBackground" android:layout_height="fill_parent" style="@style/AccountSpinnerStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:id="@id/legacy_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" style="@style/AccountSpinnerAnchorTextPrimary" />
+    <TextView android:ellipsize="end" android:id="@id/legacy_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" style="@style/AccountSpinnerAnchorTextSecondary" />
+</LinearLayout>

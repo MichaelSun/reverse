@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_attachments">
+        <item quantity="other">Broj privitaka: %d</item>
+        <item quantity="one">%d privitak</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">Premjesti sljedeći broj razgovora: %1$d</item>
+        <item quantity="one">Premjesti razgovor</item>
+    </plurals>
+    <plurals name="unread_mail_count">
+        <item quantity="other">Broj nepročitanih poruka: %1$d</item>
+        <item quantity="one">1 nepročitana poruka</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Skice</item>
+        <item quantity="one">Skica</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Izbrisati ovoliko razgovora: %1$d?</item>
+        <item quantity="one">Izbrisati ovaj razgovor?</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Arhivirati ovoliko razgovora: %1$d?</item>
+        <item quantity="one">Arhivirati ovaj razgovor?</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="other">Odbaciti skice iz %1$d razgovora?</item>
+        <item quantity="one">Odbaciti skice iz tog razgovora?</item>
+    </plurals>
+    <plurals name="conversation_unstarred">
+        <item quantity="other">Uklanjanje zvjezdica s %1$d razgovora.</item>
+        <item quantity="one">Uklanjanje zvjezdice s %1$d razgovora.</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">Zanemareno: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+        <item quantity="one">Zanemareno: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">Prijavljeno kao neželjeno: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+        <item quantity="one">Prijavljeno kao neželjeno: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">Prijavljeno da nije neželjeni sadržaj: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+        <item quantity="one">Prijavljeno da nije neželjeni sadržaj: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">Označeno kao nevažno: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+        <item quantity="one">Označeno kao nevažno: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+    </plurals>
+    <plurals name="conversation_phished">
+        <item quantity="other">Prijavljeno kao krađa identiteta: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+        <item quantity="one">Prijavljeno kao krađa identiteta: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">Arhivirano: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+        <item quantity="one">Arhivirano: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">Izbrisano: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+        <item quantity="one">Izbrisano: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">Promijenjene oznake.</item>
+        <item quantity="one">Promijenjena oznaka.</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">Sinkroniziraj posljednjih ovoliko dana: %1$d</item>
+        <item quantity="one">Sinkroniziraj posljednji %1$d dan</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">Sljedeći broj razgovora izbrisat će se zauvijek: %1$d.</item>
+        <item quantity="one">%1$d razgovor izbrisat će se zauvijek.</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">Broj dana: %d</item>
+        <item quantity="one">Jedan dan</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">dana</item>
+        <item quantity="one">Dan</item>
+    </plurals>
+    <plurals name="notify_attachment_error">
+        <item quantity="other">Slanje privitka nije uspjelo%s</item>
+        <item quantity="one">Slanje privitka nije uspjelo</item>
+    </plurals>
+    <plurals name="sync_messages_partial_description">
+        <item quantity="other">Poruke od posljednjih %1$d dana automatski će se preuzeti kod povezivanja</item>
+        <item quantity="one">Poruke od posljednjeg dana preuzet će se prilikom povezivanja</item>
+    </plurals>
+    <plurals name="sectioned_inbox_teaser_unseen_plural_text">
+        <item quantity="other">Nove: %1$d</item>
+        <item quantity="one">Nove: %1$d</item>
+    </plurals>
+</resources>

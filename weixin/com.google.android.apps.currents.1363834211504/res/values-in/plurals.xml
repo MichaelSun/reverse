@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="product_reviewers">
+        <item quantity="other">(%d pengulas)</item>
+        <item quantity="zero"></item>
+        <item quantity="one">(%d pengulas)</item>
+    </plurals>
+    <plurals name="product_stores">
+        <item quantity="other">%d toko</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d toko</item>
+    </plurals>
+    <plurals name="subscribers">
+        <item quantity="other">%s Pelanggan</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%s Pelanggan</item>
+    </plurals>
+    <plurals name="issues">
+        <item quantity="other">%d Edisi</item>
+        <item quantity="zero"></item>
+        <item quantity="one">%d Edisi</item>
+        <item quantity="two">%d Edisi</item>
+    </plurals>
+    <plurals name="minute_count">
+        <item quantity="other">%d menit yang lalu</item>
+        <item quantity="one">satu menit yang lalu</item>
+    </plurals>
+    <plurals name="hour_count">
+        <item quantity="other">%d jam yang lalu</item>
+        <item quantity="one">sejam yang lalu</item>
+    </plurals>
+</resources>

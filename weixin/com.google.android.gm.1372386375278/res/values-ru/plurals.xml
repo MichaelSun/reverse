@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="number_of_attachments">
+        <item quantity="other">Прикрепленных файлов: %d</item>
+        <item quantity="one">Прикрепленных файлов: %d</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">Переместить цепочки (%1$d)</item>
+        <item quantity="one">Переместить цепочку</item>
+    </plurals>
+    <plurals name="unread_mail_count">
+        <item quantity="other">Непрочитанных писем: %1$d</item>
+        <item quantity="one">Непрочитанных писем: 1</item>
+    </plurals>
+    <plurals name="draft">
+        <item quantity="other">Черновики</item>
+        <item quantity="one">Черновик</item>
+    </plurals>
+    <plurals name="confirm_delete_conversation">
+        <item quantity="other">Удалить цепочки (%1$d)?</item>
+        <item quantity="one">Удалить цепочку?</item>
+    </plurals>
+    <plurals name="confirm_archive_conversation">
+        <item quantity="other">Архивировать цепочки (%1$d)?</item>
+        <item quantity="one">Поместить эту цепочку в архив?</item>
+    </plurals>
+    <plurals name="confirm_discard_drafts_conversation">
+        <item quantity="other">Удалить черновики из этих цепочек (%1$d)?</item>
+        <item quantity="one">Удалить черновики из этой цепочки?</item>
+    </plurals>
+    <plurals name="conversation_unstarred">
+        <item quantity="other">Цепочек, с которых снимается пометка: %1$d.</item>
+        <item quantity="one">Цепочек, с которых снимается пометка: %1$d.</item>
+    </plurals>
+    <plurals name="conversation_muted">
+        <item quantity="other">Скрытых цепочек: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+        <item quantity="one">Скрытых цепочек: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+    </plurals>
+    <plurals name="conversation_spammed">
+        <item quantity="other">Цепочек, помеченных как спам: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+        <item quantity="one">Цепочек, помеченных как спам: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+    </plurals>
+    <plurals name="conversation_not_spam">
+        <item quantity="other">Цепочек, помеченных как нужные: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+        <item quantity="one">Цепочек, помеченных как спам: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+    </plurals>
+    <plurals name="conversation_not_important">
+        <item quantity="other">Цепочек, помеченных как неважные: &amp;lt;b>%1$d&amp;lt;/b></item>
+        <item quantity="one">Цепочек, помеченных как неважные: &amp;lt;b>%1$d&amp;lt;/b></item>
+    </plurals>
+    <plurals name="conversation_phished">
+        <item quantity="other">Цепочек, помеченных как фишинг: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+        <item quantity="one">Цепочек, помеченных как фишинг: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+    </plurals>
+    <plurals name="conversation_archived">
+        <item quantity="other">Архивировано (&amp;lt;b>%1$d&amp;lt;/b>)</item>
+        <item quantity="one">Архивировано (&amp;lt;b>%1$d&amp;lt;/b>)</item>
+    </plurals>
+    <plurals name="conversation_deleted">
+        <item quantity="other">Удаленных цепочек: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+        <item quantity="one">Удаленных цепочек: &amp;lt;b>%1$d&amp;lt;/b>.</item>
+    </plurals>
+    <plurals name="conversation_folder_changed">
+        <item quantity="other">Ярлыки изменены</item>
+        <item quantity="one">Ярлык изменен</item>
+    </plurals>
+    <plurals name="sync_recent">
+        <item quantity="other">Синхронизировать за последние %1$d дн.</item>
+        <item quantity="one">Синхронизировать за последние %1$d дн.</item>
+    </plurals>
+    <plurals name="empty_folder_dialog_message">
+        <item quantity="other">Цепочки писем (%1$d) будут удалены без возможности восстановления.</item>
+        <item quantity="one">%1$d цепочка писем будет удалена без возможности восстановления.</item>
+    </plurals>
+    <plurals name="sync_duration">
+        <item quantity="other">%d дн.</item>
+        <item quantity="one">24 часа</item>
+    </plurals>
+    <plurals name="title_day_dialog_content">
+        <item quantity="other">дн.</item>
+        <item quantity="one">дн.</item>
+    </plurals>
+    <plurals name="notify_attachment_error">
+        <item quantity="other">Не удалось отправить прикрепленный файл (%s)</item>
+        <item quantity="one">Не удалось отправить прикрепленный файл</item>
+    </plurals>
+    <plurals name="sync_messages_partial_description">
+        <item quantity="other">При подключении будут загружаться сообщения за последние %1$d дн.</item>
+        <item quantity="one">При подключении будут загружаться сообщения за последний день</item>
+    </plurals>
+    <plurals name="sectioned_inbox_teaser_unseen_plural_text">
+        <item quantity="other">Новых: %1$d</item>
+        <item quantity="one">Новых: %1$d</item>
+    </plurals>
+</resources>
